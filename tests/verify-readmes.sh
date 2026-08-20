@@ -4,6 +4,7 @@ set -euo pipefail
 readme_root=$(git rev-parse --show-toplevel)
 default_readmes=(
   README.md
+  README.en.md
   README.zh-CN.md
   README.ja.md
   README.ko.md
@@ -28,7 +29,7 @@ section_markers=(
 )
 shared_tokens=(
   'README.md'
-  'README.zh-CN.md'
+  'README.en.md'
   'README.ja.md'
   'README.ko.md'
   'README.pt-BR.md'
