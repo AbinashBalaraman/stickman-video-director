@@ -1,0 +1,30 @@
+name: Auto-update from kaomei upstream
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # daily 02:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge upstream via GitHub API
+        run: |
+          gh api repos/${{ github.repository }}/merge-upstream -f branch=main || echo "API merge skipped (already in sync or conflict)"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fallback git merge
+        run: |
+          git init tmp-sync && cd tmp-sync
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git fetch origin main
+          git checkout main || git checkout -b main origin/main
+          git remote add upstream https://github.com/kaomei/stickman-video-director.git
+          git fetch upstream main
+          git merge upstream/main --no-edit -m "chore: sync from kaomei upstream" || echo "Nothing to merge or conflict - manual action needed"
+          git push origin main || echo "Nothing to push"
