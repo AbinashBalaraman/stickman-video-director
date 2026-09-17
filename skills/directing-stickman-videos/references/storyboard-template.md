@@ -1,6 +1,6 @@
 # Director's Proposal Contract
 
-Use this contract for Phase A. Present a readable production proposal and stop for confirmation before writing model prompts.
+Use this contract for Phase A. Present a readable production proposal and stop for confirmation before writing model prompts. Refer to `references/style-catalog.md` for style specifications.
 
 ## Rewrite the source
 
@@ -22,12 +22,12 @@ Present these items in order:
 
 1. English title and reference-language title
 2. Core message and opening hook
-3. Chosen aspect ratio and light/dark theme
+3. Chosen aspect ratio and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, or Style 2B Cinematic Story)
 4. Narrator identity, speaking pace, English word count, and estimated duration
-5. Up to three saturated accent colors, named in ordinary language, and what each represents
+5. Up to three saturated accent colors (for Style 1) or visual palette/environment mood (for Style 2), named in ordinary language, and what each represents
 6. BGM direction, emotional turn, tone, and narrative arc
 
-Default the narrator only after required setup is complete: a bright, energetic adult female voice speaking natural American English. Infer tone and accent colors from the source when the user did not specify them.
+Default the narrator only after required setup is complete: a bright, energetic adult female voice (or warm young adult American male voice) speaking natural American English. Infer tone and palette from the source when the user did not specify them.
 
 ## Narrative patterns
 
@@ -51,12 +51,12 @@ Give each row a different narrative job. Allocate approximately 18–25 English 
 Build every row from three sequential beats:
 
 - `0–3s`: establish or inherit the visual premise.
-- `3–7s`: transform, escalate, or explain the metaphor.
+- `3–7s`: transform, escalate, or explain the metaphor through physical character actions.
 - `7–10s`: deliver a climax and create the next transition.
 
 Use at least four relevant devices per row:
 
-- expressive stick-figure action
+- expressive stick-figure action (running, jumping, touching glass, drawing lines)
 - environmental transformation
 - concrete visual metaphor
 - diagram, arrow, or icon-only symbol
@@ -66,11 +66,11 @@ Use at least four relevant devices per row:
 - match cut, shape morph, or motion-matched transition
 - interaction with another figure or oversized object
 
-Require a perceptible visual change every two to three seconds. Make every effect clarify or intensify the spoken idea; omit unrelated spectacle.
+Require a perceptible visual change every two to three seconds. Make every effect clarify or intensify the spoken idea; omit unrelated spectacle. Avoid abstract liquid morphing.
 
 ## Palette and text
 
-Keep the background and stick figure monochrome according to the selected theme. Use no more than three saturated accent colors across the video. Assign semantic meaning such as anxiety, danger, energy, discovery, or success.
+Keep the background and stick figure monochrome according to the selected theme (for Style 1), or use high-key studio grid / cinematic lighting (for Style 2). Use no more than three saturated accent colors across the video. Assign semantic meaning such as anxiety, danger, energy, discovery, or success.
 
 Name colors only with ordinary descriptive language. Do not use hexadecimal, RGB, HSL, Pantone, or other technical color notation anywhere in the proposal or production prompts.
 
@@ -82,7 +82,7 @@ Default the generated video to no visible words, letters, numbers, captions, sub
 - `9:16`: use foreground/background depth, vertical reveals, stacked motion, foreground passes, and interface-safe overlay space.
 - `1:1`: keep action compact and center-weighted. Use short travel paths and avoid crucial events at extreme edges.
 
-Changing ratio requires new staging, camera paths, transition geometry, and overlay-safe negative space. Changing theme requires inverted base colors and a fresh contrast check.
+Changing ratio requires new staging, camera paths, transition geometry, and overlay-safe negative space. Changing theme or style requires updated color balance and contrast checks.
 
 ## Continuity
 
@@ -94,18 +94,18 @@ End Phase A by asking the user to:
 
 - approve the current proposal and generate the six Omni Flash prompts;
 - revise a named scene or narration passage; or
-- change a global setting such as aspect ratio, theme, palette, voice, or tone.
+- change a global setting such as aspect ratio, style, theme, palette, voice, or tone.
 
 Do not include final model prompts. A global change invalidates approval and requires a revised Phase A.
 
 ## Phase A checks
 
-- Source, aspect ratio, and theme are known.
+- Source, aspect ratio, and style/theme are known.
 - English narration is 130–150 words and approximately 55–65 seconds.
 - Exactly six storyboard rows have distinct narrative purposes.
 - Every row has three beats, at least four visual devices, audio, and a transition.
 - Visual change occurs approximately every two to three seconds.
-- No more than three saturated accent colors are used.
+- No more than three saturated accent colors are used (for Style 1) or clean palette rules followed (for Style 2).
 - No technical color notation is present.
 - Any proposed text is clearly separated as a post-production overlay and absent from generated scenes.
 - Every adjacent pair has a named continuity connection.

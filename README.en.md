@@ -30,6 +30,14 @@ Built for visual explainers, motivational stories, educational shorts, and fast-
 
 > Click either animated preview to open the full 10-second clip with sound. If this visual style sparks an idea, Star the repository—and help more creators discover the project.
 
+### Expanded Visual Styles: Classic Minimalist & Modern Beanie Zeke
+
+In addition to the classic high-contrast monochrome stick figure, the Skill now natively supports the field-tested **Modern Beanie Zeke** style family:
+
+- **Style 1: Classic Minimalist**: White or black canvas, high-contrast faceless stick lines, ideal for cognitive frameworks and rapid mental models.
+- **Style 2A: Modern Studio Tech**: Bright white high-key studio + subtle light-gray perspective floor grid + glowing cyan/blue semi-transparent glass UI (Apple Keynote minimalist tech aesthetic).
+- **Style 2B: Cinematic Story**: Full-color narrative environments (warm bedroom, dusk window, desert highway, mountain summit) + cinematic lighting (Pixar animated short aesthetic).
+
 ## A script is not yet a video
 
 A good idea can still become a flat animation: one character, one background, and ten seconds with nothing new to look at. Directing a full minute means shaping the hook, pacing the explanation, inventing relevant visual metaphors, moving the camera, connecting scenes, and protecting continuity across separate generations.
