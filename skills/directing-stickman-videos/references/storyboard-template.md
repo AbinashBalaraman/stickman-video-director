@@ -4,7 +4,7 @@ Use this contract for Phase A. Present a readable production proposal and stop f
 
 ## Rewrite the source
 
-Create one natural English narration of 130–150 words for approximately 55–65 seconds of speech.
+Create one natural English narration scaled to approximately 20–25 words per 10-second clip based on the target duration (e.g. ~60–75 words for 30s, ~120–150 words for 60s default, ~360–450 words for 3min, ~600–750 words for 5min).
 
 - Preserve the source's core claim, names, numbers, and factual meaning.
 - Strengthen a weak opening with an immediate hook.
@@ -22,7 +22,7 @@ Present these items in order:
 
 1. English title and reference-language title
 2. Core message and opening hook
-3. Chosen aspect ratio and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, or Style 2B Cinematic Story)
+3. Chosen aspect ratio (`16:9` or `9:16`), target duration (in 10s multiples), and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, or Style 2B Cinematic Story)
 4. Narrator identity, speaking pace, English word count, and estimated duration
 5. Up to three saturated accent colors (for Style 1) or visual palette/environment mood (for Style 2), named in ordinary language, and what each represents
 6. BGM direction, emotional turn, tone, and narrative arc
@@ -39,7 +39,7 @@ Choose the pattern that fits the source:
 
 ## Storyboard contract
 
-Produce exactly six approximately ten-second rows:
+Produce exactly N approximately ten-second rows (where N = target duration in seconds / 10; default: 6 rows for 60s):
 
 | Time | Narrative purpose | Stick-figure scene | Motion, camera, and transition | English VO | Reference translation | BGM / SFX |
 |---|---|---|---|---|---|---|
@@ -80,7 +80,6 @@ Default the generated video to no visible words, letters, numbers, captions, sub
 
 - `16:9`: use left-center-right staging, lateral tracking, horizontal match cuts, and deliberate negative space. Reserve clean space for optional post-production overlays when useful.
 - `9:16`: use foreground/background depth, vertical reveals, stacked motion, foreground passes, and interface-safe overlay space.
-- `1:1`: keep action compact and center-weighted. Use short travel paths and avoid crucial events at extreme edges.
 
 Changing ratio requires new staging, camera paths, transition geometry, and overlay-safe negative space. Changing theme or style requires updated color balance and contrast checks.
 
@@ -92,17 +91,17 @@ End each row with a visible interface that the next row inherits: a pose, moving
 
 End Phase A by asking the user to:
 
-- approve the current proposal and generate the six Omni Flash prompts;
+- approve the current proposal and generate the N Omni Flash prompts;
 - revise a named scene or narration passage; or
-- change a global setting such as aspect ratio, style, theme, palette, voice, or tone.
+- change a global setting such as aspect ratio, duration, style, theme, palette, voice, or tone.
 
 Do not include final model prompts. A global change invalidates approval and requires a revised Phase A.
 
 ## Phase A checks
 
-- Source, aspect ratio, and style/theme are known.
-- English narration is 130–150 words and approximately 55–65 seconds.
-- Exactly six storyboard rows have distinct narrative purposes.
+- Source, aspect ratio (`16:9` or `9:16`), duration, and style/theme are known.
+- English narration matches duration (~20–25 words per 10s clip; ~120–150 words for 60s).
+- Exactly N storyboard rows have distinct narrative purposes (N = duration / 10).
 - Every row has three beats, at least four visual devices, audio, and a transition.
 - Visual change occurs approximately every two to three seconds.
 - No more than three saturated accent colors are used (for Style 1) or clean palette rules followed (for Style 2).

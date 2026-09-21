@@ -20,9 +20,9 @@ Check: six visually distinct explanatory clips without invented claims.
 
 Source: “A notes app that turns messy voice memos into clear tasks.”
 
-Settings: 1:1, light theme
+Settings: 9:16, light theme
 
-Check: source expansion remains faithful and uses a compact central composition.
+Check: source expansion remains faithful and uses stacked vertical composition.
 
 ## Long source
 

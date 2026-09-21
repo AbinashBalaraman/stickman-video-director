@@ -54,7 +54,7 @@ A good idea can still become a flat animation: one character, one background, an
 | **A real approval checkpoint** | Shows a readable six-scene director's proposal before producing final model prompts. Revise the story while changes are still cheap. |
 | **Dense, relevant motion** | Plans three timed beats per clip, with visual metaphors, environment changes, camera movement, text moments, interactions, transitions, BGM, and SFX. |
 | **Production locks** | Repeats character, line weight, palette, voice, dialogue, audio, transition, and negative constraints inside every standalone prompt. |
-| **Format-aware direction** | Recomposes staging, camera paths, and text placement for `9:16`, `16:9`, or `1:1` instead of merely changing a ratio label. |
+| **Format-aware direction** | Recomposes staging, camera paths, and text placement for `9:16` or `16:9` instead of merely changing a ratio label. |
 | **Controlled visual contrast** | Supports white-background/black-figure and black-background/white-figure systems, plus up to three saturated accent colors. |
 | **Source fidelity** | Avoids inventing unsupported facts, statistics, quotations, or product claims. |
 
@@ -68,14 +68,13 @@ No API or MCP dependency is required. Install the Skill, invoke it, and work thr
 |---|---|---|
 | `9:16` | YouTube Shorts, TikTok, Instagram Reels | Vertical depth, bold central silhouettes, stacked reveals, mobile-safe text |
 | `16:9` | YouTube explainers, educational videos, visual essays | Wide staging, lateral camera travel, split-screen comparisons, generous negative space |
-| `1:1` | Social feeds, compact product stories | Strong center composition, radial motion, readable edge margins |
 
 <!-- readme:workflow -->
 
 ## Paste → Choose → Approve → Generate → Stitch
 
 1. **Paste** copy, notes, an article, or simply a topic.
-2. **Choose** `16:9`, `9:16`, or `1:1`, then select the light or dark theme.
+2. **Choose** `16:9` or `9:16`, target duration (multiples of 10s: 30s, 60s, 3min, 5min, default 60s), and visual style/theme.
 3. **Approve** a detailed director's proposal with the English VO, reference translation, visuals, camera, transitions, BGM, and SFX.
 4. **Generate** exactly six self-contained Gemini Omni Flash prompts after the current proposal is approved.
 5. **Stitch** the six approximately ten-second clips into one coherent, one-minute video.

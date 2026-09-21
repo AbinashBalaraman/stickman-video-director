@@ -46,7 +46,7 @@ Uma boa ideia pode virar uma animação sem energia: um personagem, um fundo e d
 | **Um ponto real de aprovação** | Mostra uma proposta de direção legível com seis cenas antes dos prompts finais. Você ajusta a história enquanto as mudanças ainda custam pouco. |
 | **Movimento rico e relevante** | Planeja três momentos em cada clipe, com metáforas visuais, mudanças de ambiente, câmera, texto, interações, transições, BGM e SFX. |
 | **Travas de produção** | Repete personagem, espessura dos traços, paleta, voz, falas, áudio, transição e restrições negativas dentro de cada prompt independente. |
-| **Direção adaptada ao formato** | Refaz composição, trajetória de câmera e posição dos textos para `9:16`, `16:9` ou `1:1`, em vez de apenas trocar a etiqueta da proporção. |
+| **Direção adaptada ao formato** | Refaz composição, trajetória de câmera e posição dos textos para `9:16` ou `16:9`, em vez de apenas trocar a etiqueta da proporção. |
 | **Contraste visual controlado** | Trabalha com fundo branco e personagem preto ou fundo preto e personagem branco, além de até três cores de destaque saturadas. |
 | **Fidelidade ao material original** | Evita inventar fatos, estatísticas, citações ou promessas de produto sem fonte. |
 
@@ -60,14 +60,13 @@ Não exige API nem dependência de MCP. Instale a Skill, invoque-a e siga o flux
 |---|---|---|
 | `9:16` | YouTube Shorts, TikTok, Instagram Reels | Profundidade vertical, silhueta central forte, revelações em camadas, texto seguro para celular |
 | `16:9` | Vídeos explicativos no YouTube, conteúdo educativo, ensaios visuais | Encenação ampla, câmera lateral, comparações em tela dividida, espaço negativo generoso |
-| `1:1` | Feeds sociais, histórias curtas de produto | Composição central forte, movimento radial, margens fáceis de ler |
 
 <!-- readme:workflow -->
 
 ## Cole → Escolha → Aprove → Gere → Monte
 
 1. **Cole** seu texto, anotações, um artigo ou apenas um tema.
-2. **Escolha** `16:9`, `9:16` ou `1:1` e depois o tema claro ou escuro.
+2. **Escolha** `16:9` ou `9:16`, a duração do vídeo (múltiplos de 10s: 30s, 60s, 3min, 5min, padrão 60s) e o estilo/tema.
 3. **Aprove** uma proposta detalhada com VO em inglês, tradução de referência, visuais, câmera, transições, BGM e SFX.
 4. **Gere** exatamente seis prompts independentes do Gemini Omni Flash após aprovar a proposta atual.
 5. **Monte** os seis clipes de aproximadamente dez segundos em um vídeo coerente de um minuto.

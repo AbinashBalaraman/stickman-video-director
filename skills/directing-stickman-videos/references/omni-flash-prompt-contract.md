@@ -7,19 +7,19 @@ Use this contract only after explicit approval of the current Phase A. Refer to 
 Deliver these sections in order:
 
 1. Global continuity block
-2. Six standalone English prompts
+2. N standalone English prompts (where N = target duration / 10; default 6 clips for 60s)
 3. Stitching guide
 4. Voice and music continuity note
 
 ## Global continuity block
 
-State the chosen aspect ratio, selected visual style (Style 1 Classic, Style 2A Studio Tech, or Style 2B Cinematic Story), character anchor design, palette or environment definition, narrator identity, audio arc, and continuity strategy. Treat this block as a review summary; each prompt still repeats all critical locks.
+State the chosen aspect ratio (`16:9` or `9:16`), target duration, selected visual style (Style 1 Classic, Style 2A Studio Tech, or Style 2B Cinematic Story), character anchor design, palette or environment definition, narrator identity, audio arc, and continuity strategy. Treat this block as a review summary; each prompt still repeats all critical locks.
 
 ## Standalone prompt order
 
 Write every prompt in this order:
 
-1. Output specification: approximately ten seconds, chosen aspect ratio, 720p target, 24 FPS, synchronized audio
+1. Output specification: approximately ten seconds, chosen aspect ratio (`16:9` or `9:16`), 720p target, 24 FPS, synchronized audio
 2. Environment and background definition:
    - For Style 1 Light: flat, uniform, digitally pure-white canvas with no shading or 3D depth
    - For Style 1 Dark: flat, uniform, pitch-black canvas with pure white line art
@@ -31,7 +31,7 @@ Write every prompt in this order:
      - First clip: `A minimalist 2D animated stick figure wearing a bright red beanie (smooth knit, no pom-pom) and a yellow t-shirt, with simple black stick limbs and shorts. Simple black lines, vibrant colors, smooth 2D animation style.`
      - Subsequent clips: `The same minimalist 2D animated stick figure in a bright red beanie and yellow shirt... Simple black lines, vibrant colors, smooth 2D animation style.`
 4. Palette and accent roles (expressed only with ordinary color names, no hex or technical codes)
-5. Composition strategy for the chosen ratio
+5. Composition strategy for the chosen ratio (`16:9` or `9:16`)
 6. First-frame state inherited from the previous clip
 7. `[0–3s]`, `[3–7s]`, and `[7–10s]` visual beats tied to spoken ideas
 8. Exact audio-only English dialogue in quotation marks (strictly no speech bubbles or dialogue boxes)
@@ -81,10 +81,10 @@ Use ordinary descriptive color names such as vivid red, electric blue, or warm g
 
 Independent text-to-video clips will generate random voices and disjointed music unless explicitly locked. Every prompt in a package must follow this dual-lock formula:
 
-1. **Narrator Lock**: Repeat the identical narrator specification verbatim in all six prompts (e.g., `Identical narrator: confident, articulate, warm young adult American male voice, natural conversational storytelling tone, voice-first mix`).
+1. **Narrator Lock**: Repeat the identical narrator specification verbatim across all N prompts (e.g., `Identical narrator: confident, articulate, warm young adult American male voice, natural conversational storytelling tone, voice-first mix`).
 2. **BGM Lock**:
    - Clip 1 establishes the musical theme.
-   - Clips 2–6 explicitly instruct the model: `Audio: Voiceover seamlessly continues the identical quiet, thoughtful piano and subtle soft ambient synth from clip 1, maintaining identical tempo, instrumentation, and optimistic narrative momentum. Synchronized crisp SFX on physical actions.`
+   - Clips 2–N explicitly instruct the model: `Audio: Voiceover seamlessly continues the identical quiet, thoughtful piano and subtle soft ambient synth from clip 1, maintaining identical tempo, instrumentation, and optimistic narrative momentum. Synchronized crisp SFX on physical actions.`
 
 ## Negative contract
 
@@ -104,7 +104,7 @@ Forbid:
 
 ## Stitching guide
 
-List all six clips in order. For every cut, repeat the exact ending state and matching opening state. Include any trim, short audio crossfade, or match-cut note needed for assembly.
+List all N clips in order. For every cut, repeat the exact ending state and matching opening state. Include any trim, short audio crossfade, or match-cut note needed for assembly.
 
 ## Audio continuity note
 
@@ -117,8 +117,8 @@ Independent text-only generations may vary in voice and music. Recommend, in ord
 ## Phase B checks
 
 - The user approved the current Phase A.
-- Exactly six standalone prompts are present.
-- Each prompt repeats ratio, style/theme, character, palette, voice, audio, transition, and negative locks.
+- Exactly N standalone prompts are present (matching approved Phase A duration).
+- Each prompt repeats ratio (`16:9` or `9:16`), style/theme, character, palette, voice, audio, transition, and negative locks.
 - Each prompt has all three timed beats and at least four relevant visual devices.
 - Every ending matches the next opening.
 - Dialogue exactly matches the approved narration.

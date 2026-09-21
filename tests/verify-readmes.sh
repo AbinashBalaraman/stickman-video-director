@@ -43,7 +43,6 @@ shared_tokens=(
   'Gemini Omni Flash'
   '16:9'
   '9:16'
-  '1:1'
   '$directing-stickman-videos'
   'git clone https://github.com/kaomei/stickman-video-director.git'
   'cp -R skills/directing-stickman-videos'
