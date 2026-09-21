@@ -29,13 +29,42 @@ Present these items in order:
 
 Default the narrator only after required setup is complete: a bright, energetic adult female voice (or warm young adult American male voice) speaking natural American English. Infer tone and palette from the source when the user did not specify them.
 
-## Narrative patterns
+## Narrative patterns: High-Completion 5-Stage Heartbeat Engine
 
-Choose the pattern that fits the source:
+To break through the 60%+ video completion rate threshold, structure every script through this emotional heartbeat progression:
 
-- Motivational: strong hook → recognition → escalation → reframe → action → payoff and CTA
-- Educational: surprising hook → setup → mechanism → consequence → practical meaning → takeaway
-- Commercial: pain point → consequence → product reveal → mechanism → proof or use case → benefit and CTA
+1. **Stage 1: Golden Hook (黄金钩子)**
+   - **Timing**: Flexible based on duration (in short 30s/60s videos, delivered rapidly within the first 2–5 seconds / `[0–3s]` of Clip 1; in 3–5min videos, establishes the premise across the first 5–15 seconds).
+   - **Goal**: Ask an unexpected, counter-intuitive question or present a striking visual paradox that instantly creates an irresistible information gap. Never open with slow throat-clearing.
+2. **Stage 2: Disrupting Assumptions (打破常识)**
+   - **Goal**: Articulate the common belief or conventional wisdom that everyone assumes to be true, then shatter it in a single decisive sentence to create cognitive conflict and suspense.
+3. **Stage 3: Unveiling Insider Secrets (拉出内幕)**
+   - **Goal**: Pull back the curtain on a little-known technical mechanism, hidden friction, or systemic secret that keeps the audience captivated and curious.
+4. **Stage 4: Ultimate Truth Revelation (真相揭秘)**
+   - **Goal**: Deliver the underlying business logic, scientific mechanism, or human psychological truth with complete clarity. Give the audience the satisfying "aha!" breakthrough.
+5. **Stage 5: Elevation & High-Engagement Discussion (升华互动)**
+   - **Goal**: Crystallize the takeaway into a memorable punchline, and finish with a provocative, open-ended discussion question that compels viewers to take sides and debate in the comments.
+
+### Dynamic Clip Allocation by Duration ($N = \text{duration} / 10$)
+
+- **30s (3 clips)**:
+  - Clip 1: Lightning hook (0–3s) → Establish conflict
+  - Clip 2: Unveil hidden reality & mechanics
+  - Clip 3: Ultimate truth + Comment-debate prompt
+- **60s (6 clips, default)**:
+  - Clip 1: Golden Hook (counter-intuitive question) → Premise
+  - Clip 2: Disrupt Assumptions (shatter conventional wisdom)
+  - Clip 3: Unveil Insider Secrets (hidden friction)
+  - Clips 4–5: Mechanism & Ultimate Truth (cognitive satisfaction)
+  - Clip 6: Elevation punchline + Irresistible comment question
+- **90s (9 clips)**:
+  - Clip 1: Golden Hook
+  - Clips 2–3: Disrupt Assumptions
+  - Clips 4–6: Unveil Insider Secrets
+  - Clips 7–8: Ultimate Truth Revelation
+  - Clip 9: Elevation & Comment Discussion
+- **180s+ (3–5 min)**:
+  - Hook (Clip 1) → Assumptions (15–20%) → Insider Secrets (35–40%) → Ultimate Truth (30–35%) → Elevation & Discussion (final 1–2 clips)
 
 ## Storyboard contract
 
@@ -44,7 +73,7 @@ Produce exactly N approximately ten-second rows (where N = target duration in se
 | Time | Narrative purpose | Stick-figure scene | Motion, camera, and transition | English VO | Reference translation | BGM / SFX |
 |---|---|---|---|---|---|---|
 
-Give each row a different narrative job. Allocate approximately 18–25 English words per row while keeping sentence boundaries natural.
+Give each row a different narrative job aligned with the 5-stage engine. Allocate approximately 18–25 English words per row while keeping sentence boundaries natural.
 
 ## Visual-density recipe
 
@@ -100,6 +129,8 @@ Do not include final model prompts. A global change invalidates approval and req
 ## Phase A checks
 
 - Source, aspect ratio (`16:9` or `9:16`), duration, and style/theme are known.
+- Script strictly implements the 5-Stage High-Completion Heartbeat Engine.
+- Final clip ends with a provocative, comment-driving discussion prompt.
 - English narration matches duration (~20–25 words per 10s clip; ~120–150 words for 60s).
 - Exactly N storyboard rows have distinct narrative purposes (N = duration / 10).
 - Every row has three beats, at least four visual devices, audio, and a transition.
@@ -108,5 +139,5 @@ Do not include final model prompts. A global change invalidates approval and req
 - No technical color notation is present.
 - Any proposed text is clearly separated as a post-production overlay and absent from generated scenes.
 - Every adjacent pair has a named continuity connection.
-- The ending returns to the central message.
+- The ending returns to the central message and CTA.
 - No unsupported factual detail was added.

@@ -7,7 +7,7 @@ description: Use when turning copy, notes, articles, or topics into customizable
 
 ## Core contract
 
-Turn one source into a confirmed director's proposal and then N standalone prompts for approximately ten-second Gemini Omni Flash clips (where N = target duration in seconds / 10; default 6 clips for 60 seconds). Preserve the source's meaning while strengthening its hook, progression, and closing callback.
+Turn one source into a confirmed director's proposal and then N standalone prompts for approximately ten-second Gemini Omni Flash clips (where N = target duration in seconds / 10; default 6 clips for 60 seconds). Preserve the source's meaning while structuring it through a high-completion 5-stage emotional narrative arc.
 
 ## Setup gate
 
@@ -28,7 +28,7 @@ Urgency, generation cost, client pressure, and requests to "pick normal settings
 
 ## Workflow
 
-1. Read `references/storyboard-template.md` and `references/style-catalog.md`, then produce Phase A in the user's language, with English VO and a reference translation.
+1. Read `references/storyboard-template.md` and `references/style-catalog.md`. Structure the narrative using the **5-Stage High-Completion Heartbeat Engine** (Golden Hook → Disrupting Assumptions → Unveiling Insider Secrets → Ultimate Truth Revelation → Elevation & Interactive Discussion), with timing dynamically scaled to the target duration. Produce Phase A in the user's language, with English VO and a reference translation.
 2. Stop after the director's proposal and request explicit approval.
 3. If the user changes ratio, duration, style, theme, narration, scene structure, or global direction, recompose Phase A and request approval again.
 4. Only after approval of the current Phase A, read `references/omni-flash-prompt-contract.md` and produce Phase B.
@@ -38,6 +38,12 @@ Topic approval, schedule pressure, or approval of an older draft is not approval
 
 ## Output rules
 
+- Structure every script using the 5-stage high-completion flow:
+  1. **Golden Hook**: Instant curiosity trigger via a counter-intuitive question or visual paradox. Timing is flexible based on duration (e.g. within the first 2–5 seconds in short videos, up to 10–15s in long videos); never open with generic platitudes.
+  2. **Disrupting Assumptions**: State what everyone thinks is true, then shatter it in one sentence to build cognitive conflict.
+  3. **Unveiling Insider Secrets**: Pull back the curtain on hidden mechanics, counter-intuitive details, or the real obstacle.
+  4. **Ultimate Truth Revelation**: Deliver the underlying business logic or human psychology truth with maximum cognitive payoff.
+  5. **Elevation & High-Engagement Discussion**: Conclude with a memorable punchline and an irresistible discussion prompt that sparks debate in the comments.
 - Scale English VO word count to approximately 20–25 words per 10-second clip across N clips (e.g. ~60–75 words for 30s / 3 clips, ~120–150 words for 60s / 6 clips, ~360–450 words for 3min / 18 clips, ~600–750 words for 5min / 30 clips).
 - Give each clip three timed beats, at least four relevant visual devices, and a visual change every two to three seconds.
 - Keep character proportions, line weight, style, and narrator consistent across all clips.
