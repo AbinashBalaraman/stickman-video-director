@@ -8,9 +8,9 @@ Load this reference only when a concrete end-to-end example resolves ambiguity. 
 
 ## Required setup
 
-Assistant: “请选择视频尺寸（16:9、9:16 或 1:1），以及主题（白底黑火柴人或黑底白火柴人）。”
+Assistant: “请选择视频尺寸（16:9 或 9:16）、目标时长（如 30s、60s，默认 60s），以及画风/主题（白底黑火柴人或黑底白火柴人）。”
 
-User: “16:9，黑底白火柴人。”
+User: “16:9，60秒，黑底白火柴人。”
 
 ## Phase A — 导演预案
 

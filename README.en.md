@@ -6,13 +6,13 @@
 
 # Stickman Video Director
 
-### Turn any idea into a one-minute stickman video built to move.
+### Turn any idea into a high-quality stickman video built to move.
 
-One Codex Skill turns your copy into a confirmed English voiceover, a visual-first director's plan, and six production-ready Gemini Omni Flash prompts.
+One Codex Skill turns your copy into a confirmed English voiceover, a visual-first director's plan, and production-ready Gemini Omni Flash prompts (supports custom durations in 10-second increments, default 60 seconds).
 
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
 ![Gemini Omni Flash](https://img.shields.io/badge/Gemini-Omni%20Flash-6d28d9?style=flat-square)
-![One-minute video](https://img.shields.io/badge/Video-≈60%20seconds-0066ff?style=flat-square)
+![Custom Duration](https://img.shields.io/badge/Video-Custom%20Duration-0066ff?style=flat-square)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
 Built for visual explainers, motivational stories, educational shorts, and fast-moving essays on **YouTube Shorts, TikTok, Instagram Reels, and YouTube**.
@@ -21,26 +21,63 @@ Built for visual explainers, motivational stories, educational shorts, and fast-
 
 <!-- readme:demos -->
 
-## Two high-contrast styles. One visual language.
+## Visual Style Ecosystem & Live Demos
 
-| Light theme | Dark theme |
+> Click any animated preview to open the full 10-second HD video with sound. If these styles inspire your creative workflow, please give the repository a Star!
+
+### Style 1: Classic Minimalist (Monochrome)
+
+The purest high-contrast minimalist stick figure. Faceless, devoid of complex clothing, leveraging bold linework and high-saturation accent colors to penetrate viewer cognition. Ideal for hard science, logical breakdowns, and mental models.
+
+| Style 1A: Light Mode | Style 1B: Dark Mode |
 |:---:|:---:|
-| <!-- demo:light:start --><a href="assets/readme/light-theme-demo.mp4"><img src="assets/readme/light-theme-demo.gif" alt="Animated light-theme demo: white background with a black stick figure and saturated accents" width="600"></a><!-- demo:light:end --> | <!-- demo:dark:start --><a href="assets/readme/dark-theme-demo.mp4"><img src="assets/readme/dark-theme-demo.gif" alt="Animated dark-theme demo: black background with a white stick figure and saturated accents" width="600"></a><!-- demo:dark:end --> |
-| White canvas · black figure | Black canvas · white figure |
+| <!-- demo:light:start --><a href="assets/readme/light-theme-demo.mp4"><img src="assets/readme/light-theme-demo.gif" alt="Style 1A: Light Mode stickman animated demo" width="600"></a><!-- demo:light:end --> | <!-- demo:dark:start --><a href="assets/readme/dark-theme-demo.mp4"><img src="assets/readme/dark-theme-demo.gif" alt="Style 1B: Dark Mode stickman animated demo" width="600"></a><!-- demo:dark:end --> |
+| White canvas · Black stick figure | Black canvas · White stick figure |
 
-> Click either animated preview to open the full 10-second clip with sound. If this visual style sparks an idea, Star the repository—and help more creators discover the project.
+---
 
-### Expanded Visual Styles: Classic Minimalist & Modern Beanie Zeke
+### Style 2: Modern Beanie Zeke (Dynamic 2D)
 
-In addition to the classic high-contrast monochrome stick figure, the Skill now natively supports the field-tested **Modern Beanie Zeke** style family:
+A modern 2D animated stick figure with a distinctive character persona (red beanie + yellow t-shirt + minimalist black limbs). Battle-tested to eliminate eye glitches, pom-pom distortion, and limb jitter, producing buttery-smooth motion.
 
-- **Style 1: Classic Minimalist**: White or black canvas, high-contrast faceless stick lines, ideal for cognitive frameworks and rapid mental models.
-- **Style 2A: Modern Studio Tech**: Bright white high-key studio + subtle light-gray perspective floor grid + glowing cyan/blue semi-transparent glass UI (Apple Keynote minimalist tech aesthetic).
-- **Style 2B: Cinematic Story**: Full-color narrative environments (warm bedroom, dusk window, desert highway, mountain summit) + cinematic lighting (Pixar animated short aesthetic).
+| Style 2A: Studio Tech | Style 2B: Cinematic Story |
+|:---:|:---:|
+| <a href="assets/readme/style-2a-demo.mp4"><img src="assets/readme/style-2a-demo.gif" alt="Style 2A: Studio Tech animated demo" width="600"></a> | <a href="assets/readme/style-2b-demo.mp4"><img src="assets/readme/style-2b-demo.gif" alt="Style 2B: Cinematic Story animated demo" width="600"></a> |
+| Pure white space · Subtle grid · Cyan glow | Full-color immersion · Cinematic lighting · Narrative mood |
+
+- **Style 2A: Studio Tech**: Bright white high-key studio + subtle light-gray perspective floor grid + glowing cyan/blue semi-transparent floating glass UI (Apple Keynote minimalist tech aesthetic, built-in anti-clutter constraints).
+- **Style 2B: Cinematic Story**: Full-color immersive narrative environments (warm bedroom, dusk window, desert highway, mountain summit) + cinematic lighting (Pixar animated short aesthetic, character maintains clean 2D stick lines).
+
+---
+
+### Long-Term Evolution: The Ultimate Stickman Style Catalog
+
+This is my long-term open-source project dedicated to bringing every viral stickman visual style into one production system.
+
+<div align="center">
+  <img src="assets/readme/style-roadmap.png" alt="Stickman visual style roadmap" width="750">
+</div>
+
+I have systematically organized nearly 10 distinct stickman visual styles. I will continue rolling out new styles regularly—star the repo to stay updated:
+
+- **Style 3: Sitcom / Dual-Character Dialogue** — Dynamic two-character banter, emotional sparring, workplace satire, and daily rants
+- **Style 4: 2D Stickman in Realistic 3D World** — Cross-dimensional contrast, RPG beginner adventure, fantasy isekai journeys
+- **Style 5: Masterclass Lecture / Stand-up Explainer** — Blackboard chalkboard props, scholar walkthroughs, effortless complex knowledge breakdown
+- **Style 6: Hand-Drawn Picture Book / Knight's Quest** — Heartwarming fairy tales, classical fables, cozy children's bedtime stories
+- **Style 7: High-Octane Graffiti / Martial Arts Combat** — Minimalist adrenaline fight choreographies, combo duels, impactful kinetic combat
+- **Style 8: Prehistoric Caveman / Dark Comedy** — Historical contrast comedy, primitive human shower thoughts, hilarious plot twists
+- **Style 9: Viral Roguelike Card Game / Boss Rush** — Exponential stat gains, monster progression, viral mobile game ad walkthroughs
+
+#### 3 Major Directions I Am Actively Building:
+1. **Complete Style Coverage**: Unlocking all viral stickman aesthetics so creators across any niche can immediately produce videos;
+2. **High-Value Content Engine**: Moving beyond generic AI prompts by analyzing and distilling viral hooks and structures into plug-and-play adaptation scripts;
+3. **Dedicated Stickman Web Studio**: As the style library grows, I plan to build a dedicated website for live visual previews, curated viral scripts, and one-click prompt copying.
+
+---
 
 ## A script is not yet a video
 
-A good idea can still become a flat animation: one character, one background, and ten seconds with nothing new to look at. Directing a full minute means shaping the hook, pacing the explanation, inventing relevant visual metaphors, moving the camera, connecting scenes, and protecting continuity across separate generations.
+A good idea can still become a flat animation: one character, one background, and ten seconds with nothing new to look at. Directing a full video means shaping the opening hook, pacing the explanation, inventing relevant visual metaphors, moving the camera, connecting scenes, and protecting continuity across separate generations.
 
 **Stickman Video Director does that production thinking before you spend generation credits.**
 
@@ -50,13 +87,24 @@ A good idea can still become a flat animation: one character, one background, an
 
 | Advantage | What it gives you |
 |---|---|
-| **Stronger story architecture** | Reworks raw material into a sharp opening, progressive explanation, and closing callback while preserving the central meaning. |
-| **A real approval checkpoint** | Shows a readable six-scene director's proposal before producing final model prompts. Revise the story while changes are still cheap. |
+| **Stronger story architecture** | Powered by the **60%+ completion rate 5-stage heartbeat engine** (Golden Hook → Disrupt Assumptions → Unveil Secrets → Ultimate Truth → Elevation & Discussion) for razor-sharp emotional pacing and maximum retention. |
+| **Custom video duration** | Full control over video length: 30s, 60s, 90s, 3min, 5min, or any 10-second multiple (default 60 seconds). |
+| **A real approval checkpoint** | Shows a readable director's proposal before producing final model prompts. Revise the story while changes are still cheap. |
 | **Dense, relevant motion** | Plans three timed beats per clip, with visual metaphors, environment changes, camera movement, text moments, interactions, transitions, BGM, and SFX. |
-| **Production locks** | Repeats character, line weight, palette, voice, dialogue, audio, transition, and negative constraints inside every standalone prompt. |
-| **Format-aware direction** | Recomposes staging, camera paths, and text placement for `9:16`, `16:9`, or `1:1` instead of merely changing a ratio label. |
+| **Complete production locks** | Repeats character, line weight, palette, voice, dialogue, audio, transition, and negative constraints inside every standalone prompt. |
+| **Format-aware direction** | Recomposes staging, camera paths, and text placement for `9:16` or `16:9` instead of merely changing a ratio label. |
 | **Controlled visual contrast** | Supports white-background/black-figure and black-background/white-figure systems, plus up to three saturated accent colors. |
 | **Source fidelity** | Avoids inventing unsupported facts, statistics, quotations, or product claims. |
+
+### Core Narrative Engine: 5-Stage Heartbeat for 60%+ Completion Rate
+
+Viral short videos with 60%+ completion rates master emotional pacing. Whether you input a simple topic or raw copy, the Skill automatically restructures it into a 5-stage emotional escalation model (duration adapts dynamically to your total video length):
+
+1. **Golden Hook**: Instant counter-intuitive question or visual paradox right at the start (fires within 2–5 seconds for shorts), hooking immediate curiosity;
+2. **Disrupt Assumptions**: State conventional wisdom, then shatter it in a single sentence to create cognitive friction;
+3. **Unveil Secrets**: Reveal hidden mechanics or insider details, escalating curiosity;
+4. **Ultimate Truth**: Deliver the core business logic or fundamental human nature insight for a satisfying cognitive payoff;
+5. **Elevation & Discussion**: Distill the key takeaway with a punchy conclusion and leave a provocative question that sparks comments and debate.
 
 No API or MCP dependency is required. Install the Skill, invoke it, and work through the guided flow in conversation.
 
@@ -68,29 +116,28 @@ No API or MCP dependency is required. Install the Skill, invoke it, and work thr
 |---|---|---|
 | `9:16` | YouTube Shorts, TikTok, Instagram Reels | Vertical depth, bold central silhouettes, stacked reveals, mobile-safe text |
 | `16:9` | YouTube explainers, educational videos, visual essays | Wide staging, lateral camera travel, split-screen comparisons, generous negative space |
-| `1:1` | Social feeds, compact product stories | Strong center composition, radial motion, readable edge margins |
 
 <!-- readme:workflow -->
 
 ## Paste → Choose → Approve → Generate → Stitch
 
 1. **Paste** copy, notes, an article, or simply a topic.
-2. **Choose** `16:9`, `9:16`, or `1:1`, then select the light or dark theme.
+2. **Choose** aspect ratio (`16:9` or `9:16`), **video duration** (multiples of 10s: 30s, 60s, 3min, 5min, default 60s), and visual style (Style 1 Minimalist, Style 2A Studio Tech, Style 2B Cinematic Story, or upcoming styles).
 3. **Approve** a detailed director's proposal with the English VO, reference translation, visuals, camera, transitions, BGM, and SFX.
-4. **Generate** exactly six self-contained Gemini Omni Flash prompts after the current proposal is approved.
-5. **Stitch** the six approximately ten-second clips into one coherent, one-minute video.
+4. **Generate** corresponding self-contained Gemini Omni Flash prompts (default 6 prompts for 60s) after the current proposal is approved.
+5. **Stitch** the approximately ten-second clips into one coherent, high-quality final video.
 
-Change the ratio, theme, narration, scene structure, palette, voice, or tone at any point. The Skill returns to the proposal stage and asks for approval again.
+Change the ratio, duration, style, theme, narration, scene structure, palette, voice, or tone at any point. When global changes occur, the Skill returns to the proposal stage and asks for approval again.
 
 <!-- readme:output -->
 
 ## What you receive
 
 - A creator-ready English title, core message, hook, tone, palette, voice, and music direction
-- Approximately **130–150 English words** of narration for about one minute
-- Six visually distinct storyboard scenes with a change every two to three seconds
-- Exact English dialogue plus a reference translation
-- Six standalone Gemini Omni Flash prompts with timed beats and negative constraints
+- Flexible English narration scaled to duration (approx. 20–25 words per 10 seconds, ~120–150 words for 60s)
+- Multiple progressive storyboard scenes with a visible change every two to three seconds
+- Exact English dialogue plus reference translation
+- Independent Gemini Omni Flash prompts matching your scene count (default 6) with timed beats and anti-glitch constraints
 - Matched endings and openings for cleaner transitions between clips
 - BGM, sound-effect, continuity, and final stitching guidance
 
@@ -98,14 +145,26 @@ Change the ratio, theme, narration, scene structure, palette, voice, or tone at 
 <summary><strong>Example request</strong></summary>
 
 ```text
-Use $directing-stickman-videos to turn this copy into a one-minute English stickman video:
+Use $directing-stickman-videos to turn this copy into an English stickman video:
 
 Gravity bends space and time so strongly around a black hole that even light cannot escape.
 ```
 
-The Skill first asks for the missing aspect ratio and theme. It then presents the six-scene director's proposal for confirmation before generating any final model prompt.
+The Skill first asks for the missing aspect ratio, duration, and visual style. It then presents the director's proposal for confirmation before generating any final model prompt.
 
 </details>
+
+## 💡 How to Run Videos at Ultra-Low Cost: Gemini Omni Flash Quickstart Guide
+
+Many creators asking about AI video generation wonder: "How do I actually use the prompts? Will it be expensive?"
+
+**The answer: The cost is close to zero, making daily publishing easy for anyone!**
+
+With remarkable motion coherence and character consistency, Gemini Omni Flash is widely recognized as one of the best AI video models available. On Google's official creative platform, **Google Flow** (`https://labs.google/fx/tools/flow`):
+- **Super affordable per clip**: Generating a 10-second 720P video in Google Flow costs only ~15 credits;
+- **1,000 monthly credits included**: Google AI Pro membership provides 1,000 video credits every month—enough for 60+ 10-second clips, easily covering daily content creation;
+- **Get started for pennies**: Official membership is normally $19.99/month, but affordable access can be obtained through overseas promotional accounts, giving you full access to top-tier video generation (image generation is completely free with no credit deduction);
+- **Step-by-step practical guide**: For a detailed cost-saving guide and Flow setup walkthrough, check out my tutorial: [《Google Flow Walkthrough & Gemini Pro Guide: Unlimited Nano Banana Image Generation + Top Video Model》](https://x.com/CrazyKaomei/status/2093893997223923822?s=20).
 
 <!-- readme:install -->
 
@@ -135,7 +194,7 @@ $directing-stickman-videos
 ## Built for iteration, honest about generation
 
 - **Approval stays explicit.** Phase B cannot begin until you approve the current proposal.
-- **Global changes trigger recomposition.** A new ratio or theme rebuilds the direction instead of applying a mechanical text replacement.
+- **Global changes trigger recomposition.** A new ratio, duration, or style rebuilds the direction instead of applying a mechanical text replacement.
 - **Prompts stay independent.** Each prompt repeats the critical locks needed to generate its clip on its own.
 - **Meaning stays grounded.** The Skill may strengthen structure and delivery, but it does not add unsupported claims.
 - **Audio can still vary.** Independent video generations may produce slight voice or music differences. For maximum consistency, keep synchronized SFX from each clip and add one continuous external VO and BGM track during assembly.
@@ -144,8 +203,8 @@ $directing-stickman-videos
 
 ```text
 skills/directing-stickman-videos/  Installable Skill
-assets/readme/                     README preview media
-tests/                             Behavioral scenarios and verification
+assets/readme/                     README preview media and style roadmap
+tests/                             Behavioral scenarios and verification scripts
 docs/superpowers/specs/            Approved product designs
 docs/superpowers/plans/            Implementation plans
 ```
@@ -156,7 +215,7 @@ docs/superpowers/plans/            Implementation plans
 
 Ideas, examples, prompt improvements, and real-world generation notes are welcome. Open an issue or submit a pull request with a focused change and enough context to reproduce the result.
 
-If this Skill helps you turn one unfinished idea into a video you can actually publish, **give the repository a star**. It helps the project reach the next creator looking for the same workflow.
+If you're particularly excited about any style on the roadmap, **leave a comment in an Issue or Star the repository**. Your feedback directly decides which stickman style I prioritize in the next update!
 
 ## License
 
