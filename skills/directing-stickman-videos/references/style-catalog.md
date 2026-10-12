@@ -112,13 +112,13 @@ Negative constraints: no photorealistic human skin or faces, no 3D humanoid CGI 
 
 ## 4. Universal Audio Continuity Contract
 
-Independent text-to-video clips will generate random voices and disjointed music unless explicitly locked. Every prompt in a package must follow this dual-lock formula:
+Voice continuity is a shared foundation for **all styles**, including Style 3. Apply `voice-continuity.md` before style-specific music rules. Different videos can choose different voices, while all clips of one video repeat one complete approved voice profile. Keep voice identity separate from the musical arc.
 
 ### Narrator Voice Lock
 ```text
-Identical narrator: confident, articulate, warm young adult American male voice, natural conversational storytelling tone, voice-first mix, audio voiceover only, strictly no speech bubbles or dialogue boxes.
+One off-screen adult male narrator throughout. General American accent, warm clean baritone, medium-low pitch, gentle chest resonance, no raspiness or breathiness. Calm conversational delivery, restrained pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
 ```
-*(Can be adapted for female or older narrator, but must remain identical verbatim across all clips in the package).*
+This is the user-accepted male example, not a compulsory voice for every project. For female, older, youthful or other approved voices, resolve a complete coherent profile using `voice-continuity.md`, then repeat it verbatim across every clip. Do not use only "same narrator" or inherit a prior clip by name. Keep narration audio-only, voice-first, with no speech bubbles or dialogue boxes. Actual listening acceptance exists for the Style 2A Hope sample; other profiles/styles remain untested for audio matching.
 
 ### BGM Continuity Lock
 - **Clip 1**:
