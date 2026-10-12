@@ -50,15 +50,20 @@ A modern 2D animated stick figure with a distinctive character persona (red bean
 
 ---
 
-### New: Style 3 — Prehistoric Hand-Drawn / Dark Comedy
+### Style 3: Prehistoric Hand-Drawn / Dark Comedy
 
-**Modern problems. Prehistoric punchlines.** Turn work, habits, relationships or technology into physical stories with rough black outlines, white filled heads, animal-hide costumes and earthy scenery. Keep the style—not one universal face. Cast women, men, children and elders for each story, then lock their identities across clips.
+Expressive prehistoric stick characters drawn with rough black outlines, white filled heads and animal-hide costumes, staged in earthy hand-drawn environments. Best for workplace satire, everyday frustrations and ironic stories: modern problems told through prehistoric visual metaphors.
 
-<a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Prehistoric dark comedy: a complete 30-second story" width="640"></a>
+| Style 3: Prehistoric Hand-Drawn / Dark Comedy |
+|:---:|
+| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Style 3: Prehistoric dark comedy animated demo" width="600"></a> |
+| Rough hand-drawn lines · Earthy scenery · Expressive reactions |
 
-[▶ Watch the complete 30-second sample with English VO and creator-added subtitles](assets/readme/style-3-demo.mp4)
+- **Visual style**: Ochre caves, camps and wilderness, warm fire accents, simple black stick limbs and exaggerated cartoon expressions.
+- **Story-specific casting**: Women, men, children and elders can have distinct proportions, faces, hair, costumes and accessories. Keep the style across stories and each character's identity within a story.
+- **Comic storytelling**: Clear physical actions, deadpan pauses and ironic callbacks. The complete 30-second sample uses three Omni Flash clips, with subtitles and editing added by the creator.
 
-Three Omni Flash clips, subtitled and assembled by the creator. Fictional workplace satire, not a historical account of employment. The skill delivers plans and prompts; it does not automatically generate or publish. Character and audio matching may still need references and editing.
+*The sample is fictional workplace satire, not historical evidence. Independent generations may still need references and editing for visual/audio consistency.*
 
 ---
 
