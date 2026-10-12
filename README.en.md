@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[简体中文](README.md) · [**English**](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[简体中文](README.zh-CN.md) · [**English**](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
 
 # Stickman Video Director
 
@@ -20,6 +20,16 @@ Built for visual explainers, motivational stories, educational shorts, and fast-
 </div>
 
 <!-- readme:demos -->
+
+## New: Style 3 — Prehistoric Hand-Drawn / Dark Comedy
+
+**Modern problems. Prehistoric punchlines.** Turn work, habits, relationships or technology into physical stories with rough black outlines, white filled heads, animal-hide costumes and earthy scenery. Keep the style—not one universal face. Cast women, men, children and elders for each story, then lock their identities across clips.
+
+<a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Prehistoric dark comedy: a complete 30-second story" width="640"></a>
+
+[▶ Watch the complete 30-second sample with English VO and creator-added subtitles](assets/readme/style-3-demo.mp4)
+
+Three Omni Flash clips, subtitled and assembled by the creator. Fictional workplace satire, not a historical account of employment. The skill delivers plans and prompts; it does not automatically generate or publish. Character and audio matching may still need references and editing.
 
 ## Visual Style Ecosystem & Live Demos
 
@@ -54,18 +64,14 @@ A modern 2D animated stick figure with a distinctive character persona (red bean
 
 This is my long-term open-source project dedicated to bringing every viral stickman visual style into one production system.
 
-<div align="center">
-  <img src="assets/readme/style-roadmap.png" alt="Stickman visual style roadmap" width="750">
-</div>
-
 I have systematically organized nearly 10 distinct stickman visual styles. I will continue rolling out new styles regularly—star the repo to stay updated:
 
-- **Style 3: Sitcom / Dual-Character Dialogue** — Dynamic two-character banter, emotional sparring, workplace satire, and daily rants
+- **Style 8: Sitcom / Dual-Character Dialogue (planned)** — Dynamic two-character banter, emotional sparring, workplace satire, and daily rants
 - **Style 4: 2D Stickman in Realistic 3D World** — Cross-dimensional contrast, RPG beginner adventure, fantasy isekai journeys
 - **Style 5: Masterclass Lecture / Stand-up Explainer** — Blackboard chalkboard props, scholar walkthroughs, effortless complex knowledge breakdown
 - **Style 6: Hand-Drawn Picture Book / Knight's Quest** — Heartwarming fairy tales, classical fables, cozy children's bedtime stories
 - **Style 7: High-Octane Graffiti / Martial Arts Combat** — Minimalist adrenaline fight choreographies, combo duels, impactful kinetic combat
-- **Style 8: Prehistoric Caveman / Dark Comedy** — Historical contrast comedy, primitive human shower thoughts, hilarious plot twists
+- **Style 3: Prehistoric Hand-Drawn / Dark Comedy (available)** — Variable casts, prehistoric visual analogies and ironic stories
 - **Style 9: Viral Roguelike Card Game / Boss Rush** — Exponential stat gains, monster progression, viral mobile game ad walkthroughs
 
 #### 3 Major Directions I Am Actively Building:

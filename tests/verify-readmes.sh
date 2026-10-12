@@ -15,6 +15,8 @@ demo_assets=(
   assets/readme/light-theme-demo.mp4
   assets/readme/dark-theme-demo.gif
   assets/readme/dark-theme-demo.mp4
+  assets/readme/style-3-demo.gif
+  assets/readme/style-3-demo.mp4
 )
 section_markers=(
   '<!-- readme:hero -->'
@@ -29,7 +31,7 @@ section_markers=(
 )
 shared_tokens=(
   'README.md'
-  'README.en.md'
+  'README.zh-CN.md'
   'README.ja.md'
   'README.ko.md'
   'README.pt-BR.md'
@@ -37,6 +39,8 @@ shared_tokens=(
   'assets/readme/light-theme-demo.mp4'
   'assets/readme/dark-theme-demo.gif'
   'assets/readme/dark-theme-demo.mp4'
+  'assets/readme/style-3-demo.gif'
+  'assets/readme/style-3-demo.mp4'
   'YouTube Shorts'
   'TikTok'
   'Instagram Reels'

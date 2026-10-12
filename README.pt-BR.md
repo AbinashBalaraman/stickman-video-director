@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [**Português do Brasil**](README.pt-BR.md)
+[简体中文](README.zh-CN.md) · [English](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [**Português do Brasil**](README.pt-BR.md)
 
 # Stickman Video Director
 
@@ -20,6 +20,16 @@ Feita para explicações visuais, histórias motivacionais, vídeos educativos e
 </div>
 
 <!-- readme:demos -->
+
+## Novo: Estilo 3 — Desenho Pré-histórico / Humor Ácido
+
+**Problemas modernos. Piadas pré-históricas.** Traços pretos irregulares, cabeças brancas preenchidas, roupas de pele e cenários terrosos. O estilo permanece; o elenco muda. Crie mulheres, homens, crianças e idosos conforme a história e mantenha cada personagem consistente entre os clipes.
+
+<a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Humor pré-histórico: curta completo de 30 segundos" width="640"></a>
+
+[▶ Assista ao curta de 30 segundos com voz em inglês e legendas adicionadas na edição](assets/readme/style-3-demo.mp4)
+
+Três clipes Omni Flash editados pelo criador. Sátira fictícia do trabalho, não uma explicação histórica. A skill entrega planos e prompts, sem gerar ou publicar automaticamente. Consistência visual e de voz pode exigir referências e edição.
 
 ## Ecossistema de Estilos Visuais e Demonstrações Reais
 
@@ -54,18 +64,14 @@ Um stickman com animação 2D moderna e identidade marcante (gorro vermelho + ca
 
 Este é meu projeto de código aberto de longo prazo dedicado a reunir todos os estilos de bonecos-palito virais da internet em uma única plataforma de direção.
 
-<div align="center">
-  <img src="assets/readme/style-roadmap.png" alt="Roteiro de estilos visuais de stickman" width="750">
-</div>
-
 Já organizei sistematicamente cerca de 10 estilos visuais característicos. Continuarei lançando novos estilos regularmente — deixe sua Star no repositório para acompanhar cada novidade:
 
-- **Estilo 3: Sitcom / Diálogo em Dupla** — Interação cômica entre dois personagens, alfinetadas, representação de desabafos no trabalho e situações cotidianas
+- **Estilo 8: Sitcom / Diálogo em Dupla (planejado)** — Interação cômica entre dois personagens, alfinetadas, representação de desabafos no trabalho e situações cotidianas
 - **Estilo 4: Stickman 2D em Cenário 3D Realista** — Choque dimensional fascinante, aventura inicial de RPG, jornadas fantásticas
 - **Estilo 5: Mestre de Aula / Stand-up Científico** — Interação com lousa e materiais didáticos, explicações envolventes de conhecimento complexo
 - **Estilo 6: Livro Ilustrado / Aventura de Cavaleiro** — Fábulas clássicas em traço acolhedor, contos infantis e narrativas poéticas
 - **Estilo 7: Grafite Intenso / Combate Marcial** — Coreografias de luta em ritmo acelerado, combos e impacto cinético marcante
-- **Estilo 8: Caverna Pré-histórica / Humor Ácido** — Contraste histórico bem-humorado, ideias malucas da humanidade primitiva e reviravoltas divertidas
+- **Estilo 3: Desenho Pré-histórico / Humor Ácido (disponível)** — Elencos variados, metáforas pré-históricas e histórias com reviravoltas
 - **Estilo 9: Jogo de Cartas Roguelike / Batalha de Chefes** — Progressão acelerada de atributos, combate contra monstros e narrativa estilo gameplay
 
 #### 3 Direções Principais que Continuarei Desenvolvendo:
