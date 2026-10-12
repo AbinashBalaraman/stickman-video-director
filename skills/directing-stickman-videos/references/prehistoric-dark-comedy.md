@@ -22,9 +22,9 @@ Use explicit timed physical beats and track prop ownership. State where an objec
 
 ## Continuity and generation
 
-Phase A includes cast cards, location layout, exact English VO with translation, music/SFX and named ending/opening states. Phase B repeats these anchors in each prompt. An intentional time jump may replace a literal match cut only if named in the approved proposal and stitching guide. Choose understated primitive percussion, dry pauses or another story-appropriate score; do not inherit mandatory optimistic piano from other modes. Repeat the selected voice and music specifications verbatim. Narration is audio-only; no lip-sync unless approved.
+Phase A includes cast cards, location layout, exact English VO with translation, music/SFX and named ending/opening states. Phase B repeats these anchors in each prompt. An intentional time jump may replace a literal match cut only if named in the approved proposal and stitching guide. Choose understated primitive percussion, dry pauses or another story-appropriate score; do not inherit mandatory optimistic piano from other modes. Repeat the selected music specification verbatim. Apply the shared `voice-continuity.md` contract: repeat the complete approved voice block verbatim in every clip, independently of music or cast age/gender. Deadpan character reactions and cave acoustics must not recast the narrator or add voice reverb. Narration is audio-only; no lip-sync unless approved.
 
-When the interface supports it, reuse approved character images and prior ending frames as references. Prompt repetition alone cannot guarantee matching faces, voice or music between independent generations. For final polish recommend one external VO/BGM track, preserve usable SFX, and inspect the joins. Do not promise automatic Flow operation: this skill outputs a production package; generation, paid retries and publication require separate user authorization. If authorized, begin with a small test and stop to report material identity/action failures instead of spending indefinitely.
+When the interface supports it, reuse approved character images and prior ending frames as references. Check full voice-profile repetition and contradictory audio directions first when the narrator drifts; follow the authorized voice-only retest in `voice-continuity.md`. Prompt repetition is not a guarantee of matching faces, voice or music, and Style 3 audio has not been separately provider-tested with the new voice block. One external VO/BGM track is an optional polish control; preserve usable SFX and inspect the joins. Do not promise automatic Flow operation: this skill outputs a production package; generation, paid retries and publication require separate user authorization. If authorized, begin with a small test and stop to report material identity/action failures instead of spending indefinitely.
 
 ## Prompt assembly
 
@@ -41,3 +41,4 @@ Each prompt includes: duration/ratio → full drawing-style anchor → full cast
 - Adjacent shots match or have an explicitly planned time jump.
 - Generated footage contains no writing; subtitles are a post-production step.
 - Voice/reference limitations are disclosed, not advertised as guarantees.
+- The full voice profile is identical across clips, separate from the prehistoric score and cast design; alternative voices may be chosen for other stories.

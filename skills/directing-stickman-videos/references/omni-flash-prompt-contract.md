@@ -1,6 +1,6 @@
 # Omni Flash Production Prompt Contract
 
-Use this contract only after explicit approval of the current Phase A. Refer to `references/style-catalog.md` for full style specifications and prompt blueprints.
+Use this contract only after explicit approval of the current Phase A. Refer to `references/style-catalog.md` for full style specifications and prompt blueprints. Apply `voice-continuity.md` to every style; visual-style overrides never replace its complete video-level voice profile.
 
 Style 3 (Prehistoric Hand-Drawn / Dark Comedy): read `prehistoric-dark-comedy.md` and apply its override rules. Repeat the full approved cast descriptions for all visible roles, white filled heads, expressive cartoon faces, hair/clothing, earthy setting and layout in every prompt. Do not apply generic face/hair/texture bans or idle bans to its deliberate reaction beats. Use story-appropriate music instead of mandatory piano. Explicitly identify intended time jumps; otherwise match adjacent states. Technical output specs are targets, not guarantees of interface capabilities.
 
@@ -37,7 +37,7 @@ Write every prompt in this order:
 6. First-frame state inherited from the previous clip
 7. `[0–3s]`, `[3–7s]`, and `[7–10s]` visual beats tied to spoken ideas
 8. Exact audio-only English dialogue in quotation marks (strictly no speech bubbles or dialogue boxes)
-9. Identical narrator description, emotion, and delivery across all clips
+9. Complete frozen English voice block from `voice-continuity.md`, verbatim in every clip: identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment; no "same narrator" shortcuts or clip-specific recasting
 10. BGM, synchronized SFX, and voice-first mixing (subsequent clips mandate seamless BGM continuity from clip 1)
 11. Final-frame transition state inherited by the next clip
 12. Negative constraints (including style-specific clutter/deformation bans)
@@ -81,9 +81,9 @@ Use ordinary descriptive color names such as vivid red, electric blue, or warm g
 
 ## Audio continuity contract
 
-Independent text-to-video clips will generate random voices and disjointed music unless explicitly locked. Every prompt in a package must follow this dual-lock formula:
+Use the shared contract in `voice-continuity.md` for Style 1 Light/Dark, Style 2A, Style 2B and Style 3. Choose voices per video, not per clip. Every standalone prompt carries its own full voice and music instructions:
 
-1. **Narrator Lock**: Repeat the identical narrator specification verbatim across all N prompts (e.g., `Identical narrator: confident, articulate, warm young adult American male voice, natural conversational storytelling tone, voice-first mix`).
+1. **Narrator Lock**: Resolve one complete approved profile, then repeat its frozen English block verbatim across all N prompts. Use the accepted male block or build another coherent profile; do not force all videos into one voice. "Same narrator" and "continue the voice from clip 1" alone are insufficient. Separate voice identity/delivery/recording treatment from the emotional and musical arc; no scene-specific timbre changes or switches into character dialogue unless explicitly approved.
 2. **BGM Lock**:
    - Clip 1 establishes the musical theme.
    - Clips 2–N explicitly instruct the model: `Audio: Voiceover seamlessly continues the identical quiet, thoughtful piano and subtle soft ambient synth from clip 1, maintaining identical tempo, instrumentation, and optimistic narrative momentum. Synchronized crisp SFX on physical actions.`
@@ -111,11 +111,11 @@ List all N clips in order. For every cut, repeat the exact ending state and matc
 
 ## Audio continuity note
 
-Independent text-only generations may vary in voice and music. Recommend, in order:
+Start with prompt-level consistency, rather than immediately routing voice drift to external dubbing:
 
-1. Reuse the same voice or audio reference when the interface supports it.
-2. Repeat the identical narrator description in every prompt.
-3. For maximum consistency, generate synchronized SFX and add one continuous external English voiceover and BGM track during assembly.
+1. Check that every prompt repeats the full frozen voice block and contains no conflicting voice directions. Compare actual audio by listening, not from screenshots.
+2. If authorized, retest a voice-only change while holding visual instructions, dialogue, music and generation settings fixed. User-accepted improvement in the three-clip Style 2A Hope test supports this approach, not a guarantee for every profile or style.
+3. Voice/audio references when supported, or one continuous external English VO/BGM track during assembly, remain optional further controls if exact matching is required or prompt-first correction is insufficient.
 
 ## Phase B checks
 
@@ -129,4 +129,5 @@ Independent text-only generations may vary in voice and music. Recommend, in ord
 - Dialogue is explicitly audio-only and is never displayed visually.
 - Standalone prompts contain no hexadecimal, RGB, HSL, Pantone, or other technical color notation.
 - Style 2 prompts feature the verified character anchor, BGM continuity lock, and anti-clutter negative constraints.
+- All styles repeat an identical complete voice block per video (or per approved recurring speaker); no unresolved profile fields, abbreviated voice references or contradictory per-scene vocal directions remain. Actual audio acceptance is recorded separately from prompt compliance.
 - Generated scenes contain no visible writing; optional overlay phrases are listed separately for post-production.
