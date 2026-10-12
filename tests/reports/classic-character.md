@@ -8,4 +8,4 @@ Opening frames of all three final clips and approximately 8s of clip 3 were brow
 
 Evidence boundary: user acceptance applies to this Dark sample, not an exhaustive anatomy pass or general performance guarantee. Light adaptation, different-topic regression and the expression-enabled wording variant have not had separate provider runs. The latter reflects the user's accepted appearance preference. Audio consistency was excluded. Door/prop deformation remains unresolved and its experimental fixes are excluded from this release.
 
-Authoring method: qiaomu-meta-skill's scoped evidence and isolated publication workflow. Retain the existing package layout rather than adding its unrelated manifest/profile defaults. Bundled publisher dry-run is unavailable for this layout due to missing manifest.json; do not claim its release gate passed.
+Publication scope: retain the existing package layout and publish this targeted correction through an isolated branch and PR. This update does not establish a new versioned-release or clean-install verification result.
