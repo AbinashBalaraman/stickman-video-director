@@ -28,7 +28,7 @@ Write every prompt in this order:
    - For Style 2A (Studio Tech): modern bright white studio space with subtle light-gray perspective grid lines on the floor plane, high-key lighting, clean white negative space, sleek glowing cyan/blue glass elements
    - For Style 2B (Cinematic Story): rich full-color cinematic environment with volumetric lighting and depth of field
 3. Character lock:
-   - For Style 1: hollow circular head, no facial features, no hair, no clothing, no filled body, stable proportions, uniform medium line weight
+   - For Style 1: repeat the full frozen character anchor from `style-catalog.md`, including the chosen polarity and expression setting; no "same character" shortcuts or rephrased anatomy. Keep all body lines connected and the circular head unfilled. Do not let action or camera wording redefine the drawing.
    - For Style 2 (Modern Beanie Zeke):
      - First clip: `A minimalist 2D animated stick figure wearing a bright red beanie (smooth knit, no pom-pom) and a yellow t-shirt, with simple black stick limbs and shorts. Simple black lines, vibrant colors, smooth 2D animation style.`
      - Subsequent clips: `The same minimalist 2D animated stick figure in a bright red beanie and yellow shirt... Simple black lines, vibrant colors, smooth 2D animation style.`
@@ -96,6 +96,7 @@ Forbid:
 - facial features (pupils, realistic eyes, lips) or hair unless approved
 - extra limbs, malformed anatomy, disconnected lines, or changed proportions
 - broken or changing line weight
+- **For Style 1**: do not reject allowed occasional simple line expressions as character drift; filled heads, body silhouettes, separate hand/foot shapes and detached body lines remain failures. Inspect actual footage before accepting consistency.
 - inverted theme polarity or unexplained colors
 - unintended characters or irrelevant spectacle
 - visible words, letters, numbers, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks
@@ -121,6 +122,7 @@ Independent text-only generations may vary in voice and music. Recommend, in ord
 - The user approved the current Phase A.
 - Exactly N standalone prompts are present (matching approved Phase A duration).
 - Each prompt repeats ratio (`16:9` or `9:16`), style/theme, character, palette, voice, audio, transition, and negative locks.
+- Style 1 prompts repeat one identical full character block and contain no contradictory appearance instructions. Simple-expression allowance agrees with the negative constraints. Generated consistency is checked separately from prompt compliance.
 - Each prompt has all three timed beats and at least four relevant visual devices.
 - Every ending matches the next opening.
 - Dialogue exactly matches the approved narration.

@@ -8,7 +8,7 @@ This catalog defines the supported visual styles for `directing-stickman-videos`
 
 | Style Key | Style Name | Visual Theme | Best For | Character Design |
 |---|---|---|---|---|
-| **Style 1** | Classic Minimalist (Light / Dark) | Pure white or black canvas, monochrome lines, up to 3 saturated accent colors | High-density explainers, pure logic, mental models, fast-paced cognitive concepts | Faceless, clothes-free, hollow circle head, uniform line weight |
+| **Style 1** | Classic Minimalist (Light / Dark) | Pure white or black canvas, monochrome lines, up to 3 saturated accent colors | High-density explainers, pure logic, mental models, fast-paced cognitive concepts | Hollow circle head, single-line body, no clothing, occasional simple line expressions |
 | **Style 2A** | Modern Beanie - Studio Tech (极简科技风) | Pure white high-key studio, subtle light-gray perspective grid, glowing cyan/blue glass UI | Tech tutorials, AI tool breakdowns, career insights, methodology breakthroughs | Red beanie (no pom-pom), yellow t-shirt, black stick limbs, smooth 2D animation |
 | **Style 2B** | Modern Beanie - Cinematic Story (彩色故事风) | Full-color narrative environments, cinematic lighting & depth (warm room, dusk, desert, summit) | Emotional storytelling, personal growth, motivational journeys, narrative hooks | Same red beanie & yellow t-shirt figure staged inside rich environmental lighting |
 | **Style 3** | Prehistoric Hand-Drawn / Dark Comedy (史前手绘 / 黑色幽默) | Earthy prehistoric environments, warm fire accents, subtle paper texture | Satirical stories, visual analogies, ironic callbacks | White filled heads, expressive cartoon faces, black stick limbs, variable story-specific cast |
@@ -25,8 +25,14 @@ For Style 3 read `prehistoric-dark-comedy.md`. It overrides this catalog's gener
 
 ### Character DNA
 ```text
-A minimalist 2D stick figure with a hollow circular head, no facial features, no hair, no clothing, no filled body, uniform medium line weight.
+One classic white line stickman on black. Its head is a white circular outline surrounding an entirely black, empty interior. Its torso is a single white line, with two white line arms joined to the upper torso and two white line legs joined to the bottom. All five body lines remain connected during movement. Draw the entire character with the same smooth, uniform stroke thickness. Arms and legs end directly without separate hand or foot shapes. The head interior stays completely black and blank in every frame. Preserve this exact line drawing throughout: no filled head, facial marks, body silhouette, outlined limbs or detached joints.
 ```
+
+Freeze this full anchor once and repeat it verbatim in every Classic Dark prompt. Do not expand it into numeric ratios, "open stroke" terminology, extra hand/foot shapes or body-volume descriptions in action instructions. Separate the character design from pose, movement, props and camera.
+
+Occasional simple line expressions are allowed by default. Before freezing the anchor, replace only "The head interior stays completely black and blank in every frame." with "The head interior remains black; occasional small white line expressions may appear." and remove only "facial marks" from its final exclusions. If the user explicitly requests a faceless character, keep the base anchor unchanged. Expressions never change head fill, head outline, body structure or proportions; no detailed eyes, pupils or realistic facial rendering.
+
+For Classic Light, swap white character strokes to black and black background/head interior to white, including expression stroke color. Freeze the resulting full block. The Dark anchor was accepted by the user after a three-clip Flow anxiety test on 2026-10-12; occasional expressions were explicitly accepted. This is sample-specific human acceptance, not proof of defect-free output. Light-polarity adaptation and unrelated-story regression remain unverified. Door/prop deformation and voice consistency were not resolved by this character change.
 
 ### Palette Contract
 - Maximum of three saturated accent colors named with ordinary words (e.g., vivid red, electric blue, warm gold).
