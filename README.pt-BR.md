@@ -50,15 +50,20 @@ Um stickman com animação 2D moderna e identidade marcante (gorro vermelho + ca
 
 ---
 
-### Novo: Estilo 3 — Desenho Pré-histórico / Humor Ácido
+### Estilo 3: Desenho Pré-histórico / Humor Ácido (Prehistoric Dark Comedy)
 
-**Problemas modernos. Piadas pré-históricas.** Traços pretos irregulares, cabeças brancas preenchidas, roupas de pele e cenários terrosos. O estilo permanece; o elenco muda. Crie mulheres, homens, crianças e idosos conforme a história e mantenha cada personagem consistente entre os clipes.
+Traços pretos irregulares, cabeças brancas preenchidas, roupas de pele e cenários terrosos. Expressões exageradas e reações impassíveis transformam problemas modernos em histórias pré-históricas. Ideal para sátira do trabalho, frustrações cotidianas e finais irônicos.
 
-<a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Humor pré-histórico: curta completo de 30 segundos" width="640"></a>
+| Estilo 3: Desenho Pré-histórico / Humor Ácido |
+|:---:|
+| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Estilo 3: demonstração animada de humor pré-histórico" width="600"></a> |
+| Traços à mão · Cenários terrosos · Expressões marcantes |
 
-[▶ Assista ao curta de 30 segundos com voz em inglês e legendas adicionadas na edição](assets/readme/style-3-demo.mp4)
+- **Visual**: Cavernas, acampamentos e paisagens selvagens com fogueiras quentes, membros pretos simples e expressões de desenho animado.
+- **Elenco variado**: Mulheres, homens, crianças e idosos com proporções, rostos, cabelos, roupas e acessórios distintos. Mude o elenco entre histórias e mantenha a identidade dentro de cada uma.
+- **Narrativa cômica**: Ações claras, pausas impassíveis e reviravoltas. O curta completo de 30 segundos reúne três clipes Omni Flash, com legendas e edição do criador.
 
-Três clipes Omni Flash editados pelo criador. Sátira fictícia do trabalho, não uma explicação histórica. A skill entrega planos e prompts, sem gerar ou publicar automaticamente. Consistência visual e de voz pode exigir referências e edição.
+*Sátira fictícia do trabalho, não uma explicação histórica. A consistência visual e de voz pode exigir referências e edição.*
 
 ---
 
