@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [**Português do Brasil**](README.pt-BR.md)
+[简体中文](README.zh-CN.md) · [English](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [**Português do Brasil**](README.pt-BR.md)
 
 # Stickman Video Director
 
@@ -50,22 +50,35 @@ Um stickman com animação 2D moderna e identidade marcante (gorro vermelho + ca
 
 ---
 
+### Estilo 3: Desenho Pré-histórico / Humor Ácido (Prehistoric Dark Comedy)
+
+Traços pretos irregulares, cabeças brancas preenchidas, roupas de pele e cenários terrosos. Expressões exageradas e reações impassíveis transformam problemas modernos em histórias pré-históricas. Ideal para sátira do trabalho, frustrações cotidianas e finais irônicos.
+
+| Estilo 3: Desenho Pré-histórico / Humor Ácido |
+|:---:|
+| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Estilo 3: demonstração animada de humor pré-histórico" width="600"></a> |
+| Traços à mão · Cenários terrosos · Expressões marcantes |
+
+- **Visual**: Cavernas, acampamentos e paisagens selvagens com fogueiras quentes, membros pretos simples e expressões de desenho animado.
+- **Elenco variado**: Mulheres, homens, crianças e idosos com proporções, rostos, cabelos, roupas e acessórios distintos. Mude o elenco entre histórias e mantenha a identidade dentro de cada uma.
+- **Narrativa cômica**: Ações claras, pausas impassíveis e reviravoltas. O curta completo de 30 segundos reúne três clipes Omni Flash, com legendas e edição do criador.
+
+*Sátira fictícia do trabalho, não uma explicação histórica. A consistência visual e de voz pode exigir referências e edição.*
+
+---
+
 ### Evolução a Longo Prazo: O Catálogo Definitivo de Estilos de Stickman
 
 Este é meu projeto de código aberto de longo prazo dedicado a reunir todos os estilos de bonecos-palito virais da internet em uma única plataforma de direção.
 
-<div align="center">
-  <img src="assets/readme/style-roadmap.png" alt="Roteiro de estilos visuais de stickman" width="750">
-</div>
-
 Já organizei sistematicamente cerca de 10 estilos visuais característicos. Continuarei lançando novos estilos regularmente — deixe sua Star no repositório para acompanhar cada novidade:
 
-- **Estilo 3: Sitcom / Diálogo em Dupla** — Interação cômica entre dois personagens, alfinetadas, representação de desabafos no trabalho e situações cotidianas
+- **Estilo 3: Desenho Pré-histórico / Humor Ácido (disponível)** — Elencos variados, metáforas pré-históricas e histórias com reviravoltas
 - **Estilo 4: Stickman 2D em Cenário 3D Realista** — Choque dimensional fascinante, aventura inicial de RPG, jornadas fantásticas
 - **Estilo 5: Mestre de Aula / Stand-up Científico** — Interação com lousa e materiais didáticos, explicações envolventes de conhecimento complexo
 - **Estilo 6: Livro Ilustrado / Aventura de Cavaleiro** — Fábulas clássicas em traço acolhedor, contos infantis e narrativas poéticas
 - **Estilo 7: Grafite Intenso / Combate Marcial** — Coreografias de luta em ritmo acelerado, combos e impacto cinético marcante
-- **Estilo 8: Caverna Pré-histórica / Humor Ácido** — Contraste histórico bem-humorado, ideias malucas da humanidade primitiva e reviravoltas divertidas
+- **Estilo 8: Sitcom / Diálogo em Dupla (planejado)** — Interação cômica entre dois personagens, alfinetadas, representação de desabafos no trabalho e situações cotidianas
 - **Estilo 9: Jogo de Cartas Roguelike / Batalha de Chefes** — Progressão acelerada de atributos, combate contra monstros e narrativa estilo gameplay
 
 #### 3 Direções Principais que Continuarei Desenvolvendo:
