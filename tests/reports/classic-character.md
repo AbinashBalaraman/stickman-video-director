@@ -14,6 +14,8 @@ Publication scope: retain the existing package layout and publish this targeted 
 
 Scope: replace only the Style 1 character instruction and align its prompt contract. Keep setup/approval gates, story planning, voice profile, dialogue, music, Style 2A/2B, Style 3, README languages and examples unchanged. No new prior-art search: this is a narrow regression correction based on the user's earlier successful prompts and authorized Flow tests, not a new package or redesign.
 
+Packaging prerequisite: quote the existing YAML description because its colon was invalid in an unquoted scalar. The description text and trigger meaning are unchanged.
+
 Earlier anatomy-heavy candidates (measured proportions, skeleton/rig definitions and pen paths) did not consistently eliminate drawing drift. Returning to the user's concise line-animation description improved sampled frames but still produced an extra resting arm under a raised arm in one candidate, and an accent-colored figure in another. The final candidate adds the current-pose replacement rule and confines accent colors to props/graphics. These are prompt-design choices supported by this sample comparison, not an isolated causal experiment proving that one sentence alone fixes all anatomy errors.
 
 Provider: Flow Omni 1.1 Flash, 16:9, 720p, x1, approximately 10s each. Story: a stick figure hesitates, chases and finally launches a blue paper airplane as a metaphor for perfectionism. The final character block was repeated verbatim across Dark clips, then its monochrome polarity was swapped for the Light test. Dialogue, voice and story beats were retained. No reference image or video download was used.
