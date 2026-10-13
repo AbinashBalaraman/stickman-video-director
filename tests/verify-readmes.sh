@@ -42,15 +42,10 @@ shared_tokens=(
   'README.ko.md'
   'README.pt-BR.md'
   'assets/readme/light-theme-demo.gif'
-  'assets/readme/light-theme-demo.mp4'
   'assets/readme/dark-theme-demo.gif'
-  'assets/readme/dark-theme-demo.mp4'
   'assets/readme/style-2a-demo.gif'
-  'assets/readme/style-2a-demo.mp4'
   'assets/readme/style-2b-demo.gif'
-  'assets/readme/style-2b-demo.mp4'
   'assets/readme/style-3-demo.gif'
-  'assets/readme/style-3-demo.mp4'
   'YouTube Shorts'
   'TikTok'
   'Instagram Reels'
@@ -97,21 +92,25 @@ for readme in "${readmes[@]}"; do
     }
   done
 
-  # Published styles 1 and 2 keep two clickable examples in all languages.
+  # Published styles 1 and 2 keep two inline previews in all languages.
   paired_demos=('light-theme-demo dark-theme-demo' 'style-2a-demo style-2b-demo')
   # New examples are Chinese-first until the owner requests language sync.
   if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
     paired_demos+=('style-3-demo style-3-community-fire')
-    for token in 'assets/readme/style-3-community-fire.gif' 'assets/readme/style-3-community-fire.mp4' '[X：@monixin888](https://x.com/monixin888/status/2109651037850325112)' '案例 1：人类的第一份工作是怎么来的？' 'WorkBuddy'; do
+    for token in 'assets/readme/style-3-community-fire.gif' '[X：@monixin888](https://x.com/monixin888/status/2109651037850325112)' '案例 1：人类的第一份工作是怎么来的？' 'WorkBuddy'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing community example token: %s\n' "$readme" "$token" >&2
         exit 1
       }
     done
+    if rg -n 'href="assets/readme/[^" ]+\.mp4"|点击.*(完整|打开)|确证历史复原|完播率.*60%|彻底解决了|成本几乎为零' "$readme_path"; then
+      printf '%s contains obsolete preview instructions or unsupported copy\n' "$readme" >&2
+      exit 1
+    fi
   fi
   for pair in "${paired_demos[@]}"; do
     read -r first_demo second_demo <<< "$pair"
-    rg -q "href=\"assets/readme/${first_demo}\.mp4\".*[|].*href=\"assets/readme/${second_demo}\.mp4\"" "$readme_path" || {
+    rg -q "src=\"assets/readme/${first_demo}\.gif\".*[|].*src=\"assets/readme/${second_demo}\.gif\"" "$readme_path" || {
       printf '%s missing paired examples: %s\n' "$readme" "$pair" >&2
       exit 1
     }
