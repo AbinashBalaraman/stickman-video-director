@@ -36,7 +36,7 @@ section_markers=(
   '<!-- readme:contribute -->'
 )
 shared_tokens=(
-  'README.md'
+  'README.en.md'
   'README.zh-CN.md'
   'README.ja.md'
   'README.ko.md'
@@ -100,7 +100,7 @@ for readme in "${readmes[@]}"; do
   # Published styles 1 and 2 keep two clickable examples in all languages.
   paired_demos=('light-theme-demo dark-theme-demo' 'style-2a-demo style-2b-demo')
   # New examples are Chinese-first until the owner requests language sync.
-  if [[ "$readme" == README.zh-CN.md ]]; then
+  if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
     paired_demos+=('style-3-demo style-3-community-fire')
     for token in 'assets/readme/style-3-community-fire.gif' 'assets/readme/style-3-community-fire.mp4' 'https://x.com/monixin888' 'WorkBuddy'; do
       rg -Fq "$token" "$readme_path" || {
@@ -124,5 +124,18 @@ for readme in "${readmes[@]}"; do
     exit 1
   fi
 done
+
+cmp -s "$readme_root/README.md" "$readme_root/README.zh-CN.md" || {
+  printf 'Default homepage must match the Chinese README.\n' >&2
+  exit 1
+}
+rg -Fq '[**简体中文**](README.zh-CN.md) · [English](README.en.md)' "$readme_root/README.md" || {
+  printf 'Default homepage missing Chinese/English language navigation.\n' >&2
+  exit 1
+}
+rg -Fq '### Turn any idea' "$readme_root/README.en.md" || {
+  printf 'English README must remain available.\n' >&2
+  exit 1
+}
 
 printf 'README contract passed for %s file(s).\n' "${#readmes[@]}"
