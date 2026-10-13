@@ -15,8 +15,14 @@ demo_assets=(
   assets/readme/light-theme-demo.mp4
   assets/readme/dark-theme-demo.gif
   assets/readme/dark-theme-demo.mp4
+  assets/readme/style-2a-demo.gif
+  assets/readme/style-2a-demo.mp4
+  assets/readme/style-2b-demo.gif
+  assets/readme/style-2b-demo.mp4
   assets/readme/style-3-demo.gif
   assets/readme/style-3-demo.mp4
+  assets/readme/style-3-community-fire.gif
+  assets/readme/style-3-community-fire.mp4
 )
 section_markers=(
   '<!-- readme:hero -->'
@@ -39,8 +45,16 @@ shared_tokens=(
   'assets/readme/light-theme-demo.mp4'
   'assets/readme/dark-theme-demo.gif'
   'assets/readme/dark-theme-demo.mp4'
+  'assets/readme/style-2a-demo.gif'
+  'assets/readme/style-2a-demo.mp4'
+  'assets/readme/style-2b-demo.gif'
+  'assets/readme/style-2b-demo.mp4'
   'assets/readme/style-3-demo.gif'
   'assets/readme/style-3-demo.mp4'
+  'assets/readme/style-3-community-fire.gif'
+  'assets/readme/style-3-community-fire.mp4'
+  'https://x.com/monixin888'
+  'WorkBuddy'
   'YouTube Shorts'
   'TikTok'
   'Instagram Reels'
@@ -83,6 +97,15 @@ for readme in "${readmes[@]}"; do
   for token in "${shared_tokens[@]}"; do
     rg -Fq "$token" "$readme_path" || {
       printf '%s missing shared token: %s\n' "$readme" "$token" >&2
+      exit 1
+    }
+  done
+
+  # Each style must keep two clickable examples in the same table row.
+  for pair in 'light-theme-demo dark-theme-demo' 'style-2a-demo style-2b-demo' 'style-3-demo style-3-community-fire'; do
+    read -r first_demo second_demo <<< "$pair"
+    rg -q "href=\"assets/readme/${first_demo}\.mp4\".*[|].*href=\"assets/readme/${second_demo}\.mp4\"" "$readme_path" || {
+      printf '%s missing paired examples: %s\n' "$readme" "$pair" >&2
       exit 1
     }
   done
