@@ -23,7 +23,7 @@ Feita para explicações visuais, histórias motivacionais, vídeos educativos e
 
 ## Ecossistema de Estilos Visuais e Demonstrações Reais
 
-> Clique em qualquer prévia animada para abrir o vídeo completo com som. Se esses estilos inspirarem sua criação, deixe uma Star no repositório!
+> Clique em qualquer prévia animada para abrir o vídeo HD completo de 10 segundos com som. Se esses estilos inspirarem sua criação, deixe uma Star no repositório!
 
 ### Estilo 1: Minimalista Básico (Basic Minimalist)
 
@@ -54,18 +54,16 @@ Um stickman com animação 2D moderna e identidade marcante (gorro vermelho + ca
 
 Traços pretos irregulares, cabeças brancas preenchidas, roupas de pele e cenários terrosos. Expressões exageradas e reações impassíveis transformam problemas modernos em histórias pré-históricas. Ideal para sátira do trabalho, frustrações cotidianas e finais irônicos.
 
-| Exemplo 1: Demo original | Exemplo 2: O Primeiro Encontro da Humanidade com o Fogo |
-|:---:|:---:|
-| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Estilo 3: demonstração animada de humor pré-histórico" width="600"></a> | <a href="assets/readme/style-3-community-fire.mp4"><img src="assets/readme/style-3-community-fire.gif" alt="O Primeiro Encontro da Humanidade com o Fogo — criação de fã" width="600"></a> |
-| Traços à mão · Cenários terrosos · Expressões marcantes | História pré-histórica de 30 segundos · Criação de fã |
-
-**Criação de fã — “O Primeiro Encontro da Humanidade com o Fogo”**: Feita pelo fã [@monixin888 no X](https://x.com/monixin888), usando o WorkBuddy para invocar este skill. Clique na prévia acima para assistir ao vídeo completo de 30 segundos.
+| Estilo 3: Desenho Pré-histórico / Humor Ácido |
+|:---:|
+| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Estilo 3: demonstração animada de humor pré-histórico" width="600"></a> |
+| Traços à mão · Cenários terrosos · Expressões marcantes |
 
 - **Visual**: Cavernas, acampamentos e paisagens selvagens com fogueiras quentes, membros pretos simples e expressões de desenho animado.
 - **Elenco variado**: Mulheres, homens, crianças e idosos com proporções, rostos, cabelos, roupas e acessórios distintos. Mude o elenco entre histórias e mantenha a identidade dentro de cada uma.
-- **Narrativa cômica**: Ações claras, pausas impassíveis e reviravoltas. O primeiro curta de 30 segundos reúne três clipes Omni Flash, com legendas e edição do criador.
+- **Narrativa cômica**: Ações claras, pausas impassíveis e reviravoltas. O curta completo de 30 segundos reúne três clipes Omni Flash, com legendas e edição do criador.
 
-*O Exemplo 1 é uma sátira fictícia do trabalho; o Exemplo 2 é uma história pré-histórica artística, não uma reconstrução comprovada da primeira descoberta do fogo. A consistência visual e de voz pode exigir referências e edição.*
+*Sátira fictícia do trabalho, não uma explicação histórica. A consistência visual e de voz pode exigir referências e edição.*
 
 ---
 

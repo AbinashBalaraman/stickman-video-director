@@ -23,7 +23,7 @@ Built for visual explainers, motivational stories, educational shorts, and fast-
 
 ## Visual Style Ecosystem & Live Demos
 
-> Click any animated preview to open the full video with sound. If these styles inspire your creative workflow, please give the repository a Star!
+> Click any animated preview to open the full 10-second HD video with sound. If these styles inspire your creative workflow, please give the repository a Star!
 
 ### Style 1: Classic Minimalist (Monochrome)
 
@@ -54,18 +54,16 @@ A modern 2D animated stick figure with a distinctive character persona (red bean
 
 Expressive prehistoric stick characters drawn with rough black outlines, white filled heads and animal-hide costumes, staged in earthy hand-drawn environments. Best for workplace satire, everyday frustrations and ironic stories: modern problems told through prehistoric visual metaphors.
 
-| Example 1: Original demo | Example 2: Humanity’s First Encounter with Fire |
-|:---:|:---:|
-| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Style 3: Prehistoric dark comedy animated demo" width="600"></a> | <a href="assets/readme/style-3-community-fire.mp4"><img src="assets/readme/style-3-community-fire.gif" alt="Humanity’s First Encounter with Fire — community creation" width="600"></a> |
-| Rough hand-drawn lines · Earthy scenery · Expressive reactions | 30-second prehistoric story · Community creation |
-
-**Community spotlight — “Humanity’s First Encounter with Fire”**: Created by fan [@monixin888 on X](https://x.com/monixin888), using WorkBuddy to invoke this skill. Click the preview above to watch the complete 30-second video.
+| Style 3: Prehistoric Hand-Drawn / Dark Comedy |
+|:---:|
+| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Style 3: Prehistoric dark comedy animated demo" width="600"></a> |
+| Rough hand-drawn lines · Earthy scenery · Expressive reactions |
 
 - **Visual style**: Ochre caves, camps and wilderness, warm fire accents, simple black stick limbs and exaggerated cartoon expressions.
 - **Story-specific casting**: Women, men, children and elders can have distinct proportions, faces, hair, costumes and accessories. Keep the style across stories and each character's identity within a story.
-- **Comic storytelling**: Clear physical actions, deadpan pauses and ironic callbacks. The first 30-second sample uses three Omni Flash clips, with subtitles and editing added by the creator.
+- **Comic storytelling**: Clear physical actions, deadpan pauses and ironic callbacks. The complete 30-second sample uses three Omni Flash clips, with subtitles and editing added by the creator.
 
-*Example 1 is fictional workplace satire; Example 2 is an artistic prehistoric story, not a verified reconstruction of the first discovery of fire. Independent generations may still need references and editing for visual/audio consistency.*
+*The sample is fictional workplace satire, not historical evidence. Independent generations may still need references and editing for visual/audio consistency.*
 
 ---
 
