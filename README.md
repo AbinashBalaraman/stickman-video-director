@@ -2,234 +2,179 @@
 
 <div align="center">
 
-[简体中文](README.zh-CN.md) · [**English**](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[**简体中文**](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
 
 # Stickman Video Director
 
-### Turn any idea into a high-quality stickman video built to move.
+### 给一段文案，让火柴人把你的故事演出来。
 
-One Codex Skill turns your copy into a confirmed English voiceover, a visual-first director's plan, and production-ready Gemini Omni Flash prompts (supports custom durations in 10-second increments, default 60 seconds).
+不用从零琢磨分镜。这个 Skill 帮你改写英文旁白、设计动态画面，再输出可直接用于 Gemini Omni Flash 的视频提示词。
 
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
 ![Gemini Omni Flash](https://img.shields.io/badge/Gemini-Omni%20Flash-6d28d9?style=flat-square)
-![Custom Duration](https://img.shields.io/badge/Video-Custom%20Duration-0066ff?style=flat-square)
+![自由时长](https://img.shields.io/badge/Video-Custom%20Duration-0066ff?style=flat-square)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Built for visual explainers, motivational stories, educational shorts, and fast-moving essays on **YouTube Shorts, TikTok, Instagram Reels, and YouTube**.
+**三种画风 · 横竖屏可选 · 先确认方案，再生成提示词**
+
+适合 YouTube Shorts、TikTok、Instagram Reels、YouTube，以及国内的知识、故事和教育短视频。
 
 </div>
 
 <!-- readme:demos -->
 
-## Visual Style Ecosystem & Live Demos
+## 三种画风，直接看效果
 
-> Click any animated preview to open the full 10-second HD video with sound. If these styles inspire your creative workflow, please give the repository a Star!
+### 风格 1：基础黑白风
 
-### Style 1: Classic Minimalist (Monochrome)
+极简火柴人搭配黑白背景，用动作、道具和少量亮色把抽象概念讲清楚。
 
-The purest high-contrast minimalist stick figure. Faceless, devoid of complex clothing, leveraging bold linework and high-saturation accent colors to penetrate viewer cognition. Ideal for hard science, logical breakdowns, and mental models.
-
-| Style 1A: Light Mode | Style 1B: Dark Mode |
+| 风格 1A：白底黑火柴人 | 风格 1B：黑底白火柴人 |
 |:---:|:---:|
-| <!-- demo:light:start --><a href="assets/readme/light-theme-demo.mp4"><img src="assets/readme/light-theme-demo.gif" alt="Style 1A: Light Mode stickman animated demo" width="600"></a><!-- demo:light:end --> | <!-- demo:dark:start --><a href="assets/readme/dark-theme-demo.mp4"><img src="assets/readme/dark-theme-demo.gif" alt="Style 1B: Dark Mode stickman animated demo" width="600"></a><!-- demo:dark:end --> |
-| White canvas · Black stick figure | Black canvas · White stick figure |
+| <!-- demo:light:start --><img src="assets/readme/light-theme-demo.gif" alt="风格 1A：白底黑火柴人动态演示" width="600"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/dark-theme-demo.gif" alt="风格 1B：黑底白火柴人动态演示" width="600"><!-- demo:dark:end --> |
+| 纯白画布 · 黑色人物 | 纯黑画布 · 白色人物 |
+
+- **画面特点**：实心圆头、简洁线条、可偶尔出现简单表情；最多三种高饱和强调色。
+- **适合内容**：科普、心理成长、励志、商业拆解与概念解释。
 
 ---
 
-### Style 2: Modern Beanie Zeke (Dynamic 2D)
+### 风格 2：现代潮酷风
 
-A modern 2D animated stick figure with a distinctive character persona (red beanie + yellow t-shirt + minimalist black limbs). Battle-tested to eliminate eye glitches, pom-pom distortion, and limb jitter, producing buttery-smooth motion.
+红色冷帽、黄色 T 恤与极简黑色肢体，同一个角色可以在科技空间或彩色故事场景里活动。
 
-| Style 2A: Studio Tech | Style 2B: Cinematic Story |
+| 风格 2A：极简科技 | 风格 2B：彩色故事 |
 |:---:|:---:|
-| <a href="assets/readme/style-2a-demo.mp4"><img src="assets/readme/style-2a-demo.gif" alt="Style 2A: Studio Tech animated demo" width="600"></a> | <a href="assets/readme/style-2b-demo.mp4"><img src="assets/readme/style-2b-demo.gif" alt="Style 2B: Cinematic Story animated demo" width="600"></a> |
-| Pure white space · Subtle grid · Cyan glow | Full-color immersion · Cinematic lighting · Narrative mood |
+| <img src="assets/readme/style-2a-demo.gif" alt="风格 2A：极简科技风动态演示" width="600"> | <img src="assets/readme/style-2b-demo.gif" alt="风格 2B：彩色故事风动态演示" width="600"> |
+| 纯白空间 · 极淡网格 · 青蓝微光 | 彩色场景 · 电影光影 · 叙事氛围 |
 
-- **Style 2A: Studio Tech**: Bright white high-key studio + subtle light-gray perspective floor grid + glowing cyan/blue semi-transparent floating glass UI (Apple Keynote minimalist tech aesthetic, built-in anti-clutter constraints).
-- **Style 2B: Cinematic Story**: Full-color immersive narrative environments (warm bedroom, dusk window, desert highway, mountain summit) + cinematic lighting (Pixar animated short aesthetic, character maintains clean 2D stick lines).
-
----
-
-### Style 3: Prehistoric Hand-Drawn / Dark Comedy
-
-Expressive prehistoric stick characters drawn with rough black outlines, white filled heads and animal-hide costumes, staged in earthy hand-drawn environments. Best for workplace satire, everyday frustrations and ironic stories: modern problems told through prehistoric visual metaphors.
-
-| Style 3: Prehistoric Hand-Drawn / Dark Comedy |
-|:---:|
-| <a href="assets/readme/style-3-demo.mp4"><img src="assets/readme/style-3-demo.gif" alt="Style 3: Prehistoric dark comedy animated demo" width="600"></a> |
-| Rough hand-drawn lines · Earthy scenery · Expressive reactions |
-
-- **Visual style**: Ochre caves, camps and wilderness, warm fire accents, simple black stick limbs and exaggerated cartoon expressions.
-- **Story-specific casting**: Women, men, children and elders can have distinct proportions, faces, hair, costumes and accessories. Keep the style across stories and each character's identity within a story.
-- **Comic storytelling**: Clear physical actions, deadpan pauses and ironic callbacks. The complete 30-second sample uses three Omni Flash clips, with subtitles and editing added by the creator.
-
-*The sample is fictional workplace satire, not historical evidence. Independent generations may still need references and editing for visual/audio consistency.*
+- **画面特点**：2A 用悬浮玻璃 UI 和青蓝光效表现科技感；2B 用卧室、街道、荒野等环境推进故事。
+- **适合内容**：2A 适合 AI、科技与产品解说；2B 适合成长故事、生活话题和情绪表达。
 
 ---
 
-### Long-Term Evolution: The Ultimate Stickman Style Catalog
+### 风格 3：史前手绘 / 黑色幽默
 
-This is my long-term open-source project dedicated to bringing every viral stickman visual style into one production system.
+粗手绘线条、兽皮服饰与土色场景，把洞穴生活、现代烦恼和脑洞故事放进同一个史前世界。
 
-I have systematically organized nearly 10 distinct stickman visual styles. I will continue rolling out new styles regularly—star the repo to stay updated:
+| 案例 1：人类的第一份工作是怎么来的？ | 案例 2：《人类第一次发现火源》 |
+|:---:|:---:|
+| <img src="assets/readme/style-3-demo.gif" alt="《人类的第一份工作是怎么来的？》动态预览" width="600"> | <img src="assets/readme/style-3-community-fire.gif" alt="《人类第一次发现火源》——粉丝作品" width="600"> |
+| 史前故事 · 职场反转 | 火源主题 · 粉丝作品 |
 
-- **Style 3: Prehistoric Hand-Drawn / Dark Comedy (available)** — Variable casts, prehistoric visual analogies and ironic stories
-- **Style 4: 2D Stickman in Realistic 3D World** — Cross-dimensional contrast, RPG beginner adventure, fantasy isekai journeys
-- **Style 5: Masterclass Lecture / Stand-up Explainer** — Blackboard chalkboard props, scholar walkthroughs, effortless complex knowledge breakdown
-- **Style 6: Hand-Drawn Picture Book / Knight's Quest** — Heartwarming fairy tales, classical fables, cozy children's bedtime stories
-- **Style 7: High-Octane Graffiti / Martial Arts Combat** — Minimalist adrenaline fight choreographies, combo duels, impactful kinetic combat
-- **Style 8: Sitcom / Dual-Character Dialogue (planned)** — Dynamic two-character banter, emotional sparring, workplace satire, and daily rants
-- **Style 9: Viral Roguelike Card Game / Boss Rush** — Exponential stat gains, monster progression, viral mobile game ad walkthroughs
+**粉丝案例：《人类第一次发现火源》** — 由粉丝 [X：@monixin888](https://x.com/monixin888/status/2109651037850325112) 使用 WorkBuddy 调用本 Skill 制作。
 
-#### 3 Major Directions I Am Actively Building:
-1. **Complete Style Coverage**: Unlocking all viral stickman aesthetics so creators across any niche can immediately produce videos;
-2. **High-Value Content Engine**: Moving beyond generic AI prompts by analyzing and distilling viral hooks and structures into plug-and-play adaptation scripts;
-3. **Dedicated Stickman Web Studio**: As the style library grows, I plan to build a dedicated website for live visual previews, curated viral scripts, and one-click prompt copying.
-
----
-
-## A script is not yet a video
-
-A good idea can still become a flat animation: one character, one background, and ten seconds with nothing new to look at. Directing a full video means shaping the opening hook, pacing the explanation, inventing relevant visual metaphors, moving the camera, connecting scenes, and protecting continuity across separate generations.
-
-**Stickman Video Director does that production thinking before you spend generation credits.**
+- **画面特点**：洞穴、营地、荒野与篝火，搭配夸张表情和反转；男女老幼按故事设计，不同故事可以换角色，同一故事内固定形象。
+- **适合内容**：史前主题、职场讽刺、黑色幽默、儿童英语与轻松故事。
 
 <!-- readme:advantages -->
 
-## Why creators use this Skill
+## 不只是写提示词，而是先把视频想清楚
 
-| Advantage | What it gives you |
+| 你不用从零想的事 | Skill 帮你完成 |
 |---|---|
-| **Stronger story architecture** | Powered by the **60%+ completion rate 5-stage heartbeat engine** (Golden Hook → Disrupt Assumptions → Unveil Secrets → Ultimate Truth → Elevation & Discussion) for razor-sharp emotional pacing and maximum retention. |
-| **Custom video duration** | Full control over video length: 30s, 60s, 90s, 3min, 5min, or any 10-second multiple (default 60 seconds). |
-| **A real approval checkpoint** | Shows a readable director's proposal before producing final model prompts. Revise the story while changes are still cheap. |
-| **Dense, relevant motion** | Plans three timed beats per clip, with visual metaphors, environment changes, camera movement, text moments, interactions, transitions, BGM, and SFX. |
-| **Complete production locks** | Repeats character, line weight, palette, voice, dialogue, audio, transition, and negative constraints inside every standalone prompt. |
-| **Format-aware direction** | Recomposes staging, camera paths, and text placement for `9:16` or `16:9` instead of merely changing a ratio label. |
-| **Controlled visual contrast** | Supports white-background/black-figure and black-background/white-figure systems, plus up to three saturated accent colors. |
-| **Source fidelity** | Avoids inventing unsupported facts, statistics, quotations, or product claims. |
+| **文案怎么讲** | 改写强开场、递进解释和结尾回扣，并配上英文旁白与参考翻译。 |
+| **画面怎么动** | 规划动作、道具、视觉隐喻、运镜、转场与音效；通常每 2–3 秒安排一次视觉变化。 |
+| **多段怎么接** | 设计上一段的结尾与下一段的开场，在每条提示词里重复人物、道具、配色和声音描述。 |
+| **横竖屏怎么排** | 根据画幅重新安排人物位置、镜头路径与画面空间。 |
+| **哪里可以改** | 先看导演提案，不满意就调整，确认后才输出最终提示词。 |
 
-### Core Narrative Engine: 5-Stage Heartbeat for 60%+ Completion Rate
-
-Viral short videos with 60%+ completion rates master emotional pacing. Whether you input a simple topic or raw copy, the Skill automatically restructures it into a 5-stage emotional escalation model (duration adapts dynamically to your total video length):
-
-1. **Golden Hook**: Instant counter-intuitive question or visual paradox right at the start (fires within 2–5 seconds for shorts), hooking immediate curiosity;
-2. **Disrupt Assumptions**: State conventional wisdom, then shatter it in a single sentence to create cognitive friction;
-3. **Unveil Secrets**: Reveal hidden mechanics or insider details, escalating curiosity;
-4. **Ultimate Truth**: Deliver the core business logic or fundamental human nature insight for a satisfying cognitive payoff;
-5. **Elevation & Discussion**: Distill the key takeaway with a punchy conclusion and leave a provocative question that sparks comments and debate.
-
-No API or MCP dependency is required. Install the Skill, invoke it, and work through the guided flow in conversation.
+知识与观点类内容按“开场钩子 → 打破预期 → 解释机制 → 核心结论 → 结尾回扣”组织；史前故事更注重“铺垫 → 升级 → 反转”，不硬套同一种结尾。
 
 <!-- readme:platforms -->
 
-## One idea, composed for the right screen
+## 选你要发布的画幅
 
-| Ratio | Best fit | Directional emphasis |
+| 比例 | 适合平台 | 构图重点 |
 |---|---|---|
-| `9:16` | YouTube Shorts, TikTok, Instagram Reels | Vertical depth, bold central silhouettes, stacked reveals, mobile-safe text |
-| `16:9` | YouTube explainers, educational videos, visual essays | Wide staging, lateral camera travel, split-screen comparisons, generous negative space |
+| `9:16` | YouTube Shorts、TikTok、Instagram Reels、抖音、小红书 | 纵向动作、中央主体、手机画面安全区 |
+| `16:9` | YouTube、B 站、横屏教育视频 | 横向调度、场景展开、左右对比 |
+
+时长默认 **60 秒**，也可以选 30 秒、90 秒、3 分钟等 10 秒整数倍。按每段约 10 秒规划：30 秒输出 3 条提示词，60 秒输出 6 条。
 
 <!-- readme:workflow -->
 
-## Paste → Choose → Approve → Generate → Stitch
+## 从文案到视频，五步走
 
-1. **Paste** copy, notes, an article, or simply a topic.
-2. **Choose** aspect ratio (`16:9` or `9:16`), **video duration** (multiples of 10s: 30s, 60s, 3min, 5min, default 60s), and visual style (Style 1 Minimalist, Style 2A Studio Tech, Style 2B Cinematic Story, or upcoming styles).
-3. **Approve** a detailed director's proposal with the English VO, reference translation, visuals, camera, transitions, BGM, and SFX.
-4. **Generate** corresponding self-contained Gemini Omni Flash prompts (default 6 prompts for 60s) after the current proposal is approved.
-5. **Stitch** the approximately ten-second clips into one coherent, high-quality final video.
+1. **给内容**：粘贴文案、文章、笔记，或直接说一个主题。
+2. **选设置**：确定画幅、时长和画风；风格 1 再选白底或黑底，也可以指定男声、女声和表达基调。
+3. **看提案**：检查英文旁白、参考翻译、画面、镜头、转场、BGM 与音效，不满意就改。
+4. **确认后拿提示词**：获得对应数量的独立 Gemini Omni Flash 提示词。
+5. **生成并剪辑**：把提示词分别交给视频模型，再拼接片段、添加字幕，完成成片。
 
-Change the ratio, duration, style, theme, narration, scene structure, palette, voice, or tone at any point. When global changes occur, the Skill returns to the proposal stage and asks for approval again.
+换主题、画幅、风格或其他全局设置后，会重新整理提案，再请你确认。缺少画幅或画风时会先询问；没填时长则默认一分钟。
 
 <!-- readme:output -->
 
-## What you receive
+## 你会拿到什么
 
-- A creator-ready English title, core message, hook, tone, palette, voice, and music direction
-- Flexible English narration scaled to duration (approx. 20–25 words per 10 seconds, ~120–150 words for 60s)
-- Multiple progressive storyboard scenes with a visible change every two to three seconds
-- Exact English dialogue plus reference translation
-- Independent Gemini Omni Flash prompts matching your scene count (default 6) with timed beats and anti-glitch constraints
-- Matched endings and openings for cleaner transitions between clips
-- BGM, sound-effect, continuity, and final stitching guidance
+- **导演提案**：标题、基调、英文旁白与参考翻译，以及按时间排列的画面设计。
+- **视频提示词包**：每段都有明确动作节拍、人物与道具描述、声音设定、台词和衔接要求。
+- **后期建议**：字幕、BGM、音效和拼接说明。生成画面默认不带文字，字幕后期添加。
 
-<details>
-<summary><strong>Example request</strong></summary>
-
-```text
-Use $directing-stickman-videos to turn this copy into an English stickman video:
-
-Gravity bends space and time so strongly around a black hole that even light cannot escape.
-```
-
-The Skill first asks for the missing aspect ratio, duration, and visual style. It then presents the director's proposal for confirmation before generating any final model prompt.
-
-</details>
-
-## 💡 How to Run Videos at Ultra-Low Cost: Gemini Omni Flash Quickstart Guide
-
-Many creators asking about AI video generation wonder: "How do I actually use the prompts? Will it be expensive?"
-
-**The answer: The cost is close to zero, making daily publishing easy for anyone!**
-
-With remarkable motion coherence and character consistency, Gemini Omni Flash is widely recognized as one of the best AI video models available. On Google's official creative platform, **Google Flow** (`https://labs.google/fx/tools/flow`):
-- **Super affordable per clip**: Generating a 10-second 720P video in Google Flow costs only ~15 credits;
-- **1,000 monthly credits included**: Google AI Pro membership provides 1,000 video credits every month—enough for 60+ 10-second clips, easily covering daily content creation;
-- **Get started for pennies**: Official membership is normally $19.99/month, but affordable access can be obtained through overseas promotional accounts, giving you full access to top-tier video generation (image generation is completely free with no credit deduction);
-- **Step-by-step practical guide**: For a detailed cost-saving guide and Flow setup walkthrough, check out my tutorial: [《Google Flow Walkthrough & Gemini Pro Guide: Unlimited Nano Banana Image Generation + Top Video Model》](https://x.com/CrazyKaomei/status/2093893997223923822?s=20).
+Skill 负责提案和提示词，视频由你在 Flow 等生成工具中制作；无需为 Skill 配置 API 或 MCP。
 
 <!-- readme:install -->
 
-## Install
+## 安装与使用
 
-Clone the repository:
+下面是 Codex 的安装方式：
 
 ```bash
 git clone https://github.com/kaomei/stickman-video-director.git
 cd stickman-video-director
-```
-
-Copy the installable Skill folder into your Codex skills directory:
-
-```bash
 cp -R skills/directing-stickman-videos "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-Restart Codex so the Skill appears in the available-skills list. Then invoke it and paste your source:
+重启 Codex 后，输入：
 
 ```text
 $directing-stickman-videos
+
+主题：别让“想太多”困住你。
+30 秒，16:9，黑底白火柴人，美式男声。
+先给我导演提案，确认后再输出视频提示词。
 ```
+
+也可以试试：
+
+- “一分钟讲清黑洞，白底黑火柴人，9:16，活泼女声。”
+- “30 秒讲希望，风格 2A，16:9，低沉男声。”
+- “《谁偷了我的香蕉？》，风格 3，30 秒，16:9，适合儿童学英语。”
+
+## 提示词怎么用？
+
+在 [Google Flow](https://flow.google.com/) 等支持对应模型的工具中，按顺序提交每段提示词，检查画面与配音后再拼接。字幕可以最后统一添加。
+
+Skill 免费开源，视频生成的费用和可选模型以平台当前界面为准。Flow 的操作步骤可参考[我的使用教程](https://x.com/CrazyKaomei/status/2093893997223923822?s=20)。
 
 <!-- readme:reliability -->
 
-## Built for iteration, honest about generation
+## 使用小贴士
 
-- **Approval stays explicit.** Phase B cannot begin until you approve the current proposal.
-- **Global changes trigger recomposition.** A new ratio, duration, or style rebuilds the direction instead of applying a mechanical text replacement.
-- **Prompts stay independent.** Each prompt repeats the critical locks needed to generate its clip on its own.
-- **Meaning stays grounded.** The Skill may strengthen structure and delivery, but it does not add unsupported claims.
-- **Audio can still vary.** Independent video generations may produce slight voice or music differences. For maximum consistency, keep synchronized SFX from each clip and add one continuous external VO and BGM track during assembly.
+- 人物、道具和旁白设定按整支视频统一；需要换声音时，先在提案里确定。
+- 发现某段人物、道具或声音明显偏离时，针对该段调整和复测，不用重做所有片段。
+- 文案可以改得更有吸引力，但不凭空添加事实、数据或产品效果。
 
-## Repository map
+## 接下来还会更新什么？
 
-```text
-skills/directing-stickman-videos/  Installable Skill
-assets/readme/                     README preview media and style roadmap
-tests/                             Behavioral scenarios and verification scripts
-docs/superpowers/specs/            Approved product designs
-docs/superpowers/plans/            Implementation plans
-```
+继续扩展画风、打磨脚本与案例，并探索更方便的在线预览和提示词选择方式。以下是规划方向，尚未上线：
+
+- **风格 4：2D 火柴人 × 写实 3D 背景** — 虚实反差与奇幻冒险。
+- **风格 5：讲台解说** — 黑板互动与知识讲解。
+- **风格 6：手绘绘本** — 童话、寓言与儿童故事。
+- **风格 7：涂鸦打斗** — 动作短片与连招对决。
+- **风格 8：双人情景喜剧** — 对话、互怼与日常反转。
+- **风格 9：卡牌闯关** — 升级、打怪与游戏叙事。
 
 <!-- readme:contribute -->
 
-## Make it better
+## 你的作品，也可以成为下一个案例
 
-Ideas, examples, prompt improvements, and real-world generation notes are welcome. Open an issue or submit a pull request with a focused change and enough context to reproduce the result.
+欢迎提交作品、想看的画风或具体问题。分享案例时请附上主题、所用风格与作者链接，方便展示和署名。
 
-If you're particularly excited about any style on the roadmap, **leave a comment in an Issue or Star the repository**. Your feedback directly decides which stickman style I prioritize in the next update!
+如果这个 Skill 帮你做出了第一支火柴人视频，欢迎点个 **Star ⭐**。我是烤妹儿，会继续把新画风和好玩的案例做进来。
 
-## License
+## 许可证
 
 MIT

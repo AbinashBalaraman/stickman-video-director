@@ -2,6 +2,8 @@
 
 Load this reference only when a concrete end-to-end example resolves ambiguity. Reuse its workflow and level of detail, not its topic, wording, metaphors, or palette.
 
+All examples follow the shared `voice-continuity.md` contract. Freeze one complete profile per video; different examples may choose different voices. The male block has user listening acceptance for the separate Style 2A Hope test; the female profile below is an illustrative adaptation, not a provider-tested voice. Visual examples are unchanged by this voice-only update.
+
 ## User source
 
 “你是不是也经常这样？明明什么都还没做，但感觉自己已经累坏了。还没迈出第一步，你的脑子里就已经提前演练了一百种失败的结局。别让想太多毁掉你的生活。”
@@ -23,7 +25,7 @@ User: “16:9，60秒，黑底白火柴人。”
 
 **画面规格：** 16:9 横屏、黑色背景、白色火柴人。使用左—中—右横向调度、侧向跟拍、水平匹配剪辑和有意识的负空间。
 
-**旁白：** 明亮、有力量的成年女性；自然美式英语；约 144 词；约 60 秒。
+**旁白：** 成年女性；自然美式英语；清晰温暖的中高音、轻柔前向共鸣，不沙哑、不气声；明快自然、音高变化受控、语速稳定，近距离干声录音。全片固定此声音，情绪递进由画面和音乐承担；约 144 词；约 60 秒。
 
 **强调色：**
 
@@ -72,7 +74,7 @@ The moment you move, fear loses power. Stop waiting to feel ready. Try, make mis
 - Pure black background with white stick figures and white line art.
 - Circular head, no face, no hair, no clothing, stable proportions, uniform medium line weight.
 - Saturated anxiety violet, vivid danger red, and warm action gold; use natural-language color names only.
-- Bright, energetic adult female narrator with natural American English.
+- Adult female, General American, clear warm mid-high voice, gentle forward resonance, no rasp/breathiness, lively conversational delivery with controlled pitch variation, steady pace, close dry studio sound. Repeat the full profile below verbatim in all six clips.
 - Stage action across left, center, and right; use lateral tracking, horizontal match cuts, and deliberate negative space.
 - Use rapid scene changes, kinetic motion-graphic transformations, and frequent visual events, while preserving an identical stick-figure design, constant line weight, and strict temporal consistency.
 - Generate no visible writing. Keep every card, bubble, clock, meter, notification, and interface element icon-only; add optional phrases in post-production.
@@ -92,7 +94,9 @@ First frame: A stands alone with lowered shoulders in empty black space.
 
 Audio-only dialogue, exactly once: “Do you ever feel exhausted before you have even begun? Nothing has happened yet, but your mind is already carrying a hundred imaginary disasters.” Do not display or transcribe the dialogue visually.
 
-Use the same bright, energetic adult female narrator with natural American English. Deliver this opening with urgent empathy. Use restrained minor-key piano around 72 BPM, a clock tick, electrical pulse, battery-drain sound, and rising low rumble; keep the voice dominant.
+One off-screen adult female narrator throughout. General American accent, clear warm mid-high voice, gentle forward resonance, no raspiness or breathiness. Lively conversational delivery, controlled pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Music/SFX: Use restrained minor-key piano around 72 BPM, a clock tick, electrical pulse, battery-drain sound, and rising low rumble; keep the voice dominant.
 
 Do not generate photorealism, unwanted 3D rendering, faces, hair, clothing, filled bodies, extra limbs, malformed anatomy, disconnected lines, changed proportions, broken or changing line weight, inverted theme colors, unexplained colors, unintended characters, unrelated spectacle, visible writing, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks. Do not alter, omit, repeat, reorder, or add dialogue.
 ```
@@ -112,7 +116,9 @@ First frame: begin inside the same full-frame rotating violet line tangle that e
 
 Audio-only dialogue, exactly once: “Before the first step, you picture failure, judgment, rejection, and every possible way things could go wrong. Your thoughts turn possibilities into prisons.” Do not display or transcribe the dialogue visually.
 
-Use the same bright, energetic adult female narrator with natural American English. Increase intensity without changing voice identity. Continue restrained piano; add rushing wind, a fall impact, nonverbal crowd whispers, two stamp hits, and a metal prison slam. Keep narration dominant.
+One off-screen adult female narrator throughout. General American accent, clear warm mid-high voice, gentle forward resonance, no raspiness or breathiness. Lively conversational delivery, controlled pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Music/SFX: Continue restrained piano; add rushing wind, a fall impact, nonverbal crowd whispers, two stamp hits, and a metal prison slam. Keep narration dominant.
 
 Do not generate photorealism, unwanted 3D rendering, faces, hair, clothing, filled bodies, extra limbs, malformed anatomy, disconnected lines, changed proportions, broken or changing line weight, inverted theme colors, unexplained colors, unintended characters, unrelated spectacle, visible writing, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks. Do not alter, omit, repeat, reorder, or add dialogue.
 ```
@@ -132,7 +138,9 @@ First frame: inherit the same red prison bars twisting downward from Clip 2.
 
 Audio-only dialogue, exactly once: “Then come the questions: What if I fail? What will people think? The more you search for certainty, the tighter fear wraps around your feet.” Do not display or transcribe the dialogue visually.
 
-Use the same bright, energetic adult female narrator with natural American English. Emphasize the questions anxiously, then become firm. Add accelerating heartbeat, vine creaks, treadmill friction, nonverbal whispers, rotating wind, and a clean gold cutting sound; keep voice dominant.
+One off-screen adult female narrator throughout. General American accent, clear warm mid-high voice, gentle forward resonance, no raspiness or breathiness. Lively conversational delivery, controlled pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Music/SFX: Add accelerating heartbeat, vine creaks, treadmill friction, nonverbal whispers, rotating wind, and a clean gold cutting sound; keep voice dominant.
 
 Do not generate photorealism, unwanted 3D rendering, faces, hair, clothing, filled bodies, extra limbs, malformed anatomy, disconnected lines, changed proportions, broken or changing line weight, inverted theme colors, unexplained colors, unintended characters, irrelevant effects, visible writing, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks. Do not alter, omit, repeat, reorder, or add dialogue.
 ```
@@ -152,7 +160,9 @@ First frame: inherit the same gold beam crossing the full frame from Clip 3.
 
 Audio-only dialogue, exactly once: “But reality is rarely what hurts you most. It is the future your mind keeps inventing. Action does not require confidence; confidence follows action.” Do not display or transcribe the dialogue visually.
 
-Use the same bright, energetic adult female narrator with natural American English. Begin calmly and grow confident. Warm the piano harmony; add running footsteps, a restrained trip impact, reconstruction clicks, glass breaks, and a rising pulse. Keep narration dominant.
+One off-screen adult female narrator throughout. General American accent, clear warm mid-high voice, gentle forward resonance, no raspiness or breathiness. Lively conversational delivery, controlled pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Music/SFX: Warm the piano harmony; add running footsteps, a restrained trip impact, reconstruction clicks, glass breaks, and a rising pulse. Keep narration dominant.
 
 Do not generate injury, photorealism, unwanted 3D rendering, faces, hair, clothing, filled bodies, extra limbs, malformed anatomy, disconnected lines, changed proportions, broken or changing line weight, inverted theme colors, unexplained colors, unintended characters, visible writing, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks. Reconstruct B exactly. Do not alter, omit, repeat, reorder, or add dialogue.
 ```
@@ -172,7 +182,9 @@ First frame: inherit the same full-frame glass-fragment wipe from Clip 4. As it 
 
 Audio-only dialogue, exactly once: “So interrupt the loop. Choose one tiny move and do it now. Send the message, open the document, take the first imperfect step.” Do not display or transcribe the dialogue visually.
 
-Use the same bright, energetic adult female narrator with natural American English and decisive energy. Switch to an uplifting 108 BPM beat with driving percussion and warm synth. Add energy charge, vine snap, whoosh, send sound, keyboard taps, and a rising step sound that pauses before impact. Keep narration dominant.
+One off-screen adult female narrator throughout. General American accent, clear warm mid-high voice, gentle forward resonance, no raspiness or breathiness. Lively conversational delivery, controlled pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Music/SFX: Switch to an uplifting 108 BPM beat with driving percussion and warm synth. Add energy charge, vine snap, whoosh, send sound, keyboard taps, and a rising step sound that pauses before impact. Keep narration dominant.
 
 Do not generate photorealism, unwanted 3D rendering, faces, hair, clothing, filled bodies, extra limbs, malformed anatomy, disconnected lines, changed proportions, broken or changing line weight, inverted theme colors, unexplained colors, unintended characters, irrelevant effects, visible writing, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks. Do not alter, omit, repeat, reorder, or add dialogue.
 ```
@@ -192,7 +204,9 @@ First frame: inherit A’s raised right foot in the same lower-right foreground 
 
 Audio-only dialogue, exactly once: “The moment you move, fear loses power. Stop waiting to feel ready. Try, make mistakes, grow—and prove your thoughts do not control your life.” Do not display or transcribe the dialogue visually.
 
-Use the same bright, energetic adult female narrator with natural American English, warmth, and conviction. Continue the 108 BPM music with stronger drums, uplifting strings, and bright synth. Add foot impact, energy wave, star sounds, folding-paper motion, climbing steps, and a resolved final hit. Keep narration dominant.
+One off-screen adult female narrator throughout. General American accent, clear warm mid-high voice, gentle forward resonance, no raspiness or breathiness. Lively conversational delivery, controlled pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Music/SFX: Continue the 108 BPM music with stronger drums, uplifting strings, and bright synth. Add foot impact, energy wave, star sounds, folding-paper motion, climbing steps, and a resolved final hit. Keep narration dominant.
 
 Do not generate photorealism, unwanted 3D rendering, faces, hair, clothing, filled bodies, extra limbs, malformed anatomy, disconnected lines, changed proportions, broken or changing line weight, inverted theme colors, unexplained colors, unintended characters, unrelated objects, visible writing, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks. Do not alter, omit, repeat, reorder, or add dialogue.
 ```
@@ -210,7 +224,7 @@ Trim duplicate transition holds and use very short audio crossfades at each cut.
 
 ### Voice and music continuity
 
-Independent text-only generations may vary slightly. Reuse the same voice or audio reference when available and repeat the identical narrator description in all prompts. For maximum consistency, keep the synchronized SFX from each clip but add one continuous external English voiceover and BGM track during final assembly.
+First verify that all six full voice blocks are identical and no scene-specific voice direction contradicts them. Follow `voice-continuity.md` for listening checks and authorized voice-only retesting. Voice/audio references or one external VO/BGM track are optional further controls, not prerequisites. Do not infer an audio pass from a complete prompt package.
 
 ---
 
@@ -232,7 +246,9 @@ Timed Synchronized Visual Beats:
 [3–7s] (VO: "But skill is rarely the ceiling."): Zeke lands on his feet, rubs his red beanie thoughtfully, and reaches his black stick hand upward to touch the glass. He discovers the glass has no frame or pillars—it simply floats in mid-air.
 [7–10s] (VO: "What truly blocks you is an invisible rule you never questioned."): Zeke taps his sneaker firmly on the grid floor, sending an expanding glowing cyan circular pulse wave across the room, illuminating a floating cyan padlock icon on the glass panel.
 
-Audio: Voiceover clearly audible over quiet, thoughtful piano and subtle soft ambient synth. Narrator: confident, articulate, warm young adult American male voice, natural conversational storytelling tone, voice-first mix, audio voiceover only, strictly no speech bubbles or dialogue boxes.
+One off-screen adult male narrator throughout. General American accent, warm clean baritone, medium-low pitch, gentle chest resonance, no raspiness or breathiness. Calm conversational delivery, restrained pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Audio: Voiceover clearly audible over quiet, thoughtful piano and subtle soft ambient synth. Voice-first mix, audio voiceover only, strictly no speech bubbles or dialogue boxes.
 
 Negative constraints: strictly minimalist studio aesthetic, no circuit board textures, no sci-fi wall panels, no cracked concrete, no photorealistic faces, no complex 3D rendering.
 ```
@@ -251,7 +267,9 @@ Timed Synchronized Visual Beats:
 [3–7s] (VO: "and mistake comfort for our outer limit."): Zeke pauses at the edge, points the light-pen forward into mid-air, and smoothly sweeps his arm to draw a crisp, luminous cyan beam line forward, turning empty air into a solid glowing bridge path.
 [7–10s] (VO: "Every breakthrough starts by testing what feels impossible."): Zeke tests the glowing line bridge with one cautious foot, finds it solid, and takes three brisk, confident running strides across it into the open white space, looking ahead with determination.
 
-Audio: Voiceover seamlessly continues the identical quiet, thoughtful piano and subtle soft ambient synth from clip 1, maintaining identical tempo and optimistic narrative momentum. Identical narrator: confident, articulate, warm young adult American male voice, natural conversational storytelling tone, voice-first mix, audio voiceover only, strictly no speech bubbles or dialogue boxes. Synchronized clean audio effects: soft electronic hum of the pen, crisp glass footsteps.
+One off-screen adult male narrator throughout. General American accent, warm clean baritone, medium-low pitch, gentle chest resonance, no raspiness or breathiness. Calm conversational delivery, restrained pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Audio: Voiceover seamlessly continues the identical quiet, thoughtful piano and subtle soft ambient synth from clip 1, maintaining identical tempo and optimistic narrative momentum. Voice-first mix, audio voiceover only, strictly no speech bubbles or dialogue boxes. Synchronized clean audio effects: soft electronic hum of the pen, crisp glass footsteps.
 
 Negative constraints: strictly minimalist studio aesthetic, no circuit board textures, no sci-fi wall panels, no cracked concrete, no photorealistic faces, no 3D humanoid models.
 ```
@@ -270,7 +288,9 @@ Timed Synchronized Visual Beats:
 [3–7s] (VO: "The moment you challenge the boundary, it begins to open."): Zeke places his black stick hand firmly onto the center glowing cyan circle. The three concentric rings pulse with bright electric blue light, rotate smoothly, unlock with a heavy mechanical resonance, and the heavy white circular door rolls outward.
 [7–10s] (VO: "Take the step—your real ceiling is just your imagination."): Zeke strides boldly through the open vault portal into a flood of radiant, pristine warm white horizon light, pumping his fist upward in triumphant release as the camera tracks him forward.
 
-Audio: Voiceover seamlessly continues the identical quiet, thoughtful piano and subtle soft ambient synth from clip 1, swelling with uplifting strings and rhythmic low bass into an inspiring resolution. Identical narrator: confident, articulate, warm young adult American male voice, natural conversational storytelling tone, voice-first mix, audio voiceover only, strictly no speech bubbles or dialogue boxes. Synchronized SFX: futuristic electronic chime on touch, heavy vault door hiss and mechanical roll, warm ambient shimmer.
+One off-screen adult male narrator throughout. General American accent, warm clean baritone, medium-low pitch, gentle chest resonance, no raspiness or breathiness. Calm conversational delivery, restrained pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+
+Audio: Voiceover seamlessly continues the identical quiet, thoughtful piano and subtle soft ambient synth from clip 1, swelling with uplifting strings and rhythmic low bass into an inspiring resolution. Voice-first mix, audio voiceover only, strictly no speech bubbles or dialogue boxes. Synchronized SFX: futuristic electronic chime on touch, heavy vault door hiss and mechanical roll, warm ambient shimmer.
 
 Negative constraints: strictly minimalist studio aesthetic, no circuit board textures, no sci-fi wall panels, no cracked concrete, no photorealistic faces, no 3D humanoid models.
 ```

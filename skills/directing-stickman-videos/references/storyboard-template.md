@@ -25,11 +25,11 @@ Present these items in order:
 1. English title and reference-language title
 2. Core message and opening hook
 3. Chosen aspect ratio (`16:9` or `9:16`), target duration (in 10s multiples), and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, or Style 2B Cinematic Story)
-4. Narrator identity, speaking pace, English word count, and estimated duration
+4. Narrator's complete video-level voice profile from `voice-continuity.md` (identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment), English word count, and estimated duration
 5. Up to three saturated accent colors (for Style 1) or visual palette/environment mood (for Style 2), named in ordinary language, and what each represents
 6. BGM direction, emotional turn, tone, and narrative arc
 
-Default the narrator only after required setup is complete: a bright, energetic adult female voice (or warm young adult American male voice) speaking natural American English. Infer tone and palette from the source when the user did not specify them.
+Default the narrator only after required setup is complete: propose a source-appropriate female, male or other coherent voice profile for approval, not a mandatory universal baritone. Expand short preferences such as "male voice" into the complete fields in `voice-continuity.md`. Different videos may choose different voices, but one video's clips share its frozen profile. Separate the narrative emotional arc from stable vocal identity and delivery. Infer tone and palette from the source when the user did not specify them.
 
 ## Narrative patterns: High-Completion 5-Stage Heartbeat Engine
 
@@ -143,3 +143,4 @@ Do not include final model prompts. A global change invalidates approval and req
 - Every adjacent pair has a named continuity connection.
 - The ending returns to the central message and CTA.
 - No unsupported factual detail was added.
+- One complete voice profile is proposed for the whole video, independent of visual style; scene-specific audio notes do not contradict it. Any approved multiple speakers have separate stable profiles and explicit line assignments.
