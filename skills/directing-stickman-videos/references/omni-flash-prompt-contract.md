@@ -4,6 +4,8 @@ Use this contract only after explicit approval of the current Phase A. Refer to 
 
 Style 3 (Prehistoric Hand-Drawn / Dark Comedy): read `prehistoric-dark-comedy.md` and apply its override rules. Repeat the full approved cast descriptions for all visible roles, white filled heads, expressive cartoon faces, hair/clothing, earthy setting and layout in every prompt. Do not apply generic face/hair/texture bans or idle bans to its deliberate reaction beats. Use story-appropriate music instead of mandatory piano. Explicitly identify intended time jumps; otherwise match adjacent states. Technical output specs are targets, not guarantees of interface capabilities.
 
+Style 4 (Cozy Storytelling / 治愈故事风): read `cozy-storytelling.md`. Repeat full character and voice anchors, but give each segment its approved new setting. Describe each scene opening as a recognizable new location, then connect action/prop/screen direction or a named time cut. Do not repeat one global room layout, inherit Style 1's no-face/filled-body bans, or require hand-drawn/paper aesthetics. Keep movable-object appearance separate from initial positions and timed state changes.
+
 ## Production package order
 
 Deliver these sections in order:
@@ -15,7 +17,7 @@ Deliver these sections in order:
 
 ## Global continuity block
 
-State the chosen aspect ratio (`16:9` or `9:16`), target duration, selected visual style (Style 1 Classic, Style 2A Studio Tech, or Style 2B Cinematic Story), character anchor design, palette or environment definition, narrator identity, audio arc, and continuity strategy. Treat this block as a review summary; each prompt still repeats all critical locks.
+State the chosen aspect ratio (`16:9` or `9:16`), target duration, selected visual style (Style 1 Classic, Style 2A Studio Tech, Style 2B Cinematic Story, Style 3 Prehistoric, or Style 4 Cozy Storytelling), character anchor design, palette or environment definition, narrator identity, audio arc, and continuity strategy. Treat this block as a review summary; each prompt still repeats all critical locks.
 
 ## Standalone prompt order
 
@@ -27,11 +29,13 @@ Write every prompt in this order:
    - For Style 1 Dark: flat, uniform, pitch-black canvas with pure white line art
    - For Style 2A (Studio Tech): modern bright white studio space with subtle light-gray perspective grid lines on the floor plane, high-key lighting, clean white negative space, sleek glowing cyan/blue glass elements
    - For Style 2B (Cinematic Story): rich full-color cinematic environment with volumetric lighting and depth of field
+   - For Style 4 (Cozy Storytelling): full-color 2D cartoon environment and a segment-specific setting, with varied wide/close/moving shots; new segment means an intentional scene change unless otherwise approved
 3. Character lock:
    - For Style 1: repeat the concise frozen character anchor from `style-catalog.md`, including the chosen polarity and expression setting; no "same character" shortcuts, numeric anatomy recipes, skeleton/rig definitions or pen paths. Keep the circular head hollow, proportions and line weight stable, and only the current pose of each of the two arms and two legs. A raised arm replaces its old lowered line. Keep accents on props/graphics, never recolor the figure. Do not let action or camera wording redefine the drawing; preserve rich motion and effects separately.
    - For Style 2 (Modern Beanie Zeke):
      - First clip: `A minimalist 2D animated stick figure wearing a bright red beanie (smooth knit, no pom-pom) and a yellow t-shirt, with simple black stick limbs and shorts. Simple black lines, vibrant colors, smooth 2D animation style.`
      - Subsequent clips: `The same minimalist 2D animated stick figure in a bright red beanie and yellow shirt... Simple black lines, vibrant colors, smooth 2D animation style.`
+   - For Style 4: repeat its full frozen character anchor from `cozy-storytelling.md`, including white head/torso fill, dark limbs and simple facial marks. Location and expression changes do not redesign the character.
 4. Palette and accent roles (expressed only with ordinary color names, no hex or technical codes)
 5. Composition strategy for the chosen ratio (`16:9` or `9:16`)
 6. First-frame state inherited from the previous clip
@@ -81,7 +85,7 @@ Use ordinary descriptive color names such as vivid red, electric blue, or warm g
 
 ## Audio continuity contract
 
-Use the shared contract in `voice-continuity.md` for Style 1 Light/Dark, Style 2A, Style 2B and Style 3. Choose voices per video, not per clip. Every standalone prompt carries its own full voice and music instructions:
+Use the shared contract in `voice-continuity.md` for Style 1 Light/Dark, Style 2A, Style 2B, Style 3 and Style 4. Choose voices per video, not per clip. Every standalone prompt carries its own full voice and music instructions:
 
 1. **Narrator Lock**: Resolve one complete approved profile, then repeat its frozen English block verbatim across all N prompts. Use the accepted male block or build another coherent profile; do not force all videos into one voice. "Same narrator" and "continue the voice from clip 1" alone are insufficient. Separate voice identity/delivery/recording treatment from the emotional and musical arc; no scene-specific timbre changes or switches into character dialogue unless explicitly approved.
 2. **BGM Lock**:
@@ -107,7 +111,7 @@ Forbid:
 
 ## Stitching guide
 
-List all N clips in order. For every cut, repeat the exact ending state and matching opening state. Include any trim, short audio crossfade, or match-cut note needed for assembly.
+List all N clips in order. For every cut, repeat the ending state and its continuing action/prop/direction, or state the approved location/time change. Style 4 changes scenery intentionally rather than requiring identical backgrounds. Include any trim, short audio crossfade, or match-cut note needed for assembly; inspect actual generated joins rather than assuming requested wipes landed on the last frame.
 
 ## Audio continuity note
 
@@ -124,7 +128,7 @@ Start with prompt-level consistency, rather than immediately routing voice drift
 - Each prompt repeats ratio (`16:9` or `9:16`), style/theme, character, palette, voice, audio, transition, and negative locks.
 - Style 1 prompts repeat one identical full character block and contain no contradictory appearance instructions. Simple-expression allowance agrees with the negative constraints. Generated consistency is checked separately from prompt compliance.
 - Each prompt has all three timed beats and at least four relevant visual devices.
-- Every ending matches the next opening.
+- Every ending connects to the next opening through a planned action/prop/direction or an approved location/time cut. Style 4 does not repeat one room unless requested.
 - Dialogue exactly matches the approved narration.
 - Dialogue is explicitly audio-only and is never displayed visually.
 - Standalone prompts contain no hexadecimal, RGB, HSL, Pantone, or other technical color notation.
