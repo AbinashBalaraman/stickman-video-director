@@ -1,6 +1,6 @@
 ---
 name: directing-stickman-videos
-description: Use when turning copy, notes, articles, or topics into customizable-length English stick-figure videos (in 10-second multiples: 30s, 60s, 3min, 5min, default 60s), kinetic line-animation explainers, motivational shorts, or Gemini Omni Flash prompt packages.
+description: "Use when turning copy, notes, articles, or topics into customizable-length English stick-figure videos (in 10-second multiples: 30s, 60s, 3min, 5min, default 60s), kinetic line-animation explainers, motivational shorts, or Gemini Omni Flash prompt packages."
 ---
 
 # Directing Stickman Videos
@@ -50,7 +50,7 @@ For Style 3, read `references/prehistoric-dark-comedy.md` before planning. Its c
 - Scale English VO word count to approximately 20–25 words per 10-second clip across N clips (e.g. ~60–75 words for 30s / 3 clips, ~120–150 words for 60s / 6 clips, ~360–450 words for 3min / 18 clips, ~600–750 words for 5min / 30 clips).
 - Give each clip three timed beats, at least four relevant visual devices, and a visual change every two to three seconds.
 - Keep character proportions, line weight, style, and narrator consistent across all clips.
-- For Style 1, freeze the full character anchor from `references/style-catalog.md` and repeat it verbatim in every clip. Do not replace it with "same character", ellipses, numeric anatomy recipes or clip-specific appearance descriptions. Occasional simple line expressions are allowed; head fill and body topology stay unchanged. Treat generated consistency as a visual acceptance check, not a guarantee from repeated text.
+- For Style 1, freeze the concise character anchor from `references/style-catalog.md` and repeat it verbatim in every clip. Keep two arms and two legs, one current pose per limb, stable proportions and uniform medium line weight; a moving arm replaces its previous pose rather than adding another arm. Keep the figure monochrome and saturated accents on props/graphics. Do not replace the anchor with "same character", ellipses, numeric anatomy recipes, skeleton/path instructions or clip-specific appearance descriptions. Occasional simple line expressions are allowed; the head remains hollow. Keep rich actions and effects separate from character design. Treat generated consistency as a visual acceptance check, not a guarantee from repeated text.
 - For Style 1, limit the video to three saturated accent colors named with ordinary descriptive words (e.g. vivid red, electric blue, warm gold). For light theme, enforce a flat, digitally pure-white canvas with no textures, gradients, or 3D depth.
 - For Style 2 (Modern Beanie Zeke), enforce character consistency:
   - Clip 1: `A minimalist 2D animated stick figure wearing a bright red beanie (smooth knit, no pom-pom) and a yellow t-shirt, with simple black stick limbs and shorts. Simple black lines, vibrant colors, smooth 2D animation style.`

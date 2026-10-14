@@ -28,7 +28,7 @@ Write every prompt in this order:
    - For Style 2A (Studio Tech): modern bright white studio space with subtle light-gray perspective grid lines on the floor plane, high-key lighting, clean white negative space, sleek glowing cyan/blue glass elements
    - For Style 2B (Cinematic Story): rich full-color cinematic environment with volumetric lighting and depth of field
 3. Character lock:
-   - For Style 1: repeat the full frozen character anchor from `style-catalog.md`, including the chosen polarity and expression setting; no "same character" shortcuts or rephrased anatomy. Keep all body lines connected and the circular head unfilled. Do not let action or camera wording redefine the drawing.
+   - For Style 1: repeat the concise frozen character anchor from `style-catalog.md`, including the chosen polarity and expression setting; no "same character" shortcuts, numeric anatomy recipes, skeleton/rig definitions or pen paths. Keep the circular head hollow, proportions and line weight stable, and only the current pose of each of the two arms and two legs. A raised arm replaces its old lowered line. Keep accents on props/graphics, never recolor the figure. Do not let action or camera wording redefine the drawing; preserve rich motion and effects separately.
    - For Style 2 (Modern Beanie Zeke):
      - First clip: `A minimalist 2D animated stick figure wearing a bright red beanie (smooth knit, no pom-pom) and a yellow t-shirt, with simple black stick limbs and shorts. Simple black lines, vibrant colors, smooth 2D animation style.`
      - Subsequent clips: `The same minimalist 2D animated stick figure in a bright red beanie and yellow shirt... Simple black lines, vibrant colors, smooth 2D animation style.`
@@ -96,7 +96,7 @@ Forbid:
 - facial features (pupils, realistic eyes, lips) or hair unless approved
 - extra limbs, malformed anatomy, disconnected lines, or changed proportions
 - broken or changing line weight
-- **For Style 1**: do not reject allowed occasional simple line expressions as character drift; filled heads, body silhouettes, separate hand/foot shapes and detached body lines remain failures. Inspect actual footage before accepting consistency.
+- **For Style 1**: do not reject allowed occasional simple line expressions as character drift; filled heads, sudden head/body proportion changes, duplicated/retained limb poses, body silhouettes, separate hand/foot shapes and detached body lines remain failures. Inspect actual footage at reaches, releases, turns and walking poses, and compare clips. State the scope of inspection: sparse keyframes cannot prove the absence of brief errors.
 - inverted theme polarity or unexplained colors
 - unintended characters or irrelevant spectacle
 - visible words, letters, numbers, technical color notation, palette labels, interface copy, captions, subtitles, logos, or watermarks
