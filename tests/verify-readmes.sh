@@ -108,7 +108,7 @@ for readme in "${readmes[@]}"; do
         exit 1
       }
     done
-    for token in 'assets/readme/style-3-community-fire.gif' '[X：@monixin888](https://x.com/monixin888/status/2109651037850325112)' '案例 1 —— 人类的第一份工作是怎么来的？' 'WorkBuddy'; do
+    for token in 'assets/readme/style-3-community-fire.gif' '[X：@monixin888](https://x.com/monixin888/status/2109651037850325112)' '案例 1：《人类的第一份工作是怎么来的？》' 'WorkBuddy'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing community example token: %s\n' "$readme" "$token" >&2
         exit 1
