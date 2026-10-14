@@ -75,7 +75,7 @@
 
 | 案例 1：通勤路上的消息焦虑 | 案例 2：把时间留给自己 |
 |:---:|:---:|
-| <img src="assets/readme/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="600"> | <img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="600"> |
+| <img src="assets/readme/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="400"> | <img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="400"> |
 | 地铁站 · 行走跟拍 · 情绪近景 | 露天咖啡座 · 暖光树影 · 日常动作 |
 
 - **画面特点**：白色实心圆头与简洁身体、深色细肢体、自然的小表情，搭配彩色卡通场景和全景、近景、跟拍等镜头。
