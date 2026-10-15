@@ -35,7 +35,9 @@ assert cn.count('<div align="center">') == cn.count("</div>")
 for removed in ("样片同款主题，直接试", "example-overthinking", "展开看已有导演预案节选", "你给的内容："):
     assert removed not in cn, "Removed example must not leave text or dangling links"
 assert (root / "skills/directing-stickman-videos/references/examples.md").exists()
-assert cn.index("## 使用小贴士") < cn.index("选横屏还是竖屏？查看平台、比例与内容建议") < cn.index("## 最近更新")
+tips = cn.split("## 使用小贴士", 1)[1].split("## 最近更新", 1)[0]
+assert "<details>" not in tips and "<summary>" not in tips
+assert tips.index("**选横屏还是竖屏？**") < tips.index("| 比例 | 适合平台 | 构图重点 |") < tips.index("- 人物、道具和旁白设定")
 
 for link in re.findall(r"\]\(([^)]+)\)", cn):
     if "://" not in link and not link.startswith("#"):
