@@ -6,10 +6,17 @@
 
 # 火柴人画风大全
 
-**选个画风，给段文案，做你的第一支火柴人动画。**<br>
 <sub>Stickman Video Director · AI Stickman Animation</sub>
 
+给一段文案，生成火柴人动画的脚本、分镜和配音提示词。<br>
+用于 YouTube、TikTok、Reels，也适合做双语英语账号。
+
+我正在把全网值得做的火柴人画风，逐个实测、逐个开源。<br>
+**以后想做火柴人动画，来这里挑画风就够了。**
+
 **4 大画风 · 6 种视觉方案 · 实测样片 · 免费开源**
+
+**[开始使用](#quick-start) · [查看全部画风](#style-gallery) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)**
 
 <table width="100%">
 <tr>
@@ -34,21 +41,12 @@
 </tr>
 </table>
 
-做 YouTube 知识频道、TikTok 故事短片，或自己的双语英语账号。<br>
-脚本、分镜、运镜、配音和音效提示词，这里一起准备好。
-
-**[开始使用](#quick-start) · [查看全部画风](#style-gallery) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)**
-
 ⭐ **先收藏，下次做火柴人动画不用再到处找提示词。**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
 </div>
-
-我正在把全网值得做的火柴人画风，逐个实测、逐个开源。目标很直接：**以后想做火柴人动画，来这里挑画风就够了。**
-
-每种已上线的画风都附有样片和可复用的导演规则；新画风测试后再加入。
 
 <!-- readme:demos -->
 
