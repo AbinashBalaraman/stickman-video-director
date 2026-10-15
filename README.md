@@ -6,30 +6,29 @@
 
 # 火柴人画风大全
 
-**Stickman Video Director · AI Stickman Animation**
-
-### 选个画风，给段文案，做你的第一支火柴人动画。
+**选个画风，给段文案，做你的第一支火柴人动画。**<br>
+<sub>Stickman Video Director · AI Stickman Animation</sub>
 
 **4 大画风 · 6 种视觉方案 · 实测样片 · 免费开源**
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/light-theme-demo.gif" alt="黑白极简火柴人动画：白底黑线、动态科普" width="100%"></a><br>
+<a href="#style-gallery"><img src="assets/readme/light-theme-demo.gif" alt="黑白极简火柴人动画：白底黑线、动态科普" width="90%"></a><br>
 <strong>黑白极简</strong> · 知识科普
 </td>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="100%"></a><br>
+<a href="#style-gallery"><img src="assets/readme/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a><br>
 <strong>潮酷科技</strong> · AI 与产品解说
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="100%"></a><br>
+<a href="#style-gallery"><img src="assets/readme/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a><br>
 <strong>史前黑色幽默</strong> · 脑洞故事
 </td>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="100%"></a><br>
+<a href="#style-gallery"><img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a><br>
 <strong>治愈故事</strong> · 生活与成长
 </td>
 </tr>
