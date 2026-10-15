@@ -8,18 +8,14 @@
 
 **将任何想法变成一部高质量的、稳定画风火柴人视频。**
 
-<sub>Stickman Video Director · AI Stickman Animation</sub>
-
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
 </div>
 
-我正在把全网热门的火柴人画风，逐个实测、整理开源。**以后想做火柴人动画，来这里挑画风就够了。**
+我把全网所有热门的火柴人画风，逐个实测并整理开源出来。安装好 Skill 后，你只需要给一个话题，就能拿到动画脚本、动态分镜，以及配音和音效提示词。
 
-给一个话题或一段文案，就能拿到动画脚本、动态分镜，以及配音和音效提示词。
-
-适用于 **YouTube 知识讲解、TikTok、职场励志、教育科普和快节奏情感故事。**
+**以后想做火柴人动画，来这里挑画风就够了——**适用于 **YouTube 知识讲解、TikTok、职场励志、教育科普和快节奏情感故事。**
 
 <table width="100%">
 <tr>
