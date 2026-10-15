@@ -162,7 +162,7 @@ https://github.com/kaomei/stickman-video-director
 安装后，把话题、文案或文章直接发给 AI，例如：
 
 ```text
-帮我做一个关于“为什么越晚，越舍不得睡”的火柴人视频。
+帮我做一个《人类的第一份工作是怎么来的？》的火柴人视频。
 ```
 
 ### 3. 跟着引导，确认提案
@@ -173,15 +173,15 @@ https://github.com/kaomei/stickman-video-director
 
 > **AI：** 想做横屏 `16:9` 还是竖屏 `9:16`？画风选黑白极简、现代潮酷、史前黑色幽默，还是治愈故事风？不指定时长就按 60 秒制作。
 
-> **你：** 横屏，治愈故事风，30 秒。
+> **你：** 横屏，风格 3 史前黑色幽默，30 秒。
 
 > **AI：** 先看导演提案（节选）：
 >
-> **故事走向：** 深夜卧室里舍不得放下手机 → 第二天通勤时困得睁不开眼 → 傍晚主动留一点时间给自己，不再全等到深夜。
+> **故事走向（虚构职场故事）：** 原始人搬石头换晚饭 → 第二天石头翻倍，饭还是那一份 → 酋长吃着饭监督，他抱着石头愣住。
 >
-> **首段英文旁白：** “You promised yourself one more video. Now you're tired, but putting the phone down feels like ending the only time that was yours.”
+> **首段英文旁白：** “One caveman wanted dinner. The chief offered a deal: move these rocks, and you can eat. He didn't mention the rocks arriving tomorrow.”
 >
-> **中文参考：** “你说好再看一个视频。明明已经困了，可放下手机，就像结束了一天里唯一属于自己的时间。”
+> **中文参考：** “一个原始人想吃晚饭。酋长说：搬完这些石头，就有饭吃。但他没提，明天还有石头。”
 >
 > 完整提案还会列出各段分镜、运镜和声音设计。你想先改哪里，还是按这版继续？
 
