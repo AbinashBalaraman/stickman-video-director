@@ -211,7 +211,7 @@ https://github.com/kaomei/stickman-video-director
 
 ## 下一种火柴人，你来点
 
-想看哪种画风？到 [Issues](https://github.com/kaomei/stickman-video-director/issues) 留下参考和想做的主题。下面这些正在计划中，尚未上线：
+下面这些画风正在计划中，尚未上线：
 
 - **虚实融合场景** — 继续探索 2D 火柴人与更丰富环境的搭配。
 - **风格 5：讲台解说** — 黑板互动与知识讲解。
@@ -220,13 +220,13 @@ https://github.com/kaomei/stickman-video-director
 - **风格 8：双人情景喜剧** — 对话、互怼与日常反转。
 - **风格 9：卡牌闯关** — 升级、打怪与游戏叙事。
 
-也欢迎在 [Issues](https://github.com/kaomei/stickman-video-director/issues) 提交作品或具体问题。分享案例时请附上主题、所用风格与作者链接，方便展示和署名。
+想看新画风、分享作品或反馈问题，都欢迎到 [Issues](https://github.com/kaomei/stickman-video-director/issues) 留言。画风建议请附参考和想做的主题；投稿请附作品、所用风格与作者链接，方便展示和署名。
 
 ## Star 增长曲线
 
-⭐ **点个 Star，把这份画风大全收进工具箱。新画风会继续更新，也欢迎来交作业。**
+⭐ **如果这份画风库帮你省下了找提示词、反复试错的时间，欢迎点个 Star，留着下次做动画时用。**
 
-我是[烤妹儿](https://x.com/CrazyKaomei)，会继续实测新画风、分享制作教程，也把大家做出的好作品放进来。
+我是[烤妹儿](https://x.com/CrazyKaomei)，会继续实测新画风，把好用的提示词、制作方法和踩过的坑免费整理在这里。希望你少花时间折腾工具，多留一点时间给真正想讲的故事。
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">
