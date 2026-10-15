@@ -4,24 +4,55 @@
 
 [**简体中文**](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
 
-# Stickman Video Director
+# 火柴人画风大全
 
-### 给一段文案，让火柴人把你的故事演出来。
+**选个画风，给段文案，做你的第一支火柴人动画。**<br>
+<sub>Stickman Video Director · AI Stickman Animation</sub>
 
-不用从零琢磨分镜。这个 Skill 帮你改写英文旁白、设计动态画面，再输出可直接用于 Gemini Omni Flash 的视频提示词。
+**4 大画风 · 6 种视觉方案 · 实测样片 · 免费开源**
 
-![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
-![Gemini Omni Flash](https://img.shields.io/badge/Gemini-Omni%20Flash-6d28d9?style=flat-square)
-![自由时长](https://img.shields.io/badge/Video-Custom%20Duration-0066ff?style=flat-square)
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<a href="#style-gallery"><img src="assets/readme/light-theme-demo.gif" alt="黑白极简火柴人动画：白底黑线、动态科普" width="90%"></a><br>
+<strong>黑白极简</strong> · 知识科普
+</td>
+<td width="50%" align="center">
+<a href="#style-gallery"><img src="assets/readme/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a><br>
+<strong>潮酷科技</strong> · AI 与产品解说
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<a href="#style-gallery"><img src="assets/readme/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a><br>
+<strong>史前黑色幽默</strong> · 脑洞故事
+</td>
+<td width="50%" align="center">
+<a href="#style-gallery"><img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a><br>
+<strong>治愈故事</strong> · 生活与成长
+</td>
+</tr>
+</table>
+
+做 YouTube 知识频道、TikTok 故事短片，或自己的双语英语账号。<br>
+脚本、分镜、运镜、配音和音效提示词，这里一起准备好。
+
+**[开始使用](#quick-start) · [查看全部画风](#style-gallery) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)**
+
+⭐ **先收藏，下次做火柴人动画不用再到处找提示词。**
+
+[![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
-
-**四种画风 · 横竖屏可选 · 先确认方案，再生成提示词**
-
-适合 YouTube Shorts、TikTok、Instagram Reels、YouTube，以及国内的知识、故事和教育短视频。
 
 </div>
 
+我正在把全网值得做的火柴人画风，逐个实测、逐个开源。目标很直接：**以后想做火柴人动画，来这里挑画风就够了。**
+
+每种已上线的画风都附有样片和可复用的导演规则；新画风测试后再加入。
+
 <!-- readme:demos -->
+
+<a id="style-gallery"></a>
 
 ## 四种画风，直接看效果
 
@@ -83,7 +114,9 @@
 
 <!-- readme:advantages -->
 
-## 不只是写提示词，而是先把视频想清楚
+## 从一段文案到一支视频
+
+把主题、文章或笔记交给 Skill，先拿到导演提案，确认后再输出 Gemini Omni Flash 视频提示词。你负责选内容、挑效果，Flow 负责生成片段，最后用剪映完成字幕和剪辑。
 
 | 你不用从零想的事 | Skill 帮你完成 |
 |---|---|
@@ -97,7 +130,13 @@
 
 <!-- readme:platforms -->
 
-## 选你要发布的画幅
+## 做什么内容，发到哪里
+
+- **知识与故事账号**：历史、商业、科普、心理成长，用不露脸的动画讲解。
+- **英语学习内容**：英文旁白配后期双语字幕，做儿童英语、生活短剧或知识精读。
+- **品牌与内容服务**：产品解说、教育短片、客户定制动画；也可以围绕原创账号探索平台分成与品牌合作。
+
+YouTube Shorts、TikTok、Instagram Reels 适合竖屏短片，YouTube 和 B 站也可以做横屏解说。
 
 | 比例 | 适合平台 | 构图重点 |
 |---|---|---|
@@ -130,6 +169,8 @@ Skill 负责提案和提示词，视频由你在 Flow 等生成工具中制作�
 
 <!-- readme:install -->
 
+<a id="quick-start"></a>
+
 ## 安装与使用
 
 下面是 Codex 的安装方式：
@@ -161,7 +202,7 @@ $directing-stickman-videos
 
 在 [Google Flow](https://flow.google.com/) 等支持对应模型的工具中，按顺序提交每段提示词，检查画面与配音后再拼接。字幕可以最后统一添加。
 
-Skill 免费开源，视频生成的费用和可选模型以平台当前界面为准。Flow 的操作步骤可参考[我的使用教程](https://x.com/CrazyKaomei/status/2093893997223923822?s=20)。
+第一次做，可以跟着这篇[完整制作教程：选题、脚本、Flow 生成与剪映成片](https://x.com/CrazyKaomei/status/2102311241046008268)跑一遍。Flow 的具体操作见[使用教程](https://x.com/CrazyKaomei/status/2093893997223923822?s=20)。Skill 免费开源，视频生成的费用和可选模型以平台当前界面为准。
 
 <!-- readme:reliability -->
 
@@ -171,9 +212,9 @@ Skill 免费开源，视频生成的费用和可选模型以平台当前界面�
 - 发现某段人物、道具或声音明显偏离时，针对该段调整和复测，不用重做所有片段。
 - 文案可以改得更有吸引力，但不凭空添加事实、数据或产品效果。
 
-## 接下来还会更新什么？
+## 下一种火柴人，你来点
 
-继续扩展画风、打磨脚本与案例，并探索更方便的在线预览和提示词选择方式。以下是规划方向，尚未上线：
+想看哪种画风？到 [Issues](https://github.com/kaomei/stickman-video-director/issues) 留下参考和想做的主题。下面这些正在计划中，尚未上线：
 
 - **虚实融合场景** — 继续探索 2D 火柴人与更丰富环境的搭配。
 - **风格 5：讲台解说** — 黑板互动与知识讲解。
@@ -188,7 +229,9 @@ Skill 免费开源，视频生成的费用和可选模型以平台当前界面�
 
 欢迎提交作品、想看的画风或具体问题。分享案例时请附上主题、所用风格与作者链接，方便展示和署名。
 
-如果这个 Skill 帮你做出了第一支火柴人视频，欢迎点个 **Star ⭐**。我是烤妹儿，会继续把新画风和好玩的案例做进来。
+**点个 Star ⭐，把这份画风大全收进工具箱。** 想做动画时回来挑风格，有新作品也欢迎交作业。
+
+我是[烤妹儿](https://x.com/CrazyKaomei)，会继续实测新画风、分享制作教程，也把大家做出的好作品放进来。
 
 ## 许可证
 
