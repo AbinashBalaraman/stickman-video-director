@@ -71,7 +71,7 @@
 | 风格 1A：白底黑火柴人 | 风格 1B：黑底白火柴人 |
 |:---:|:---:|
 | <!-- demo:light:start --><img src="assets/readme/previews/light-theme-demo.gif" alt="风格 1A：白底黑火柴人动态演示" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/previews/dark-theme-demo.gif" alt="风格 1B：黑底白火柴人动态演示" width="360"><!-- demo:dark:end --> |
-| 纯白画布 · 黑色人物 | 纯黑画布 · 白色人物 · [试试同款主题](#example-overthinking) |
+| 纯白画布 · 黑色人物 | 纯黑画布 · 白色人物 |
 
 ---
 
@@ -179,33 +179,13 @@ https://github.com/kaomei/stickman-video-director
 
 第一次做，跟着这篇[完整制作教程：选题、脚本、Flow 生成与剪映成片](https://x.com/CrazyKaomei/status/2102311241046008268)跑一遍。Flow 操作见[使用教程](https://x.com/CrazyKaomei/status/2093893997223923822?s=20)。Skill 免费开源，视频生成费用和可选模型以平台当前界面为准。
 
-<a id="example-overthinking"></a>
+<!-- readme:reliability -->
 
-## 样片同款主题，直接试
+## 使用小贴士
 
-黑底样片中的紫色思想线团、红色牢笼，都来自“想太多”这个主题。仓库已有的[完整示例](skills/directing-stickman-videos/references/examples.md)包含原始文案、导演预案和六段提示词。
-
-**你给的内容：**
-
-> 你是不是也经常这样？明明什么都还没做，但感觉自己已经累坏了。还没迈出第一步，你的脑子里就已经提前演练了一百种失败的结局。别让想太多毁掉你的生活。
-
-再选：**16:9 · 60 秒 · 黑底白火柴人**。
-
-<details>
-<summary>展开看已有导演预案节选：前 20 秒怎么设计</summary>
-
-**片名：《别让“想太多”毁了你》**
-
-| 时间 | 分镜与衔接 | 英文旁白 |
-|---|---|---|
-| 0–10s | 紫色思想点膨胀成线团，时钟倒转、电池耗尽；线团压向人物并填满镜头，下一段从线团内部穿出。 | Do you ever feel exhausted before you have even begun? Nothing has happened yet, but your mind is already carrying a hundred imaginary disasters. |
-| 10–20s | 穿过线团，掠过摔倒、人群指责和拒绝印章的想象；气泡折叠成红色牢笼，栏杆向下延伸，为下一段变成藤蔓做准备。 | Before the first step, you picture failure, judgment, rejection, and every possible way things could go wrong. Your thoughts turn possibilities into prisons. |
-
-**声音设计：** 固定成年女性美式英语旁白；循环钢琴配时钟滴答、电量耗尽声、印章撞击和牢笼闭合声，旁白始终高于音乐和音效。
-
-确认提案后，输出可逐段复制的视频提示词。[查看完整预案与六段提示词](skills/directing-stickman-videos/references/examples.md#phase-b--omni-flash-production-package)。
-
-</details>
+- 人物、道具和旁白设定按整支视频统一；需要换声音时，先在提案里确定。
+- 发现某段人物、道具或声音明显偏离时，针对该段调整和复测，不用重做所有片段。
+- 文案可以改得更有吸引力，但不凭空添加事实、数据或产品效果。
 
 <!-- readme:platforms -->
 
@@ -220,14 +200,6 @@ https://github.com/kaomei/stickman-video-director
 适合不露脸的知识解说、历史商业科普、心理成长、生活故事和产品讲解；英文旁白配后期双语字幕，也能做儿童英语、生活短剧或知识精读。支持 30 秒、60 秒、90 秒、3 分钟等 10 秒整数倍时长。
 
 </details>
-
-<!-- readme:reliability -->
-
-## 使用小贴士
-
-- 人物、道具和旁白设定按整支视频统一；需要换声音时，先在提案里确定。
-- 发现某段人物、道具或声音明显偏离时，针对该段调整和复测，不用重做所有片段。
-- 文案可以改得更有吸引力，但不凭空添加事实、数据或产品效果。
 
 ## 最近更新
 
