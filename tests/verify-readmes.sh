@@ -74,10 +74,7 @@ done
 
 for readme in "${readmes[@]}"; do
   readme_path="$readme_root/$readme"
-  preview_dir='assets/readme'
-  if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
-    preview_dir='assets/readme/previews'
-  fi
+  preview_dir='assets/readme/previews'
   [[ -f "$readme_path" ]] || {
     printf 'missing README: %s\n' "$readme" >&2
     exit 1
@@ -101,21 +98,24 @@ for readme in "${readmes[@]}"; do
     }
   done
 
-  # Published styles 1 and 2 keep two inline previews in all languages.
-  # Non-Chinese installation copy stays unchanged until multilingual sync.
-  if [[ "$readme" != README.md && "$readme" != README.zh-CN.md ]]; then
-    for token in '$directing-stickman-videos' 'git clone https://github.com/kaomei/stickman-video-director.git' 'cp -R skills/directing-stickman-videos'; do
-      rg -Fq "$token" "$readme_path" || {
-        printf '%s missing existing installation token: %s\n' "$readme" "$token" >&2
-        exit 1
-      }
-    done
+  # All published styles keep two lightweight inline previews in every locale.
+  paired_demos=(
+    'light-theme-demo dark-theme-demo'
+    'style-2a-demo style-2b-demo'
+    'style-3-demo style-3-community-fire'
+    'style-4-cozy-station style-4-cozy-cafe'
+  )
+  for token in 'https://x.com/monixin888/status/2109651037850325112' 'WorkBuddy' 'id="quick-start"' 'id="style-gallery"' 'id="recent-updates"'; do
+    rg -Fq "$token" "$readme_path" || {
+      printf '%s missing synchronized content: %s\n' "$readme" "$token" >&2
+      exit 1
+    }
+  done
+  if rg -n 'href="assets/readme/[^" ]+\.mp4"|git clone|cp -R skills/|\$skill-installer|\$directing-stickman-videos' "$readme_path"; then
+    printf '%s contains obsolete preview or installation instructions\n' "$readme" >&2
+    exit 1
   fi
-  paired_demos=('light-theme-demo dark-theme-demo' 'style-2a-demo style-2b-demo')
-  # New examples are Chinese-first until the owner requests language sync.
   if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
-    paired_demos+=('style-3-demo style-3-community-fire')
-    paired_demos+=('style-4-cozy-station style-4-cozy-cafe')
     for token in '全部画风一览' '风格 4：治愈故事风' 'assets/readme/previews/style-4-cozy-station.gif' 'assets/readme/previews/style-4-cozy-cafe.gif'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing style 4 token: %s\n' "$readme" "$token" >&2
@@ -157,7 +157,7 @@ rg -Fq '[**简体中文**](README.zh-CN.md) · [English](README.en.md)' "$readme
   printf 'Default homepage missing Chinese/English language navigation.\n' >&2
   exit 1
 }
-rg -Fq '### Turn any idea' "$readme_root/README.en.md" || {
+rg -Fq '# AI Stickman Animation Style Library' "$readme_root/README.en.md" || {
   printf 'English README must remain available.\n' >&2
   exit 1
 }

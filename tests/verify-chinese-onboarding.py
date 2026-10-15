@@ -79,6 +79,6 @@ assert new_bytes < old_bytes * 0.6, "Preview total should shrink by at least 40%
 
 for lang in ("en", "ja", "ko", "pt-BR"):
     text = (root / f"README.{lang}.md").read_text()
-    assert "assets/readme/previews/" not in text, "No multilingual sync in this change"
+    assert "assets/readme/previews/" in text, "Localized pages use the same lightweight previews"
 
 print(f"Chinese onboarding passed; previews {old_bytes:,} -> {new_bytes:,} bytes ({1-new_bytes/old_bytes:.1%} smaller).")
