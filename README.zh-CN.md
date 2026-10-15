@@ -6,6 +6,8 @@
 
 # 火柴人画风大全
 
+**将任何想法变成一部高质量的、稳定画风火柴人视频。**
+
 <sub>Stickman Video Director · AI Stickman Animation</sub>
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
@@ -15,7 +17,9 @@
 
 我正在把全网热门的火柴人画风，逐个实测、整理开源。**以后想做火柴人动画，来这里挑画风就够了。**
 
-给一个话题或一段文案，就能拿到动画脚本、动态分镜，以及配音和音效提示词。做 YouTube、TikTok、Reels 视频，或自己的双语英语账号，都能用。
+给一个话题或一段文案，就能拿到动画脚本、动态分镜，以及配音和音效提示词。
+
+适用于 **YouTube 知识讲解、TikTok、职场励志、教育科普和快节奏情感故事。**
 
 <table width="100%">
 <tr>
