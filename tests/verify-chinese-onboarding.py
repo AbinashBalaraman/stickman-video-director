@@ -30,12 +30,19 @@ assert "### 3. 跟着引导，确认提案" in cn
 assert "Skill 会主动询问；时长可指定，默认 60 秒" in cn
 assert "你确认后，它才输出最终分段提示词" in cn
 guided_demo = cn.split("### 3. 跟着引导，确认提案", 1)[1].split("### 4.", 1)[0]
-for required in ("《人类的第一份工作是怎么来的？》", "横屏 16:9", "风格 3 史前黑色幽默", "按已有样片整理", "| 时间 | 旁白文案 | 分镜与运镜 | 配乐 / 音效 |"):
+for required in ("《人类的第一份工作是怎么来的？》", "横屏 16:9", "风格 3 史前黑色幽默", "制作前确认的分镜提案", "| 时间 | 画面与动作 | 配音文案 |"):
     assert required in guided_demo, required
-storyboard_rows = re.findall(r"^\| (?:0–10|10–20|20–30) 秒 \|.*$", guided_demo, re.MULTILINE)
+storyboard_rows = re.findall(r"^\| \*\*(?:0–10|10–20|20–30)s：.*$", guided_demo, re.MULTILINE)
 assert len(storyboard_rows) == 3, "Show three concise ten-second storyboard rows"
-assert all(row.count("|") == 5 for row in storyboard_rows)
-for removed in ("简化对话示意", "> **AI", "> **你", "首段英文旁白", "中文参考", "搬石头"):
+assert all(row.count("|") == 4 for row in storyboard_rows)
+approved_voiceover = (
+    "Ten thousand years ago, one man finally solved all his problems. He shut them outside.",
+    "Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.",
+    "The reward got smaller. The workload got bigger. And somehow… they called that progress.",
+)
+for row, voiceover in zip(storyboard_rows, approved_voiceover):
+    assert voiceover in row, "Preserve the approved sample narration verbatim"
+for removed in ("简化对话示意", "> **AI", "> **你", "首段英文旁白", "中文参考", "搬石头", "下面按已有样片整理", "洞口能挡住野兽", "英文配音"):
     assert removed not in guided_demo, removed
 assert guided_demo.index("选好设置") < guided_demo.index("| 时间 |") < guided_demo.index("你确认后，它才输出最终分段提示词")
 assert "### 4. 生成视频，剪辑成片" in cn
