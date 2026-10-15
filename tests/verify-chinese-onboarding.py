@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check Chinese-only onboarding, example provenance, and preview budgets."""
+"""Check Chinese-only onboarding, section layout, and preview budgets."""
 from pathlib import Path
 import re
 import struct
@@ -32,11 +32,10 @@ assert "## Star 增长曲线" in cn and "[MIT License](LICENSE)" in cn
 assert cn.count("<details>") == cn.count("</details>")
 assert cn.count('<div align="center">') == cn.count("</div>")
 
-example = (root / "skills/directing-stickman-videos/references/examples.md").read_text()
-source = re.search(r"^> (你是不是也经常这样.*)$", cn, re.M).group(1)
-assert source in example
-for vo in re.findall(r"\| (Do you ever.*?|Before the first step.*?) \|", cn):
-    assert vo in example, "README excerpt must match the existing example"
+for removed in ("样片同款主题，直接试", "example-overthinking", "展开看已有导演预案节选", "你给的内容："):
+    assert removed not in cn, "Removed example must not leave text or dangling links"
+assert (root / "skills/directing-stickman-videos/references/examples.md").exists()
+assert cn.index("## 使用小贴士") < cn.index("选横屏还是竖屏？查看平台、比例与内容建议") < cn.index("## 最近更新")
 
 for link in re.findall(r"\]\(([^)]+)\)", cn):
     if "://" not in link and not link.startswith("#"):
