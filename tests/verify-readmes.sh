@@ -56,9 +56,6 @@ shared_tokens=(
   'Gemini Omni Flash'
   '16:9'
   '9:16'
-  '$directing-stickman-videos'
-  'git clone https://github.com/kaomei/stickman-video-director.git'
-  'cp -R skills/directing-stickman-videos'
   'MIT'
 )
 
@@ -105,6 +102,15 @@ for readme in "${readmes[@]}"; do
   done
 
   # Published styles 1 and 2 keep two inline previews in all languages.
+  # Non-Chinese installation copy stays unchanged until multilingual sync.
+  if [[ "$readme" != README.md && "$readme" != README.zh-CN.md ]]; then
+    for token in '$directing-stickman-videos' 'git clone https://github.com/kaomei/stickman-video-director.git' 'cp -R skills/directing-stickman-videos'; do
+      rg -Fq "$token" "$readme_path" || {
+        printf '%s missing existing installation token: %s\n' "$readme" "$token" >&2
+        exit 1
+      }
+    done
+  fi
   paired_demos=('light-theme-demo dark-theme-demo' 'style-2a-demo style-2b-demo')
   # New examples are Chinese-first until the owner requests language sync.
   if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then

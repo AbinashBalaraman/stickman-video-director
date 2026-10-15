@@ -148,40 +148,21 @@ Skill 负责提案和提示词，Flow 等工具负责生成视频，最后用剪
 
 ### 1. 安装 Skill
 
-**Codex：复制下面这句话，直接发给它。**
+把下面这句话发给你使用的 AI：
 
 ```text
-$skill-installer
-请从仓库 https://github.com/kaomei/stickman-video-director
-安装 skills/directing-stickman-videos 目录中的 Skill。
+帮我安装这个 Skill：
+https://github.com/kaomei/stickman-video-director
 ```
-
-安装后即可调用；如果没有显示在技能列表中，再重启 Codex。参见 [OpenAI 官方安装说明](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)。
-
-<details>
-<summary>习惯用终端？展开手动安装方式（macOS / Linux）</summary>
-
-```bash
-git clone https://github.com/kaomei/stickman-video-director.git
-cd stickman-video-director
-mkdir -p "$HOME/.agents/skills"
-cp -R skills/directing-stickman-videos "$HOME/.agents/skills/"
-```
-
-如果已经安装过，请先让 Codex 检查现有安装并帮你更新，避免复制出重复目录。
-
-</details>
-
-**WorkBuddy：** 已有粉丝使用案例，见上方[《人类第一次发现火源》](https://x.com/monixin888/status/2109651037850325112)。按工具自己的 Skill 导入方式，导入仓库中的 `skills/directing-stickman-videos` 整个文件夹，保留其中的 `references`；其他工具的安装路径以各自说明为准。
 
 <!-- readme:workflow -->
 
 ### 2. 给一个话题
 
-把下面这段发给 Codex，也可以替换成自己的主题：
+安装后，直接说你想做什么：
 
 ```text
-$directing-stickman-videos
+用 directing-stickman-videos 做一个火柴人视频。
 
 主题：别让“想太多”困住你。
 30 秒，16:9，黑底白火柴人，美式男声。
