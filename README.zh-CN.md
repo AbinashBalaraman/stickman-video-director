@@ -25,21 +25,21 @@
 <tr>
 <td width="50%" align="center">
 <strong>黑白极简</strong><br>
-<a href="#style-gallery"><img src="assets/readme/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
+<a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>潮酷科技</strong><br>
-<a href="#style-gallery"><img src="assets/readme/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a>
+<a href="#style-gallery"><img src="assets/readme/previews/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>史前黑色幽默</strong><br>
-<a href="#style-gallery"><img src="assets/readme/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a>
+<a href="#style-gallery"><img src="assets/readme/previews/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>治愈故事</strong><br>
-<a href="#style-gallery"><img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
+<a href="#style-gallery"><img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
 </td>
 </tr>
 </table>
@@ -70,8 +70,8 @@
 
 | 风格 1A：白底黑火柴人 | 风格 1B：黑底白火柴人 |
 |:---:|:---:|
-| <!-- demo:light:start --><img src="assets/readme/light-theme-demo.gif" alt="风格 1A：白底黑火柴人动态演示" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/dark-theme-demo.gif" alt="风格 1B：黑底白火柴人动态演示" width="360"><!-- demo:dark:end --> |
-| 纯白画布 · 黑色人物 | 纯黑画布 · 白色人物 |
+| <!-- demo:light:start --><img src="assets/readme/previews/light-theme-demo.gif" alt="风格 1A：白底黑火柴人动态演示" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/previews/dark-theme-demo.gif" alt="风格 1B：黑底白火柴人动态演示" width="360"><!-- demo:dark:end --> |
+| 纯白画布 · 黑色人物 | 纯黑画布 · 白色人物 · [试试同款主题](#example-overthinking) |
 
 ---
 
@@ -85,7 +85,7 @@
 
 | 风格 2A：极简科技 | 风格 2B：彩色故事 |
 |:---:|:---:|
-| <img src="assets/readme/style-2a-demo.gif" alt="风格 2A：极简科技风动态演示" width="360"> | <img src="assets/readme/style-2b-demo.gif" alt="风格 2B：彩色故事风动态演示" width="360"> |
+| <img src="assets/readme/previews/style-2a-demo.gif" alt="风格 2A：极简科技风动态演示" width="360"> | <img src="assets/readme/previews/style-2b-demo.gif" alt="风格 2B：彩色故事风动态演示" width="360"> |
 | 纯白空间 · 极淡网格 · 青蓝微光 | 彩色场景 · 电影光影 · 叙事氛围 |
 
 ---
@@ -100,7 +100,7 @@
 
 | 案例 1：《人类的第一份工作是怎么来的？》 | 案例 2：《人类第一次发现火源》 |
 |:---:|:---:|
-| <img src="assets/readme/style-3-demo.gif" alt="《人类的第一份工作是怎么来的？》动态预览" width="360"> | <img src="assets/readme/style-3-community-fire.gif" alt="《人类第一次发现火源》——粉丝作品" width="360"> |
+| <img src="assets/readme/previews/style-3-demo.gif" alt="《人类的第一份工作是怎么来的？》动态预览" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="《人类第一次发现火源》——粉丝作品" width="360"> |
 | 史前故事 · 职场反转 | 火源主题 · 粉丝作品 |
 
 **粉丝案例：《人类第一次发现火源》** — 由粉丝 [X：@monixin888](https://x.com/monixin888/status/2109651037850325112) 使用 WorkBuddy 调用本 Skill 制作。
@@ -117,14 +117,14 @@
 
 | 案例 1：通勤路上的消息焦虑 | 案例 2：把时间留给自己 |
 |:---:|:---:|
-| <img src="assets/readme/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="360"> | <img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="360"> |
+| <img src="assets/readme/previews/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="360"> |
 | 地铁站 · 行走跟拍 · 情绪近景 | 露天咖啡座 · 暖光树影 · 日常动作 |
 
 <!-- readme:advantages -->
 
-## 从一段文案到一支视频
+## 它帮你做什么
 
-把主题、文章或笔记交给 Skill，先拿到导演提案，确认后再输出 Gemini Omni Flash 视频提示词。你负责选内容、挑效果，Flow 负责生成片段，最后用剪映完成字幕和剪辑。
+把选题、脚本和画面一起考虑，不只是给火柴人套一个外观。
 
 | 你不用从零想的事 | Skill 帮你完成 |
 |---|---|
@@ -134,62 +134,49 @@
 | **横竖屏怎么排** | 根据画幅重新安排人物位置、镜头路径与画面空间。 |
 | **哪里可以改** | 先看导演提案，不满意就调整，确认后才输出最终提示词。 |
 
-知识与观点类内容按“开场钩子 → 打破预期 → 解释机制 → 核心结论 → 结尾回扣”组织；史前故事更注重“铺垫 → 升级 → 反转”，不硬套同一种结尾。
-
-<!-- readme:platforms -->
-
-## 做什么内容，发到哪里
-
-- **知识与故事账号**：历史、商业、科普、心理成长，用不露脸的动画讲解。
-- **英语学习内容**：英文旁白配后期双语字幕，做儿童英语、生活短剧或知识精读。
-- **品牌与内容服务**：产品解说、教育短片、客户定制动画；也可以围绕原创账号探索平台分成与品牌合作。
-
-YouTube Shorts、TikTok、Instagram Reels 适合竖屏短片，YouTube 和 B 站也可以做横屏解说。
-
-| 比例 | 适合平台 | 构图重点 |
-|---|---|---|
-| `9:16` | YouTube Shorts、TikTok、Instagram Reels、抖音、小红书 | 纵向动作、中央主体、手机画面安全区 |
-| `16:9` | YouTube、B 站、横屏教育视频 | 横向调度、场景展开、左右对比 |
-
-时长默认 **60 秒**，也可以选 30 秒、90 秒、3 分钟等 10 秒整数倍。按每段约 10 秒规划：30 秒输出 3 条提示词，60 秒输出 6 条。
-
-<!-- readme:workflow -->
-
-## 从文案到视频，五步走
-
-1. **给内容**：粘贴文案、文章、笔记，或直接说一个主题。
-2. **选设置**：确定画幅、时长和画风；风格 1 再选白底或黑底，也可以指定男声、女声和表达基调。
-3. **看提案**：检查英文旁白、参考翻译、画面、镜头、转场、BGM 与音效，不满意就改。
-4. **确认后拿提示词**：获得对应数量的独立 Gemini Omni Flash 提示词。
-5. **生成并剪辑**：把提示词分别交给视频模型，再拼接片段、添加字幕，完成成片。
-
-换主题、画幅、风格或其他全局设置后，会重新整理提案，再请你确认。缺少画幅或画风时会先询问；没填时长则默认一分钟。
-
 <!-- readme:output -->
 
-## 你会拿到什么
+先拿到**导演提案**：英文旁白、中文参考、场景、运镜和声音设计。确认后再拿到逐段独立的 **Gemini Omni Flash 视频提示词**，以及转场、拼接与字幕建议。
 
-- **导演提案**：标题、基调、英文旁白与参考翻译，以及按时间排列的画面设计。
-- **视频提示词包**：每段都有明确动作节拍、人物与道具描述、声音设定、台词和衔接要求。
-- **后期建议**：字幕、BGM、音效和拼接说明。生成画面默认不带文字，字幕后期添加。
-
-Skill 负责提案和提示词，视频由你在 Flow 等生成工具中制作；无需为 Skill 配置 API 或 MCP。
+Skill 负责提案和提示词，Flow 等工具负责生成视频，最后用剪映等软件完成字幕与剪辑。无需为 Skill 配置 API 或 MCP。
 
 <!-- readme:install -->
 
 <a id="quick-start"></a>
 
-## 安装与使用
+## 开始使用
 
-下面是 Codex 的安装方式：
+### 1. 安装 Skill
+
+**Codex：复制下面这句话，直接发给它。**
+
+```text
+$skill-installer 请从 https://github.com/kaomei/stickman-video-director/tree/main/skills/directing-stickman-videos 安装 directing-stickman-videos。
+```
+
+安装后即可调用；如果没有显示在技能列表中，再重启 Codex。参见 [OpenAI 官方安装说明](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)。
+
+<details>
+<summary>习惯用终端？展开手动安装方式（macOS / Linux）</summary>
 
 ```bash
 git clone https://github.com/kaomei/stickman-video-director.git
 cd stickman-video-director
-cp -R skills/directing-stickman-videos "${CODEX_HOME:-$HOME/.codex}/skills/"
+mkdir -p "$HOME/.agents/skills"
+cp -R skills/directing-stickman-videos "$HOME/.agents/skills/"
 ```
 
-重启 Codex 后，输入：
+如果已经安装过，请先让 Codex 检查现有安装并帮你更新，避免复制出重复目录。
+
+</details>
+
+**WorkBuddy：** 已有粉丝使用案例，见上方[《人类第一次发现火源》](https://x.com/monixin888/status/2109651037850325112)。按工具自己的 Skill 导入方式，导入仓库中的 `skills/directing-stickman-videos` 整个文件夹，保留其中的 `references`；其他工具的安装路径以各自说明为准。
+
+<!-- readme:workflow -->
+
+### 2. 给一个话题
+
+把下面这段发给 Codex，也可以替换成自己的主题：
 
 ```text
 $directing-stickman-videos
@@ -199,18 +186,62 @@ $directing-stickman-videos
 先给我导演提案，确认后再输出视频提示词。
 ```
 
-也可以试试：
+想换个画风？也可以这样说：
 
 - “一分钟讲清黑洞，白底黑火柴人，9:16，活泼女声。”
 - “30 秒讲希望，风格 2A，16:9，低沉男声。”
 - “《谁偷了我的香蕉？》，风格 3，30 秒，16:9，适合儿童学英语。”
 - “为什么总忍不住秒回？风格 4 治愈故事风，30 秒，16:9，美式男声，办公室→地铁站→露天咖啡座。”
 
-## 提示词怎么用？
+### 3. 确认提案，再去生成
 
-在 [Google Flow](https://flow.google.com/) 等支持对应模型的工具中，按顺序提交每段提示词，检查画面与配音后再拼接。字幕可以最后统一添加。
+先看文案、场景和声音，不满意就改；回复“确认”后，才输出最终提示词。换主题、画幅或画风时，会重新确认提案。
 
-第一次做，可以跟着这篇[完整制作教程：选题、脚本、Flow 生成与剪映成片](https://x.com/CrazyKaomei/status/2102311241046008268)跑一遍。Flow 的具体操作见[使用教程](https://x.com/CrazyKaomei/status/2093893997223923822?s=20)。Skill 免费开源，视频生成的费用和可选模型以平台当前界面为准。
+将提示词按顺序提交到 [Google Flow](https://flow.google.com/)，预览各段后拼接，字幕统一在后期添加。30 秒通常对应 3 条约 10 秒的提示词，60 秒对应 6 条；未指定时长则默认 60 秒。
+
+第一次做，跟着这篇[完整制作教程：选题、脚本、Flow 生成与剪映成片](https://x.com/CrazyKaomei/status/2102311241046008268)跑一遍。Flow 操作见[使用教程](https://x.com/CrazyKaomei/status/2093893997223923822?s=20)。Skill 免费开源，视频生成费用和可选模型以平台当前界面为准。
+
+<a id="example-overthinking"></a>
+
+## 样片同款主题，直接试
+
+黑底样片中的紫色思想线团、红色牢笼，都来自“想太多”这个主题。仓库已有的[完整示例](skills/directing-stickman-videos/references/examples.md)包含原始文案、导演预案和六段提示词。
+
+**你给的内容：**
+
+> 你是不是也经常这样？明明什么都还没做，但感觉自己已经累坏了。还没迈出第一步，你的脑子里就已经提前演练了一百种失败的结局。别让想太多毁掉你的生活。
+
+再选：**16:9 · 60 秒 · 黑底白火柴人**。
+
+<details>
+<summary>展开看已有导演预案节选：前 20 秒怎么设计</summary>
+
+**片名：《别让“想太多”毁了你》**
+
+| 时间 | 分镜与衔接 | 英文旁白 |
+|---|---|---|
+| 0–10s | 紫色思想点膨胀成线团，时钟倒转、电池耗尽；线团压向人物并填满镜头，下一段从线团内部穿出。 | Do you ever feel exhausted before you have even begun? Nothing has happened yet, but your mind is already carrying a hundred imaginary disasters. |
+| 10–20s | 穿过线团，掠过摔倒、人群指责和拒绝印章的想象；气泡折叠成红色牢笼，栏杆向下延伸，为下一段变成藤蔓做准备。 | Before the first step, you picture failure, judgment, rejection, and every possible way things could go wrong. Your thoughts turn possibilities into prisons. |
+
+**声音设计：** 固定成年女性美式英语旁白；循环钢琴配时钟滴答、电量耗尽声、印章撞击和牢笼闭合声，旁白始终高于音乐和音效。
+
+确认提案后，输出可逐段复制的视频提示词。[查看完整预案与六段提示词](skills/directing-stickman-videos/references/examples.md#phase-b--omni-flash-production-package)。
+
+</details>
+
+<!-- readme:platforms -->
+
+<details>
+<summary>选横屏还是竖屏？查看平台、比例与内容建议</summary>
+
+| 比例 | 适合平台 | 构图重点 |
+|---|---|---|
+| `9:16` | YouTube Shorts、TikTok、Instagram Reels、抖音、小红书 | 纵向动作、中央主体、手机画面安全区 |
+| `16:9` | YouTube、B 站、横屏教育视频 | 横向调度、场景展开、左右对比 |
+
+适合不露脸的知识解说、历史商业科普、心理成长、生活故事和产品讲解；英文旁白配后期双语字幕，也能做儿童英语、生活短剧或知识精读。支持 30 秒、60 秒、90 秒、3 分钟等 10 秒整数倍时长。
+
+</details>
 
 <!-- readme:reliability -->
 
@@ -219,6 +250,17 @@ $directing-stickman-videos
 - 人物、道具和旁白设定按整支视频统一；需要换声音时，先在提案里确定。
 - 发现某段人物、道具或声音明显偏离时，针对该段调整和复测，不用重做所有片段。
 - 文案可以改得更有吸引力，但不凭空添加事实、数据或产品效果。
+
+## 最近更新
+
+- **2026-10-15**：优化中文首页、安装入口和案例说明，加入轻量动图预览与 Star 增长曲线；Skill 规则不变。
+- **2026-10-14**：新增风格 4「治愈故事风」，加入地铁站与咖啡座两个样片。
+- **2026-10-13**：优化风格 1 的人物描述与当前姿态约束。
+- **2026-10-12**：完善全风格共用的语音一致性规则，补充史前风格案例。
+
+已有用户：最近的首页调整不需要重装。想用风格 4，或安装的是人物／声音规则更新前的版本，再更新 Skill 即可。[查看更新记录](CHANGELOG.zh-CN.md)。
+
+<!-- readme:contribute -->
 
 ## 下一种火柴人，你来点
 
@@ -231,11 +273,7 @@ $directing-stickman-videos
 - **风格 8：双人情景喜剧** — 对话、互怼与日常反转。
 - **风格 9：卡牌闯关** — 升级、打怪与游戏叙事。
 
-<!-- readme:contribute -->
-
-## 你的作品，也可以成为下一个案例
-
-欢迎提交作品、想看的画风或具体问题。分享案例时请附上主题、所用风格与作者链接，方便展示和署名。
+也欢迎在 [Issues](https://github.com/kaomei/stickman-video-director/issues) 提交作品或具体问题。分享案例时请附上主题、所用风格与作者链接，方便展示和署名。
 
 ⭐ **点个 Star，把这份画风大全收进工具箱。新画风会继续更新，也欢迎来交作业。**
 
