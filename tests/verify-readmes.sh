@@ -23,6 +23,10 @@ demo_assets=(
   assets/readme/style-3-demo.mp4
   assets/readme/style-3-community-fire.gif
   assets/readme/style-3-community-fire.mp4
+  assets/readme/style-4-cozy-station.gif
+  assets/readme/style-4-cozy-station.mp4
+  assets/readme/style-4-cozy-cafe.gif
+  assets/readme/style-4-cozy-cafe.mp4
 )
 section_markers=(
   '<!-- readme:hero -->'
@@ -97,7 +101,14 @@ for readme in "${readmes[@]}"; do
   # New examples are Chinese-first until the owner requests language sync.
   if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
     paired_demos+=('style-3-demo style-3-community-fire')
-    for token in 'assets/readme/style-3-community-fire.gif' '[X：@monixin888](https://x.com/monixin888/status/2109651037850325112)' '案例 1：人类的第一份工作是怎么来的？' 'WorkBuddy'; do
+    paired_demos+=('style-4-cozy-station style-4-cozy-cafe')
+    for token in '四种画风' '风格 4：治愈故事风' 'assets/readme/style-4-cozy-station.gif' 'assets/readme/style-4-cozy-cafe.gif'; do
+      rg -Fq "$token" "$readme_path" || {
+        printf '%s missing style 4 token: %s\n' "$readme" "$token" >&2
+        exit 1
+      }
+    done
+    for token in 'assets/readme/style-3-community-fire.gif' '[X：@monixin888](https://x.com/monixin888/status/2109651037850325112)' '案例 1：《人类的第一份工作是怎么来的？》' 'WorkBuddy'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing community example token: %s\n' "$readme" "$token" >&2
         exit 1
