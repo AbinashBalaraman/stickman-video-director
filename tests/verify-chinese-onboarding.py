@@ -30,9 +30,14 @@ assert "### 3. 跟着引导，确认提案" in cn
 assert "Skill 会主动询问；时长可指定，默认 60 秒" in cn
 assert "你确认后，它才输出最终分段提示词" in cn
 guided_demo = cn.split("### 3. 跟着引导，确认提案", 1)[1].split("### 4.", 1)[0]
-for required in ("简化对话示意", "**AI：**", "**你：**", "导演提案（节选）", "首段英文旁白", "中文参考", "3 条独立的火柴人动画提示词"):
+for required in ("《人类的第一份工作是怎么来的？》", "横屏 16:9", "风格 3 史前黑色幽默", "按已有样片整理", "| 时间 | 旁白文案 | 分镜与运镜 | 配乐 / 音效 |"):
     assert required in guided_demo, required
-assert guided_demo.index("想做横屏") < guided_demo.index("横屏，风格 3 史前黑色幽默，30 秒") < guided_demo.index("导演提案（节选）") < guided_demo.index("可以，按这版继续") < guided_demo.index("3 条独立的火柴人动画提示词")
+storyboard_rows = re.findall(r"^\| (?:0–10|10–20|20–30) 秒 \|.*$", guided_demo, re.MULTILINE)
+assert len(storyboard_rows) == 3, "Show three concise ten-second storyboard rows"
+assert all(row.count("|") == 5 for row in storyboard_rows)
+for removed in ("简化对话示意", "> **AI", "> **你", "首段英文旁白", "中文参考", "搬石头"):
+    assert removed not in guided_demo, removed
+assert guided_demo.index("选好设置") < guided_demo.index("| 时间 |") < guided_demo.index("你确认后，它才输出最终分段提示词")
 assert "### 4. 生成视频，剪辑成片" in cn
 assert "## 最近更新" in cn and "CHANGELOG.zh-CN.md" in cn
 assert "## Star 增长曲线" in cn and "[MIT License](LICENSE)" in cn
