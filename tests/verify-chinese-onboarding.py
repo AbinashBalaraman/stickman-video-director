@@ -18,7 +18,15 @@ assert "帮我安装这个 Skill：\nhttps://github.com/kaomei/stickman-video-di
 assert len(install.strip()) < 130, "Keep the installation entry short"
 for unnecessary in ("$skill-installer", "重启", "官方安装说明", "<details>", "WorkBuddy", "git clone", "references"):
     assert unnecessary not in install, unnecessary
-assert "用 directing-stickman-videos 做一个火柴人视频。" in cn
+topic = cn.split("### 2. 给一个话题", 1)[1].split("### 3.", 1)[0]
+assert "把话题、文案或文章直接发给 AI" in topic
+assert "帮我做一个关于“为什么越晚，越舍不得睡”的火柴人视频。" in topic
+for preset in ("$directing", "16:9", "美式男声", "先给我导演提案", "想换个画风"):
+    assert preset not in topic, "Topic entry must not require a prefilled production request"
+assert "### 3. 跟着引导，确认提案" in cn
+assert "Skill 会主动询问；时长可指定，默认 60 秒" in cn
+assert "你确认后，它才输出最终分段提示词" in cn
+assert "### 4. 生成视频，剪辑成片" in cn
 assert "## 最近更新" in cn and "CHANGELOG.zh-CN.md" in cn
 assert "## Star 增长曲线" in cn and "[MIT License](LICENSE)" in cn
 assert cn.count("<details>") == cn.count("</details>")
