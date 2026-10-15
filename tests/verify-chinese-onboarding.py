@@ -7,6 +7,7 @@ import struct
 root = Path(__file__).resolve().parents[1]
 cn = (root / "README.md").read_text()
 assert cn == (root / "README.zh-CN.md").read_text()
+assert "# AI 火柴人动画画风大全" in cn
 assert "## 你的作品，也可以成为下一个案例" not in cn
 assert "## 下一种火柴人，你来点" in cn
 community = cn.split("## 下一种火柴人，你来点", 1)[1].split("## Star 增长曲线", 1)[0]
@@ -28,6 +29,10 @@ for preset in ("$directing", "16:9", "美式男声", "先给我导演提案", "�
 assert "### 3. 跟着引导，确认提案" in cn
 assert "Skill 会主动询问；时长可指定，默认 60 秒" in cn
 assert "你确认后，它才输出最终分段提示词" in cn
+guided_demo = cn.split("### 3. 跟着引导，确认提案", 1)[1].split("### 4.", 1)[0]
+for required in ("简化对话示意", "**AI：**", "**你：**", "导演提案（节选）", "首段英文旁白", "中文参考", "3 条独立的火柴人动画提示词"):
+    assert required in guided_demo, required
+assert guided_demo.index("想做横屏") < guided_demo.index("横屏，治愈故事风，30 秒") < guided_demo.index("导演提案（节选）") < guided_demo.index("可以，按这版继续") < guided_demo.index("3 条独立的火柴人动画提示词")
 assert "### 4. 生成视频，剪辑成片" in cn
 assert "## 最近更新" in cn and "CHANGELOG.zh-CN.md" in cn
 assert "## Star 增长曲线" in cn and "[MIT License](LICENSE)" in cn
