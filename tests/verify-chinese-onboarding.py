@@ -9,7 +9,9 @@ cn = (root / "README.md").read_text()
 assert cn == (root / "README.zh-CN.md").read_text()
 assert "## 你的作品，也可以成为下一个案例" not in cn
 assert "## 下一种火柴人，你来点" in cn
-assert cn.index("也欢迎在 [Issues]") > cn.index("## 下一种火柴人，你来点")
+community = cn.split("## 下一种火柴人，你来点", 1)[1].split("## Star 增长曲线", 1)[0]
+assert community.count("[Issues]") == 1, "Use one combined community entry"
+assert community.index("想看新画风、分享作品或反馈问题") > community.index("风格 9")
 assert "## 从文案到视频，五步走" not in cn
 assert "## 你会拿到什么" not in cn
 assert "## 它帮你做什么" in cn and "## 开始使用" in cn
