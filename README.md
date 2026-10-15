@@ -241,6 +241,20 @@ $directing-stickman-videos
 
 我是[烤妹儿](https://x.com/CrazyKaomei)，会继续实测新画风、分享制作教程，也把大家做出的好作品放进来。
 
+## Star 增长曲线
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date&amp;theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date">
+    <img src="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date" alt="kaomei/stickman-video-director 的 GitHub Star 增长曲线" width="800">
+  </picture>
+</a>
+</div>
+
 ## 许可证
 
-MIT
+本项目采用 [MIT License](LICENSE) 开源，允许免费使用、修改、商用和分发。分发本项目或其重要部分时，请保留原有版权和许可声明。
+
+项目按“现状”提供，不作任何担保；完整条款见 [LICENSE](LICENSE)。
