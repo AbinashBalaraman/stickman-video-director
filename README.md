@@ -50,7 +50,7 @@
 
 ⭐ **先收藏，下次做火柴人动画不用再到处找提示词。**
 
-[开始使用](#quick-start) · [查看全部画风](#style-gallery) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)
+[开始使用](#quick-start) · [最近更新](#recent-updates) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)
 
 </div>
 
@@ -197,6 +197,8 @@ https://github.com/kaomei/stickman-video-director
 - 人物、道具和旁白设定按整支视频统一；需要换声音时，先在提案里确定。
 - 发现某段人物、道具或声音明显偏离时，针对该段调整和复测，不用重做所有片段。
 - 文案可以改得更有吸引力，但不凭空添加事实、数据或产品效果。
+
+<a id="recent-updates"></a>
 
 ## 最近更新
 
