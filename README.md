@@ -8,43 +8,45 @@
 
 <sub>Stickman Video Director · AI Stickman Animation</sub>
 
-给一段文案，生成火柴人动画的脚本、分镜和配音提示词。<br>
-用于 YouTube、TikTok、Reels，也适合做双语英语账号。
+[![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
+![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-我正在把全网值得做的火柴人画风，逐个实测、逐个开源。<br>
-**以后想做火柴人动画，来这里挑画风就够了。**
+</div>
 
-**4 大画风 · 6 种视觉方案 · 实测样片 · 免费开源**
+我正在把全网热门的火柴人画风，逐个实测、整理开源。**以后想做火柴人动画，来这里挑画风就够了。**
 
-**[开始使用](#quick-start) · [查看全部画风](#style-gallery) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)**
+给一个话题或一段文案，就能拿到动画脚本、动态分镜，以及配音和音效提示词。做 YouTube、TikTok、Reels 视频，或自己的双语英语账号，都能用。
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/light-theme-demo.gif" alt="黑白极简火柴人动画：白底黑线、动态科普" width="90%"></a><br>
-<strong>黑白极简</strong> · 知识科普
+<strong>黑白极简</strong><br>
+<a href="#style-gallery"><img src="assets/readme/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a><br>
-<strong>潮酷科技</strong> · AI 与产品解说
+<strong>潮酷科技</strong><br>
+<a href="#style-gallery"><img src="assets/readme/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a><br>
-<strong>史前黑色幽默</strong> · 脑洞故事
+<strong>史前黑色幽默</strong><br>
+<a href="#style-gallery"><img src="assets/readme/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<a href="#style-gallery"><img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a><br>
-<strong>治愈故事</strong> · 生活与成长
+<strong>治愈故事</strong><br>
+<a href="#style-gallery"><img src="assets/readme/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
 </td>
 </tr>
 </table>
 
-⭐ **先收藏，下次做火柴人动画不用再到处找提示词。**
+<div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
-![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
+**4 大画风 · 6 种视觉方案 · 实测样片 · 免费开源**
+
+[开始使用](#quick-start) · [查看全部画风](#style-gallery) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)
+
+⭐ **先收藏，下次做火柴人动画不用再到处找提示词。**
 
 </div>
 
@@ -227,7 +229,7 @@ $directing-stickman-videos
 
 欢迎提交作品、想看的画风或具体问题。分享案例时请附上主题、所用风格与作者链接，方便展示和署名。
 
-**点个 Star ⭐，把这份画风大全收进工具箱。** 想做动画时回来挑风格，有新作品也欢迎交作业。
+⭐ **点个 Star，把这份画风大全收进工具箱。新画风会继续更新，也欢迎来交作业。**
 
 我是[烤妹儿](https://x.com/CrazyKaomei)，会继续实测新画风、分享制作教程，也把大家做出的好作品放进来。
 
