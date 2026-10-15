@@ -151,7 +151,9 @@ Skill 负责提案和提示词，Flow 等工具负责生成视频，最后用剪
 **Codex：复制下面这句话，直接发给它。**
 
 ```text
-$skill-installer 请从 https://github.com/kaomei/stickman-video-director/tree/main/skills/directing-stickman-videos 安装 directing-stickman-videos。
+$skill-installer
+请从仓库 https://github.com/kaomei/stickman-video-director
+安装 skills/directing-stickman-videos 目录中的 Skill。
 ```
 
 安装后即可调用；如果没有显示在技能列表中，再重启 Codex。参见 [OpenAI 官方安装说明](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)。

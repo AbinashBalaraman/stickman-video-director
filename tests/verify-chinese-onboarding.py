@@ -13,7 +13,7 @@ assert cn.index("也欢迎在 [Issues]") > cn.index("## 下一种火柴人，你
 assert "## 从文案到视频，五步走" not in cn
 assert "## 你会拿到什么" not in cn
 assert "## 它帮你做什么" in cn and "## 开始使用" in cn
-assert "$skill-installer 请从 https://github.com/kaomei/stickman-video-director/tree/main/skills/directing-stickman-videos" in cn
+assert "$skill-installer\n请从仓库 https://github.com/kaomei/stickman-video-director\n安装 skills/directing-stickman-videos 目录中的 Skill。" in cn
 assert 'mkdir -p "$HOME/.agents/skills"' in cn
 assert 'cp -R skills/directing-stickman-videos "$HOME/.agents/skills/"' in cn
 assert "## 最近更新" in cn and "CHANGELOG.zh-CN.md" in cn
