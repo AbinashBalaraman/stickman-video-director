@@ -225,11 +225,11 @@ https://github.com/kaomei/stickman-video-director
 
 也欢迎在 [Issues](https://github.com/kaomei/stickman-video-director/issues) 提交作品或具体问题。分享案例时请附上主题、所用风格与作者链接，方便展示和署名。
 
+## Star 增长曲线
+
 ⭐ **点个 Star，把这份画风大全收进工具箱。新画风会继续更新，也欢迎来交作业。**
 
 我是[烤妹儿](https://x.com/CrazyKaomei)，会继续实测新画风、分享制作教程，也把大家做出的好作品放进来。
-
-## Star 增长曲线
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">
