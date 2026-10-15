@@ -13,9 +13,12 @@ assert cn.index("也欢迎在 [Issues]") > cn.index("## 下一种火柴人，你
 assert "## 从文案到视频，五步走" not in cn
 assert "## 你会拿到什么" not in cn
 assert "## 它帮你做什么" in cn and "## 开始使用" in cn
-assert "$skill-installer\n请从仓库 https://github.com/kaomei/stickman-video-director\n安装 skills/directing-stickman-videos 目录中的 Skill。" in cn
-assert 'mkdir -p "$HOME/.agents/skills"' in cn
-assert 'cp -R skills/directing-stickman-videos "$HOME/.agents/skills/"' in cn
+install = cn.split("### 1. 安装 Skill", 1)[1].split("<!-- readme:workflow -->", 1)[0]
+assert "帮我安装这个 Skill：\nhttps://github.com/kaomei/stickman-video-director" in install
+assert len(install.strip()) < 130, "Keep the installation entry short"
+for unnecessary in ("$skill-installer", "重启", "官方安装说明", "<details>", "WorkBuddy", "git clone", "references"):
+    assert unnecessary not in install, unnecessary
+assert "用 directing-stickman-videos 做一个火柴人视频。" in cn
 assert "## 最近更新" in cn and "CHANGELOG.zh-CN.md" in cn
 assert "## Star 增长曲线" in cn and "[MIT License](LICENSE)" in cn
 assert cn.count("<details>") == cn.count("</details>")
