@@ -102,7 +102,7 @@ for readme in "${readmes[@]}"; do
   if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
     paired_demos+=('style-3-demo style-3-community-fire')
     paired_demos+=('style-4-cozy-station style-4-cozy-cafe')
-    for token in '四种画风' '风格 4：治愈故事风' 'assets/readme/style-4-cozy-station.gif' 'assets/readme/style-4-cozy-cafe.gif'; do
+    for token in '全部画风一览' '风格 4：治愈故事风' 'assets/readme/style-4-cozy-station.gif' 'assets/readme/style-4-cozy-cafe.gif'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing style 4 token: %s\n' "$readme" "$token" >&2
         exit 1
