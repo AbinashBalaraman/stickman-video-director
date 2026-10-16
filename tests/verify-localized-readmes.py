@@ -22,7 +22,6 @@ locales = {
 common_links = (
     "https://github.com/kaomei/stickman-video-director",
     "https://github.com/kaomei/stickman-video-director/issues",
-    "https://x.com/monixin888/status/2109651037850325112",
     "https://x.com/CrazyKaomei/status/2102311241046008268",
     "https://x.com/CrazyKaomei/status/2093893997223923822?s=20",
     "https://flow.google.com/",
@@ -30,6 +29,7 @@ common_links = (
 for locale, (label, title, style_prefix, style_four, tutorial_language) in locales.items():
     path = root / f"README.{locale}.md"
     text = path.read_text()
+    assert not re.search(r"monixin888|2109651037850325112", text, re.IGNORECASE), path.name
     assert title in text, path.name
     assert f"[**{label}**]({path.name})" in text
     assert set(re.findall(preview_pattern, text)) == expected_previews
@@ -76,6 +76,7 @@ for locale, (label, title, style_prefix, style_four, tutorial_language) in local
     print(f"{path.name}: style/asset parity, original narration, links and onboarding passed.")
 
 assert source == (root / "README.zh-CN.md").read_text()
+assert not re.search(r"monixin888|2109651037850325112", source, re.IGNORECASE)
 assert "# AI 火柴人动画画风大全" in source
 assert "[**简体中文**](README.zh-CN.md) · [English](README.en.md)" in source
 print("Chinese remains the default homepage.")

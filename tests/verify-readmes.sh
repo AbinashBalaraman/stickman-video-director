@@ -105,12 +105,16 @@ for readme in "${readmes[@]}"; do
     'style-3-demo style-3-community-fire'
     'style-4-cozy-station style-4-cozy-cafe'
   )
-  for token in 'https://x.com/monixin888/status/2109651037850325112' 'WorkBuddy' 'id="quick-start"' 'id="style-gallery"' 'id="recent-updates"'; do
+  for token in 'id="quick-start"' 'id="style-gallery"' 'id="recent-updates"'; do
     rg -Fq "$token" "$readme_path" || {
       printf '%s missing synchronized content: %s\n' "$readme" "$token" >&2
       exit 1
     }
   done
+  if rg -ni 'monixin888|2109651037850325112' "$readme_path"; then
+    printf '%s contains removed community attribution\n' "$readme" >&2
+    exit 1
+  fi
   if rg -n 'href="assets/readme/[^" ]+\.mp4"|git clone|cp -R skills/|\$skill-installer|\$directing-stickman-videos' "$readme_path"; then
     printf '%s contains obsolete preview or installation instructions\n' "$readme" >&2
     exit 1
@@ -122,7 +126,7 @@ for readme in "${readmes[@]}"; do
         exit 1
       }
     done
-    for token in 'assets/readme/previews/style-3-community-fire.gif' '[X：@monixin888](https://x.com/monixin888/status/2109651037850325112)' '案例 1：《人类的第一份工作是怎么来的？》' 'WorkBuddy'; do
+    for token in 'assets/readme/previews/style-3-community-fire.gif' '案例 1：《人类的第一份工作是怎么来的？》'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing community example token: %s\n' "$readme" "$token" >&2
         exit 1

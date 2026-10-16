@@ -103,8 +103,6 @@
 | <img src="assets/readme/previews/style-3-demo.gif" alt="《人类的第一份工作是怎么来的？》动态预览" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="《人类第一次发现火源》——粉丝作品" width="360"> |
 | 史前故事 · 职场反转 | 火源主题 · 粉丝作品 |
 
-**粉丝案例：《人类第一次发现火源》** — 由粉丝 [X：@monixin888](https://x.com/monixin888/status/2109651037850325112) 使用 WorkBuddy 调用本 Skill 制作。
-
 ---
 
 ### 风格 4：治愈故事风
