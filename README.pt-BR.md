@@ -103,8 +103,6 @@ E se os problemas de hoje fossem parar em um mundo sem celular nem escritório? 
 | <img src="assets/readme/previews/style-3-demo.gif" alt="Prévia de Como surgiu o primeiro emprego da humanidade?" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="A descoberta do fogo em uma animação feita pela comunidade" width="360"> |
 | História pré-histórica · Sátira do trabalho | Descoberta do fogo · Criação da comunidade |
 
-**Criação da comunidade: “A primeira descoberta do fogo”** — Feita por [@monixin888 no X](https://x.com/monixin888/status/2109651037850325112), usando esta Skill pelo WorkBuddy.
-
 ---
 
 ### Estilo 4: Histórias acolhedoras
