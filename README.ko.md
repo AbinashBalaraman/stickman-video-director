@@ -103,8 +103,6 @@
 | <img src="assets/readme/previews/style-3-demo.gif" alt="인류 최초의 일자리를 다룬 애니메이션 미리보기" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="불의 발견을 주제로 만든 커뮤니티 작품" width="360"> |
 | 선사시대 이야기·직장 풍자 | 불의 발견·커뮤니티 작품 |
 
-**커뮤니티 작품 「인류가 처음 불을 발견한 날」** — [X @monixin888](https://x.com/monixin888/status/2109651037850325112) 님이 WorkBuddy에서 이 Skill을 사용해 제작했습니다.
-
 ---
 
 ### 스타일 4: 따뜻한 일상 이야기

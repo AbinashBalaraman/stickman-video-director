@@ -103,8 +103,6 @@
 | <img src="assets/readme/previews/style-3-demo.gif" alt="『人類最初の仕事は、どう生まれた？』のプレビュー" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="火の発見をテーマにしたユーザー作品" width="360"> |
 | 原始時代の物語・仕事の皮肉 | 火の発見・ユーザー作品 |
 
-**ユーザー作品『人類が初めて火を見つけた日』** — [X：@monixin888](https://x.com/monixin888/status/2109651037850325112)さんが、WorkBuddyからこのSkillを使って制作しました。
-
 ---
 
 ### スタイル4：ほっとする日常ストーリー

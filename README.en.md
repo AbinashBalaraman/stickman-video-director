@@ -103,8 +103,6 @@ Take today's problems back to a world without phones or offices. Caves, animal h
 | <img src="assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? animated preview" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="Humans Discover Fire, a community-made animation" width="360"> |
 | Prehistoric workplace comedy | Fire discovery · Community creation |
 
-**Community example: “Humans Discover Fire”** — Created by [@monixin888 on X](https://x.com/monixin888/status/2109651037850325112) using this Skill in WorkBuddy.
-
 ---
 
 ### Style 4: Cozy Storytelling
