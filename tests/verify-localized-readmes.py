@@ -11,8 +11,19 @@ preview_pattern = rf'src="{re.escape(preview_base)}(assets/readme/previews/[^" ]
 expected_previews = set(re.findall(preview_pattern, source))
 assert len(expected_previews) == 11
 for readme in root.glob("README*.md"):
-    images = re.findall(r'src="([^" ]+\.gif)"', readme.read_text())
+    text = readme.read_text()
+    images = re.findall(r'src="([^" ]+\.gif)"', text)
     assert images and all(url.startswith(preview_base) for url in images), readme.name
+    hero = text.split('<table width="100%">', 1)[1].split("</table>", 1)[0]
+    rows = re.findall(r"<tr>(.*?)</tr>", hero, re.DOTALL)
+    assert len(rows) == 3, (readme.name, "Hero must use three rows")
+    assert all(row.count('<td width="50%"') == 2 for row in rows), readme.name
+    order = ("dark-theme-demo.gif", "style-2a-demo.gif", "style-3-demo.gif",
+             "style-4-cozy-cafe.gif", "style-5-japan-hero.gif")
+    assert [hero.index(asset) for asset in order] == sorted(hero.index(asset) for asset in order)
+    last_cells = re.findall(r"<td[^>]*>(.*?)</td>", rows[-1], re.DOTALL)
+    assert "style-5-japan-hero.gif" in last_cells[0]
+    assert "<strong>" in last_cells[1] and "<img" not in last_cells[1]
 approved_voiceover = (
     "Ten thousand years ago, one man finally solved all his problems. He shut them outside.",
     "Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.",
@@ -38,12 +49,12 @@ for locale, (label, title, style_prefix, style_four, tutorial_language) in local
     assert title in text, path.name
     assert f"[**{label}**]({path.name})" in text
     assert set(re.findall(preview_pattern, text)) == expected_previews
-    assert text.count('width="90%"') == 4
+    assert text.count('width="90%"') == 5
     assert text.count('width="360"') == 10
-    assert text.count('width="640"') == 1
+    assert text.count('width="640"') == 0
     assert len(re.findall(rf"^{re.escape(style_prefix)} [1-5]:|^{re.escape(style_prefix)}[1-5]：", text, re.MULTILINE)) == 5
     assert 'https://github.com/leksautomate' in text
-    assert text.index('style-5-japan-hero.gif') < text.index('dark-theme-demo.gif')
+    assert text.index('style-4-cozy-cafe.gif') < text.index('style-5-japan-hero.gif')
     assert style_four in text
     assert tutorial_language in text
     for link in common_links:

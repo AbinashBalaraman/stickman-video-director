@@ -23,12 +23,6 @@
 
 <table width="100%">
 <tr>
-<td colspan="2" align="center">
-<strong>历史卡通风</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通火柴人动画：江户日本的武士故事" width="640"></a>
-</td>
-</tr>
-<tr>
 <td width="50%" align="center">
 <strong>黑白极简</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
@@ -46,6 +40,15 @@
 <td width="50%" align="center">
 <strong>治愈故事</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<strong>历史卡通风</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通火柴人动画：江户日本的武士故事" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>待更新…</strong>
 </td>
 </tr>
 </table>

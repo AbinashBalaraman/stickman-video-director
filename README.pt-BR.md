@@ -23,12 +23,6 @@ Estou testando estilos populares de animação com bonecos de palito e compartil
 
 <table width="100%">
 <tr>
-<td colspan="2" align="center">
-<strong>Cartoon histórico</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Animação histórica com bonecos de palito no Japão do período Edo" width="640"></a>
-</td>
-</tr>
-<tr>
 <td width="50%" align="center">
 <strong>Minimalista em preto e branco</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Animação minimalista de boneco de palito branco sobre fundo preto" width="90%"></a>
@@ -46,6 +40,15 @@ Estou testando estilos populares de animação com bonecos de palito e compartil
 <td width="50%" align="center">
 <strong>Histórias acolhedoras</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Personagens expressivos em um cenário cotidiano colorido" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<strong>Cartoon histórico</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Animação histórica com bonecos de palito no Japão do período Edo" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>Mais estilos em breve…</strong>
 </td>
 </tr>
 </table>

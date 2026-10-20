@@ -23,12 +23,6 @@
 
 <table width="100%">
 <tr>
-<td colspan="2" align="center">
-<strong>역사 카툰</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="에도 시대 일본을 배경으로 한 역사 스틱맨 애니메이션" width="640"></a>
-</td>
-</tr>
-<tr>
 <td width="50%" align="center">
 <strong>미니멀 흑백</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="검은 배경 위 흰 선으로 표현한 미니멀 스틱맨 애니메이션" width="90%"></a>
@@ -46,6 +40,15 @@
 <td width="50%" align="center">
 <strong>따뜻한 일상 이야기</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="다채로운 일상 배경 속 표정이 살아 있는 스틱맨" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<strong>역사 카툰</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="에도 시대 일본을 배경으로 한 역사 스틱맨 애니메이션" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>새로운 스타일 준비 중…</strong>
 </td>
 </tr>
 </table>

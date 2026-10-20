@@ -23,12 +23,6 @@
 
 <table width="100%">
 <tr>
-<td colspan="2" align="center">
-<strong>歴史カートゥーン</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="江戸時代を舞台にした歴史カートゥーンのプレビュー" width="640"></a>
-</td>
-</tr>
-<tr>
 <td width="50%" align="center">
 <strong>白黒ミニマル</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="黒背景に白い線で描くミニマルな棒人間アニメ" width="90%"></a>
@@ -46,6 +40,15 @@
 <td width="50%" align="center">
 <strong>ほっとする日常ストーリー</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="彩りのある日常風景と表情豊かな棒人間" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<strong>歴史カートゥーン</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="江戸時代を舞台にした歴史カートゥーンのプレビュー" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>新しい画風を準備中…</strong>
 </td>
 </tr>
 </table>

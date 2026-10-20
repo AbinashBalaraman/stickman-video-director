@@ -23,12 +23,6 @@ I'm testing popular stickman animation styles from across the web and sharing th
 
 <table width="100%">
 <tr>
-<td colspan="2" align="center">
-<strong>Historical Cartoon</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman animation set in Edo-period Japan" width="640"></a>
-</td>
-</tr>
-<tr>
 <td width="50%" align="center">
 <strong>Minimalist Monochrome</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Minimalist stickman animation with white lines on black" width="90%"></a>
@@ -46,6 +40,15 @@ I'm testing popular stickman animation styles from across the web and sharing th
 <td width="50%" align="center">
 <strong>Cozy Storytelling</strong><br>
 <a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Expressive stick characters in a colorful everyday setting" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<strong>Historical Cartoon</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman animation set in Edo-period Japan" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>More styles coming soon…</strong>
 </td>
 </tr>
 </table>
