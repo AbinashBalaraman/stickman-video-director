@@ -27,6 +27,11 @@ demo_assets=(
   assets/readme/style-4-cozy-station.mp4
   assets/readme/style-4-cozy-cafe.gif
   assets/readme/style-4-cozy-cafe.mp4
+  assets/readme/style-5-japan.mp4
+  assets/readme/style-5-egypt.mp4
+  assets/readme/previews/style-5-japan.gif
+  assets/readme/previews/style-5-egypt.gif
+  assets/readme/previews/style-5-japan-hero.gif
 )
 section_markers=(
   '<!-- readme:hero -->'
@@ -57,6 +62,8 @@ shared_tokens=(
   '16:9'
   '9:16'
   'MIT'
+  'https://github.com/leksautomate'
+  'assets/readme/previews/style-5-japan-hero.gif'
 )
 
 if (( $# > 0 )); then
@@ -104,8 +111,9 @@ for readme in "${readmes[@]}"; do
     'style-2a-demo style-2b-demo'
     'style-3-demo style-3-community-fire'
     'style-4-cozy-station style-4-cozy-cafe'
+    'style-5-japan style-5-egypt'
   )
-  for token in 'id="quick-start"' 'id="style-gallery"' 'id="recent-updates"'; do
+  for token in 'id="quick-start"' 'id="style-gallery"' 'id="style-5"' 'id="recent-updates"'; do
     rg -Fq "$token" "$readme_path" || {
       printf '%s missing synchronized content: %s\n' "$readme" "$token" >&2
       exit 1

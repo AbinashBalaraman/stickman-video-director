@@ -13,10 +13,13 @@ This catalog defines the supported visual styles for `directing-stickman-videos`
 | **Style 2B** | Modern Beanie - Cinematic Story (彩色故事风) | Full-color narrative environments, cinematic lighting & depth (warm room, dusk, desert, summit) | Emotional storytelling, personal growth, motivational journeys, narrative hooks | Same red beanie & yellow t-shirt figure staged inside rich environmental lighting |
 | **Style 3** | Prehistoric Hand-Drawn / Dark Comedy (史前手绘 / 黑色幽默) | Earthy prehistoric environments, warm fire accents, subtle paper texture | Satirical stories, visual analogies, ironic callbacks | White filled heads, expressive cartoon faces, black stick limbs, variable story-specific cast |
 | **Style 4** | Cozy Storytelling (治愈故事风) | Full-color 2D cartoon locations, gentle atmospheric light, varied cinematic shots | Relatable life stories, emotional growth, educational storytelling | White filled round head and slim torso, dark stick limbs, simple expressive face |
+| **Style 5** | Historical Cartoon (历史卡通风) | Full-color painterly historical settings, clean cel shading, era-specific wardrobe and props | History explainers, historical daily life, civilization stories and historical comedy | White filled round heads, simple black oval eyes, thick outlines and thin black stick limbs |
 
 For Style 3 read `prehistoric-dark-comedy.md`. It overrides this catalog's generic motion and piano rules. Fix the drawing grammar across stories, not one universal face; fix each approved character within a story.
 
 For Style 4 read `cozy-storytelling.md`. Treat locations as story beats, not one universal room. Its English display name is **Cozy Storytelling**; do not rename it Sketchbook Stories, hand-drawn, or prehistoric.
+
+For Style 5 read `historical-cartoon.md`. Freeze the drawing grammar; change the era pack, not the character rendering system. Use its cast cards, historical palette and story-appropriate music together with `voice-continuity.md`.
 
 ---
 
@@ -130,7 +133,15 @@ Use the full character anchor, prop-state rules and acceptance checklist in `coz
 
 ---
 
-## 5. Universal Audio Continuity Contract
+## 5. Style 5: Historical Cartoon (历史卡通风)
+
+Expressive stick-figure characters in historical costume, staged in colorful painted landscapes and architecture. Use wide establishing views, readable character actions, reaction close-ups and motivated cuts. Design the cast for the story: a Roman soldier, an Edo-period student or an Egyptian temple attendant need different wardrobe and props, not different drawing grammar.
+
+Use `historical-cartoon.md` for the full style anchor, era-pack template, cast cards and prompt assembly. Visual concept and Roman era-pack contribution: [@leksautomate](https://github.com/leksautomate).
+
+---
+
+## 6. Universal Audio Continuity Contract
 
 Voice continuity is a shared foundation for **all styles**, including Styles 3 and 4. Apply `voice-continuity.md` before style-specific music rules. Different videos can choose different voices, while all clips of one video repeat one complete approved voice profile. Keep voice identity separate from the musical arc.
 
@@ -152,7 +163,7 @@ This is the user-accepted male example, not a compulsory voice for every project
 
 ---
 
-## 6. Visual Beat Pacing Template (10-Second Clip)
+## 7. Visual Beat Pacing Template (10-Second Clip)
 
 Every prompt must divide its 10 seconds into three active narrative beats:
 

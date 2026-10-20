@@ -7,7 +7,7 @@ root = Path(__file__).resolve().parents[1]
 source = (root / "README.md").read_text()
 preview_pattern = r'src="(assets/readme/previews/[^" ]+\.gif)"'
 expected_previews = set(re.findall(preview_pattern, source))
-assert len(expected_previews) == 8
+assert len(expected_previews) == 11
 approved_voiceover = (
     "Ten thousand years ago, one man finally solved all his problems. He shut them outside.",
     "Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.",
@@ -34,8 +34,11 @@ for locale, (label, title, style_prefix, style_four, tutorial_language) in local
     assert f"[**{label}**]({path.name})" in text
     assert set(re.findall(preview_pattern, text)) == expected_previews
     assert text.count('width="90%"') == 4
-    assert text.count('width="360"') == 8
-    assert len(re.findall(rf"^{re.escape(style_prefix)} [1-4]:|^{re.escape(style_prefix)}[1-4]：", text, re.MULTILINE)) == 4
+    assert text.count('width="360"') == 10
+    assert text.count('width="640"') == 1
+    assert len(re.findall(rf"^{re.escape(style_prefix)} [1-5]:|^{re.escape(style_prefix)}[1-5]：", text, re.MULTILINE)) == 5
+    assert 'https://github.com/leksautomate' in text
+    assert text.index('style-5-japan-hero.gif') < text.index('dark-theme-demo.gif')
     assert style_four in text
     assert tutorial_language in text
     for link in common_links:
@@ -45,7 +48,7 @@ for locale, (label, title, style_prefix, style_four, tutorial_language) in local
     rows = [line for line in text.splitlines() if any(vo in line for vo in approved_voiceover)]
     assert len(rows) == 3 and all(row.count("|") == 4 for row in rows)
     assert all(len(row.split("|")[2].strip()) > 80 for row in rows)
-    for date in ("2026-10-15", "2026-10-14", "2026-10-13", "2026-10-12"):
+    for date in ("2026-10-20", "2026-10-15", "2026-10-14", "2026-10-13", "2026-10-12"):
         assert date in text
     assert "api.star-history.com/svg" in text
     assert "CHANGELOG.zh-CN.md" in text

@@ -13,4 +13,17 @@ for demo in light-theme-demo dark-theme-demo style-2a-demo style-2b-demo style-3
     -loop 0 "$preview_root/assets/readme/previews/$demo.gif"
 done
 
-printf 'Built eight lightweight Chinese README previews; originals unchanged.\n'
+# Use short, lightweight excerpts for the new video sources.
+for demo in style-5-japan style-5-egypt; do
+  ffmpeg -hide_banner -loglevel error -y \
+    -i "$preview_root/assets/readme/$demo.mp4" -t 10 \
+    -filter_complex '[0:v]fps=6,scale=400:225:flags=lanczos,split[a][b];[a]palettegen=max_colors=64:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle' \
+    -loop 0 "$preview_root/assets/readme/previews/$demo.gif"
+done
+
+ffmpeg -hide_banner -loglevel error -y \
+  -i "$preview_root/assets/readme/style-5-japan.mp4" -t 10 \
+  -filter_complex '[0:v]fps=6,scale=640:360:flags=lanczos,split[a][b];[a]palettegen=max_colors=64:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle' \
+  -loop 0 "$preview_root/assets/readme/previews/style-5-japan-hero.gif"
+
+printf 'Built lightweight README previews; original media unchanged.\n'

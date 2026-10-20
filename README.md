@@ -23,6 +23,12 @@
 
 <table width="100%">
 <tr>
+<td colspan="2" align="center">
+<strong>历史卡通风</strong><br>
+<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通火柴人动画：江户日本的武士故事" width="640"></a>
+</td>
+</tr>
+<tr>
 <td width="50%" align="center">
 <strong>黑白极简</strong><br>
 <a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
@@ -46,7 +52,7 @@
 
 <div align="center">
 
-**4 大画风 · 6 种视觉方案 · 实测样片 · 免费开源**
+**5 大画风 · 7 种视觉方案 · 实测样片 · 免费开源**
 
 ⭐ **先收藏，下次做火柴人动画不用再到处找提示词。**
 
@@ -117,6 +123,25 @@
 |:---:|:---:|
 | <img src="assets/readme/previews/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="360"> |
 | 地铁站 · 行走跟拍 · 情绪近景 | 露天咖啡座 · 暖光树影 · 日常动作 |
+
+---
+
+<a id="style-5"></a>
+
+### 风格 5：历史卡通风
+
+让火柴人走进历史：江户街头的武士、古埃及神庙里的黑猫、罗马营地中的士兵。用鲜明的时代服饰、彩色场景和带反差的小情节，把历史知识讲得更有画面感。
+
+- **画面特点**：白色实心圆头、黑色椭圆眼睛、清晰粗轮廓与细线肢体，搭配时代服饰、柔和赛璐璐明暗和彩色绘景。换国家、换时代时，调整服装、建筑、道具和音乐，保留同一套角色画法。
+- **适合内容**：世界历史、文明趣事、古人日常、人物故事与历史题材的幽默短片。
+- **怎么选**：想把知识点变成“古人正在经历的一件事”，可以选这一风格。既能讲一个历史细节，也能用角色反应和情节反转，让观众愿意继续看。
+
+| 案例 1：江户日本 · 武士的日常 | 案例 2：古埃及 · 猫与木乃伊 |
+|:---:|:---:|
+| <img src="assets/readme/previews/style-5-japan.gif" alt="历史卡通风：江户武士与街巷日常" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="历史卡通风：古埃及神庙、黑猫与木乃伊" width="360"> |
+| 江户街巷 · 武士服饰 · 日常反差 | 彩色神庙 · 黑猫角色 · 历史趣事 |
+
+画风与提示词贡献：[Lawal Ridwan / @leksautomate](https://github.com/leksautomate)；日本样片由原作者提供。
 
 <!-- readme:advantages -->
 
@@ -212,12 +237,13 @@ https://github.com/kaomei/stickman-video-director
 
 ## 最近更新
 
+- **2026-10-20**：新增风格 5「历史卡通风」，展示日本与埃及样片，日本样片作为头部预览；感谢 @leksautomate 的画风与提示词贡献。
 - **2026-10-15**：优化中文首页、安装入口和案例说明，加入轻量动图预览与 Star 增长曲线；Skill 规则不变。
 - **2026-10-14**：新增风格 4「治愈故事风」，加入地铁站与咖啡座两个样片。
 - **2026-10-13**：优化风格 1 的人物描述与当前姿态约束。
 - **2026-10-12**：完善全风格共用的语音一致性规则，补充史前风格案例。
 
-已有用户：最近的首页调整不需要重装。想用风格 4，或安装的是人物／声音规则更新前的版本，再更新 Skill 即可。[查看更新记录](CHANGELOG.zh-CN.md)。
+已有用户：最近的首页调整不需要重装。想用风格 5，或安装的是人物／声音规则更新前的版本，再更新 Skill 即可。[查看更新记录](CHANGELOG.zh-CN.md)。
 
 <!-- readme:contribute -->
 
@@ -226,7 +252,7 @@ https://github.com/kaomei/stickman-video-director
 下面这些画风正在计划中，尚未上线：
 
 - **虚实融合场景** — 继续探索 2D 火柴人与更丰富环境的搭配。
-- **风格 5：讲台解说** — 黑板互动与知识讲解。
+- **讲台解说** — 黑板互动与知识讲解。
 - **风格 6：手绘绘本** — 童话、寓言与儿童故事。
 - **风格 7：涂鸦打斗** — 动作短片与连招对决。
 - **风格 8：双人情景喜剧** — 对话、互怼与日常反转。

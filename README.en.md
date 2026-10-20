@@ -23,6 +23,12 @@ I'm testing popular stickman animation styles from across the web and sharing th
 
 <table width="100%">
 <tr>
+<td colspan="2" align="center">
+<strong>Historical Cartoon</strong><br>
+<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman animation set in Edo-period Japan" width="640"></a>
+</td>
+</tr>
+<tr>
 <td width="50%" align="center">
 <strong>Minimalist Monochrome</strong><br>
 <a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="Minimalist stickman animation with white lines on black" width="90%"></a>
@@ -46,7 +52,7 @@ I'm testing popular stickman animation styles from across the web and sharing th
 
 <div align="center">
 
-**4 styles · 6 visual options · Tested examples · Free and open source**
+**5 styles · 7 visual options · Tested examples · Free and open source**
 
 ⭐ **Star it now. Next time you make an animation, skip the hunt for prompts.**
 
@@ -117,6 +123,25 @@ A mug you've been saving for a special occasion. A message you feel compelled to
 |:---:|:---:|
 | <img src="assets/readme/previews/style-4-cozy-station.gif" alt="A character dealing with message anxiety at a train station" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="Taking a break at a sunlit outdoor café" width="360"> |
 | Train station · Tracking shots · Emotional close-ups | Outdoor café · Warm light · Everyday gestures |
+
+---
+
+<a id="style-5"></a>
+
+### Style 5: Historical Cartoon
+
+History, with a cast you can follow. Send a samurai through Edo's streets, meet a black cat in an Egyptian temple, or follow a soldier into a Roman camp. Period costumes, colorful settings, and small comic turns make the past feel like a story rather than a slide deck.
+
+- **The look:** White-filled round heads, simple black oval eyes, bold outlines, and thin stick limbs, with period clothing, soft cel shading, and painted backgrounds. Change the wardrobe, buildings, props, and score for each era—not the underlying character style.
+- **Best for:** World history, surprising facts, everyday life in the past, historical figures, and history-themed comedy.
+- **Why choose it?** To turn a fact into something happening to a character. Use a clear situation, a telling reaction, or a twist to carry the explanation.
+
+| Example 1: Everyday Life in Edo Japan | Example 2: Cats and Mummies in Ancient Egypt |
+|:---:|:---:|
+| <img src="assets/readme/previews/style-5-japan.gif" alt="A samurai's everyday life in Edo Japan" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="A black cat and a mummy in an ancient Egyptian temple" width="360"> |
+| Edo streets · Samurai clothing · Everyday surprises | Painted temple · Black cat · Historical curiosity |
+
+Style and prompt contribution: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). Japanese sample provided by the original creator.
 
 <!-- readme:advantages -->
 
@@ -212,12 +237,13 @@ Use it for faceless explainers, history and business topics, personal growth, ev
 
 ## Latest updates
 
+- **2026-10-20:** Added Style 5, Historical Cartoon, with Japanese and Egyptian samples and the Japanese film in the hero preview. Thanks to @leksautomate for the style and prompt contribution.
 - **2026-10-15:** Refined the Chinese homepage, installation steps, and examples; added lighter previews and a Star History chart. Skill rules unchanged.
 - **2026-10-14:** Added Style 4, Cozy Storytelling, with train-station and café examples.
 - **2026-10-13:** Refined Style 1's character descriptions and current-pose constraints.
 - **2026-10-12:** Improved shared voice-consistency rules and added prehistoric and community examples.
 
-Already installed? Homepage changes alone don't require a reinstall. Update the Skill if you want Style 4 or installed before the character and voice-rule changes. [Detailed changelog (Chinese)](CHANGELOG.zh-CN.md).
+Already installed? Homepage changes alone don't require a reinstall. Update the Skill if you want Style 5 or installed before the character and voice-rule changes. [Detailed changelog (Chinese)](CHANGELOG.zh-CN.md).
 
 <!-- readme:contribute -->
 
@@ -226,7 +252,7 @@ Already installed? Homepage changes alone don't require a reinstall. Update the 
 These styles are planned, not available yet:
 
 - **Mixed-media worlds** — Exploring 2D stick figures in richer environments.
-- **Style 5: Blackboard Explainer** — Lessons and talks with blackboard interaction.
+- **Blackboard Explainer** — Lessons and talks with blackboard interaction.
 - **Style 6: Illustrated Storybook** — Fairy tales, fables, and children's stories.
 - **Style 7: Graffiti Action** — Fight scenes, short action films, and combos.
 - **Style 8: Two-Character Sitcom** — Banter, everyday misunderstandings, and workplace twists.

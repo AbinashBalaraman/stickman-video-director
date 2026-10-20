@@ -63,14 +63,22 @@ for link in re.findall(r"\]\(([^)]+)\)", cn):
         assert (root / link.split("#")[0]).exists(), link
 
 previews = sorted(set(re.findall(r'src="(assets/readme/previews/[^" ]+\.gif)"', cn)))
-assert len(previews) == 8
+assert len(previews) == 11
 old_bytes = new_bytes = 0
 for preview in previews:
     optimized = root / preview
-    original = root / "assets/readme" / optimized.name
     assert optimized.exists()
     header = optimized.read_bytes()[:10]
     assert header[:6] in (b"GIF87a", b"GIF89a")
+    if optimized.name.startswith("style-5-"):
+        is_hero = optimized.name == "style-5-japan-hero.gif"
+        expected_size = (640, 360) if is_hero else (400, 225)
+        assert struct.unpack("<HH", header[6:10]) == expected_size
+        assert optimized.stat().st_size < (4_000_000 if is_hero else 2_000_000)
+        source_name = optimized.stem.replace("-hero", "") + ".mp4"
+        assert (root / "assets/readme" / source_name).exists()
+        continue
+    original = root / "assets/readme" / optimized.name
     assert struct.unpack("<HH", header[6:10]) == (400, 225)
     assert optimized.stat().st_size < original.stat().st_size
     old_bytes += original.stat().st_size

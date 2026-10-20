@@ -23,6 +23,12 @@ Estou testando estilos populares de animação com bonecos de palito e compartil
 
 <table width="100%">
 <tr>
+<td colspan="2" align="center">
+<strong>Cartoon histórico</strong><br>
+<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="Animação histórica com bonecos de palito no Japão do período Edo" width="640"></a>
+</td>
+</tr>
+<tr>
 <td width="50%" align="center">
 <strong>Minimalista em preto e branco</strong><br>
 <a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="Animação minimalista de boneco de palito branco sobre fundo preto" width="90%"></a>
@@ -46,7 +52,7 @@ Estou testando estilos populares de animação com bonecos de palito e compartil
 
 <div align="center">
 
-**4 estilos · 6 opções visuais · Exemplos testados · Grátis e de código aberto**
+**5 estilos · 7 opções visuais · Exemplos testados · Grátis e de código aberto**
 
 ⭐ **Deixe um Star para guardar. Na próxima animação, você não precisa sair caçando prompts de novo.**
 
@@ -117,6 +123,25 @@ Uma caneca que você guarda para uma ocasião especial. Uma mensagem que parece 
 |:---:|:---:|
 | <img src="assets/readme/previews/style-4-cozy-station.gif" alt="Personagem preocupado com mensagens na estação" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="Uma pausa em um café ao ar livre" width="360"> |
 | Estação · Câmera acompanhando o personagem · Close nas emoções | Café ao ar livre · Luz quente · Gestos cotidianos |
+
+---
+
+<a id="style-5"></a>
+
+### Estilo 5: Cartoon histórico
+
+Um samurai pelas ruas de Edo, um gato preto num templo egípcio, um soldado num acampamento romano. Figurinos de época, cenários coloridos e pequenas reviravoltas transformam um assunto de história em uma cena que dá vontade de acompanhar.
+
+- **Visual:** Cabeças redondas preenchidas de branco, olhos ovais pretos, contornos marcados e membros finos. Roupas de época recebem sombras suaves em cel shading; os cenários têm acabamento de pintura. Ao mudar de país ou período, troque roupas, arquitetura, objetos e trilha, mantendo o mesmo jeito de desenhar os personagens.
+- **Funciona bem para:** História mundial, curiosidades, cotidiano de outras épocas, personagens históricos e comédias com tema histórico.
+- **Quando escolher:** Quando você quer mostrar um fato por meio de uma situação, em vez de só explicá-lo. Uma reação ou uma virada bem colocada ajuda a conduzir a narrativa.
+
+| Exemplo 1: O cotidiano de um samurai em Edo | Exemplo 2: Gatos e múmias no Egito Antigo |
+|:---:|:---:|
+| <img src="assets/readme/previews/style-5-japan.gif" alt="O dia a dia de um samurai no Japão do período Edo" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="Um gato preto e uma múmia num templo do Egito Antigo" width="360"> |
+| Ruas de Edo · Trajes de samurai · Surpresas do cotidiano | Templo colorido · Gato preto · Curiosidade histórica |
+
+Contribuição de estilo e prompts: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). O vídeo do Japão foi cedido pelo criador original.
 
 <!-- readme:advantages -->
 
@@ -212,12 +237,13 @@ Serve para vídeos sem aparecer na câmera: explicações, história e negócios
 
 ## Últimas novidades
 
+- **2026-10-20:** Adicionado o Estilo 5, Cartoon histórico, com exemplos do Japão e do Egito. O vídeo japonês também aparece no topo da página. Agradecimentos a @leksautomate pela contribuição de estilo e prompts.
 - **2026-10-15:** Revisão da página inicial em chinês, da instalação e das explicações dos exemplos; prévias mais leves e gráfico do Star History. As regras da Skill não mudaram.
 - **2026-10-14:** Estilo 4 adicionado, com exemplos na estação e no café.
 - **2026-10-13:** Ajustes nas descrições do personagem e nas restrições de pose do Estilo 1.
 - **2026-10-12:** Melhoria das regras de consistência de voz para todos os estilos e inclusão de exemplos pré-históricos e da comunidade.
 
-Já instalou? Mudanças na apresentação da página não exigem reinstalação. Atualize a Skill se quiser o Estilo 4 ou se sua instalação for anterior às mudanças nas regras de personagens e voz. [Histórico detalhado em chinês](CHANGELOG.zh-CN.md).
+Já instalou? Mudanças na apresentação da página não exigem reinstalação. Atualize a Skill se quiser o Estilo 5 ou se sua instalação for anterior às mudanças nas regras de personagens e voz. [Histórico detalhado em chinês](CHANGELOG.zh-CN.md).
 
 <!-- readme:contribute -->
 
@@ -226,7 +252,7 @@ Já instalou? Mudanças na apresentação da página não exigem reinstalação.
 Estes estilos estão nos planos, mas ainda não estão disponíveis:
 
 - **Cenários com mistura de mídias** — Explorar personagens 2D em ambientes mais ricos.
-- **Estilo 5: Explicação na lousa** — Aulas e explicações com interação com a lousa.
+- **Explicação na lousa** — Aulas e explicações com interação com a lousa.
 - **Estilo 6: Livro ilustrado à mão** — Contos, fábulas e histórias infantis.
 - **Estilo 7: Ação em grafite** — Lutas, sequências de golpes e curtas de ação.
 - **Estilo 8: Sitcom em dupla** — Diálogos, desencontros do dia a dia e situações de trabalho.
