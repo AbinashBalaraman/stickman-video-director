@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[**简体中文**](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[English](README.en.md) · [**简体中文**](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
 
 # AI 火柴人动画画风大全
 
@@ -240,6 +240,7 @@ https://github.com/kaomei/stickman-video-director
 
 ## 最近更新
 
+- **2026-10-20：** 首页默认展示英语，新增土耳其语和印尼语版本，保留中文、日语、韩语和巴西葡语入口。Skill 规则不变。
 - **2026-10-20**：新增风格 5「历史卡通风」，展示日本与埃及样片，日本样片作为头部预览；感谢 @leksautomate 的画风与提示词贡献。
 - **2026-10-15**：优化中文首页、安装入口和案例说明，加入轻量动图预览与 Star 增长曲线；Skill 规则不变。
 - **2026-10-14**：新增风格 4「治愈故事风」，加入地铁站与咖啡座两个样片。

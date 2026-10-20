@@ -5,8 +5,8 @@ import re
 import struct
 
 root = Path(__file__).resolve().parents[1]
-cn = (root / "README.md").read_text()
-assert cn == (root / "README.zh-CN.md").read_text()
+cn = (root / "README.zh-CN.md").read_text()
+assert (root / "README.md").read_text() == (root / "README.en.md").read_text()
 assert "# AI 火柴人动画画风大全" in cn
 assert "## 你的作品，也可以成为下一个案例" not in cn
 assert "## 下一种火柴人，你来点" in cn
@@ -85,7 +85,7 @@ for preview in previews:
     new_bytes += optimized.stat().st_size
 assert new_bytes < old_bytes * 0.6, "Preview total should shrink by at least 40%"
 
-for lang in ("en", "ja", "ko", "pt-BR"):
+for lang in ("en", "ja", "ko", "pt-BR", "tr", "id"):
     text = (root / f"README.{lang}.md").read_text()
     assert "assets/readme/previews/" in text, "Localized pages use the same lightweight previews"
 

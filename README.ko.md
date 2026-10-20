@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [**한국어**](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[English](README.en.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [**한국어**](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
 
 # AI 스틱맨 애니메이션 스타일 모음
 
@@ -240,6 +240,7 @@ https://github.com/kaomei/stickman-video-director
 
 ## 최근 업데이트
 
+- **2026-10-20:** 기본 홈페이지를 영어로 변경하고 튀르키예어와 인도네시아어 페이지를 추가했습니다. 중국어, 일본어, 한국어, 브라질 포르투갈어도 계속 이용할 수 있습니다. Skill 규칙은 변경하지 않았습니다.
 - **2026-10-20:** 스타일 5 ‘역사 카툰’을 추가하고 일본·이집트 예시를 공개했습니다. 일본 영상은 첫 화면 미리보기에도 배치했습니다. 스타일과 프롬프트를 기여한 @leksautomate에게 감사드립니다.
 - **2026-10-15:** 중국어 첫 화면, 설치 안내, 예시 설명을 정리하고 가벼운 미리보기와 Star History를 추가했습니다. Skill 규칙은 그대로입니다.
 - **2026-10-14:** 스타일 4와 역·카페를 배경으로 한 예시 2개를 추가했습니다.

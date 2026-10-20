@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [**Português do Brasil**](README.pt-BR.md)
+[English](README.en.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [**Português do Brasil**](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
 
 # Bonecos de palito com IA: biblioteca de estilos
 
@@ -240,6 +240,7 @@ Serve para vídeos sem aparecer na câmera: explicações, história e negócios
 
 ## Últimas novidades
 
+- **2026-10-20:** A página inicial agora abre em inglês, com novas versões em turco e indonésio. Chinês, japonês, coreano e português do Brasil continuam disponíveis. As regras do Skill não mudaram.
 - **2026-10-20:** Adicionado o Estilo 5, Cartoon histórico, com exemplos do Japão e do Egito. O vídeo japonês também aparece no topo da página. Agradecimentos a @leksautomate pela contribuição de estilo e prompts.
 - **2026-10-15:** Revisão da página inicial em chinês, da instalação e das explicações dos exemplos; prévias mais leves e gráfico do Star History. As regras da Skill não mudaram.
 - **2026-10-14:** Estilo 4 adicionado, com exemplos na estação e no café.

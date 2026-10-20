@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[简体中文](README.zh-CN.md) · [English](README.en.md) · [**日本語**](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[English](README.en.md) · [简体中文](README.zh-CN.md) · [**日本語**](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
 
 # AI棒人間アニメのスタイル集
 
@@ -240,6 +240,7 @@ https://github.com/kaomei/stickman-video-director
 
 ## 最近の更新
 
+- **2026-10-20：** トップページの標準言語を英語に変更し、トルコ語とインドネシア語のページを追加しました。中国語・日本語・韓国語・ブラジルポルトガル語も引き続き利用できます。Skillのルールは変更していません。
 - **2026-10-20：** スタイル5「歴史カートゥーン」を追加。日本とエジプトの制作例を掲載し、日本の動画をページ冒頭に配置。画風とプロンプトを提供してくださった @leksautomate に感謝します。
 - **2026-10-15：** 中国語トップページ、導入手順、制作例の説明を整理。軽量プレビューとStar Historyを追加。Skillのルールは変更なし。
 - **2026-10-14：** スタイル4を追加。駅とカフェの2作品を掲載。

@@ -9,6 +9,8 @@ default_readmes=(
   README.ja.md
   README.ko.md
   README.pt-BR.md
+  README.tr.md
+  README.id.md
 )
 demo_assets=(
   assets/readme/light-theme-demo.gif
@@ -50,6 +52,8 @@ shared_tokens=(
   'README.ja.md'
   'README.ko.md'
   'README.pt-BR.md'
+  'README.tr.md'
+  'README.id.md'
   'assets/readme/light-theme-demo.gif'
   'assets/readme/dark-theme-demo.gif'
   'assets/readme/style-2a-demo.gif'
@@ -128,7 +132,7 @@ for readme in "${readmes[@]}"; do
     printf '%s contains obsolete preview or installation instructions\n' "$readme" >&2
     exit 1
   fi
-  if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
+  if [[ "$readme" == README.zh-CN.md ]]; then
     for token in '全部画风一览' '风格 4：治愈故事风' 'assets/readme/previews/style-4-cozy-station.gif' 'assets/readme/previews/style-4-cozy-cafe.gif'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing style 4 token: %s\n' "$readme" "$token" >&2
@@ -162,12 +166,12 @@ for readme in "${readmes[@]}"; do
   fi
 done
 
-cmp -s "$readme_root/README.md" "$readme_root/README.zh-CN.md" || {
-  printf 'Default homepage must match the Chinese README.\n' >&2
+cmp -s "$readme_root/README.md" "$readme_root/README.en.md" || {
+  printf 'Default homepage must match the English README.\n' >&2
   exit 1
 }
-rg -Fq '[**简体中文**](README.zh-CN.md) · [English](README.en.md)' "$readme_root/README.md" || {
-  printf 'Default homepage missing Chinese/English language navigation.\n' >&2
+rg -Fq '[**English**](README.en.md) · [简体中文](README.zh-CN.md)' "$readme_root/README.md" || {
+  printf 'Default homepage missing English-first language navigation.\n' >&2
   exit 1
 }
 rg -Fq '# AI Stickman Animation Style Library' "$readme_root/README.en.md" || {

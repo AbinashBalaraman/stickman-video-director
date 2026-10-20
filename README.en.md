@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[简体中文](README.zh-CN.md) · [**English**](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[**English**](README.en.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
 
 # AI Stickman Animation Style Library
 
@@ -240,6 +240,7 @@ Use it for faceless explainers, history and business topics, personal growth, ev
 
 ## Latest updates
 
+- **2026-10-20:** Made English the default homepage and added Turkish and Indonesian pages. Chinese, Japanese, Korean, and Brazilian Portuguese remain available. Skill rules unchanged.
 - **2026-10-20:** Added Style 5, Historical Cartoon, with Japanese and Egyptian samples and the Japanese film in the hero preview. Thanks to @leksautomate for the style and prompt contribution.
 - **2026-10-15:** Refined the Chinese homepage, installation steps, and examples; added lighter previews and a Star History chart. Skill rules unchanged.
 - **2026-10-14:** Added Style 4, Cozy Storytelling, with train-station and café examples.

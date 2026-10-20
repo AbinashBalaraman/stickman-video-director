@@ -34,7 +34,25 @@ locales = {
     "ja": ("日本語", "# AI棒人間アニメのスタイル集", "### スタイル", "ほっとする日常ストーリー", "どちらも中国語"),
     "ko": ("한국어", "# AI 스틱맨 애니메이션 스타일 모음", "### 스타일", "따뜻한 일상 이야기", "두 글 모두 중국어"),
     "pt-BR": ("Português do Brasil", "# Bonecos de palito com IA: biblioteca de estilos", "### Estilo", "Histórias acolhedoras", "Os dois estão em chinês"),
+    "tr": ("Türkçe", "# Yapay Zekâyla Çöp Adam Animasyonu: Stil Kütüphanesi", "### Stil", "İç Isıtan Hikâyeler", "Her iki rehber de Çince"),
+    "id": ("Bahasa Indonesia", "# Animasi Stickman AI: Kumpulan Gaya Visual", "### Gaya", "Cerita yang Menghangatkan Hati", "Keduanya dalam bahasa Mandarin"),
 }
+navigation = (
+    ("en", "English"), ("zh-CN", "简体中文"), ("ja", "日本語"),
+    ("ko", "한국어"), ("pt-BR", "Português do Brasil"),
+    ("tr", "Türkçe"), ("id", "Bahasa Indonesia"),
+)
+expected_files = {"README.md", *(f"README.{locale}.md" for locale, _ in navigation)}
+assert {path.name for path in root.glob("README*.md")} == expected_files
+for path in root.glob("README*.md"):
+    text = path.read_text()
+    active = "en" if path.name == "README.md" else path.name[7:-3]
+    expected_nav = " · ".join(
+        f"[{'**' + label + '**' if locale == active else label}](README.{locale}.md)"
+        for locale, label in navigation
+    )
+    assert text.splitlines()[4] == expected_nav, (path.name, "navigation order/active language")
+    assert text.count("[**") == 1, (path.name, "one active language")
 common_links = (
     "https://github.com/kaomei/stickman-video-director",
     "https://github.com/kaomei/stickman-video-director/issues",
@@ -94,8 +112,8 @@ for locale, (label, title, style_prefix, style_four, tutorial_language) in local
             assert (root / link.split("#")[0]).exists(), (path.name, link)
     print(f"{path.name}: style/asset parity, original narration, links and onboarding passed.")
 
-assert source == (root / "README.zh-CN.md").read_text()
+assert source == (root / "README.en.md").read_text()
 assert not re.search(r"monixin888|2109651037850325112", source, re.IGNORECASE)
-assert "# AI 火柴人动画画风大全" in source
-assert "[**简体中文**](README.zh-CN.md) · [English](README.en.md)" in source
-print("Chinese remains the default homepage.")
+assert "# AI Stickman Animation Style Library" in source
+assert "[**English**](README.en.md) · [简体中文](README.zh-CN.md)" in source
+print("English is the default homepage; seven languages share working navigation.")

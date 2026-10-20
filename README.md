@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[**简体中文**](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[**English**](README.en.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
 
-# AI 火柴人动画画风大全
+# AI Stickman Animation Style Library
 
-**将任何想法变成一部高质量的、稳定画风火柴人视频。**
+**Turn an idea into a polished stickman video with a consistent visual style.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
@@ -15,51 +15,51 @@
 
 <div align="center">
 
-我把全网所有热门的火柴人画风，逐个实测并整理开源出来。安装好 Skill 后，你只需要给一个话题，就能拿到动画脚本、动态分镜，以及配音和音效提示词。
+I'm testing popular stickman animation styles from across the web and sharing the workflows here, free and open source. Install the Skill, give your AI a topic, and get a script, animated storyboards, and prompts for narration and sound effects.
 
-<strong>以后想做火柴人动画，来这里挑画风就够了——</strong>适用于 **YouTube 知识讲解、TikTok、职场励志、教育科普和快节奏情感故事。**
+<strong>Next time you want to make a stickman animation, start here.</strong> For **YouTube explainers, TikTok videos, workplace and motivational stories, educational content, and punchy shorts about everyday life.**
 
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>黑白极简</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
+<strong>Minimalist Monochrome</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Minimalist stickman animation with white lines on black" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>潮酷科技</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>史前黑色幽默</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>治愈故事</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
+<strong>Modern Tech</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Red-beanie stickman with clean tech visuals" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>历史卡通风</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通火柴人动画：江户日本的武士故事" width="90%"></a>
+<strong>Prehistoric Dark Comedy</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Prehistoric stickman story with a comic twist" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>待更新…</strong>
+<strong>Cozy Storytelling</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Expressive stick characters in a colorful everyday setting" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<strong>Historical Cartoon</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman animation set in Edo-period Japan" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>More styles coming soon…</strong>
 </td>
 </tr>
 </table>
 
 <div align="center">
 
-**5 大画风 · 7 种视觉方案 · 实测样片 · 免费开源**
+**5 styles · 7 visual options · Tested examples · Free and open source**
 
-⭐ **先收藏，下次做火柴人动画不用再到处找提示词。**
+⭐ **Star it now. Next time you make an animation, skip the hunt for prompts.**
 
-[开始使用](#quick-start) · [最近更新](#recent-updates) · [完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)
+[Get started](#quick-start) · [Latest updates](#recent-updates) · [Full walkthrough (Chinese)](https://x.com/CrazyKaomei/status/2102311241046008268)
 
 </div>
 
@@ -67,220 +67,221 @@
 
 <a id="style-gallery"></a>
 
-## 全部画风一览
+## Find your style
 
-### 风格 1：基础黑白风
+### Style 1: Minimalist Monochrome
 
-用最少的线条，把一个概念讲清楚。纯白或纯黑的画布上，人物、道具和强调色承担主要信息，适合做节奏明快的知识解说。
+A few lines can explain a big idea. On a pure-white or pure-black canvas, characters, props, and accent colors do the storytelling. A good fit for fast, clear explainers.
 
-- **画面特点**：简洁圆头、线条肢体与统一线宽，可偶尔加入简单表情；最多三种高饱和强调色，用来区分情绪、风险或行动。抽象内容可以变成具体画面，比如把焦虑画成牢笼，把注意力画成进度条。
-- **适合内容**：科学常识、心理成长、励志、自我管理、商业拆解与概念解释。
-- **怎么选**：白底黑火柴人清爽直观，适合教学和日常科普；黑底白火柴人对比更强，适合悬念、冲突和情绪表达。
+- **The look:** Round heads, line limbs, consistent stroke weight, and occasional simple expressions. Up to three vivid accent colors distinguish emotions, risks, or actions. Turn anxiety into a cage or attention into a progress bar.
+- **Best for:** Science, psychology, motivation, self-management, business breakdowns, and explaining concepts.
+- **Which version?** White backgrounds feel clean and direct; choose black backgrounds for stronger contrast, tension, and emotional impact.
 
-| 风格 1A：白底黑火柴人 | 风格 1B：黑底白火柴人 |
+| Style 1A: Black on White | Style 1B: White on Black |
 |:---:|:---:|
-| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="风格 1A：白底黑火柴人动态演示" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="风格 1B：黑底白火柴人动态演示" width="360"><!-- demo:dark:end --> |
-| 纯白画布 · 黑色人物 | 纯黑画布 · 白色人物 |
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="Black stick figure on a pure-white background" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="White stick figure on a pure-black background" width="360"><!-- demo:dark:end --> |
+| White canvas · Black figure | Black canvas · White figure |
 
 ---
 
-### 风格 2：现代潮酷风
+### Style 2: Modern Pop
 
-红色冷帽、黄色 T 恤，是这套画风最鲜明的角色标记。既可以在干净的科技空间里讲产品，也可以走进卧室、街道和荒野，演一段有起伏的故事。
+The red beanie and yellow T-shirt make this character easy to recognize. Use a clean tech setting to explain a product, or take the character into bedrooms, streets, and open landscapes for a story.
 
-- **画面特点**：固定红帽黄衣的极简角色，搭配两种环境。2A 用纯白空间、极淡网格、悬浮玻璃界面和青蓝光效表现科技感；2B 用彩色场景、光影和空间纵深营造故事氛围。
-- **适合内容**：2A 适合 AI 工具、科技产品、方法教学与功能解说；2B 适合成长经历、生活话题、冒险与励志故事。
-- **怎么选**：重点是“讲清一个工具或方法”，选 2A；重点是“跟着角色经历一件事”，选 2B。
+- **The look:** One recognizable character, two kinds of world. 2A pairs white space and a faint grid with floating glass interfaces and cyan-blue light. 2B uses colorful settings, cinematic lighting, and depth.
+- **Best for:** 2A suits AI tools, tech products, tutorials, and feature demos. 2B suits personal growth, everyday situations, adventures, and motivational stories.
+- **Which version?** Choose 2A to explain a tool or method; choose 2B to follow a character through an experience.
 
-| 风格 2A：极简科技 | 风格 2B：彩色故事 |
+| Style 2A: Minimal Tech | Style 2B: Cinematic Story |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="风格 2A：极简科技风动态演示" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="风格 2B：彩色故事风动态演示" width="360"> |
-| 纯白空间 · 极淡网格 · 青蓝微光 | 彩色场景 · 电影光影 · 叙事氛围 |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Minimal tech animation with a red-beanie character" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="Red-beanie character in a colorful cinematic setting" width="360"> |
+| White space · Faint grid · Cyan glow | Colorful settings · Cinematic light · Story atmosphere |
 
 ---
 
-### 风格 3：史前手绘 / 黑色幽默
+### Style 3: Prehistoric Sketch / Dark Comedy
 
-把今天的烦恼，搬回没有手机和办公室的史前世界。洞穴、兽皮、篝火和夸张表情，让职场、人性与生活里的荒诞，变成一段带反转的小故事。
+Take today's problems back to a world without phones or offices. Caves, animal hides, campfires, and exaggerated expressions turn familiar workplace frustrations and human quirks into stories with a twist.
 
-- **画面特点**：粗手绘线条、白色实心头部、深色肢体、兽皮服饰和土色环境，强调角色互动、表情反应与喜剧停顿。角色按故事设计，男女老幼都可以出现，不同故事不必共用一张脸。
-- **适合内容**：史前脑洞、职场讽刺、人性观察、黑色幽默、寓言与儿童英语故事。
-- **怎么选**：想用一个小情节讲出“原来如此”或“怎么会这样”的反转，可以选这一风格；尤其适合把现代关系放进原始部落，做出熟悉又意外的笑点。
+- **The look:** Rough hand-drawn outlines, white-filled heads, dark stick limbs, animal-hide clothes, and earthy scenery. Character interaction, reaction shots, and comic timing matter. Cast adults, children, or elders to fit the story; every story needn't use the same face.
+- **Best for:** Prehistoric what-ifs, workplace satire, observations about human nature, dark comedy, fables, and children's English stories.
+- **Why choose it?** For a short setup and an unexpected payoff—especially when modern relationships become absurdly familiar in a prehistoric tribe.
 
-| 案例 1：《人类的第一份工作是怎么来的？》 | 案例 2：《人类第一次发现火源》 |
+| Example 1: “How Did Humans Get Their First Job?” | Example 2: “Humans Discover Fire” |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="《人类的第一份工作是怎么来的？》动态预览" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="《人类第一次发现火源》——粉丝作品" width="360"> |
-| 史前故事 · 职场反转 | 火源主题 · 粉丝作品 |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? animated preview" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Humans Discover Fire, a community-made animation" width="360"> |
+| Prehistoric workplace comedy | Fire discovery · Community creation |
 
 ---
 
-### 风格 4：治愈故事风
+### Style 4: Cozy Storytelling
 
-一只舍不得用的杯子，一条忍不住秒回的消息，一个终于留给自己的下午。让极简角色走进彩色的日常场景，用动作、表情和镜头讲普通人能共鸣的小事。
+A mug you've been saving for a special occasion. A message you feel compelled to answer. An afternoon you finally keep for yourself. Simple characters step into colorful everyday settings, with actions, expressions, and camera work carrying the story.
 
-- **画面特点**：白色实心圆头与细长躯干、深色细肢体和自然的小表情，搭配完整的 2D 卡通环境。全景交代地点，近景捕捉犹豫或释然，跟拍带着角色继续向前。
-- **适合内容**：生活共鸣、心理成长、人际关系、温暖故事、习惯养成与儿童英语。
-- **怎么选**：想让观众从一个具体生活片段里认出自己，可以选这一风格。色彩和光影随主题变化，既能表达温暖，也能讲焦虑、疲惫和重新出发。
+- **The look:** White-filled round heads, slender bodies, dark stick limbs, and small, natural expressions in full-color 2D cartoon environments. Wide shots establish the place; close-ups catch hesitation or relief; tracking shots keep the story moving.
+- **Best for:** Relatable everyday stories, personal growth, relationships, warm moments, habit building, and children's English content.
+- **Why choose it?** To help viewers recognize themselves in a small moment. Color and lighting follow the topic: warmth, anxiety, exhaustion, or a fresh start.
 
-| 案例 1：通勤路上的消息焦虑 | 案例 2：把时间留给自己 |
+| Example 1: Message Anxiety on the Commute | Example 2: Making Time for Yourself |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="360"> |
-| 地铁站 · 行走跟拍 · 情绪近景 | 露天咖啡座 · 暖光树影 · 日常动作 |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="A character dealing with message anxiety at a train station" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Taking a break at a sunlit outdoor café" width="360"> |
+| Train station · Tracking shots · Emotional close-ups | Outdoor café · Warm light · Everyday gestures |
 
 ---
 
 <a id="style-5"></a>
 
-### 风格 5：历史卡通风
+### Style 5: Historical Cartoon
 
-让火柴人走进历史：江户街头的武士、古埃及神庙里的黑猫、罗马营地中的士兵。用鲜明的时代服饰、彩色场景和带反差的小情节，把历史知识讲得更有画面感。
+History, with a cast you can follow. Send a samurai through Edo's streets, meet a black cat in an Egyptian temple, or follow a soldier into a Roman camp. Period costumes, colorful settings, and small comic turns make the past feel like a story rather than a slide deck.
 
-- **画面特点**：白色实心圆头、黑色椭圆眼睛、清晰粗轮廓与细线肢体，搭配时代服饰、柔和赛璐璐明暗和彩色绘景。换国家、换时代时，调整服装、建筑、道具和音乐，保留同一套角色画法。
-- **适合内容**：世界历史、文明趣事、古人日常、人物故事与历史题材的幽默短片。
-- **怎么选**：想把知识点变成“古人正在经历的一件事”，可以选这一风格。既能讲一个历史细节，也能用角色反应和情节反转，让观众愿意继续看。
+- **The look:** White-filled round heads, simple black oval eyes, bold outlines, and thin stick limbs, with period clothing, soft cel shading, and painted backgrounds. Change the wardrobe, buildings, props, and score for each era—not the underlying character style.
+- **Best for:** World history, surprising facts, everyday life in the past, historical figures, and history-themed comedy.
+- **Why choose it?** To turn a fact into something happening to a character. Use a clear situation, a telling reaction, or a twist to carry the explanation.
 
-| 案例 1：江户日本 · 武士的日常 | 案例 2：古埃及 · 猫与木乃伊 |
+| Example 1: Everyday Life in Edo Japan | Example 2: Cats and Mummies in Ancient Egypt |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="历史卡通风：江户武士与街巷日常" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="历史卡通风：古埃及神庙、黑猫与木乃伊" width="360"> |
-| 江户街巷 · 武士服饰 · 日常反差 | 彩色神庙 · 黑猫角色 · 历史趣事 |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="A samurai's everyday life in Edo Japan" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="A black cat and a mummy in an ancient Egyptian temple" width="360"> |
+| Edo streets · Samurai clothing · Everyday surprises | Painted temple · Black cat · Historical curiosity |
 
-画风与提示词贡献：[Lawal Ridwan / @leksautomate](https://github.com/leksautomate)；日本样片由原作者提供。
+Style and prompt contribution: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). Japanese sample provided by the original creator.
 
 <!-- readme:advantages -->
 
-## 它帮你做什么
+## What the Skill does
 
-把选题、脚本和画面一起考虑，不只是给火柴人套一个外观。
+It plans the writing and the visuals together—not just a stick figure's appearance.
 
-| 环节 | Skill 输出 |
+| Part | What you get |
 |---|---|
-| **文案** | 开场、递进、结尾，英文旁白与中文参考。 |
-| **画面** | 动作、道具、运镜、转场与音效。 |
-| **衔接** | 人物、道具与声线设定，跨段转场。 |
-| **画幅** | 按横竖屏调整构图和镜头。 |
-| **调整** | 先确认提案，再输出提示词。 |
+| **Script** | A hook, progression, and payoff, with narration and a reference translation where needed. |
+| **Visuals** | Character actions, props, camera moves, transitions, and sound cues. |
+| **Continuity** | Character, prop, and narrator profiles, plus transitions between clips. |
+| **Framing** | Composition and shot choices adapted to landscape or portrait. |
+| **Revisions** | A proposal to approve before the final prompts. |
 
 <!-- readme:output -->
 
-先拿到**导演提案**：英文旁白、中文参考、场景、运镜和声音设计。确认后再拿到逐段独立的 **Gemini Omni Flash 视频提示词**，以及转场、拼接与字幕建议。
+First, review the **director's proposal**: narration, scenes, camera work, and sound design. Once you approve it, get standalone **Gemini Omni Flash video prompts** for each segment, plus stitching, transition, and subtitle notes.
 
-Skill 负责提案和提示词，Flow 等工具负责生成视频，最后用剪映等软件完成字幕与剪辑。无需为 Skill 配置 API 或 MCP。
+The Skill plans the video and writes the prompts. Flow or another video tool generates the clips; a video editor handles the final assembly and subtitles. No API or MCP setup is required for the Skill.
 
 <!-- readme:install -->
 
 <a id="quick-start"></a>
 
-## 开始使用
+## Get started
 
-### 1. 安装 Skill
+### 1. Install the Skill
 
-把下面这句话发给你使用的 AI：
+Send this to your AI assistant:
 
 ```text
-帮我安装这个 Skill：
+Install this Skill for me:
 https://github.com/kaomei/stickman-video-director
 ```
 
 <!-- readme:workflow -->
 
-### 2. 给一个话题
+### 2. Give it a topic
 
-安装后，把话题、文案或文章直接发给 AI，例如：
+Send a topic, draft, or article. For example:
 
 ```text
-帮我做一个《人类的第一份工作是怎么来的？》的火柴人视频。
+Make a stickman video called “How Did Humans Get Their First Job?”
 ```
 
-### 3. 跟着引导，确认提案
+### 3. Follow the prompts and approve the plan
 
-**选设置 → 看导演提案 → 按需修改 → 确认后拿提示词。**
+**Choose settings → Review the proposal → Request changes → Approve and get your prompts.**
 
-画幅、画风没选，Skill 会主动询问；时长可指定，默认 60 秒。你只要跟着引导，选横屏 `16:9` 或竖屏 `9:16`，再从上面的画风中选一种即可；已经提供的设置不会重复询问。想先试一小段，也可以直接说“先做 30 秒”。
+If you haven't chosen an aspect ratio or style, the Skill asks. Pick landscape `16:9` or portrait `9:16`, then a style from the gallery. It won't ask again for settings you've already given. Videos default to 60 seconds; say “let's try 30 seconds first” for a shorter test.
 
-选好设置后，它会先给你导演提案，列出故事结构、分段旁白、画面动作、镜头和声音设计。你可以先看整体方案，修改不满意的部分，确认后再拿到用于生成视频的分段提示词。
+Next comes the director's proposal: story structure, narration for each segment, character actions, camera work, and sound design. Review the whole plan and request changes before approving the final video prompts.
 
-**《人类的第一份工作是怎么来的？》｜横屏 16:9 · 风格 3 史前黑色幽默 · 30 秒**
+**“How Did Humans Get Their First Job?” | Landscape 16:9 · Style 3: Prehistoric Dark Comedy · 30 seconds**
 
-下面是这支样片制作前确认的分镜提案：
+This is the storyboard approved before making the example above. The sample's original narration is preserved:
 
-| 时间 | 画面与动作 | 配音文案 |
+| Time | Scene and action | Voiceover |
 |---|---|---|
-| **0–10s：拒绝生存压力** | 原始人拖着石棒回到洞穴，瘫倒在草床上。洞口出现剑齿虎的巨大影子。他睁开一只眼，一脸“又来？”；起身滚动巨石堵住洞口，拍掉手上的灰，回床睡觉。最后定格在他满意的脸上。 | **“Ten thousand years ago, one man finally solved all his problems. He shut them outside.”** |
-| **10–20s：老板找到你了** | 接上一段：他刚闭眼，洞口传来三声敲击。巨石被推开一条缝，族长探头进来，笑着递给他一根长矛。他摆手拒绝。族长随即拿出一条烤肉腿；他的鼻子抽动，眼睛瞬间睁大。切到洞外：他已经握着长矛，被族长推向猛兽脚印。 | **“Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.”** |
-| **20–30s：文明的代价** | 他满身灰尘回到同一个洞穴，把长矛扔下，伸手等烤肉。族长面带职业微笑，只递给他一小块肉；然后把一大捆长矛塞进他怀里，拍拍他的肩膀离开。他看着小肉块，再看长矛，缓缓转头直视镜头。最后躺回草床，却被怀里的长矛硌得坐起来。 | **“The reward got smaller. The workload got bigger. And somehow… they called that progress.”** |
+| **0–10s: Keeping trouble out** | A caveman drags his stone club into the cave and collapses onto a straw bed. A huge saber-toothed tiger's shadow appears at the entrance. He opens one eye: “Again?” He rolls a boulder across the opening, dusts off his hands, and goes back to bed. End on his satisfied face. | **“Ten thousand years ago, one man finally solved all his problems. He shut them outside.”** |
+| **10–20s: The boss finds you** | Just as he closes his eyes, three knocks come from the entrance. The boulder shifts open a crack. The chief leans in, smiling, and offers a spear. The caveman waves it away. Then the chief produces a roasted leg of meat. The caveman sniffs, eyes suddenly wide. Cut outside: spear in hand, he's being nudged toward giant animal tracks. | **“Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.”** |
+| **20–30s: The price of progress** | He returns to the same cave covered in dust, drops the spear, and holds out his hand for the meat. The chief offers a tiny piece with a professional smile, then presses a whole bundle of spears into his arms, pats his shoulder, and leaves. The caveman looks from the meat to the spears, then slowly at the camera. He lies back down, but the spears jab him upright. | **“The reward got smaller. The workload got bigger. And somehow… they called that progress.”** |
 
-提案不满意，直接说要改哪里；你确认后，它才输出最终分段提示词。这个 30 秒示例对应 3 条约 10 秒的提示词，包含人物、动作、镜头、旁白和声音要求。
+Don't like a line or a scene? Say what to change. Final prompts come only after your approval. This 30-second example produces three roughly ten-second prompts covering characters, action, camera work, narration, and audio.
 
-### 4. 生成视频，剪辑成片
+### 4. Generate the clips and edit your video
 
-将提示词按顺序提交到 [Google Flow](https://flow.google.com/)，再把生成片段导入剪映，调整衔接并添加字幕。30 秒通常对应 3 条约 10 秒的提示词，60 秒对应 6 条。
+Submit the prompts to [Google Flow](https://flow.google.com/) in order. Assemble the clips in CapCut or another editor, adjust the joins, and add subtitles. A 30-second video usually uses three roughly ten-second prompts; a 60-second video uses six.
 
-第一次做，跟着这篇[完整制作教程：选题、脚本、Flow 生成与剪映成片](https://x.com/CrazyKaomei/status/2102311241046008268)跑一遍。Flow 操作见[使用教程](https://x.com/CrazyKaomei/status/2093893997223923822?s=20)。Skill 免费开源，视频生成费用和可选模型以平台当前界面为准。
+For a first run, follow the [complete production walkthrough](https://x.com/CrazyKaomei/status/2102311241046008268). There's also a [Flow tutorial](https://x.com/CrazyKaomei/status/2093893997223923822?s=20). Both are in Chinese. The Skill is free; video generation costs and model availability depend on the platform.
 
 <!-- readme:reliability -->
 
-## 使用小贴士
+## A few practical tips
 
 <!-- readme:platforms -->
 
-**选横屏还是竖屏？**
+**Landscape or portrait?**
 
-| 比例 | 适合平台 | 构图重点 |
+| Format | Good for | Composition |
 |---|---|---|
-| `9:16` | YouTube Shorts、TikTok、Instagram Reels、抖音、小红书 | 纵向动作、中央主体、手机画面安全区 |
-| `16:9` | YouTube、B 站、横屏教育视频 | 横向调度、场景展开、左右对比 |
+| `9:16` | YouTube Shorts, TikTok, Instagram Reels | Vertical action, a central subject, and mobile-safe framing |
+| `16:9` | YouTube and landscape educational videos | Lateral movement, wider scenes, and side-by-side comparisons |
 
-适合不露脸的知识解说、历史商业科普、心理成长、生活故事和产品讲解；英文旁白配后期双语字幕，也能做儿童英语、生活短剧或知识精读。支持 30 秒、60 秒、90 秒、3 分钟等 10 秒整数倍时长。
+Use it for faceless explainers, history and business topics, personal growth, everyday stories, and product demos. English narration with bilingual subtitles added later also works for English-learning content, short dramas, and close-reading videos. Durations can be any multiple of ten seconds: 30 seconds, 60 seconds, 90 seconds, three minutes, and beyond.
 
-- 人物、道具和旁白设定按整支视频统一；需要换声音时，先在提案里确定。
-- 发现某段人物、道具或声音明显偏离时，针对该段调整和复测，不用重做所有片段。
-- 文案可以改得更有吸引力，但不凭空添加事实、数据或产品效果。
+- Keep character, prop, and narrator profiles consistent across the whole video. Choose any voice changes in the proposal first.
+- If one clip's character, props, or voice drift, adjust and retest that clip rather than remaking everything.
+- Improve the writing without inventing facts, statistics, or product claims.
 
 <a id="recent-updates"></a>
 
-## 最近更新
+## Latest updates
 
-- **2026-10-20**：新增风格 5「历史卡通风」，展示日本与埃及样片，日本样片作为头部预览；感谢 @leksautomate 的画风与提示词贡献。
-- **2026-10-15**：优化中文首页、安装入口和案例说明，加入轻量动图预览与 Star 增长曲线；Skill 规则不变。
-- **2026-10-14**：新增风格 4「治愈故事风」，加入地铁站与咖啡座两个样片。
-- **2026-10-13**：优化风格 1 的人物描述与当前姿态约束。
-- **2026-10-12**：完善全风格共用的语音一致性规则，补充史前风格案例。
+- **2026-10-20:** Made English the default homepage and added Turkish and Indonesian pages. Chinese, Japanese, Korean, and Brazilian Portuguese remain available. Skill rules unchanged.
+- **2026-10-20:** Added Style 5, Historical Cartoon, with Japanese and Egyptian samples and the Japanese film in the hero preview. Thanks to @leksautomate for the style and prompt contribution.
+- **2026-10-15:** Refined the Chinese homepage, installation steps, and examples; added lighter previews and a Star History chart. Skill rules unchanged.
+- **2026-10-14:** Added Style 4, Cozy Storytelling, with train-station and café examples.
+- **2026-10-13:** Refined Style 1's character descriptions and current-pose constraints.
+- **2026-10-12:** Improved shared voice-consistency rules and added prehistoric and community examples.
 
-已有用户：最近的首页调整不需要重装。想用风格 5，或安装的是人物／声音规则更新前的版本，再更新 Skill 即可。[查看更新记录](CHANGELOG.zh-CN.md)。
+Already installed? Homepage changes alone don't require a reinstall. Update the Skill if you want Style 5 or installed before the character and voice-rule changes. [Detailed changelog (Chinese)](CHANGELOG.zh-CN.md).
 
 <!-- readme:contribute -->
 
-## 下一种火柴人，你来点
+## What should we add next?
 
-下面这些画风正在计划中，尚未上线：
+These styles are planned, not available yet:
 
-- **虚实融合场景** — 继续探索 2D 火柴人与更丰富环境的搭配。
-- **讲台解说** — 黑板互动与知识讲解。
-- **风格 6：手绘绘本** — 童话、寓言与儿童故事。
-- **风格 7：涂鸦打斗** — 动作短片与连招对决。
-- **风格 8：双人情景喜剧** — 对话、互怼与日常反转。
-- **风格 9：卡牌闯关** — 升级、打怪与游戏叙事。
+- **Mixed-media worlds** — Exploring 2D stick figures in richer environments.
+- **Blackboard Explainer** — Lessons and talks with blackboard interaction.
+- **Style 6: Illustrated Storybook** — Fairy tales, fables, and children's stories.
+- **Style 7: Graffiti Action** — Fight scenes, short action films, and combos.
+- **Style 8: Two-Character Sitcom** — Banter, everyday misunderstandings, and workplace twists.
+- **Style 9: Card-Game Adventure** — Level-ups, monster battles, and game-like storytelling.
 
-想看新画风、分享作品或反馈问题，都欢迎到 [Issues](https://github.com/kaomei/stickman-video-director/issues) 留言。画风建议请附参考和想做的主题；投稿请附作品、所用风格与作者链接，方便展示和署名。
+Suggest a style, share your work, or report a problem in [Issues](https://github.com/kaomei/stickman-video-director/issues). For style requests, include a reference and a topic you'd like to try. For submissions, include the video, style used, and an author link so we can credit you.
 
-## Star 增长曲线
+## Star History
 
-⭐ **如果这份画风库帮你省下了找提示词、反复试错的时间，欢迎点个 Star，留着下次做动画时用。**
+⭐ **If this library saved you time hunting for prompts or fixing failed generations, consider giving it a Star. It'll be here when you're ready to make your next video.**
 
-我是[烤妹儿](https://x.com/CrazyKaomei)，会继续实测新画风，把好用的提示词、制作方法和踩过的坑免费整理在这里。希望你少花时间折腾工具，多留一点时间给真正想讲的故事。
+I'm [Kaomei](https://x.com/CrazyKaomei). I'll keep testing styles and sharing useful prompts, workflows, and the mistakes worth avoiding—all for free. Less time wrestling with tools, more time for the stories you actually want to tell.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date&amp;theme=dark">
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date">
-    <img src="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date" alt="kaomei/stickman-video-director 的 GitHub Star 增长曲线" width="800">
+    <img src="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date" alt="GitHub star growth for kaomei/stickman-video-director" width="800">
   </picture>
 </a>
 </div>
 
-## 许可证
+## License
 
-本项目采用 [MIT License](LICENSE) 开源，允许免费使用、修改、商用和分发。分发本项目或其重要部分时，请保留原有版权和许可声明。
+Released under the [MIT License](LICENSE). You can use, modify, redistribute, and use the project commercially. Keep the copyright and license notice when distributing the project or substantial portions of it.
 
-项目按“现状”提供，不作任何担保；完整条款见 [LICENSE](LICENSE)。
+Provided “as is,” without warranty. See [LICENSE](LICENSE) for the full terms.
