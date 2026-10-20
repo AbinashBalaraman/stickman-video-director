@@ -62,7 +62,7 @@ for link in re.findall(r"\]\(([^)]+)\)", cn):
     if "://" not in link and not link.startswith("#"):
         assert (root / link.split("#")[0]).exists(), link
 
-previews = sorted(set(re.findall(r'src="(assets/readme/previews/[^" ]+\.gif)"', cn)))
+previews = sorted(set(re.findall(r'src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/(assets/readme/previews/[^" ]+\.gif)"', cn)))
 assert len(previews) == 11
 old_bytes = new_bytes = 0
 for preview in previews:

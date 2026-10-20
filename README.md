@@ -25,27 +25,27 @@
 <tr>
 <td colspan="2" align="center">
 <strong>历史卡通风</strong><br>
-<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通火柴人动画：江户日本的武士故事" width="640"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通火柴人动画：江户日本的武士故事" width="640"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>黑白极简</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="黑白极简火柴人动画：黑底白线、动态科普" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>潮酷科技</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>史前黑色幽默</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>治愈故事</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
 </td>
 </tr>
 </table>
@@ -76,7 +76,7 @@
 
 | 风格 1A：白底黑火柴人 | 风格 1B：黑底白火柴人 |
 |:---:|:---:|
-| <!-- demo:light:start --><img src="assets/readme/previews/light-theme-demo.gif" alt="风格 1A：白底黑火柴人动态演示" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/previews/dark-theme-demo.gif" alt="风格 1B：黑底白火柴人动态演示" width="360"><!-- demo:dark:end --> |
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="风格 1A：白底黑火柴人动态演示" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="风格 1B：黑底白火柴人动态演示" width="360"><!-- demo:dark:end --> |
 | 纯白画布 · 黑色人物 | 纯黑画布 · 白色人物 |
 
 ---
@@ -91,7 +91,7 @@
 
 | 风格 2A：极简科技 | 风格 2B：彩色故事 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-2a-demo.gif" alt="风格 2A：极简科技风动态演示" width="360"> | <img src="assets/readme/previews/style-2b-demo.gif" alt="风格 2B：彩色故事风动态演示" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="风格 2A：极简科技风动态演示" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="风格 2B：彩色故事风动态演示" width="360"> |
 | 纯白空间 · 极淡网格 · 青蓝微光 | 彩色场景 · 电影光影 · 叙事氛围 |
 
 ---
@@ -106,7 +106,7 @@
 
 | 案例 1：《人类的第一份工作是怎么来的？》 | 案例 2：《人类第一次发现火源》 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-3-demo.gif" alt="《人类的第一份工作是怎么来的？》动态预览" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="《人类第一次发现火源》——粉丝作品" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="《人类的第一份工作是怎么来的？》动态预览" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="《人类第一次发现火源》——粉丝作品" width="360"> |
 | 史前故事 · 职场反转 | 火源主题 · 粉丝作品 |
 
 ---
@@ -121,7 +121,7 @@
 
 | 案例 1：通勤路上的消息焦虑 | 案例 2：把时间留给自己 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="360"> |
 | 地铁站 · 行走跟拍 · 情绪近景 | 露天咖啡座 · 暖光树影 · 日常动作 |
 
 ---
@@ -138,7 +138,7 @@
 
 | 案例 1：江户日本 · 武士的日常 | 案例 2：古埃及 · 猫与木乃伊 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-5-japan.gif" alt="历史卡通风：江户武士与街巷日常" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="历史卡通风：古埃及神庙、黑猫与木乃伊" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="历史卡通风：江户武士与街巷日常" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="历史卡通风：古埃及神庙、黑猫与木乃伊" width="360"> |
 | 江户街巷 · 武士服饰 · 日常反差 | 彩色神庙 · 黑猫角色 · 历史趣事 |
 
 画风与提示词贡献：[Lawal Ridwan / @leksautomate](https://github.com/leksautomate)；日本样片由原作者提供。

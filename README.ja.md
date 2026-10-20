@@ -25,27 +25,27 @@
 <tr>
 <td colspan="2" align="center">
 <strong>歴史カートゥーン</strong><br>
-<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="江戸時代を舞台にした歴史カートゥーンのプレビュー" width="640"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="江戸時代を舞台にした歴史カートゥーンのプレビュー" width="640"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>白黒ミニマル</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="黒背景に白い線で描くミニマルな棒人間アニメ" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="黒背景に白い線で描くミニマルな棒人間アニメ" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>モダンテック</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-2a-demo.gif" alt="赤いニット帽のキャラクターとテック系の演出" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="赤いニット帽のキャラクターとテック系の演出" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>原始時代のブラックユーモア</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-3-demo.gif" alt="原始人の世界で描く、オチのある短編アニメ" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="原始人の世界で描く、オチのある短編アニメ" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>ほっとする日常ストーリー</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="彩りのある日常風景と表情豊かな棒人間" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="彩りのある日常風景と表情豊かな棒人間" width="90%"></a>
 </td>
 </tr>
 </table>
@@ -76,7 +76,7 @@
 
 | スタイル1A：白背景・黒い棒人間 | スタイル1B：黒背景・白い棒人間 |
 |:---:|:---:|
-| <!-- demo:light:start --><img src="assets/readme/previews/light-theme-demo.gif" alt="白背景に黒い棒人間を描いたアニメ" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/previews/dark-theme-demo.gif" alt="黒背景に白い棒人間を描いたアニメ" width="360"><!-- demo:dark:end --> |
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="白背景に黒い棒人間を描いたアニメ" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="黒背景に白い棒人間を描いたアニメ" width="360"><!-- demo:dark:end --> |
 | 白いキャンバス・黒い人物 | 黒いキャンバス・白い人物 |
 
 ---
@@ -91,7 +91,7 @@
 
 | スタイル2A：ミニマルテック | スタイル2B：シネマティックストーリー |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-2a-demo.gif" alt="ミニマルなテック空間のアニメ" width="360"> | <img src="assets/readme/previews/style-2b-demo.gif" alt="彩りと光で物語を描くアニメ" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="ミニマルなテック空間のアニメ" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="彩りと光で物語を描くアニメ" width="360"> |
 | 白い空間・薄いグリッド・シアンの光 | カラフルな舞台・映画的な光・物語の空気感 |
 
 ---
@@ -106,7 +106,7 @@
 
 | 制作例1：『人類最初の仕事は、どう生まれた？』 | 制作例2：『人類が初めて火を見つけた日』 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-3-demo.gif" alt="『人類最初の仕事は、どう生まれた？』のプレビュー" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="火の発見をテーマにしたユーザー作品" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="『人類最初の仕事は、どう生まれた？』のプレビュー" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="火の発見をテーマにしたユーザー作品" width="360"> |
 | 原始時代の物語・仕事の皮肉 | 火の発見・ユーザー作品 |
 
 ---
@@ -121,7 +121,7 @@
 
 | 制作例1：通勤中も気になるメッセージ | 制作例2：自分の時間を取り戻す |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-4-cozy-station.gif" alt="駅でメッセージが気になってしまう主人公" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="木漏れ日のカフェでひと息つく主人公" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="駅でメッセージが気になってしまう主人公" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="木漏れ日のカフェでひと息つく主人公" width="360"> |
 | 駅・歩く姿を追うカメラ・表情のアップ | オープンカフェ・木漏れ日・日常のしぐさ |
 
 ---
@@ -138,7 +138,7 @@
 
 | 制作例1：江戸の武士の日常 | 制作例2：古代エジプトの猫とミイラ |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-5-japan.gif" alt="江戸の町で暮らす武士のアニメ" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="古代エジプトの神殿にいる黒猫とミイラ" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="江戸の町で暮らす武士のアニメ" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="古代エジプトの神殿にいる黒猫とミイラ" width="360"> |
 | 江戸の町並み・武士の装い・日常の意外な一面 | 彩り豊かな神殿・黒猫・歴史の小話 |
 
 画風・プロンプトの提供：[Lawal Ridwan / @leksautomate](https://github.com/leksautomate)。日本のサンプル動画は原作者から提供いただきました。

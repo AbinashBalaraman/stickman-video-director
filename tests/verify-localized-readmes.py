@@ -5,9 +5,14 @@ import re
 
 root = Path(__file__).resolve().parents[1]
 source = (root / "README.md").read_text()
-preview_pattern = r'src="(assets/readme/previews/[^" ]+\.gif)"'
+# Pin uploaded assets, not a moving branch; GitHub proxies this external CDN via Camo.
+preview_base = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/"
+preview_pattern = rf'src="{re.escape(preview_base)}(assets/readme/previews/[^" ]+\.gif)"'
 expected_previews = set(re.findall(preview_pattern, source))
 assert len(expected_previews) == 11
+for readme in root.glob("README*.md"):
+    images = re.findall(r'src="([^" ]+\.gif)"', readme.read_text())
+    assert images and all(url.startswith(preview_base) for url in images), readme.name
 approved_voiceover = (
     "Ten thousand years ago, one man finally solved all his problems. He shut them outside.",
     "Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.",

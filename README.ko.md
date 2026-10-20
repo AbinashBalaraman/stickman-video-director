@@ -25,27 +25,27 @@
 <tr>
 <td colspan="2" align="center">
 <strong>역사 카툰</strong><br>
-<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="에도 시대 일본을 배경으로 한 역사 스틱맨 애니메이션" width="640"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="에도 시대 일본을 배경으로 한 역사 스틱맨 애니메이션" width="640"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>미니멀 흑백</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="검은 배경 위 흰 선으로 표현한 미니멀 스틱맨 애니메이션" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="검은 배경 위 흰 선으로 표현한 미니멀 스틱맨 애니메이션" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>모던 테크</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-2a-demo.gif" alt="빨간 비니 캐릭터와 깔끔한 테크 연출" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="빨간 비니 캐릭터와 깔끔한 테크 연출" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>선사시대 블랙코미디</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-3-demo.gif" alt="선사시대를 배경으로 한 반전 코미디 애니메이션" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="선사시대를 배경으로 한 반전 코미디 애니메이션" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>따뜻한 일상 이야기</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="다채로운 일상 배경 속 표정이 살아 있는 스틱맨" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="다채로운 일상 배경 속 표정이 살아 있는 스틱맨" width="90%"></a>
 </td>
 </tr>
 </table>
@@ -76,7 +76,7 @@
 
 | 스타일 1A: 흰 배경·검은 스틱맨 | 스타일 1B: 검은 배경·흰 스틱맨 |
 |:---:|:---:|
-| <!-- demo:light:start --><img src="assets/readme/previews/light-theme-demo.gif" alt="흰 배경 위 검은 스틱맨 애니메이션" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/previews/dark-theme-demo.gif" alt="검은 배경 위 흰 스틱맨 애니메이션" width="360"><!-- demo:dark:end --> |
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="흰 배경 위 검은 스틱맨 애니메이션" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="검은 배경 위 흰 스틱맨 애니메이션" width="360"><!-- demo:dark:end --> |
 | 흰 캔버스·검은 캐릭터 | 검은 캔버스·흰 캐릭터 |
 
 ---
@@ -91,7 +91,7 @@
 
 | 스타일 2A: 미니멀 테크 | 스타일 2B: 시네마틱 스토리 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-2a-demo.gif" alt="미니멀 테크 스타일 애니메이션" width="360"> | <img src="assets/readme/previews/style-2b-demo.gif" alt="영화 같은 컬러 배경의 스토리 애니메이션" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="미니멀 테크 스타일 애니메이션" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="영화 같은 컬러 배경의 스토리 애니메이션" width="360"> |
 | 흰 공간·은은한 격자·청록 빛 | 컬러 배경·영화 같은 조명·이야기의 분위기 |
 
 ---
@@ -106,7 +106,7 @@
 
 | 예시 1: 「인류 최초의 일자리는 어떻게 생겼을까?」 | 예시 2: 「인류가 처음 불을 발견한 날」 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-3-demo.gif" alt="인류 최초의 일자리를 다룬 애니메이션 미리보기" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="불의 발견을 주제로 만든 커뮤니티 작품" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="인류 최초의 일자리를 다룬 애니메이션 미리보기" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="불의 발견을 주제로 만든 커뮤니티 작품" width="360"> |
 | 선사시대 이야기·직장 풍자 | 불의 발견·커뮤니티 작품 |
 
 ---
@@ -121,7 +121,7 @@
 
 | 예시 1: 출근길에도 신경 쓰이는 메시지 | 예시 2: 나를 위한 시간을 되찾기 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-4-cozy-station.gif" alt="역에서 메시지 때문에 불안해하는 캐릭터" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="햇살 드는 야외 카페에서 쉬는 캐릭터" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="역에서 메시지 때문에 불안해하는 캐릭터" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="햇살 드는 야외 카페에서 쉬는 캐릭터" width="360"> |
 | 역·걷는 인물을 따라가는 카메라·감정 클로즈업 | 야외 카페·따뜻한 빛·일상의 몸짓 |
 
 ---
@@ -138,7 +138,7 @@
 
 | 예시 1: 에도 시대 사무라이의 일상 | 예시 2: 고대 이집트의 고양이와 미라 |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-5-japan.gif" alt="에도 거리에서 살아가는 사무라이" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="고대 이집트 신전의 검은 고양이와 미라" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="에도 거리에서 살아가는 사무라이" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="고대 이집트 신전의 검은 고양이와 미라" width="360"> |
 | 에도 거리 · 사무라이 의상 · 일상의 뜻밖의 순간 | 다채로운 신전 · 검은 고양이 · 역사 이야기 |
 
 스타일·프롬프트 기여: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). 일본 예시 영상은 원작자가 제공했습니다.

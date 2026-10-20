@@ -81,7 +81,8 @@ done
 
 for readme in "${readmes[@]}"; do
   readme_path="$readme_root/$readme"
-  preview_dir='assets/readme/previews'
+  # External CDN URLs are automatically served through GitHub's Camo image proxy.
+  preview_dir='https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews'
   [[ -f "$readme_path" ]] || {
     printf 'missing README: %s\n' "$readme" >&2
     exit 1

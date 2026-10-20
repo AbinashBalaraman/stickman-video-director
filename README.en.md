@@ -25,27 +25,27 @@ I'm testing popular stickman animation styles from across the web and sharing th
 <tr>
 <td colspan="2" align="center">
 <strong>Historical Cartoon</strong><br>
-<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman animation set in Edo-period Japan" width="640"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman animation set in Edo-period Japan" width="640"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>Minimalist Monochrome</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="Minimalist stickman animation with white lines on black" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Minimalist stickman animation with white lines on black" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>Modern Tech</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-2a-demo.gif" alt="Red-beanie stickman with clean tech visuals" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Red-beanie stickman with clean tech visuals" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>Prehistoric Dark Comedy</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-3-demo.gif" alt="Prehistoric stickman story with a comic twist" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Prehistoric stickman story with a comic twist" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>Cozy Storytelling</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="Expressive stick characters in a colorful everyday setting" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Expressive stick characters in a colorful everyday setting" width="90%"></a>
 </td>
 </tr>
 </table>
@@ -76,7 +76,7 @@ A few lines can explain a big idea. On a pure-white or pure-black canvas, charac
 
 | Style 1A: Black on White | Style 1B: White on Black |
 |:---:|:---:|
-| <!-- demo:light:start --><img src="assets/readme/previews/light-theme-demo.gif" alt="Black stick figure on a pure-white background" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/previews/dark-theme-demo.gif" alt="White stick figure on a pure-black background" width="360"><!-- demo:dark:end --> |
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="Black stick figure on a pure-white background" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="White stick figure on a pure-black background" width="360"><!-- demo:dark:end --> |
 | White canvas · Black figure | Black canvas · White figure |
 
 ---
@@ -91,7 +91,7 @@ The red beanie and yellow T-shirt make this character easy to recognize. Use a c
 
 | Style 2A: Minimal Tech | Style 2B: Cinematic Story |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-2a-demo.gif" alt="Minimal tech animation with a red-beanie character" width="360"> | <img src="assets/readme/previews/style-2b-demo.gif" alt="Red-beanie character in a colorful cinematic setting" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Minimal tech animation with a red-beanie character" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="Red-beanie character in a colorful cinematic setting" width="360"> |
 | White space · Faint grid · Cyan glow | Colorful settings · Cinematic light · Story atmosphere |
 
 ---
@@ -106,7 +106,7 @@ Take today's problems back to a world without phones or offices. Caves, animal h
 
 | Example 1: “How Did Humans Get Their First Job?” | Example 2: “Humans Discover Fire” |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? animated preview" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="Humans Discover Fire, a community-made animation" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? animated preview" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Humans Discover Fire, a community-made animation" width="360"> |
 | Prehistoric workplace comedy | Fire discovery · Community creation |
 
 ---
@@ -121,7 +121,7 @@ A mug you've been saving for a special occasion. A message you feel compelled to
 
 | Example 1: Message Anxiety on the Commute | Example 2: Making Time for Yourself |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-4-cozy-station.gif" alt="A character dealing with message anxiety at a train station" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="Taking a break at a sunlit outdoor café" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="A character dealing with message anxiety at a train station" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Taking a break at a sunlit outdoor café" width="360"> |
 | Train station · Tracking shots · Emotional close-ups | Outdoor café · Warm light · Everyday gestures |
 
 ---
@@ -138,7 +138,7 @@ History, with a cast you can follow. Send a samurai through Edo's streets, meet 
 
 | Example 1: Everyday Life in Edo Japan | Example 2: Cats and Mummies in Ancient Egypt |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-5-japan.gif" alt="A samurai's everyday life in Edo Japan" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="A black cat and a mummy in an ancient Egyptian temple" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="A samurai's everyday life in Edo Japan" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="A black cat and a mummy in an ancient Egyptian temple" width="360"> |
 | Edo streets · Samurai clothing · Everyday surprises | Painted temple · Black cat · Historical curiosity |
 
 Style and prompt contribution: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). Japanese sample provided by the original creator.

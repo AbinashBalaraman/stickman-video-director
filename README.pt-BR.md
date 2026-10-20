@@ -25,27 +25,27 @@ Estou testando estilos populares de animação com bonecos de palito e compartil
 <tr>
 <td colspan="2" align="center">
 <strong>Cartoon histórico</strong><br>
-<a href="#style-5"><img src="assets/readme/previews/style-5-japan-hero.gif" alt="Animação histórica com bonecos de palito no Japão do período Edo" width="640"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Animação histórica com bonecos de palito no Japão do período Edo" width="640"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>Minimalista em preto e branco</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/dark-theme-demo.gif" alt="Animação minimalista de boneco de palito branco sobre fundo preto" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Animação minimalista de boneco de palito branco sobre fundo preto" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>Tecnologia moderna</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-2a-demo.gif" alt="Personagem de gorro vermelho em um cenário tecnológico limpo" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Personagem de gorro vermelho em um cenário tecnológico limpo" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>Humor ácido na pré-história</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-3-demo.gif" alt="História pré-histórica com uma virada cômica" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="História pré-histórica com uma virada cômica" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>Histórias acolhedoras</strong><br>
-<a href="#style-gallery"><img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="Personagens expressivos em um cenário cotidiano colorido" width="90%"></a>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Personagens expressivos em um cenário cotidiano colorido" width="90%"></a>
 </td>
 </tr>
 </table>
@@ -76,7 +76,7 @@ Poucas linhas, uma ideia bem explicada. Em um fundo totalmente branco ou preto, 
 
 | Estilo 1A: Preto no branco | Estilo 1B: Branco no preto |
 |:---:|:---:|
-| <!-- demo:light:start --><img src="assets/readme/previews/light-theme-demo.gif" alt="Boneco de palito preto em fundo branco" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="assets/readme/previews/dark-theme-demo.gif" alt="Boneco de palito branco em fundo preto" width="360"><!-- demo:dark:end --> |
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="Boneco de palito preto em fundo branco" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Boneco de palito branco em fundo preto" width="360"><!-- demo:dark:end --> |
 | Fundo branco · Personagem preto | Fundo preto · Personagem branco |
 
 ---
@@ -91,7 +91,7 @@ O gorro vermelho e a camiseta amarela são a marca do personagem. Ele pode expli
 
 | Estilo 2A: Tecnologia minimalista | Estilo 2B: História cinematográfica |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-2a-demo.gif" alt="Animação em um ambiente tecnológico minimalista" width="360"> | <img src="assets/readme/previews/style-2b-demo.gif" alt="Personagem em um cenário colorido com iluminação cinematográfica" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Animação em um ambiente tecnológico minimalista" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="Personagem em um cenário colorido com iluminação cinematográfica" width="360"> |
 | Espaço branco · Grade discreta · Brilho ciano | Cenários coloridos · Luz de cinema · Clima de história |
 
 ---
@@ -106,7 +106,7 @@ E se os problemas de hoje fossem parar em um mundo sem celular nem escritório? 
 
 | Exemplo 1: “Como surgiu o primeiro emprego da humanidade?” | Exemplo 2: “A primeira descoberta do fogo” |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-3-demo.gif" alt="Prévia de Como surgiu o primeiro emprego da humanidade?" width="360"> | <img src="assets/readme/previews/style-3-community-fire.gif" alt="A descoberta do fogo em uma animação feita pela comunidade" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Prévia de Como surgiu o primeiro emprego da humanidade?" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="A descoberta do fogo em uma animação feita pela comunidade" width="360"> |
 | História pré-histórica · Sátira do trabalho | Descoberta do fogo · Criação da comunidade |
 
 ---
@@ -121,7 +121,7 @@ Uma caneca que você guarda para uma ocasião especial. Uma mensagem que parece 
 
 | Exemplo 1: A ansiedade das mensagens no caminho para o trabalho | Exemplo 2: Reservar um tempo para si |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-4-cozy-station.gif" alt="Personagem preocupado com mensagens na estação" width="360"> | <img src="assets/readme/previews/style-4-cozy-cafe.gif" alt="Uma pausa em um café ao ar livre" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="Personagem preocupado com mensagens na estação" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Uma pausa em um café ao ar livre" width="360"> |
 | Estação · Câmera acompanhando o personagem · Close nas emoções | Café ao ar livre · Luz quente · Gestos cotidianos |
 
 ---
@@ -138,7 +138,7 @@ Um samurai pelas ruas de Edo, um gato preto num templo egípcio, um soldado num 
 
 | Exemplo 1: O cotidiano de um samurai em Edo | Exemplo 2: Gatos e múmias no Egito Antigo |
 |:---:|:---:|
-| <img src="assets/readme/previews/style-5-japan.gif" alt="O dia a dia de um samurai no Japão do período Edo" width="360"> | <img src="assets/readme/previews/style-5-egypt.gif" alt="Um gato preto e uma múmia num templo do Egito Antigo" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="O dia a dia de um samurai no Japão do período Edo" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="Um gato preto e uma múmia num templo do Egito Antigo" width="360"> |
 | Ruas de Edo · Trajes de samurai · Surpresas do cotidiano | Templo colorido · Gato preto · Curiosidade histórica |
 
 Contribuição de estilo e prompts: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). O vídeo do Japão foi cedido pelo criador original.
