@@ -5,8 +5,8 @@ import re
 import struct
 
 root = Path(__file__).resolve().parents[1]
-cn = (root / "README.md").read_text()
-assert cn == (root / "README.zh-CN.md").read_text()
+cn = (root / "README.zh-CN.md").read_text()
+assert (root / "README.md").read_text() == (root / "README.en.md").read_text()
 assert "# AI 火柴人动画画风大全" in cn
 assert "## 你的作品，也可以成为下一个案例" not in cn
 assert "## 下一种火柴人，你来点" in cn
@@ -62,22 +62,30 @@ for link in re.findall(r"\]\(([^)]+)\)", cn):
     if "://" not in link and not link.startswith("#"):
         assert (root / link.split("#")[0]).exists(), link
 
-previews = sorted(set(re.findall(r'src="(assets/readme/previews/[^" ]+\.gif)"', cn)))
-assert len(previews) == 8
+previews = sorted(set(re.findall(r'src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/(assets/readme/previews/[^" ]+\.gif)"', cn)))
+assert len(previews) == 11
 old_bytes = new_bytes = 0
 for preview in previews:
     optimized = root / preview
-    original = root / "assets/readme" / optimized.name
     assert optimized.exists()
     header = optimized.read_bytes()[:10]
     assert header[:6] in (b"GIF87a", b"GIF89a")
+    if optimized.name.startswith("style-5-"):
+        is_hero = optimized.name == "style-5-japan-hero.gif"
+        expected_size = (640, 360) if is_hero else (400, 225)
+        assert struct.unpack("<HH", header[6:10]) == expected_size
+        assert optimized.stat().st_size < (4_000_000 if is_hero else 2_000_000)
+        source_name = optimized.stem.replace("-hero", "") + ".mp4"
+        assert (root / "assets/readme" / source_name).exists()
+        continue
+    original = root / "assets/readme" / optimized.name
     assert struct.unpack("<HH", header[6:10]) == (400, 225)
     assert optimized.stat().st_size < original.stat().st_size
     old_bytes += original.stat().st_size
     new_bytes += optimized.stat().st_size
 assert new_bytes < old_bytes * 0.6, "Preview total should shrink by at least 40%"
 
-for lang in ("en", "ja", "ko", "pt-BR"):
+for lang in ("en", "ja", "ko", "pt-BR", "tr", "id"):
     text = (root / f"README.{lang}.md").read_text()
     assert "assets/readme/previews/" in text, "Localized pages use the same lightweight previews"
 

@@ -9,6 +9,8 @@ default_readmes=(
   README.ja.md
   README.ko.md
   README.pt-BR.md
+  README.tr.md
+  README.id.md
 )
 demo_assets=(
   assets/readme/light-theme-demo.gif
@@ -27,6 +29,11 @@ demo_assets=(
   assets/readme/style-4-cozy-station.mp4
   assets/readme/style-4-cozy-cafe.gif
   assets/readme/style-4-cozy-cafe.mp4
+  assets/readme/style-5-japan.mp4
+  assets/readme/style-5-egypt.mp4
+  assets/readme/previews/style-5-japan.gif
+  assets/readme/previews/style-5-egypt.gif
+  assets/readme/previews/style-5-japan-hero.gif
 )
 section_markers=(
   '<!-- readme:hero -->'
@@ -45,6 +52,8 @@ shared_tokens=(
   'README.ja.md'
   'README.ko.md'
   'README.pt-BR.md'
+  'README.tr.md'
+  'README.id.md'
   'assets/readme/light-theme-demo.gif'
   'assets/readme/dark-theme-demo.gif'
   'assets/readme/style-2a-demo.gif'
@@ -57,6 +66,8 @@ shared_tokens=(
   '16:9'
   '9:16'
   'MIT'
+  'https://github.com/leksautomate'
+  'assets/readme/previews/style-5-japan-hero.gif'
 )
 
 if (( $# > 0 )); then
@@ -74,7 +85,8 @@ done
 
 for readme in "${readmes[@]}"; do
   readme_path="$readme_root/$readme"
-  preview_dir='assets/readme/previews'
+  # External CDN URLs are automatically served through GitHub's Camo image proxy.
+  preview_dir='https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews'
   [[ -f "$readme_path" ]] || {
     printf 'missing README: %s\n' "$readme" >&2
     exit 1
@@ -104,8 +116,9 @@ for readme in "${readmes[@]}"; do
     'style-2a-demo style-2b-demo'
     'style-3-demo style-3-community-fire'
     'style-4-cozy-station style-4-cozy-cafe'
+    'style-5-japan style-5-egypt'
   )
-  for token in 'id="quick-start"' 'id="style-gallery"' 'id="recent-updates"'; do
+  for token in 'id="quick-start"' 'id="style-gallery"' 'id="style-5"' 'id="recent-updates"'; do
     rg -Fq "$token" "$readme_path" || {
       printf '%s missing synchronized content: %s\n' "$readme" "$token" >&2
       exit 1
@@ -119,7 +132,7 @@ for readme in "${readmes[@]}"; do
     printf '%s contains obsolete preview or installation instructions\n' "$readme" >&2
     exit 1
   fi
-  if [[ "$readme" == README.md || "$readme" == README.zh-CN.md ]]; then
+  if [[ "$readme" == README.zh-CN.md ]]; then
     for token in '全部画风一览' '风格 4：治愈故事风' 'assets/readme/previews/style-4-cozy-station.gif' 'assets/readme/previews/style-4-cozy-cafe.gif'; do
       rg -Fq "$token" "$readme_path" || {
         printf '%s missing style 4 token: %s\n' "$readme" "$token" >&2
@@ -153,12 +166,12 @@ for readme in "${readmes[@]}"; do
   fi
 done
 
-cmp -s "$readme_root/README.md" "$readme_root/README.zh-CN.md" || {
-  printf 'Default homepage must match the Chinese README.\n' >&2
+cmp -s "$readme_root/README.md" "$readme_root/README.en.md" || {
+  printf 'Default homepage must match the English README.\n' >&2
   exit 1
 }
-rg -Fq '[**简体中文**](README.zh-CN.md) · [English](README.en.md)' "$readme_root/README.md" || {
-  printf 'Default homepage missing Chinese/English language navigation.\n' >&2
+rg -Fq '[**English**](README.en.md) · [简体中文](README.zh-CN.md)' "$readme_root/README.md" || {
+  printf 'Default homepage missing English-first language navigation.\n' >&2
   exit 1
 }
 rg -Fq '# AI Stickman Animation Style Library' "$readme_root/README.en.md" || {
