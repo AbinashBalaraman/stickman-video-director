@@ -56,7 +56,7 @@ assert "Codex、Claude Code" in cn and "Google Flow" in cn
 assert "A、B 画风独立编号、分别展示，不共用画面" in cn
 assert "给故事脚本和需求 → 检查配音和生图配置 → 确认 20s 样片效果 → 自动制作长视频 → 拿到完整成片" in cn
 autopilot_start = cn.split('<a id="autopilot-start"></a>', 1)[1].split('<a id="style-gallery"></a>', 1)[0]
-for requirement in ("YouTube 视频", "B1「极简手绘风」", "旁白、字幕和音效", "20 秒有声样片", "画面跟随配音节奏", "交付完整视频文件"):
+for requirement in ("把这个文章/帖子/新闻...做成在 YouTube 上有吸引力的视频", "需求：5～10 分钟", "B1「极简手绘风」", "旁白、字幕和音效", "20 秒有声样片", "画面跟随配音节奏", "交付完整视频文件"):
     assert requirement in autopilot_start, requirement
 for label in ("A1：经典黑白风", "A2：现代潮酷风", "A3：史前洞穴风",
               "A4：治愈故事风", "A5：历史卡通风", "B1：极简手绘风", "B2：待更新…"):
