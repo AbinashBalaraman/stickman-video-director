@@ -1,6 +1,6 @@
 ---
 name: directing-stickman-videos
-description: "Turn topics, requirements, articles or scripts into stickman videos. Director mode creates approved storyboards and standalone video prompts; Autopilot mode produces narrated, captioned illustration-and-micro-animation videos through configured generation tools and a local renderer."
+description: "Turn topics, requirements, articles or scripts into stickman videos. Director mode creates approved storyboards and standalone video prompts; Autopilot mode produces narrated, captioned illustration-and-micro-animation videos through configured generation tools and a local renderer. Also guide installation handoff, first use and setup of this specific Skill."
 ---
 
 # Directing Stickman Videos
@@ -13,6 +13,12 @@ Keep the existing installation and name. Route by the requested deliverable:
 - **B · Autopilot**: a finished local video with narration, captions, meaningful illustrations, local motion and SFX. Read [Autopilot](references/autopilot.md), then its selected B-style reference. B1 is [极简手绘风](references/b1-minimal-handdrawn.md). B styles have their own assets and numbering; do not silently reuse an A-style prompt or sample.
 
 If the mode is ambiguous, ask one short question. Honor previously supplied choices. Do not run Director's ten-second clip rules, no-visible-text rule or Phase B prompt workflow for Autopilot. Autopilot can start with a topic, promotion brief, post, article or story script; it is not story-only. English is the default narration language, but the user's language and voice choices take precedence.
+
+## First use and next steps
+
+Use one shared guide in the user's requested or current conversation language, falling back to an available host/local language setting when unclear. Keep guidance language separate from video narration/subtitles; do not select it from the README edition.
+
+Read [first-use and stage guidance](references/getting-started.md) for installation handoff or first use, and apply its progress guidance throughout both modes. After an installation you perform is verified, show a practical, plain-language quick-start immediately; otherwise introduce the Skill on first invocation. Explain outputs, suitable uses, tools to prepare, the production sequence and a copyable request, tailored to what the user already knows. Reuse the supplied brief instead of restarting an intake interview. At each substantive stage completion or blocker, explain what is completed, what is still missing and the concrete next action, distinguishing the assistant's work from the user's choices. Do not turn progress updates into new approval gates or repeat the welcome on every turn.
 
 ## A · Director
 

@@ -1,4 +1,4 @@
 interface:
   display_name: "Stickman Video Director"
   short_description: "Direct stickman clips or auto-produce narrated videos"
-  default_prompt: "Use $directing-stickman-videos for this topic. Use Director for storyboard and video prompts, or Autopilot for a complete narrated and captioned video; confirm the mode and style before production."
+  default_prompt: "Use $directing-stickman-videos to help me get started with clear outputs, tool preparation, workflow and examples for the relevant mode; reuse my requirements and explain any missing items and concrete next steps."
