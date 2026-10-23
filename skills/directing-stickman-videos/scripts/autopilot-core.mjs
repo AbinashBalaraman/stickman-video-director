@@ -46,7 +46,7 @@ export function designPlane(project) {
   // One uniform scale keeps round heads and lettering undistorted in portrait.
   return {width: 1280, height: 1280 * project.height / project.width};
 }
-export function loadProject(file) {
+export function loadProject(file, {seconds} = {}) {
   file = fs.realpathSync(path.resolve(file));
   const p = json(file), base = path.dirname(file);
   if (p.version !== 1 || p.style !== 'B1') throw new Error('Expected version 1 and style B1');
@@ -60,12 +60,17 @@ export function loadProject(file) {
   const lead = p.voice.lead ?? 0, tail = p.voice.tail ?? 0;
   number(lead, 'lead', 0, 5); number(tail, 'tail', 0, 5);
   const duration = voiceDuration + lead + tail;
+  if (seconds !== undefined) number(seconds, 'preview length', 0.001, 60);
+  const rangeEnd = Math.min(duration, seconds ?? duration);
+  const scoped = seconds !== undefined;
   if (p.captionSize !== undefined) number(p.captionSize, 'caption size', 20, 64);
   if (!Array.isArray(p.shots) || !p.shots.length) throw new Error('Shots required');
+  const shots = scoped ? p.shots.filter(s => s.start < rangeEnd).map(s => ({...s, layers: Array.isArray(s.layers) ? s.layers.filter(l => s.start + (l.from ?? 0) < rangeEnd) : s.layers})) : p.shots;
+  if (!shots.length) throw new Error('Shots required in the preview range');
   let end = 0;
   const assets = new Set([voicePath]);
   const types = new Set(['image', 'pose', 'text', 'line', 'arrow', 'underline']);
-  for (const [i, shot] of p.shots.entries()) {
+  for (const [i, shot] of shots.entries()) {
     number(shot.start, 'shot start'); number(shot.end, 'shot end');
     if (Math.abs(shot.start - end) > 0.002 || shot.end <= shot.start) throw new Error(`Shot ${i}: gap/overlap or nonpositive duration`);
     end = shot.end;
@@ -93,22 +98,26 @@ export function loadProject(file) {
       }
     }
   }
-  if (Math.abs(end - duration) > 0.06) throw new Error(`Shots end at ${end}; voice+lead+tail ends at ${duration.toFixed(3)}`);
+  if (scoped ? end < rangeEnd - 0.002 : Math.abs(end - duration) > 0.06) throw new Error(`Shots end at ${end}; ${scoped ? 'preview range' : 'voice+lead+tail'} ends at ${rangeEnd.toFixed(3)}`);
   let cueEnd = 0;
   if (!Array.isArray(p.captions) || !p.captions.length) throw new Error('Timed captions required');
-  for (const cue of p.captions) {
+  const captions = scoped ? p.captions.filter(c => c.start < rangeEnd) : p.captions;
+  if (!captions.length) throw new Error('Timed captions required in the preview range');
+  for (const cue of captions) {
     number(cue.start, 'caption start', cueEnd, duration); number(cue.end, 'caption end', cue.start + 0.01, duration);
     if (typeof cue.text !== 'string' || !cue.text.trim() || cue.text.length > 240) throw new Error('Invalid caption text');
     cueEnd = cue.end;
   }
-  if (p.voice.contains_sfx && p.sfx?.length) throw new Error('Already mixed voice must not receive duplicate SFX');
-  for (const s of p.sfx || []) { number(s.time, 'SFX time', 0, duration); number(s.gain, 'SFX gain', 0, 0.3); if (!['tap', 'paper', 'pop', 'chime'].includes(s.kind)) throw new Error('Unknown SFX'); }
+  const sfx = scoped ? (p.sfx || []).filter(s => s.time < rangeEnd) : p.sfx || [];
+  if (p.voice.contains_sfx && sfx.length) throw new Error('Already mixed voice must not receive duplicate SFX');
+  for (const s of sfx) { number(s.time, 'SFX time', 0, duration); number(s.gain, 'SFX gain', 0, 0.3); if (!['tap', 'paper', 'pop', 'chime'].includes(s.kind)) throw new Error('Unknown SFX'); }
   if (p.music) { assets.add(mediaPath(base, p.music.path)); number(p.music.gain, 'music gain', 0, 0.2); }
-  const project = {...p, file, base, voicePath, voiceDuration, lead, tail, duration};
+  const timeline = {...p, shots, captions, sfx};
+  const project = {...timeline, file, base, voicePath, voiceDuration, lead, tail, duration, rangeEnd};
   for (const f of Object.values(fontPaths(project))) { if (!fs.existsSync(f)) throw new Error(`Missing font: ${f}`); assets.add(f); }
   const inputs = [...assets].sort().map(f => ({path: f, sha256: hashFile(f)}));
   const engine = ['autopilot-core.mjs', 'autopilot-render.mjs'].map(f => hashFile(path.join(ROOT, 'scripts', f)));
-  return {...project, inputs, fingerprint: sha(JSON.stringify({project: p, inputs, engine}))};
+  return {...project, inputs, fingerprint: sha(JSON.stringify({project: timeline, rangeEnd, inputs, engine}))};
 }
 export function outputDir(p) {
   const output = path.join(p.base, 'output');

@@ -8,7 +8,7 @@ source = (root / "README.md").read_text()
 # Pin uploaded assets, not a moving branch; GitHub proxies this external CDN via Camo.
 preview_base = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/"
 # B1 is published in Chinese first and has its own immutable asset commit.
-chinese_b1_preview = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif"
+chinese_b1_preview = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif"
 preview_pattern = rf'src="{re.escape(preview_base)}(assets/readme/previews/[^" ]+\.gif)"'
 expected_previews = set(re.findall(preview_pattern, source))
 assert len(expected_previews) == 11

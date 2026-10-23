@@ -27,24 +27,35 @@ async function main() {
     save(args[1], groupWords(json(args[0]), Number(option('--lead', 0))));
     console.log(JSON.stringify({output: path.resolve(args[1])}));
   } else if (['validate', 'preview', 'approve', 'render'].includes(command)) {
-    const p = loadProject(args[0]);
-    if (command === 'validate') { const {painter} = await import('./autopilot-render.mjs'); const draw = await painter(p); for (const cue of p.captions) draw((cue.start + cue.end) / 2); console.log(JSON.stringify({valid: true, fingerprint: p.fingerprint, duration: p.duration, shots: p.shots.length})); return; }
-    const out = outputDir(p), approvalPath = path.join(out, 'approval.json'), reportPath = path.join(out, 'preview-report.json');
+    const scoped = command === 'preview' || command === 'validate' && args.includes('--seconds');
+    const seconds = scoped ? Number(option('--seconds', 20)) : undefined;
+    if (scoped && (!Number.isFinite(seconds) || seconds <= 0 || seconds > 60)) throw new Error('Preview length must be greater than 0 and at most 60 seconds');
+    let p;
+    if (command !== 'approve') p = loadProject(args[0], scoped ? {seconds} : {});
+    if (command === 'validate') { const {painter} = await import('./autopilot-render.mjs'); const draw = await painter(p); for (const cue of p.captions) draw(Math.min(p.rangeEnd - 0.001, (cue.start + cue.end) / 2)); console.log(JSON.stringify({valid: true, fingerprint: p.fingerprint, duration: p.duration, checked_seconds: p.rangeEnd, shots: p.shots.length})); return; }
+    const base = p?.base ?? path.dirname(fs.realpathSync(path.resolve(args[0])));
+    const out = outputDir(p ?? {base, inputs: []}), approvalPath = path.join(out, 'approval.json'), reportPath = path.join(out, 'preview-report.json');
+    let report, reviewed;
+    if (command === 'approve' || command === 'render') {
+      if (command === 'render' && (!fs.existsSync(approvalPath) || !fs.existsSync(reportPath))) throw new Error('Full production requires user-approved preview');
+      if (!fs.existsSync(reportPath)) throw new Error('Render and review a preview first');
+      report = json(reportPath);
+      const error = command === 'render' ? 'Approval invalidated; preview and user approval required again' : 'Preview changed; render/review it again';
+      if (!Number.isFinite(report.preview_seconds) || report.preview_seconds <= 0 || report.preview_seconds > 60) throw new Error(error);
+      reviewed = loadProject(args[0], {seconds: report.preview_seconds});
+      outputDir(reviewed);
+      if (report.fingerprint !== reviewed.fingerprint || report.output !== path.join(out, 'preview.mp4') || !fs.existsSync(report.output) || hashFile(report.output) !== report.output_sha256) throw new Error(error);
+    }
     if (command === 'approve') {
       const note = option('--note', ''); if (!note.trim()) throw new Error('A note recording genuine user approval is required');
-      if (!fs.existsSync(reportPath)) throw new Error('Render and review a preview first');
-      const report = json(reportPath);
-      if (report.fingerprint !== p.fingerprint || !fs.existsSync(report.output) || hashFile(report.output) !== report.output_sha256) throw new Error('Preview changed; render/review it again');
-      save(approvalPath, {fingerprint: p.fingerprint, preview_sha256: report.output_sha256, note, approved_at: new Date().toISOString()});
+      save(approvalPath, {preview_fingerprint: reviewed.fingerprint, preview_seconds: report.preview_seconds, preview_sha256: report.output_sha256, note, approved_at: new Date().toISOString()});
       console.log(JSON.stringify({approval: approvalPath})); return;
     }
     if (command === 'render') {
-      if (!fs.existsSync(approvalPath) || !fs.existsSync(reportPath)) throw new Error('Full production requires user-approved preview');
-      const a = json(approvalPath), r = json(reportPath);
-      if (a.fingerprint !== p.fingerprint || r.fingerprint !== p.fingerprint || a.preview_sha256 !== r.output_sha256 || !fs.existsSync(r.output) || hashFile(r.output) !== a.preview_sha256) throw new Error('Approval invalidated; preview and user approval required again');
+      const a = json(approvalPath);
+      if (a.preview_fingerprint !== reviewed.fingerprint || a.preview_seconds !== report.preview_seconds || a.preview_sha256 !== report.output_sha256) throw new Error('Approval invalidated; preview and user approval required again');
     }
-    const seconds = Number(option('--seconds', 20)); if (!Number.isFinite(seconds) || seconds <= 0 || seconds > 60) throw new Error('Preview length must be 0–60 seconds');
     const {render} = await import('./autopilot-render.mjs'); console.log(JSON.stringify(await render(p, {full: command === 'render', seconds, replace: args.includes('--replace')}), null, 2));
-  } else throw new Error('Commands: doctor | probe FILE | init DIR | captions WORDS OUTPUT [--lead N] | validate PROJECT | preview PROJECT [--seconds N] [--replace] | approve PROJECT --note TEXT | render PROJECT [--replace]');
+  } else throw new Error('Commands: doctor | probe FILE | init DIR | captions WORDS OUTPUT [--lead N] | validate PROJECT [--seconds N] | preview PROJECT [--seconds N] [--replace] | approve PROJECT --note TEXT | render PROJECT [--replace]');
 }
 main().catch(e => { console.error(e.message); process.exitCode = 1; });

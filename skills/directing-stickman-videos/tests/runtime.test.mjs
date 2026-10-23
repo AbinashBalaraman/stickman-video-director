@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
+import {pathToFileURL} from 'node:url';
 import {ROOT, FFMPEG, run, save, loadProject, groupWords, hashFile, probe, designPlane} from '../scripts/autopilot-core.mjs';
 import {keyState, render, painter} from '../scripts/autopilot-render.mjs';
 
@@ -61,6 +62,89 @@ test('caption overflow fails rather than silently clipping', async t => {
   const f = fixture(t); f.project.captions[0].text = 'A very long caption phrase. '.repeat(8); save(f.file, f.project);
   const r = command(['validate', f.file]); assert.notEqual(r.status, 0); assert.match(r.stderr, /two lines/);
 });
+test('B accepts independent timing/scene text but requires narration and subtitles', t => {
+  const f = fixture(t); f.project.grid = true;
+  f.project.shots[0].layers = [{type: 'text', text: 'VISIBLE WORDS', x: 80, y: 110, size: 60, color: '#192123'}];
+  save(f.file, f.project);
+  assert.equal(loadProject(f.file).duration, 0.85);
+  const original = structuredClone(f.project);
+  delete f.project.voice; save(f.file, f.project); assert.throws(() => loadProject(f.file), /Voice supports/);
+  f.project = structuredClone(original); f.project.captions = []; save(f.file, f.project); assert.throws(() => loadProject(f.file), /Timed captions required/);
+});
+test('sample validation/rendering/approval do not require unproduced later media', t => {
+  const f = fixture(t);
+  f.project.shots[1].layers = [{type: 'image', path: 'later.png', x: 80, y: 110, w: 100}];
+  save(f.file, f.project);
+  let r = command(['validate', f.file, '--seconds', '0.4']); assert.equal(r.status, 0, r.stderr);
+  r = command(['preview', f.file, '--seconds', '0.4']); assert.equal(r.status, 0, r.stderr);
+  r = command(['approve', f.file, '--note', 'Synthetic test approval only; not user production.']); assert.equal(r.status, 0, r.stderr);
+  r = command(['render', f.file]); assert.notEqual(r.status, 0); assert.match(r.stderr, /later\.png/);
+  fs.copyFileSync(path.join(ROOT, 'assets/b1/calendar-crayon.png'), path.join(f.dir, 'later.png'));
+  r = command(['render', f.file]); assert.equal(r.status, 0, r.stderr);
+  const report = JSON.parse(fs.readFileSync(path.join(f.dir, 'output/film-report.json')));
+  assert.equal(report.cache_hits, 1, 'Completed tail must reuse the unchanged first shot');
+});
+test('sample can precede unplanned later shots, while full coverage stays mandatory', t => {
+  const f = fixture(t); f.project.shots.pop(); save(f.file, f.project);
+  assert.equal(loadProject(f.file, {seconds: 0.4}).shots.length, 1);
+  assert.throws(() => loadProject(f.file), /Shots end/);
+  assert.throws(() => loadProject(f.file, {seconds: 0.6}), /preview range/);
+  f.project.captions = [{start: 0.5, end: 0.7, text: 'Too late.'}]; save(f.file, f.project);
+  assert.throws(() => loadProject(f.file, {seconds: 0.4}), /Timed captions required in the preview range/);
+});
+test('a layer appearing only after the sample does not need its media yet', t => {
+  const f = fixture(t);
+  f.project.shots = [{start: 0, end: 0.85, layers: [{type: 'text', text: 'OPENING', x: 80, y: 110, size: 60}, {type: 'image', path: 'later.png', from: 0.5, x: 80, y: 110, w: 100}]}];
+  save(f.file, f.project);
+  let r = command(['preview', f.file, '--seconds', '0.4']); assert.equal(r.status, 0, r.stderr);
+  f.project.shots[0].layers[1].from = 0.3; save(f.file, f.project);
+  r = command(['preview', f.file, '--seconds', '0.4', '--replace']); assert.notEqual(r.status, 0); assert.match(r.stderr, /later\.png/);
+});
+test('tail edits preserve sample approval and invalidate only dependent shot caches', t => {
+  const f = fixture(t), later = path.join(f.dir, 'later.png');
+  fs.copyFileSync(path.join(ROOT, 'assets/b1/calendar-crayon.png'), later);
+  f.project.captions = [{start: 0.05, end: 0.3, text: 'Opening.'}, {start: 0.5, end: 0.8, text: 'Later.'}];
+  f.project.shots[1].layers = [{type: 'image', path: 'later.png', x: 80, y: 110, w: 100}];
+  save(f.file, f.project);
+  let r = command(['preview', f.file, '--seconds', '0.4']); assert.equal(r.status, 0, r.stderr);
+  r = command(['approve', f.file, '--note', 'Synthetic test approval only; not user production.']); assert.equal(r.status, 0, r.stderr);
+  r = command(['render', f.file]); assert.equal(r.status, 0, r.stderr);
+  const sample = hashFile(path.join(f.dir, 'output/preview.mp4'));
+  const approval = hashFile(path.join(f.dir, 'output/approval.json'));
+  fs.copyFileSync(path.join(ROOT, 'assets/b1/idea-bulb-crayon.png'), later);
+  f.project.captions[1].text = 'Revised later.';
+  f.project.shots[1].layers[0].x = 100;
+  f.project.sfx.push({time: 0.6, kind: 'pop', gain: 0.02});
+  save(f.file, f.project);
+  r = command(['preview', f.file, '--seconds', '0.4']); assert.equal(r.status, 0, r.stderr); assert.equal(JSON.parse(r.stdout).reused, true);
+  r = command(['render', f.file, '--replace']); assert.equal(r.status, 0, r.stderr);
+  const report = JSON.parse(fs.readFileSync(path.join(f.dir, 'output/film-report.json')));
+  assert.equal(report.cache_hits, 1);
+  assert.equal(hashFile(path.join(f.dir, 'output/preview.mp4')), sample);
+  assert.equal(hashFile(path.join(f.dir, 'output/approval.json')), approval);
+});
+test('reviewed content and global settings still invalidate sample approval', t => {
+  const f = fixture(t);
+  let r = command(['preview', f.file, '--seconds', '0.4']); assert.equal(r.status, 0, r.stderr);
+  r = command(['approve', f.file, '--note', 'Synthetic test approval only; not user production.']); assert.equal(r.status, 0, r.stderr);
+  const original = structuredClone(f.project);
+  for (const mutate of [p => p.shots[0].layers[0].text = 'CHANGED', p => p.grid = false, p => p.captionSize = 40, p => p.captions[0].text = 'Changed.', p => p.sfx[0].gain = 0.03, p => p.width = 800]) {
+    const changed = structuredClone(original); mutate(changed); save(f.file, changed);
+    r = command(['render', f.file]); assert.notEqual(r.status, 0); assert.match(r.stderr, /invalidated/);
+  }
+  save(f.file, original);
+  run(FFMPEG, ['-v', 'error', '-f', 'lavfi', '-i', 'sine=frequency=720:duration=0.85', '-y', path.join(f.dir, 'voice.wav')]);
+  r = command(['render', f.file]); assert.notEqual(r.status, 0); assert.match(r.stderr, /invalidated/);
+});
+test('approval verifies actual preview bytes and never infers approval of legacy reports', t => {
+  const f = fixture(t);
+  let r = command(['preview', f.file, '--seconds', '0.4']); assert.equal(r.status, 0, r.stderr);
+  const reportFile = path.join(f.dir, 'output/preview-report.json'), report = JSON.parse(fs.readFileSync(reportFile));
+  const old = {...report}; delete old.preview_seconds; save(reportFile, old);
+  r = command(['approve', f.file, '--note', 'Synthetic test only']); assert.notEqual(r.status, 0); assert.match(r.stderr, /Preview changed/);
+  save(reportFile, report); fs.appendFileSync(report.output, 'synthetic tamper');
+  r = command(['approve', f.file, '--note', 'Synthetic test only']); assert.notEqual(r.status, 0); assert.match(r.stderr, /Preview changed/);
+});
 test('output symlink cannot redirect writes to another directory', async t => {
   const f = fixture(t); fs.symlinkSync(os.tmpdir(), path.join(f.dir, 'output'), 'dir'); await assert.rejects(render(loadProject(f.file)), /real project-local/);
 });
@@ -75,4 +159,32 @@ test('nested cache symlink cannot redirect renderer-owned writes', async t => {
 });
 test('media adapter cannot generate without network opt-in', () => {
   const r = spawnSync(process.execPath, [path.join(ROOT, 'scripts/gemini-media.mjs'), 'speech'], {encoding: 'utf8'}); assert.notEqual(r.status, 0); assert.match(r.stderr, /Network disabled/);
+});
+test('media adapter rejects extra speech direction before credentials or network', () => {
+  const r = spawnSync(process.execPath, [path.join(ROOT, 'scripts/gemini-media.mjs'), 'speech', '--direction', 'old-voice-direction.txt', '--allow-network'], {encoding: 'utf8', env: {...process.env, GEMINI_API_KEY: ''}});
+  assert.notEqual(r.status, 0); assert.match(r.stderr, /selected named voice.*remove --direction/);
+});
+test('media adapter sends only exact narration and the selected named voice', t => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'stickman-speech-request-test-'));
+  t.after(() => fs.rmSync(dir, {recursive: true, force: true}));
+  const text = 'Write. Edit. Publish. Refresh.', file = path.join(dir, 'narration.txt');
+  fs.writeFileSync(file, text);
+  const adapter = path.join(ROOT, 'scripts/gemini-media.mjs');
+  const argv = [process.execPath, adapter, 'speech', '--text', file, '--output', path.join(dir, 'narration.wav'), '--model', 'offline-tts', '--voice', 'Bodi', '--allow-network'];
+  const runner = `
+    import assert from 'node:assert/strict';
+    process.argv = ${JSON.stringify(argv)};
+    globalThis.fetch = async (url, options) => {
+      assert.equal(url, 'https://generativelanguage.googleapis.com/v1beta/models/offline-tts:generateContent');
+      assert.deepEqual(JSON.parse(options.body), {
+        contents: [{role: 'user', parts: [{text: ${JSON.stringify(text)}}]}],
+        generationConfig: {responseModalities: ['AUDIO'], speechConfig: {voiceConfig: {prebuiltVoiceConfig: {voiceName: 'Bodi'}}}}
+      });
+      return {ok: false, status: 418};
+    };
+    await import(${JSON.stringify(pathToFileURL(adapter).href)});
+  `;
+  const r = spawnSync(process.execPath, ['--input-type=module', '--eval', runner], {encoding: 'utf8', env: {...process.env, GEMINI_API_KEY: 'offline-test-only-not-a-real-key'}, timeout: 10000});
+  assert.equal(r.status, 1); assert.match(r.stderr, /Provider HTTP 418/);
+  assert.ok(!fs.existsSync(path.join(dir, 'narration.wav')));
 });

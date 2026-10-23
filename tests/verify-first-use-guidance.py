@@ -42,5 +42,17 @@ install = cn.split("```text\n", 1)[1].split("```", 1)[0]
 assert "https://github.com/kaomei/stickman-video-director" in install
 assert "已安装的 SKILL.md" in install
 assert (root / "tests/scenarios/first-use-guidance.md").is_file()
+
+# Per-style defaults stay inside one installation; B1 is not all of B.
+autopilot = (skill / "references/autopilot.md").read_text()
+b1 = (skill / "references/b1-minimal-handdrawn.md").read_text()
+priority = "explicit user choice → selected B-style default → B common fallback"
+assert priority in autopilot and priority in guide.read_text()
+assert "visuals, captions, voice, pacing and SFX" in entry
+assert "caption font/size/placement" in autopilot
+assert "B1 defaults, not requirements for other B styles" in b1
+assert "Google Gemini **Bodi**" in b1 and "original **Sadaltager** recording" in b1
+assert "without added style/direction instructions" in b1
 print("First-use reference wiring, single-Skill identity and unchanged Director contract passed.")
+print("Independent B-style settings, defaults precedence and unchanged demo-voice policy passed.")
 print("Static checks only; fresh-host conversational acceptance remains a separate test.")

@@ -50,7 +50,7 @@ Adapt this Chinese example to the actual environment and installation status:
 
 #### 现在怎么开始？
 
-直接发来**内容＋想拿到的结果**就行，例如：“我想做一个介绍这个工具的 YouTube 视频，希望自动拿到完整成片。”也可以补充时长、横竖屏、画风、语言和音色；没想好的部分，我会接着引导，不需要一次填完所有选项。未指定旁白时默认英语、稳定男声，也可以自由更换。
+直接发来**内容＋想拿到的结果**就行，例如：“我想做一个介绍这个工具的 YouTube 视频，希望自动拿到完整成片。”也可以补充时长、横竖屏、画风、语言和音色；没想好的部分，我会接着引导，不需要一次填完所有选项。A 模式沿用原有英语、稳定男声默认；B 模式按所选画风配置字幕和配音，B1 默认英语和 Google Gemini 的 Bodi 音色，你也可以指定其他语言、平台或音色。不同 B 画风可以有各自的默认配置，但都会配好旁白和字幕。
 
 如果工具还没配好，可以先说：**“我想用自动成片，但不知道怎么配置，先帮我检查。”** 我会说明哪些能用了、哪些还缺，以及具体怎么补；涉及收费的生成会先说明，不会因为安装好了就直接开始付费制作。
 
@@ -98,27 +98,29 @@ Resolve the topic/source, audience, purpose, duration, ratio, B-style and narrat
 
 ### 2. Configuration check
 
-Run the documented local `doctor` check and inspect the user's chosen image and voice services. Summarize actual findings in plain language, separating **ready**, **missing** and **not yet verified**:
+Run the documented local `doctor` check and inspect the user's chosen image and voice services. Resolve each setting as **explicit user choice → selected B-style default → B common fallback**, as defined in Autopilot. Check that resolved provider/voice first; for new B1 projects without a user override this is Google Gemini/Bodi. Do not ask the user to choose a platform again merely because they accepted defaults. Summarize actual findings in plain language, separating **ready**, **missing** and **not yet verified**:
 
 - Local composition: Node 20+, FFmpeg/FFprobe, renderer dependencies and suitable fonts. If something is missing, name that component, explain its role briefly, and give the next platform-appropriate installation/configuration step. Install project dependencies only with the host's normal permissions; after a repair, verify the affected check again.
-- Image and voice generation: reuse an available configured tool or authenticated interface if suitable. Do not demand a Gemini API key when the chosen browser/native tool does not use one. If no service is chosen, ask which available service to use and guide that setup. For API adapters use environment variables, never pasted secret values. Do not silently replace the selected voice/service with local OS TTS.
+- Image and voice generation: reuse an available configured tool or authenticated interface if suitable. Do not demand a Gemini API key when the chosen browser/native tool does not use one. If image generation is not configured, guide selection of an available image service. For narration, check the resolved provider/voice and explain only the missing login, access or configuration; do not require Bodi when the user or selected style specifies another voice. For API adapters use environment variables, never pasted secret values. Do not silently replace the selected voice/service with local OS TTS.
 - Evidence and cost: `doctor` checks local dependencies and key presence, not login, model access, quota or billing. Report those as unverified unless separately checked; an account subscription or an environment variable alone does not make generation ready. Disclose the planned billable calls/cost and obtain authorization before making them. Do not make a paid test call simply to populate the checklist.
 
 State the smallest next fix, not just "configuration failed" or a raw terminal dump. For example:
 
 > 已完成：本地合成工具检查通过，已确认横屏 16:9 和 B1 极简手绘风。
-> 还缺什么：生图服务尚未选择；配音服务的模型访问和额度还未验证。
-> 下一步：告诉我想使用哪种生图、配音工具，我会带你检查连接；暂不调用付费生成。脚本可以先继续准备。
+> 还缺什么：生图服务尚未选择；默认 Google Gemini/Bodi 的模型访问和额度还未验证。
+> 下一步：先确认使用哪种生图工具；配音按默认 Bodi 路径继续检查，只有缺少访问权限或配置时再带你补齐。暂不调用付费生成，脚本可以先继续准备。
 
 If the host cannot read/write files or execute commands, explain that Autopilot cannot render here and offer a compatible environment or Director mode. Do not silently switch modes or call a prompt package a finished film.
 
 ### 3. Script, character and voice plan
 
-Show the short outline/script, design and voice choices required by Autopilot. State what needs confirmation before generating media, and identify any service/cost blockers still open. User narration choices override defaults; English with a suitable stable male voice is the fallback, not a requirement. Carry the approved voice and assets forward unchanged.
+Show the short outline/script, design, caption treatment and voice choices required by Autopilot. State what needs confirmation before generating media, and identify any service/cost blockers still open. Follow the settings order above; B1's caption and voice defaults do not constrain another B style. Verify the selected provider/model/voice as described in Autopilot; check Bodi availability only when Bodi is selected. Narration and synchronized subtitles are required. Carry the approved voice and assets forward unchanged.
+
+For B, explain the selected service/model and named voice, not a custom descriptive voice profile. Use that voice as provided with no added style/direction instructions; follow Autopilot's voice-led rule for every B style.
 
 ### 4. Approximately 20-second sample
 
-Make and inspect the representative sample with narration, subtitles, acting/micro-animation and SFX. Link the playable result. Say what was technically checked and ask the user to review the actual picture and sound. Request approval of this exact sample and authorization for the remaining production, with any remaining cost explained. Do not run `approve` based on technical success alone. If revisions are requested, keep valid audio/assets and revise only the affected scope; update the preview/approval when its fingerprint changes.
+Make and inspect the representative sample with narration, subtitles, acting/micro-animation and SFX. Only the sample range needs finished shots/media at this stage. Link the playable result. Say what was technically checked and ask the user to review the actual picture and sound. Request approval of this exact sample and authorization for the remaining production, with any remaining cost explained. Do not run `approve` based on technical success alone. If revisions are requested, keep valid audio/assets and revise only the affected scope; update the preview/approval when its scoped fingerprint changes, not merely because later shots were completed. Changes to the approved script, global settings or cost still need the corresponding authorization.
 
 ### 5. Full production and delivery
 

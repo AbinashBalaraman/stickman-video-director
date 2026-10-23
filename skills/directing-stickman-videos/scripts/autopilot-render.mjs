@@ -3,7 +3,7 @@ import path from 'node:path';
 import {spawn} from 'node:child_process';
 import {once} from 'node:events';
 import {createCanvas, loadImage, GlobalFonts} from '@napi-rs/canvas';
-import {ROOT, FFMPEG, sha, hashFile, save, probe, run, mediaPath, fontPaths, outputDir, designPlane} from './autopilot-core.mjs';
+import {ROOT, FFMPEG, sha, hashFile, save, probe, run, mediaPath, fontPaths, outputDir, designPlane, loadProject} from './autopilot-core.mjs';
 
 const clamp = x => Math.max(0, Math.min(1, x));
 const ease = x => { x = clamp(x); return x * x * (3 - 2 * x); };
@@ -124,6 +124,8 @@ function stamp(seconds, vtt = false) {
   const ms = Math.round(seconds * 1000); return `${String(Math.floor(ms / 3600000)).padStart(2, '0')}:${String(Math.floor(ms / 60000) % 60).padStart(2, '0')}:${String(Math.floor(ms / 1000) % 60).padStart(2, '0')}${vtt ? '.' : ','}${String(ms % 1000).padStart(3, '0')}`;
 }
 export async function render(p, {full = false, seconds = 20, replace = false} = {}) {
+  // A preview never loads media or paints frames belonging only to the unfinished tail.
+  if (!full) p = loadProject(p.file, {seconds});
   const out = outputDir(p), lock = path.join(out, 'render.lock');
   if (fs.existsSync(lock)) {
     const prior = JSON.parse(fs.readFileSync(lock, 'utf8'));
@@ -144,7 +146,12 @@ export async function render(p, {full = false, seconds = 20, replace = false} = 
     const rendererHash = hashFile(path.join(ROOT, 'scripts/autopilot-render.mjs'));
     for (const [i, shot] of p.shots.entries()) {
       const first = Math.round(shot.start * p.fps), last = Math.min(count, i === p.shots.length - 1 ? count : Math.round(shot.end * p.fps)); if (last <= first) continue;
-      const key = sha(JSON.stringify({shot, first, last, width: p.width, height: p.height, fps: p.fps, captions: p.captions.filter(c => c.end >= shot.start && c.start <= shot.end), captionSize: p.captionSize, grid: p.grid, inputs: p.inputs.filter(f => ![p.voicePath, p.music && mediaPath(p.base, p.music.path)].includes(f.path)), rendererHash}));
+      const files = new Set(Object.values(fontPaths(p)));
+      for (const layer of shot.layers) {
+        if (layer.type === 'image') files.add(mediaPath(p.base, layer.path));
+        if (layer.type === 'pose') files.add(mediaPath(p.base, '@b1/character-pose-sheet-v6.png'));
+      }
+      const key = sha(JSON.stringify({shot, first, last, width: p.width, height: p.height, fps: p.fps, captions: p.captions.filter(c => c.end > first / p.fps && c.start < last / p.fps), captionSize: p.captionSize, grid: p.grid, inputs: p.inputs.filter(f => files.has(f.path)), rendererHash}));
       const clip = path.join(cache, `${key}.mp4`); let valid = false;
       if (fs.existsSync(clip)) try { const info = probe(clip); valid = Number(info.streams[0].nb_frames) === last - first; } catch {}
       if (valid) reused++; else { done(`rendering shot ${i + 1}/${p.shots.length}`); const tmp = path.join(cache, `${key}.partial.mp4`); await encode(p, frame, first, last - first, tmp); fs.renameSync(tmp, clip); }
@@ -166,7 +173,7 @@ export async function render(p, {full = false, seconds = 20, replace = false} = 
     const sheet = createCanvas(960, 540), sc = sheet.getContext('2d');
     for (let i = 0; i < 9; i++) sc.drawImage(frame(Math.min(duration - 1 / p.fps, (i + 0.5) * duration / 9)), (i % 3) * 320, Math.floor(i / 3) * 180, 320, 180);
     fs.writeFileSync(path.join(out, `${kind}-contact-sheet.png`), sheet.toBuffer('image/png'));
-    const info = probe(target), report = {fingerprint: p.fingerprint, output: target, output_sha256: hashFile(target), original_voice_sha256: hashFile(p.voicePath), original_voice_duration: p.voiceDuration, voice_rate: 'unchanged; leading/trailing padding only', frames: count, duration: Number(info.format.duration), cache_hits: reused, shot_count: clips.length, full_decode: 'pass', caption_count: cues.length, human_review: 'required; technical checks are not acceptance', inputs: p.inputs};
+    const info = probe(target), report = {fingerprint: p.fingerprint, preview_seconds: full ? null : duration, output: target, output_sha256: hashFile(target), original_voice_sha256: hashFile(p.voicePath), original_voice_duration: p.voiceDuration, voice_rate: 'unchanged; leading/trailing padding only', frames: count, duration: Number(info.format.duration), cache_hits: reused, shot_count: clips.length, full_decode: 'pass', caption_count: cues.length, human_review: 'required; technical checks are not acceptance', inputs: p.inputs};
     save(reportPath, report); done('complete'); return report;
   } catch (e) { done(`failed: ${e.message}`); throw e; }
   finally { fs.unlinkSync(lock); }

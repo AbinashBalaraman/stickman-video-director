@@ -43,7 +43,7 @@
 </td>
 <td width="50%" align="center">
 <strong>极简手绘风</strong><br>
-<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="极简手绘风火柴人视频：生动角色、重点文字与微动画" width="90%"></a>
+<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="极简手绘风火柴人视频：生动角色、重点文字与微动画" width="90%"></a>
 </td>
 </tr>
 </table>
@@ -262,9 +262,9 @@ https://github.com/kaomei/stickman-video-director
 - **适合内容**：YouTube 知识讲解、心理成长、职场故事、教育科普与产品宣传。
 - **怎么选**：想把一个话题、一段文案或故事脚本做成带配音、字幕的完整视频，可以选这一风格。画面跟随语音节奏编排，适合持续讲解和长篇叙事。
 
-| 案例 1：不露脸的 YouTube 视频创作 | 案例 2：待更新… |
+| 案例 1：为什么越努力发布，越没人记住？ | 案例 2：待更新… |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="B1 极简手绘风：旁白、字幕、手绘角色与微动画" width="360"> | 待更新… |
+| <a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 极简手绘风：点击播放 Bodi 有声样片，含字幕、手绘角色与微动画" width="360"></a> | 待更新… |
 | 手绘角色 · 重点文字 · 微动画 | 更多样片陆续更新 |
 
 ---
@@ -342,7 +342,7 @@ Skill 免费开源。生图、配音和视频生成等服务，按你选择的�
 
 ## 最近更新
 
-- **2026-10-23**：同一个 Skill 新增 **B · Autopilot 自动成片模式**，发布 B1「极简手绘风」与有声样片；A、B 画风独立展示，保留原有导演模式。本轮先更新中文介绍。
+- **2026-10-23**：B1「极简手绘风」定稿，更新 21 秒 Bodi 有声样片与中文预览；各 B 画风独立维护配音、字幕和节奏，A1–A5 保持原样。同一个 Skill 内使用 **B · Autopilot 自动成片模式**，本轮先更新中文介绍。
 - **2026-10-20：** 首页默认展示英语，新增土耳其语和印尼语版本，保留中文、日语、韩语和巴西葡语入口。Skill 规则不变。
 - **2026-10-20**：新增风格 5「历史卡通风」，展示日本与埃及样片，日本样片作为头部预览；感谢 @leksautomate 的画风与提示词贡献。
 - **2026-10-15**：优化中文首页、安装入口和案例说明，加入轻量动图预览与 Star 增长曲线；Skill 规则不变。

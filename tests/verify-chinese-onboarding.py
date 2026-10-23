@@ -68,7 +68,7 @@ b_style_names = [name for name in re.findall(r"^### B\d+：([^\n]+)$", cn, re.M)
 assert re.findall(r"<strong>([^<]+)</strong><br>", hero) == list(style_names) + b_style_names, "Sync every published B style into the top preview grid, using its style name without A/B prefixes"
 assert "<strong>极简手绘风</strong><br>" in hero, "Use the approved B1 preview in the sixth cell"
 assert f"**{len(style_names) + len(b_style_names)} 大画风 · {len(style_names) + 2 + len(b_style_names)} 种视觉方案 · 实测样片 · 免费开源**" in cn
-assert re.search(r'<a href="#b1"><img src="([^"]+/b1-minimal-handdrawn\.gif)"[^>]+width="90%"></a>', hero), "Link the top B1 preview to its detail section"
+assert re.search(r'<a href="#b1"><img src="([^"]+/b1-minimal-handdrawn-2026-10-23\.gif)"[^>]+width="90%"></a>', hero), "Link the latest top B1 preview to its detail section"
 for number, name in enumerate(style_names, 1):
     assert f"### A{number}：{name}\n" in cn, "Keep preview and detail names aligned"
 assert "史前黑色幽默" not in cn and "史前手绘 / 黑色幽默" not in cn
@@ -110,7 +110,7 @@ for preview in previews:
     assert width <= 640 and height <= 360
     assert file.stat().st_size < 4_000_000
 b1 = cn.split('<a id="b1"></a>', 1)[1].split('<a id="b2"></a>', 1)[0]
-assert re.search(r'src="([^"]+/b1-minimal-handdrawn\.gif)"', hero).group(1) == re.search(r'src="([^"]+/b1-minimal-handdrawn\.gif)"', b1).group(1), "Reuse the same immutable B1 preview in the hero and detail section"
+assert re.search(r'src="([^"]+/b1-minimal-handdrawn-2026-10-23\.gif)"', hero).group(1) == re.search(r'src="([^"]+/b1-minimal-handdrawn-2026-10-23\.gif)"', b1).group(1), "Reuse the same immutable B1 preview in the hero and detail section"
 fields = ("- **画面特点**：", "- **适合内容**：", "- **怎么选**：")
 assert all(b1.count(field) == 1 for field in fields), "Use the same introduction fields as A styles"
 assert [b1.index(field) for field in fields] == sorted(b1.index(field) for field in fields)
@@ -118,12 +118,15 @@ rows = [line for line in b1.splitlines() if line.startswith("|")]
 assert len(rows) == 4 and all(row.count("|") == 3 for row in rows), "Match A's two-column sample table"
 assert rows[1] == "|:---:|:---:|" and "待更新" in rows[2]
 assert "播放有声样片" not in b1 and "画风与制作说明" not in b1, "Do not restore the removed redundant link row"
-assert re.search(r'<img src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/assets/readme/previews/b1-minimal-handdrawn\.gif"[^>]+width="360">', b1), "Keep the immutable B1 preview route and match A's preview width"
+assert re.search(r'<img src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/assets/readme/previews/b1-minimal-handdrawn-2026-10-23\.gif"[^>]+width="360">', b1), "Keep the immutable B1 preview route and match A's preview width"
+assert 'href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"' in b1, "Click the preview to play the approved sample with sound"
+current_sample = root / "skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"
+assert hashlib.sha256(current_sample.read_bytes()).hexdigest() == "111c241a836a0c26b27df2cbff3ba5697b97460dbb873b68dd2f6eda2383b3fc", "Publish the accepted Ryan V4, not the runtime fixture"
 sample = root / "assets/readme/b1-minimal-handdrawn.mp4"
-assert hashlib.sha256(sample.read_bytes()).hexdigest() == "9d2a1789eec25ad3b825631ee3d1ea3cb7417aafb0a5c223ccce08434cedcc3a", "Publish the approved V15, not the runtime fixture"
+assert hashlib.sha256(sample.read_bytes()).hexdigest() == "9d2a1789eec25ad3b825631ee3d1ea3cb7417aafb0a5c223ccce08434cedcc3a", "Preserve the original V15 archive"
 assert "https://github.com/leksautomate" in cn
 assert "api.star-history.com/svg" in cn
 license_targets = {"LICENSE", "https://github.com/kaomei/stickman-video-director/blob/main/LICENSE"}
 assert any("MIT" in label and target in license_targets
            for label, target in re.findall(r"\[([^\]]+)\]\(([^)]+)\)", cn)), "Link the repository's MIT license"
-print("Chinese A/B layout, approved narration/CTA, links and exact B1 V15 showcase passed.")
+print("Chinese A/B layout, approved narration/CTA, links, current Ryan V4 and preserved V15 archive passed.")

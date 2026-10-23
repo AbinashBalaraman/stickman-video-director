@@ -14,6 +14,10 @@ Keep the existing installation and name. Route by the requested deliverable:
 
 If the mode is ambiguous, ask one short question. Honor previously supplied choices. Do not run Director's ten-second clip rules, no-visible-text rule or Phase B prompt workflow for Autopilot. Autopilot can start with a topic, promotion brief, post, article or story script; it is not story-only. English is the default narration language, but the user's language and voice choices take precedence.
 
+Voice instructions are mode-specific: B uses the selected named TTS voice as provided, with no added voice/style description. Director's detailed frozen voice profiles below and in `references/voice-continuity.md` apply only to A, not to any B style.
+
+A and B share an installation, not a production contract or style library. All sections from **A · Director** to the end of this file apply only to A1–A5, including phrases such as "all styles". For B, use only Autopilot's production rules and the selected B-style reference; do not inherit A's setup, approvals, pacing, prompts, voice or visual constraints. Each B style owns its visuals, captions, voice, pacing and SFX; never inherit B1 by default. Preserve A's validated rules when revising B, and vice versa.
+
 ## First use and next steps
 
 Use one shared guide in the user's requested or current conversation language, falling back to an available host/local language setting when unclear. Keep guidance language separate from video narration/subtitles; do not select it from the README edition.

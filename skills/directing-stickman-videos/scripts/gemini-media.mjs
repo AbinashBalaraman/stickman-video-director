@@ -11,6 +11,7 @@ function wav(pcm, rate) {
 }
 async function main() {
   if (!['speech', 'image'].includes(kind)) throw new Error('Use speech or image');
+  if (kind === 'speech' && args.includes('--direction')) throw new Error('Autopilot uses the selected named voice without extra voice/style instructions; remove --direction');
   if (!args.includes('--allow-network')) throw new Error('Network disabled; require explicit --allow-network after user authorization');
   const key = process.env.GEMINI_API_KEY; if (!key) throw new Error('Set GEMINI_API_KEY in the environment; do not paste it in chat');
   const model = required('--model'); if (!/^[a-zA-Z0-9._-]+$/.test(model)) throw new Error('Invalid model ID');
@@ -18,7 +19,6 @@ async function main() {
   if (fs.existsSync(output) || fs.existsSync(receipt)) throw new Error('Output or prior request receipt exists; inspect it before any retry');
   const input = fs.readFileSync(required(kind === 'speech' ? '--text' : '--prompt'), 'utf8');
   const parts = [];
-  if (kind === 'speech' && args.includes('--direction')) parts.push({text: fs.readFileSync(required('--direction'), 'utf8') + '\n\nRead only the following exact narration:\n'});
   parts.push({text: input});
   for (let i = 0; i < args.length; i++) if (args[i] === '--reference') {
     if (kind !== 'image') throw new Error('References only supported for images');

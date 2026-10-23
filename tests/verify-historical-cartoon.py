@@ -35,5 +35,15 @@ baseline = {
 }
 for filename, fingerprint in baseline.items():
     path = skill / "references" / filename
-    assert hashlib.sha256(path.read_bytes()).hexdigest() == fingerprint, filename
+    content = path.read_bytes()
+    if filename == "voice-continuity.md":
+        # Only the exact A/B scope notice may precede the unchanged A contract.
+        heading = b"# Shared voice continuity \xe2\x80\x94 all visual styles\n\n"
+        notice = (
+            b"Scope: **A \xc2\xb7 Director text-to-video prompts only**. B \xc2\xb7 Autopilot uses named TTS voices under `autopilot.md`; "
+            b"do not copy this document's descriptive voice profiles into any B-style TTS request.\n\n"
+        )
+        assert content.startswith(heading + notice), "Missing exact A-only voice scope"
+        content = heading + content[len(heading + notice):]
+    assert hashlib.sha256(content).hexdigest() == fingerprint, filename
 print("Style 5 source anchor, routing, scope and unchanged specialist contracts passed.")
