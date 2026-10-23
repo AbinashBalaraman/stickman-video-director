@@ -19,6 +19,12 @@ assert "我是烤妹儿，专注不出镜视频与自动化工作流" in cn
 sections = ("## 你想怎么做？", "## 开始使用", "## A · 导演模式画风一览",
             "## B · 自动成片画风一览", "## 常见问题", "## 最近更新")
 assert [cn.index(s) for s in sections] == sorted(cn.index(s) for s in sections)
+mode_comparison = cn.split('<a id="creation-modes"></a>', 1)[1].split('<a id="quick-start"></a>', 1)[0]
+mode_rows = [line for line in mode_comparison.splitlines() if line.startswith("|")]
+assert mode_rows[0] == '|  | <div align="center">A · 导演模式 · Director</div> | <div align="center">B · 自动成片 · Autopilot</div> |', "Center only the mode headings"
+assert mode_rows[1] == "|:---:|:---|:---|", "Keep explanatory columns left-aligned"
+assert mode_rows[-1] == '| **开始** | <div align="center"><a href="#director-start">使用 Director</a></div> | <div align="center"><a href="#autopilot-start">使用 Autopilot</a></div> |', "Center the two start links"
+assert all('align="center"' not in row for row in mode_rows[2:-1]), "Do not center the explanatory body text"
 assert "一次安装，按需选择" in cn
 assert "[查看画风一览 ↓]" not in cn, "Do not restore the removed per-mode shortcut links"
 assert "[A 画风](#a-styles) · [B 画风](#b-styles)" in cn, "Keep the top style navigation"
