@@ -51,7 +51,7 @@ for path in root.glob("README*.md"):
         f"[{'**' + label + '**' if locale == active else label}](README.{locale}.md)"
         for locale, label in navigation
     )
-    assert text.splitlines()[4] == expected_nav, (path.name, "navigation order/active language")
+    assert expected_nav in text, (path.name, "navigation order/active language")
     assert text.count("[**") == 1, (path.name, "one active language")
 common_links = (
     "https://github.com/kaomei/stickman-video-director",

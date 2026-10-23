@@ -1,5 +1,14 @@
 # 更新记录
 
+## 2026-10-23 — Autopilot 自动成片与 B1 极简手绘风
+
+- 仍为同一个仓库、同一个 `directing-stickman-videos` Skill：A · Director 生成分镜与视频提示词，B · Autopilot 串起素材生成、配音、字幕、局部动画、音效与本地合成。
+- 新增可安装的本地运行脚本、配置说明、Gemini 可选适配器与离线示例；按实际配音安排画面，支持样片确认后制作整片、镜头缓存和中断续接。
+- 发布 B1「极简手绘风」与已确认的原速 Sadaltager 有声样片。第二条展示样片暂不添加。
+- 沿用反复确认的中文首页与 A/B 画风结构；其他语言介绍暂不同步，A 系列提示词和参考规则保持原样。
+
+已有用户更新同一个 Skill 即可。Autopilot 需要 Node.js 20+、FFmpeg 及可用的生图、配音工具；首次运行会检查配置。[运行说明](skills/directing-stickman-videos/references/autopilot-runtime.md)。
+
 ## 2026-10-20 — 风格 5：历史卡通风
 
 - 新增历史卡通风：白色圆头、黑色椭圆眼睛与细线肢体，搭配时代服饰和彩色绘景。
