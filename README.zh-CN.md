@@ -42,14 +42,15 @@
 <a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通风火柴人动画：江户日本的武士故事" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>待更新…</strong>
+<strong>极简手绘风</strong><br>
+<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="极简手绘风火柴人视频：生动角色、重点文字与微动画" width="90%"></a>
 </td>
 </tr>
 </table>
 
 <div align="center">
 
-**5 大画风 · 7 种视觉方案 · 实测样片 · 免费开源**
+**6 大画风 · 8 种视觉方案 · 实测样片 · 免费开源**
 
 ⭐ **本系列持续更新，欢迎点个 Star，更多热门画风陆续上线。**
 

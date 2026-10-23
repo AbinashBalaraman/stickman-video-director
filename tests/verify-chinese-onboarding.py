@@ -57,7 +57,12 @@ for label in ("A1：经典黑白风", "A2：现代潮酷风", "A3：史前洞穴
     assert f"### {label}\n" in cn, label
 hero = cn.split('<table width="100%">', 1)[1].split("</table>", 1)[0]
 style_names = ("经典黑白风", "现代潮酷风", "史前洞穴风", "治愈故事风", "历史卡通风")
-assert re.findall(r"<strong>([^<]+)</strong><br>", hero) == list(style_names)
+b_style_names = [name for name in re.findall(r"^### B\d+：([^\n]+)$", cn, re.M)
+                 if not name.startswith("待更新")]
+assert re.findall(r"<strong>([^<]+)</strong><br>", hero) == list(style_names) + b_style_names, "Sync every published B style into the top preview grid, using its style name without A/B prefixes"
+assert "<strong>极简手绘风</strong><br>" in hero, "Use the approved B1 preview in the sixth cell"
+assert f"**{len(style_names) + len(b_style_names)} 大画风 · {len(style_names) + 2 + len(b_style_names)} 种视觉方案 · 实测样片 · 免费开源**" in cn
+assert re.search(r'<a href="#b1"><img src="([^"]+/b1-minimal-handdrawn\.gif)"[^>]+width="90%"></a>', hero), "Link the top B1 preview to its detail section"
 for number, name in enumerate(style_names, 1):
     assert f"### A{number}：{name}\n" in cn, "Keep preview and detail names aligned"
 assert "史前黑色幽默" not in cn and "史前手绘 / 黑色幽默" not in cn
@@ -99,6 +104,7 @@ for preview in previews:
     assert width <= 640 and height <= 360
     assert file.stat().st_size < 4_000_000
 b1 = cn.split('<a id="b1"></a>', 1)[1].split('<a id="b2"></a>', 1)[0]
+assert re.search(r'src="([^"]+/b1-minimal-handdrawn\.gif)"', hero).group(1) == re.search(r'src="([^"]+/b1-minimal-handdrawn\.gif)"', b1).group(1), "Reuse the same immutable B1 preview in the hero and detail section"
 fields = ("- **画面特点**：", "- **适合内容**：", "- **怎么选**：")
 assert all(b1.count(field) == 1 for field in fields), "Use the same introduction fields as A styles"
 assert [b1.index(field) for field in fields] == sorted(b1.index(field) for field in fields)

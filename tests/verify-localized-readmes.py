@@ -29,7 +29,11 @@ for readme in root.glob("README*.md"):
     assert [hero.index(asset) for asset in order] == sorted(hero.index(asset) for asset in order)
     last_cells = re.findall(r"<td[^>]*>(.*?)</td>", rows[-1], re.DOTALL)
     assert "style-5-japan-hero.gif" in last_cells[0]
-    assert "<strong>" in last_cells[1] and "<img" not in last_cells[1]
+    if readme.name == "README.zh-CN.md":
+        assert "<strong>极简手绘风</strong>" in last_cells[1]
+        assert f'href="#b1"><img src="{chinese_b1_preview}"' in last_cells[1]
+    else:
+        assert "<strong>" in last_cells[1] and "<img" not in last_cells[1]
 approved_voiceover = (
     "Ten thousand years ago, one man finally solved all his problems. He shut them outside.",
     "Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.",
