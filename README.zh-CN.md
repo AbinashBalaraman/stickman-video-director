@@ -254,11 +254,18 @@ https://github.com/kaomei/stickman-video-director
 
 ### B1：极简手绘风
 
-近白纸底与极淡网格，搭配表情生动的火柴人、彩色手绘道具和醒目的重点文字。让画面跟着旁白推进，用局部微动画、连贯转场和音效讲清内容，适合 YouTube 知识讲解、心理成长、职场故事与产品宣传。
+让画面跟着旁白推进。用表情生动的火柴人、彩色手绘道具和醒目的重点文字，把知识、故事或产品亮点讲得清楚又有趣。
 
-[![B1 极简手绘风：旁白、字幕、手绘角色与微动画](https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif)](assets/readme/b1-minimal-handdrawn.mp4)
+- **画面特点**：近白纸底与极淡网格，黑色手绘线条搭配少量彩色道具；用表情、局部微动画、连贯转场和音效推动画面，重点文字突出信息，字幕配合旁白。
+- **适合内容**：YouTube 知识讲解、心理成长、职场故事、教育科普与产品宣传。
+- **怎么选**：想把一个话题、一段文案或故事脚本做成带配音、字幕的完整视频，可以选这一风格。画面跟随语音节奏编排，适合持续讲解和长篇叙事。
 
-[▶ 播放有声样片](assets/readme/b1-minimal-handdrawn.mp4) · [画风与制作说明](skills/directing-stickman-videos/references/b1-minimal-handdrawn.md)
+| 案例 1：不露脸的 YouTube 视频创作 | 案例 2：待更新… |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="B1 极简手绘风：旁白、字幕、手绘角色与微动画" width="360"> | 待更新… |
+| 手绘角色 · 重点文字 · 微动画 | 更多样片陆续更新 |
+
+---
 
 <a id="b2"></a>
 

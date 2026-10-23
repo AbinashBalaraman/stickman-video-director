@@ -56,16 +56,23 @@ for link in re.findall(r"\]\(([^)]+)\)", cn):
         assert (root / link.split("#")[0]).is_file(), link
 
 previews = sorted(set(re.findall(r'src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/(assets/readme/previews/[^" ]+\.gif)"', cn)))
-assert len(previews) == 11, "Keep all existing lightweight A previews"
-for preview in previews + ["assets/readme/previews/b1-minimal-handdrawn.gif"]:
+assert len(previews) == 12, "Keep all existing lightweight A previews and the B1 preview"
+for preview in previews:
     file = root / preview
     header = file.read_bytes()[:10]
     assert header[:6] in (b"GIF87a", b"GIF89a")
     width, height = struct.unpack("<HH", header[6:10])
     assert width <= 640 and height <= 360
     assert file.stat().st_size < 4_000_000
-assert "[▶ 播放有声样片](assets/readme/b1-minimal-handdrawn.mp4)" in cn
-assert re.search(r"\]\(https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/assets/readme/previews/b1-minimal-handdrawn\.gif\)", cn), "Use the working, immutable CDN preview route for B1 too"
+b1 = cn.split('<a id="b1"></a>', 1)[1].split('<a id="b2"></a>', 1)[0]
+fields = ("- **画面特点**：", "- **适合内容**：", "- **怎么选**：")
+assert all(b1.count(field) == 1 for field in fields), "Use the same introduction fields as A styles"
+assert [b1.index(field) for field in fields] == sorted(b1.index(field) for field in fields)
+rows = [line for line in b1.splitlines() if line.startswith("|")]
+assert len(rows) == 4 and all(row.count("|") == 3 for row in rows), "Match A's two-column sample table"
+assert rows[1] == "|:---:|:---:|" and "待更新" in rows[2]
+assert "播放有声样片" not in b1 and "画风与制作说明" not in b1, "Do not restore the removed redundant link row"
+assert re.search(r'<img src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/assets/readme/previews/b1-minimal-handdrawn\.gif"[^>]+width="360">', b1), "Keep the immutable B1 preview route and match A's preview width"
 sample = root / "assets/readme/b1-minimal-handdrawn.mp4"
 assert hashlib.sha256(sample.read_bytes()).hexdigest() == "9d2a1789eec25ad3b825631ee3d1ea3cb7417aafb0a5c223ccce08434cedcc3a", "Publish the approved V15, not the runtime fixture"
 assert "https://github.com/leksautomate" in cn
