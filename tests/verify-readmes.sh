@@ -92,6 +92,12 @@ for readme in "${readmes[@]}"; do
     exit 1
   }
 
+  # Chinese uses the approved two-mode layout; other locales stay unchanged.
+  if [[ "$readme" == README.zh-CN.md ]]; then
+    python3 "$readme_root/tests/verify-chinese-onboarding.py"
+    continue
+  fi
+
   for marker in "${section_markers[@]}"; do
     rg -Fq "$marker" "$readme_path" || {
       printf '%s missing section marker: %s\n' "$readme" "$marker" >&2

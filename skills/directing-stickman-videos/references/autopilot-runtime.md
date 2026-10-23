@@ -1,0 +1,71 @@
+# Autopilot runtime
+
+Run from this installed Skill's directory. No second Skill or repository is needed.
+
+```bash
+npm ci
+node scripts/autopilot.mjs doctor
+node scripts/autopilot.mjs init /absolute/path/my-video
+```
+
+Install Node 20+ and FFmpeg/FFprobe using your platform's normal installer. Optional `FFMPEG`, `FFPROBE`, and `AUTOPILOT_FONT` environment variables select executables/font files; no macOS/Homebrew paths are hardcoded. The bundled Caveat font covers Latin; choose a suitable CJK/Arabic/etc font for those languages. The CLI fails on unavailable dependencies rather than silently generating a mute/placeholder film.
+
+## Manifest v1
+
+All media paths are relative to `project.json` (or absolute local paths); `@b1/…` addresses bundled original B1 assets. Remote URLs and executable expressions are not accepted. Output is a separate project-local `output/` directory. Keep user/source files outside it.
+
+```json
+{
+  "version": 1,
+  "style": "B1",
+  "width": 1280, "height": 720, "fps": 30,
+  "voice": {"path": "narration.wav", "lead": 0.15, "tail": 0.35},
+  "captions": [{"start": 0.3, "end": 2.5, "text": "Your spoken phrase."}],
+  "shots": [{
+    "start": 0, "end": 3,
+    "layers": [
+      {"type": "text", "text": "YOUR IDEA.", "x": 90, "y": 150, "size": 58, "bold": true},
+      {"type": "pose", "pose": 1, "x": 710, "y": 20, "w": 450},
+      {"type": "image", "path": "@b1/idea-bulb-crayon.png", "x": 150, "y": 270, "w": 160,
+       "keys": [{"t": 0, "x": 130, "alpha": 0}, {"t": 0.3, "x": 150, "alpha": 1}]}
+    ]
+  }],
+  "sfx": [{"time": 0.3, "kind": "pop", "gain": 0.025}]
+}
+```
+
+This is an excerpt, not a complete valid film: shots must cover the actual voice length plus lead/tail **without gaps/overlap**. Use `probe` to get actual duration. Captions use the final video time including lead. `voice.speed` is not accepted: keep the original rate. Optional `voice.contains_sfx: true` marks an already mixed master; do not add duplicate effects. Optional `music: {path, gain}` adds a licensed track, looping it under the narration; gain must be 0–0.2. The default is no background music, not a forced piano track.
+
+Layers: `image` (local PNG/JPEG, contain-fit within optional `h`), `pose` (original three-pose B1 atlas, indices 0–2), `text`, `line` (`points` array), `arrow`, `underline`. Design coordinates are 1280 units wide and `1280 × outputHeight / outputWidth` high (720 for 16:9; about 2275.56 for 9:16), uniformly scaled without stretching characters. Recompose portrait scenes explicitly; changing output dimensions alone does not design a vertical composition. Keep the bottom 110 design units clear for captions. Use `from`/`to` (shot-relative seconds) for selective visibility. `keys` are increasing shot-relative timestamps with optional numeric `x`, `y`, `w`, `angle` (radians), `alpha` and `progress`; values interpolate with smoothstep. For genuine local motion use separate layers or authored pose sprites. Images do not gain inferred limb motion automatically. Text `w` is its maximum width; captions wrap to two lines and overflow is an error, not invisible clipping.
+
+## Commands
+
+- `doctor`: dependency/font/key presence only; no network and no key values.
+- `probe FILE`: duration and media streams.
+- `init DIR`: create a non-overwriting project scaffold; it is not production-ready until voice, captions and shots are filled.
+- `validate PROJECT`: check real files, audio duration, shot coverage, cue timing, layers and SFX.
+- `captions WORDS.json OUTPUT.json`: convert `{words:[{start,end,word}]}` into readable timed phrases. `--lead 0.15` adds initial video offset. Requires actual aligned word timestamps.
+- `preview PROJECT [--seconds 20]`: local render, caption sidecars/contact sheet/report, shot cache. Existing outputs are not overwritten unless `--replace` is explicit.
+- `approve PROJECT --note "…"`: record a genuine user sample/full-production approval; source edits invalidate it.
+- `render PROJECT`: verify the approval then resume full local composition.
+
+`scripts/align_captions.py AUDIO --output WORDS.json` uses optional `openai-whisper` and an already cached `base` model. Set `--model NAME`, `--language en`, `--device cpu` as appropriate. `--allow-model-download` explicitly permits model download; otherwise it stops if absent. Do not install or download multi-GB models automatically. Already supplied aligned captions need no Whisper dependency.
+
+## Optional Gemini API adapters
+
+Browser/native generation tools can be used instead. API adapters require `GEMINI_API_KEY` in the environment, the chosen model ID and explicit network authorization. They make **one request, no automatic retries**, do not print keys/provider response bodies, and use only Google's fixed HTTPS endpoint. Failures/timeouts are recorded; inspect service history before trying again. Model access/quota is not validated by key presence. Private reference upload is opt-in through explicit `--reference` paths.
+
+```bash
+node scripts/gemini-media.mjs speech --text narration.txt --output narration.wav \
+  --model gemini-2.5-flash-preview-tts --voice Sadaltager --allow-network
+node scripts/gemini-media.mjs image --prompt scene-prompt.txt --output scene.png \
+  --model YOUR_AVAILABLE_IMAGE_MODEL --reference character.png --allow-network
+```
+
+The speech text file should contain the exact approved spoken words; `--direction voice-direction.txt` adds the frozen performance instructions separately. Image output is saved from the provider's native image payload, not recreated from base64 text. No default image model is assumed. API calls may be billed; the flags are not a substitute for user authorization. No API-backed request is needed for the included offline example or packaging tests.
+
+## Recovery and verification
+
+Each shot is cached by its content, assets, font, renderer version and timing. Cache hits are probed before reuse. After interruption rerun the same command; do not delete the cache or resynthesize audio. `output/checkpoint.json` records the active stage and shot count. A project-local lock prevents simultaneous rendering. A stale lock is removed only when its recorded process is no longer running.
+
+Reports contain input/output SHA-256, original voice duration/rate policy, actual frames, codec/ratio, caption checks, full decode result and cached-shot reuse. They do not certify human listening, factual accuracy or user acceptance. Changing any asset, narration, captions or timeline invalidates approval. Full production remains blocked until a new preview is accepted.

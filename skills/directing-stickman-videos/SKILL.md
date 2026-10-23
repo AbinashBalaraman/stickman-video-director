@@ -1,9 +1,20 @@
 ---
 name: directing-stickman-videos
-description: "Use when turning copy, notes, articles, or topics into customizable-length English stick-figure videos (in 10-second multiples: 30s, 60s, 3min, 5min, default 60s), kinetic line-animation explainers, motivational shorts, or Gemini Omni Flash prompt packages."
+description: "Turn topics, requirements, articles or scripts into stickman videos. Director mode creates approved storyboards and standalone video prompts; Autopilot mode produces narrated, captioned illustration-and-micro-animation videos through configured generation tools and a local renderer."
 ---
 
 # Directing Stickman Videos
+
+## Two modes, one Skill
+
+Keep the existing installation and name. Route by the requested deliverable:
+
+- **A · Director**: proposals, storyboards and standalone video-generation prompts. A1/A1.1/A1.2 map to Style 1 light/dark; A2/A2.1/A2.2 to Style 2/2A/2B; A3–A5 to Styles 3–5. Follow the unchanged Director contract below.
+- **B · Autopilot**: a finished local video with narration, captions, meaningful illustrations, local motion and SFX. Read [Autopilot](references/autopilot.md), then its selected B-style reference. B1 is [极简手绘风](references/b1-minimal-handdrawn.md). B styles have their own assets and numbering; do not silently reuse an A-style prompt or sample.
+
+If the mode is ambiguous, ask one short question. Honor previously supplied choices. Do not run Director's ten-second clip rules, no-visible-text rule or Phase B prompt workflow for Autopilot. Autopilot can start with a topic, promotion brief, post, article or story script; it is not story-only. English is the default narration language, but the user's language and voice choices take precedence.
+
+## A · Director
 
 ## Core contract
 
