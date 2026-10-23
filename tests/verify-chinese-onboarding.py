@@ -20,11 +20,16 @@ sections = ("## 你想怎么做？", "## 开始使用", "## A · 导演模式画
             "## B · 自动成片画风一览", "## 使用小贴士", "## 最近更新")
 assert [cn.index(s) for s in sections] == sorted(cn.index(s) for s in sections)
 assert "一次安装，按需选择" in cn
+assert "[查看画风一览 ↓]" not in cn, "Do not restore the removed per-mode shortcut links"
+assert "[A 画风](#a-styles) · [B 画风](#b-styles)" in cn, "Keep the top style navigation"
 assert "不需要另装第二个 Skill" in cn
 assert "**10 分钟及以上**" in cn and "连续故事短剧" in cn
 assert "Codex、Claude Code" in cn and "Google Flow" in cn
 assert "A、B 画风独立编号、分别展示，不共用画面" in cn
-assert "给故事脚本和风格 → 检查配音和生图配置 → 确认 20s 样片效果 → 自动制作长视频 → 拿到完整成片" in cn
+assert "给故事脚本和需求 → 检查配音和生图配置 → 确认 20s 样片效果 → 自动制作长视频 → 拿到完整成片" in cn
+autopilot_start = cn.split('<a id="autopilot-start"></a>', 1)[1].split('<a id="style-gallery"></a>', 1)[0]
+for requirement in ("YouTube 视频", "B1「极简手绘风」", "旁白、字幕和音效", "20 秒有声样片", "画面跟随配音节奏", "交付完整视频文件"):
+    assert requirement in autopilot_start, requirement
 for label in ("A1：经典黑白风", "A2：现代潮酷风", "A3：史前洞穴风",
               "A4：治愈故事风", "A5：历史卡通风", "B1：极简手绘风", "B2：待更新…"):
     assert f"### {label}\n" in cn, label
