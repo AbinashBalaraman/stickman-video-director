@@ -18,28 +18,28 @@
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>经典黑白</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="经典黑白火柴人动画：黑底白线、动态科普" width="90%"></a>
+<strong>经典黑白风</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="经典黑白风火柴人动画：黑底白线、动态科普" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>潮酷科技</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="潮酷科技火柴人动画：红帽角色、科技光效" width="90%"></a>
+<strong>现代潮酷风</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="现代潮酷风火柴人动画：红帽角色、科技光效" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>史前黑色幽默</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="史前黑色幽默火柴人动画：洞穴故事、反转短片" width="90%"></a>
+<strong>史前洞穴风</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="史前洞穴风火柴人动画：洞穴故事、反转短片" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>治愈故事</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事火柴人动画：彩色场景、生活共鸣" width="90%"></a>
+<strong>治愈故事风</strong><br>
+<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风火柴人动画：彩色场景、生活共鸣" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>历史卡通风</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通火柴人动画：江户日本的武士故事" width="90%"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通风火柴人动画：江户日本的武士故事" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>待更新…</strong>
@@ -97,7 +97,7 @@ Autopilot 需要可用的图像、配音等生成服务与本地视频合成环�
 https://github.com/kaomei/stickman-video-director
 
 我想做《人类的第一份工作是怎么来的？》的火柴人视频，
-用 A3「史前手绘 / 黑色幽默」，横屏 16:9，先做 30 秒。
+用 A3「史前洞穴风」，横屏 16:9，先做 30 秒。
 先给我导演提案，确认后再输出逐段视频提示词。
 ```
 
@@ -110,7 +110,7 @@ https://github.com/kaomei/stickman-video-director
 <details>
 <summary>看看一个 30 秒故事的完整分镜（点击展开）</summary>
 
-**《人类的第一份工作是怎么来的？》｜横屏 16:9 · A3 史前黑色幽默 · 30 秒**
+**《人类的第一份工作是怎么来的？》｜横屏 16:9 · A3 史前洞穴风 · 30 秒**
 
 下面是这支样片制作前确认的分镜提案：
 
@@ -158,7 +158,7 @@ https://github.com/kaomei/stickman-video-director
 
 <a id="a1"></a>
 
-### A1：经典黑白
+### A1：经典黑白风
 
 用最少的线条，把一个概念讲清楚。纯白或纯黑的画布上，人物、道具和强调色承担主要信息，适合做节奏明快的知识解说。
 
@@ -192,7 +192,7 @@ https://github.com/kaomei/stickman-video-director
 
 <a id="a3"></a>
 
-### A3：史前手绘 / 黑色幽默
+### A3：史前洞穴风
 
 把今天的烦恼，搬回没有手机和办公室的史前世界。洞穴、兽皮、篝火和夸张表情，让职场、人性与生活里的荒诞，变成一段带反转的小故事。
 

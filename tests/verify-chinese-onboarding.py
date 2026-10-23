@@ -25,9 +25,16 @@ assert "**10 分钟及以上**" in cn and "连续故事短剧" in cn
 assert "Codex、Claude Code" in cn and "Google Flow" in cn
 assert "A、B 画风独立编号、分别展示，不共用画面" in cn
 assert "给故事脚本和风格 → 检查配音和生图配置 → 确认 20s 样片效果 → 自动制作长视频 → 拿到完整成片" in cn
-for label in ("A1：经典黑白", "A2：现代潮酷风", "A3：史前手绘 / 黑色幽默",
+for label in ("A1：经典黑白风", "A2：现代潮酷风", "A3：史前洞穴风",
               "A4：治愈故事风", "A5：历史卡通风", "B1：极简手绘风", "B2：待更新…"):
-    assert label in cn, label
+    assert f"### {label}\n" in cn, label
+hero = cn.split('<table width="100%">', 1)[1].split("</table>", 1)[0]
+style_names = ("经典黑白风", "现代潮酷风", "史前洞穴风", "治愈故事风", "历史卡通风")
+assert re.findall(r"<strong>([^<]+)</strong><br>", hero) == list(style_names)
+for number, name in enumerate(style_names, 1):
+    assert f"### A{number}：{name}\n" in cn, "Keep preview and detail names aligned"
+assert "史前黑色幽默" not in cn and "史前手绘 / 黑色幽默" not in cn
+assert "用 A3「史前洞穴风」" in cn and "A3 史前洞穴风 · 30 秒" in cn
 for variant in ("A1.1", "A1.2", "A2.1", "A2.2"):
     assert variant in cn, variant
 
