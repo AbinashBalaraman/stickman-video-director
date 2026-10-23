@@ -7,13 +7,19 @@ root = Path(__file__).resolve().parents[1]
 source = (root / "README.md").read_text()
 # Pin uploaded assets, not a moving branch; GitHub proxies this external CDN via Camo.
 preview_base = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/"
+# B1 is published in Chinese first and has its own immutable asset commit.
+chinese_b1_preview = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif"
 preview_pattern = rf'src="{re.escape(preview_base)}(assets/readme/previews/[^" ]+\.gif)"'
 expected_previews = set(re.findall(preview_pattern, source))
 assert len(expected_previews) == 11
 for readme in root.glob("README*.md"):
     text = readme.read_text()
     images = re.findall(r'src="([^" ]+\.gif)"', text)
-    assert images and all(url.startswith(preview_base) for url in images), readme.name
+    assert images and all(
+        url.startswith(preview_base)
+        or (readme.name == "README.zh-CN.md" and url == chinese_b1_preview)
+        for url in images
+    ), readme.name
     hero = text.split('<table width="100%">', 1)[1].split("</table>", 1)[0]
     rows = re.findall(r"<tr>(.*?)</tr>", hero, re.DOTALL)
     assert len(rows) == 3, (readme.name, "Hero must use three rows")
