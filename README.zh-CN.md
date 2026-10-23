@@ -264,7 +264,7 @@ https://github.com/kaomei/stickman-video-director
 
 | 案例 1：为什么越努力发布，越没人记住？ | 案例 2：待更新… |
 |:---:|:---:|
-| <a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 极简手绘风：点击播放 Bodi 有声样片，含字幕、手绘角色与微动画" width="360"></a> | 待更新… |
+| <a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 极简手绘风：点击查看或下载 Bodi 有声样片，含字幕、手绘角色与微动画" width="360"></a> | 待更新… |
 | 手绘角色 · 重点文字 · 微动画 | 更多样片陆续更新 |
 
 ---

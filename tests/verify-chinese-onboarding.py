@@ -119,7 +119,8 @@ assert len(rows) == 4 and all(row.count("|") == 3 for row in rows), "Match A's t
 assert rows[1] == "|:---:|:---:|" and "待更新" in rows[2]
 assert "播放有声样片" not in b1 and "画风与制作说明" not in b1, "Do not restore the removed redundant link row"
 assert re.search(r'<img src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/assets/readme/previews/b1-minimal-handdrawn-2026-10-23\.gif"[^>]+width="360">', b1), "Keep the immutable B1 preview route and match A's preview width"
-assert 'href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"' in b1, "Click the preview to play the approved sample with sound"
+assert 'href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"' in b1, "Click the preview to view/download the approved sample with sound"
+assert "点击查看或下载 Bodi 有声样片" in b1, "GitHub MP4 blob links must not promise inline playback"
 current_sample = root / "skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"
 assert hashlib.sha256(current_sample.read_bytes()).hexdigest() == "111c241a836a0c26b27df2cbff3ba5697b97460dbb873b68dd2f6eda2383b3fc", "Publish the accepted Ryan V4, not the runtime fixture"
 sample = root / "assets/readme/b1-minimal-handdrawn.mp4"
