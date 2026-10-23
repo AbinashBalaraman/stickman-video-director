@@ -17,11 +17,33 @@ assert "想做不露脸的 YouTube 频道，探索内容变现？" in cn
 assert "我是烤妹儿，专注不出镜视频与自动化工作流" in cn
 
 sections = ("## 你想怎么做？", "## 开始使用", "## A · 导演模式画风一览",
-            "## B · 自动成片画风一览", "## 使用小贴士", "## 最近更新")
+            "## B · 自动成片画风一览", "## 常见问题", "## 最近更新")
 assert [cn.index(s) for s in sections] == sorted(cn.index(s) for s in sections)
 assert "一次安装，按需选择" in cn
 assert "[查看画风一览 ↓]" not in cn, "Do not restore the removed per-mode shortcut links"
 assert "[A 画风](#a-styles) · [B 画风](#b-styles)" in cn, "Keep the top style navigation"
+navigation = next(line for line in cn.splitlines() if line.startswith("[开始使用](#quick-start)"))
+assert navigation.endswith("[常见问题](#faq)"), "Replace only the tutorial shortcut with the FAQ anchor"
+assert "完整制作教程" not in navigation
+assert "[完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)" in cn, "Keep the tutorial in the Director instructions"
+assert "## 使用小贴士" not in cn
+faq = cn.split('<a id="faq"></a>', 1)[1].split('<a id="recent-updates"></a>', 1)[0]
+faq_questions = (
+    "没有脚本，也能做视频吗？",
+    "不会画画、不会做动画，也能用吗？",
+    "一定要用 Codex 吗？",
+    "怎么把文章或参考内容，变成更有吸引力的视频？",
+    "可以自定义画幅、语言和配音吗？",
+    "使用需要付费吗？",
+    "画面或配音不满意，需要全部重做吗？",
+)
+assert re.findall(r"<summary>(.*?)</summary>", faq) == list(faq_questions), "Keep the seven approved FAQ questions in order"
+assert faq.count("<details>") == faq.count("</details>") == 7
+assert "<details open" not in faq, "Keep FAQs collapsed by default"
+for requirement in ("目标观众、发布平台和期望时长", "开场钩子、叙事推进和结尾引导",
+                    "具体音色取决于所用配音服务", "不一定包含它的 API 调用额度",
+                    "复用已经确认的配音和素材"):
+    assert requirement in faq, requirement
 assert "不需要另装第二个 Skill" in cn
 assert "**10 分钟及以上**" in cn and "连续故事短剧" in cn
 assert "Codex、Claude Code" in cn and "Google Flow" in cn
