@@ -14,23 +14,49 @@ assert "自动制作带配音、字幕与微动画的完整视频" in cn
 assert "汇总全网热门的火柴人画风，持续更新与开源" in cn
 assert "本系列持续更新，欢迎点个 Star，更多热门画风陆续上线。" in cn
 assert "想做不露脸的 YouTube 频道，探索内容变现？" in cn
-assert "我是烤妹儿，专注不出镜视频与自动化工作流" in cn
+assert "获取不出镜 YouTube 视频的自动化工作流与实用工具" in cn
+assert "我是烤妹儿" not in cn, "Keep the follow CTA focused on reader value, not self-introduction"
+readable_cn = re.sub(r'<[^>]+>|\]\([^)]+\)|https?://[^\s<>)"]+', "", cn)
+assert not re.search(r"\b(?:Director|Autopilot)\b", readable_cn, re.I), "Use Chinese mode names throughout the Chinese README; preserve technical paths and anchors"
+assert "自动成片" not in readable_cn, "Use 全自动模式 consistently for mode B"
+assert not re.search(r"(?<!AI )助手|(?<=[\u4e00-\u9fff])AI 助手", readable_cn), "Use AI 助手 consistently, with spaces between English and Chinese"
+assert "### A · 导演模式：逐段生成分镜提示词" in cn
+assert "### B · 全自动模式：一句话生成长片" in cn
 
 sections = ("## 两种视频制作模式", "## 开始使用", "## A · 导演模式画风一览",
-            "## B · 自动成片画风一览", "## 常见问题", "## Star 增长曲线", "## 许可证")
+            "## B · 全自动模式画风一览", "## 常见问题", "## 更多画风，更多创作可能", "## 许可证")
 assert [cn.index(s) for s in sections] == sorted(cn.index(s) for s in sections)
 assert "## 接下来做什么" not in cn, "Keep the removed next-steps heading out of the footer"
-footer = cn.split("## Star 增长曲线", 1)[1].split("## 许可证", 1)[0]
+assert "## Star 增长曲线" not in cn, "Use a reader-focused footer heading; retain the chart itself"
+footer = cn.split("## 更多画风，更多创作可能", 1)[1].split("## 许可证", 1)[0]
 footer_items = ("⭐ **想做不露脸的 YouTube 频道", "🔔 **关注", '<a id="whats-next"></a>',
                 "🎨 **更多画风（计划中）**：", "💬 **建议与投稿**：", '<div align="center">')
-assert [footer.index(s) for s in footer_items] == sorted(footer.index(s) for s in footer_items), "Place icon-led contribution paragraphs after the creator introduction and before the Star chart"
+assert [footer.index(s) for s in footer_items] == sorted(footer.index(s) for s in footer_items), "Place icon-led contribution paragraphs after the follow CTA and before the Star chart"
 mode_comparison = cn.split('<a id="creation-modes"></a>', 1)[1].split('<a id="quick-start"></a>', 1)[0]
 mode_rows = [line for line in mode_comparison.splitlines() if line.startswith("|")]
-assert mode_rows[0] == '|  | <div align="center">A · 导演模式 · Director</div> | <div align="center">B · 自动成片 · Autopilot</div> |', "Center only the mode headings"
+assert not any(row.startswith(("| **操作** |", "| **用途** |")) for row in mode_rows), "Keep the comparison concise without the removed operation and use-case rows"
+assert mode_rows[0] == '|  | <div align="center">A · 导演模式</div> | <div align="center">B · 全自动模式</div> |', "Center only the mode headings"
 assert mode_rows[1] == "|:---:|:---|:---|", "Keep explanatory columns left-aligned"
-assert mode_rows[-1] == '| **开始** | <div align="center"><a href="#director-start">使用 Director</a></div> | <div align="center"><a href="#autopilot-start">使用 Autopilot</a></div> |', "Center the two start links"
+assert mode_rows[-1] == '| **开始** | <div align="center"><a href="#director-start">使用导演模式</a></div> | <div align="center"><a href="#autopilot-start">使用全自动模式</a></div> |', "Center the two start links"
 assert all('align="center"' not in row for row in mode_rows[2:-1]), "Do not center the explanatory body text"
-assert "一次安装，按需选择" in cn
+assert "插画分镜＋微动画" in mode_comparison and "插画轮播" not in mode_comparison, "Describe B as illustrated scenes rather than a slideshow; do not impose B1's drawing style on every B style"
+assert "一次安装，按需选择" not in cn, "Keep the removed mode-selection sentence out of the introduction"
+quick_start_intro = cn.split('<a id="quick-start"></a>', 1)[1].split('<a id="director-start"></a>', 1)[0]
+assert "并给出可以直接照着说的示例。" in quick_start_intro
+install = quick_start_intro.split("```text\n", 1)[1].split("```", 1)[0]
+assert "帮我安装这个 Skill：" in install
+assert "https://github.com/kaomei/stickman-video-director" in install
+assert "已安装的 SKILL.md" in install
+assert "A3" not in install, "Keep the shared installation separate from the Director example"
+assert max(map(len, install.splitlines())) <= 55, "Wrap installation instructions at readable phrase boundaries"
+assert "之后每完成一个阶段" not in quick_start_intro, "Keep the removed progress explanation out of the README introduction"
+assert "安装后，把下面这段发给 AI 助手，换成自己的话题即可：" in cn
+director_start = cn.split('<a id="director-start"></a>', 1)[1].split('<a id="autopilot-start"></a>', 1)[0]
+director_example = director_start.split("```text\n", 1)[1].split("```", 1)[0]
+assert director_example.startswith("使用导演模式/A模式，"), "Explicitly select mode A in the reusable Director example"
+assert "填写话题、粘贴文案，也可以直接描述需求" in director_example
+assert "人类的第一份工作是怎么来的" not in director_example, "Use a fill-in template rather than a hard-coded topic"
+assert "也可以直接贴已有文案或文章" not in cn
 assert "[查看画风一览 ↓]" not in cn, "Do not restore the removed per-mode shortcut links"
 assert "[A 画风](#a-styles) · [B 画风](#b-styles)" in cn, "Keep the top style navigation"
 navigation = next(line for line in cn.splitlines() if line.startswith("[开始使用](#quick-start)"))
@@ -44,6 +70,7 @@ assert "## 使用小贴士" not in cn
 faq = cn.split('<a id="faq"></a>', 1)[1].split('<!-- readme:contribute -->', 1)[0]
 faq_questions = (
     "没有脚本，也能做视频吗？",
+    "导演模式生成的人物不一致怎么办？",
     "不会画画、不会做动画，也能用吗？",
     "一定要用 Codex 吗？",
     "怎么把文章或参考内容，变成更有吸引力的视频？",
@@ -55,22 +82,31 @@ faq_questions = (
 )
 assert re.findall(r"^### Q(\d+)\. (.+)$", faq, re.M) == [
     (str(number), question) for number, question in enumerate(faq_questions, 1)
-], "Keep Q1-Q9 directly visible with the nine approved questions in order"
+], "Keep Q1-Q10 directly visible, with character consistency near the front"
 assert "<details" not in faq and "</details>" not in faq and "<summary" not in faq, "Do not collapse the FAQ answers"
 for requirement in ("目标观众、发布平台和期望时长", "开场钩子、叙事推进和结尾引导",
                     "具体音色取决于所用配音服务", "不一定包含它的 API 调用额度",
                     "复用已经确认的配音和素材", "缺什么、怎么补、下一步做什么",
-                    "自动成片先确认脚本和 20 秒有声样片，再制作整片",
+                    "全自动模式先确认脚本和 20 秒有声样片，再制作整片",
                     "第三方图片、音乐、音效及配音服务", "以平台审核为准"):
     assert requirement in faq, requirement
-assert "不需要另装第二个 Skill" in cn
 assert "**10 分钟及以上**" in cn and "连续故事短剧" in cn
 assert "Codex、Claude Code" in cn and "Google Flow" in cn
 assert "A、B 画风独立编号、分别展示，不共用画面" in cn
-assert "给故事脚本和需求 → 检查配音和生图配置 → 确认 20s 样片效果 → 自动制作长视频 → 拿到完整成片" in cn
+assert "给出话题或需求，直接拿成片" in mode_comparison
+assert "给出话题、内容或需求 → 确认视频脚本 → 确认 20 秒有声样片 → 自动制作整片 → 拿到完整视频" in cn
 autopilot_start = cn.split('<a id="autopilot-start"></a>', 1)[1].split('<a id="style-gallery"></a>', 1)[0]
-for requirement in ("把这个文章/帖子/新闻...做成在 YouTube 上有吸引力的视频", "需求：5～10 分钟", "B1「极简手绘风」", "旁白、字幕和音效", "20 秒有声样片", "画面跟随配音节奏", "交付完整视频文件"):
+autopilot_example = autopilot_start.split("```text\n", 1)[1].split("```", 1)[0]
+assert autopilot_example.startswith("使用全自动模式/B模式，"), "Explicitly select mode B in the reusable Autopilot example"
+for requirement in ("话题、文章、帖子、新闻或具体需求", "做成在 YouTube 上有吸引力的视频", "粘贴内容或链接，也可以直接描述宣传需求", "需求：5～10 分钟", "B1「极简手绘风」", "旁白、字幕和音效", "20 秒有声样片", "画面跟随配音节奏", "交付完整视频文件"):
     assert requirement in autopilot_start, requirement
+assert "Node.js" not in autopilot_start and "FFmpeg" not in autopilot_start
+assert "开始前按所选方案配置" not in autopilot_start, "Let the installed AI assistant guide setup rather than prescribe a separate manual setup step"
+autopilot_notes = autopilot_start.split("**流程：", 1)[1].split("**", 1)[1]
+for requirement in ("AI 助手会根据内容设计分镜", "配好字幕和音效", "按配音节奏合成为完整视频",
+                    "你主要负责确认脚本和样片", "首次使用会先检查所需配置",
+                    "只调整对应片段，保留已经确认的部分"):
+    assert requirement in autopilot_notes, requirement
 for label in ("A1：经典黑白风", "A2：现代潮酷风", "A3：史前洞穴风",
               "A4：治愈故事风", "A5：历史卡通风", "B1：极简手绘风", "B2：待更新…"):
     assert f"### {label}\n" in cn, label
@@ -80,26 +116,25 @@ b_style_names = [name for name in re.findall(r"^### B\d+：([^\n]+)$", cn, re.M)
                  if not name.startswith("待更新")]
 assert re.findall(r"<strong>([^<]+)</strong><br>", hero) == list(style_names) + b_style_names, "Sync every published B style into the top preview grid, using its style name without A/B prefixes"
 assert "<strong>极简手绘风</strong><br>" in hero, "Use the approved B1 preview in the sixth cell"
+assert re.findall(r'<a href="#([^"]+)"><img', hero)[:4] == ["a1", "a2", "a3", "a4"], "Link the first four previews directly to their style details"
 assert f"**{len(style_names) + len(b_style_names)} 大画风 · {len(style_names) + 2 + len(b_style_names)} 种视觉方案 · 实测样片 · 免费开源**" in cn
 assert re.search(r'<a href="#b1"><img src="([^"]+/b1-minimal-handdrawn-2026-10-23\.gif)"[^>]+width="90%"></a>', hero), "Link the latest top B1 preview to its detail section"
 for number, name in enumerate(style_names, 1):
     assert f"### A{number}：{name}\n" in cn, "Keep preview and detail names aligned"
 assert "史前黑色幽默" not in cn and "史前手绘 / 黑色幽默" not in cn
-assert "用 A3「史前洞穴风」" in cn and "A3 史前洞穴风 · 30 秒" in cn
+assert "采用 A3「史前洞穴风」" in director_example
+assert "按需确认人物三视图" in director_start, "Keep character references optional for ordinary A use"
+character_faq = faq.split("### Q2. 导演模式生成的人物不一致怎么办？", 1)[1].split("### Q3.", 1)[0]
+assert "三视图（正面、侧面、背面）" not in director_start, "Keep detailed character guidance in the FAQ, not the quick-start"
+for requirement in ("三视图（正面、侧面、背面）", "已有确认的角色参考图可直接复用",
+                    "在支持参考图的视频工具中", "每段视频时都附上已确认的角色图",
+                    "不替代原有分镜提示词", "不改变所选画风的规则"):
+    assert requirement in character_faq, requirement
 for variant in ("A1.1", "A1.2", "A2.1", "A2.2"):
     assert variant in cn, variant
 
-storyboard = cn.split('<a id="storyboard-example"></a>', 1)[1].split("</details>", 1)[0]
-assert "<details>" in storyboard and "<summary>" in storyboard
-approved_voiceover = (
-    "Ten thousand years ago, one man finally solved all his problems. He shut them outside.",
-    "Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.",
-    "The reward got smaller. The workload got bigger. And somehow… they called that progress.",
-)
-for voiceover in approved_voiceover:
-    rows = [line for line in storyboard.splitlines() if voiceover in line]
-    assert len(rows) == 1 and rows[0].count("|") == 4
-assert cn.index('<a id="storyboard-example">') < cn.index('<a id="autopilot-start">')
+assert '<a id="storyboard-example"></a>' not in cn, "Do not restore the removed storyboard example"
+assert "看看一个 30 秒故事的完整分镜" not in cn
 
 assert cn.count("<details>") == cn.count("</details>")
 assert cn.count('<div align="center">') == cn.count("</div>")
@@ -123,6 +158,7 @@ for preview in previews:
     assert width <= 640 and height <= 360
     assert file.stat().st_size < 4_000_000
 b1 = cn.split('<a id="b1"></a>', 1)[1].split('<a id="b2"></a>', 1)[0]
+assert "点击动图，查看或下载有声样片。" in b1, "Make voiced samples discoverable without restoring a redundant link row"
 assert re.search(r'src="([^"]+/b1-minimal-handdrawn-2026-10-23\.gif)"', hero).group(1) == re.search(r'src="([^"]+/b1-minimal-handdrawn-2026-10-23\.gif)"', b1).group(1), "Reuse the same immutable B1 preview in the hero and detail section"
 fields = ("- **画面特点**：", "- **适合内容**：", "- **怎么选**：")
 assert all(b1.count(field) == 1 for field in fields), "Use the same introduction fields as A styles"

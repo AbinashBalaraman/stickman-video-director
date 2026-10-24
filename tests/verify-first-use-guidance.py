@@ -9,6 +9,7 @@ root = Path(__file__).resolve().parents[1]
 skill = root / "skills/directing-stickman-videos"
 entry = (skill / "SKILL.md").read_text()
 guide = skill / "references/getting-started.md"
+guide_text = guide.read_text()
 
 # The new shared entry must reach the guide in the installed package.
 assert "(references/getting-started.md)" in entry and guide.is_file()
@@ -38,10 +39,33 @@ assert not {"preinstall", "install", "postinstall"}.intersection(scripts), "Welc
 
 # Installation instructions ask the installing assistant to load the real entry.
 cn = (root / "README.zh-CN.md").read_text()
+catalog_base = "https://github.com/kaomei/stickman-video-director/blob/main/README.zh-CN.md"
+public_links = set(re.findall(r"\]\((https://[^)]+)\)", guide.read_text()))
+for catalog in ("a-styles", "b-styles"):
+    assert f"{catalog_base}#{catalog}" in public_links, f"Missing public style catalog: {catalog}"
+    assert f'<a id="{catalog}"></a>' in cn, f"Broken public style anchor: {catalog}"
 install = cn.split("```text\n", 1)[1].split("```", 1)[0]
 assert "https://github.com/kaomei/stickman-video-director" in install
 assert "已安装的 SKILL.md" in install
 assert (root / "tests/scenarios/first-use-guidance.md").is_file()
+
+# Chinese-facing welcome uses Chinese mode names, not internal routing labels.
+welcome = guide_text.split("### 欢迎使用火柴人视频 Skill\n", 1)[1].split("### Adapt instead of replaying the README", 1)[0]
+assert "#### A · 导演模式：" in welcome and "#### B · 全自动模式：" in welcome
+assert not re.search(r"\b(?:Director|Autopilot)\b|自动成片", welcome)
+assert "A 模式的旁白和声音设计沿用原有规则" in welcome
+assert "稳定男声默认" not in welcome, "Do not misstate A's source-appropriate voice selection"
+
+# Optional A references are reachable without changing the frozen Director body.
+reference_heading = "Optional A character references"
+assert reference_heading in entry
+a_reference = guide_text.split(f"### {reference_heading}\n", 1)[1].split("## B · Autopilot handoffs", 1)[0]
+for requirement in ("not a new setup requirement", "front, side and back views",
+                    "Reuse suitable user-approved references", "every generated clip",
+                    "when the chosen tool supports reference images", "not a consistency guarantee",
+                    "not replace, shorten or globally rewrite", "fixed character anchor"):
+    assert requirement in a_reference, requirement
+assert "按需确认人物三视图" in welcome and "三视图（正面、侧面、背面）" in welcome
 
 # Per-style defaults stay inside one installation; B1 is not all of B.
 autopilot = (skill / "references/autopilot.md").read_text()
