@@ -287,15 +287,17 @@ Stil tanıtımı, bu stile özel örnekler ve kullanım örnekleri buraya eklene
 
 Evet. Bir konu, makale, bağlantı veya somut ihtiyaç verin; yapay zekâ asistanı önce bunu video senaryosuna dönüştürür. Hazır senaryonuzu da doğrudan kullanabilirsiniz. Hedef izleyiciyi, yayın platformunu ve istediğiniz süreyi de belirtmeniz faydalı olur.
 
-### Q2. Director modunda karakterler klipler arasında değişiyorsa ne yapmalıyım?
+### Q2. Director stilleri tamamen otomatik üretilebilir mi? Bu mod neden var?
+
+Şu anda A serisi stillerin üretim akışları nispeten bağımsızdır. Ancak sevdiğiniz bir A serisi stili B serisinin üretim akışıyla birleştirip kendi DIY çözümünüzü oluşturmak için yapay zekâ asistanından yardım isteyebilirsiniz.
+
+Director modunu korumanın temel amacı, video üretimi ve deneme-yanılma maliyetlerini kontrol altında tutmaktır. On küsur dakikalık bir videonun tek seferlik tam üretimi **onlarca ABD dolarına** mal olabilir; tekrar tekrar üretmek bu maliyeti artırır. Bu nedenle Director modu, sahne sahne üretim ve kontrol ile elle kurguyu korur. Böylece her planı siz yönetir, sonucu gördükten sonra devam edip etmeyeceğinize karar verebilirsiniz.
+
+### Q3. Director modunda karakterler klipler arasında değişiyorsa ne yapmalıyım?
 
 Yapay zekâ asistanına şöyle söyleyebilirsiniz: “Önce seçtiğim stile uygun bir çöp adam tasarla. Önden, yandan ve arkadan görünüşünü onaylayalım; sonra sahne istemlerini hazırla.” Kendinize özgü bir karakterle video yapmak için de bu şekilde başlayabilirsiniz. Daha önce onayladığınız karakter referanslarını yeniden kullanın; özel tasarıma ihtiyacınız yoksa bu adımı atlayabilirsiniz.
 
 Referans görsel destekleyen video araçlarında, **her klibi üretirken onaylanan karakter görsellerini de ekleyin**. Referans görseller ek destektir; mevcut sahne istemlerinin yerini almaz ve seçilen stilin kurallarını değiştirmez. Sonuçta klipler arasındaki karakter tutarlılığını yine kontrol edin.
-
-### Q3. Çizim veya animasyon bilmem gerekiyor mu?
-
-Hayır. Director modu sahne planını ve bölüm bazında istemleri sağlar; klipleri siz üretip kurgularsınız. Autopilot modu ise gerekli hizmetler yapılandırıldıktan sonra görselleri, seslendirmeyi, altyazıları, ses efektlerini ve video birleştirmeyi otomatik tamamlayabilir.
 
 ### Q4. Mutlaka Codex mi kullanmalıyım?
 
@@ -303,33 +305,25 @@ Hayır. Director modu, Skill kurulumunu ve kullanımını destekleyen yapay zek�
 
 Autopilot modu için Codex veya Claude Code gibi dosya okuyup yazabilen ve komut çalıştırabilen bir ortam; ayrıca görsel üretim, seslendirme hizmetleri ve yerel bağımlılıklar gerekir.
 
+<!-- readme:platforms -->
+
 ### Q5. Bir makaleyi veya referans içeriği nasıl daha ilgi çekici videoya dönüştürebilirim?
 
 Yapay zekâ asistanına kime ulaşmak istediğinizi, asıl mesajınızı ve izleyicinin video sonunda ne yapmasını beklediğinizi söyleyin. Asistan buna göre konuya bir açı bulur; dikkat çeken açılışı, anlatının ilerleyişini ve kapanış çağrısını tasarlayıp sahne planına dönüştürür.
 
 Sevdiğiniz bir videoyu da paylaşabilir; ritmini, anlatımını veya hikâye yapısını neden beğendiğinizi açıklayabilirsiniz. Yöntemden ilham alın, kendi bakış açınızı ve ifadenizi koruyun. Tarih, iş dünyası veya bilimle ilgili bilgileri yayımlamadan önce doğrulayın.
 
-<!-- readme:platforms -->
-
-### Q6. En-boy oranını, dili ve seslendirmeyi seçebilir miyim?
-
-Evet; başlarken belirtmeniz yeterli. Uzun YouTube videolarında genellikle `16:9`, Shorts, TikTok ve Reels için `9:16` seçilir. Anlatım dili, ses ve altyazılar da ihtiyacınıza göre belirlenebilir; kullanılabilir sesler seçtiğiniz seslendirme hizmetine bağlıdır.
-
-### Q7. Kullanmak ücretli mi?
+### Q6. Kullanmak ücretli mi?
 
 Skill ücretsiz ve açık kaynaklıdır. Görsel, ses ve video üretim hizmetlerinin ücretleri seçtiğiniz platforma ve hesap planına bağlıdır. Bir platforma abonelik, o platformun API kullanım kotasını mutlaka kapsamaz.
 
-### Q8. Bir görseli veya sesi beğenmezsem her şeyi baştan mı yapmalıyım?
+### Q7. Bir görseli veya sesi beğenmezsem her şeyi baştan mı yapmalıyım?
 
 Hayır. Önce senaryoyu ve üretim planını onaylayın; sonra kısa bir örnekle stili, karakterleri, sesi, altyazıları ve ritmi kontrol edin. Memnun kaldığınızda tam videoya geçin.
 
 Yalnızca bir bölüm uygun değilse önce o bölümü düzeltin; onaylanan seslendirmeyi ve medyayı yeniden kullanın. Böylece gereksiz tekrarları ve maliyeti azaltırsınız.
 
-### Q9. Kurulum tamamlandı; şimdi ne yapmalıyım?
-
-Yapay zekâ asistanına istediğiniz videoyu anlatın; bir konu, makale, bağlantı veya senaryo verebilirsiniz. Asistan mod ve stil seçimi için sizi yönlendirir, ardından gerekli ayarları kontrol eder. Neyin eksik olduğunu, nasıl tamamlanacağını ve sırada ne olduğunu adım adım açıklar. Autopilot modunda önce senaryo ve 20 saniyelik sesli ön izleme onaylanır, sonra tam video üretilir.
-
-### Q10. Videoları YouTube’da yayımlayabilir veya ticari projelerde kullanabilir miyim?
+### Q8. Videoları YouTube’da yayımlayabilir veya ticari projelerde kullanabilir miyim?
 
 Proje MIT lisanslıdır ve ticari kullanıma izin verir. Videoda kullanılan üçüncü taraf görselleri, müzikler, ses efektleri ve seslendirme hizmetleri kendi lisans koşullarına tabidir. YouTube’da para kazanma özelliğinin açılması ise platformun değerlendirmesine bağlıdır.
 

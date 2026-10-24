@@ -288,15 +288,17 @@ La présentation du style, ses propres exemples et les demandes types seront ajo
 
 Oui. Donnez un sujet, un article, un lien ou un besoin précis : l’assistant IA commencera par en faire un scénario vidéo. Vous pouvez aussi lui fournir un scénario déjà rédigé. Précisez si possible le public visé, la plateforme et la durée souhaitée.
 
-### Q2. Que faire si les personnages changent d’une séquence à l’autre dans Director ?
+### Q2. Peut-on automatiser entièrement les styles Director ? Pourquoi conserver ce mode ?
+
+Les styles de la série A suivent pour l’instant un processus de production distinct, mais vous pouvez demander à l’assistant IA de vous aider à combiner votre style A préféré avec le processus de la série B pour créer votre propre adaptation.
+
+Conserver le mode Director permet surtout de maîtriser le coût de la génération vidéo et des essais : pour une vidéo de plus de dix minutes, une seule passe de génération complète peut coûter **quelques dizaines de dollars américains**, et les reprises alourdissent encore la facture. Director conserve donc la génération et la vérification séquence par séquence, ainsi que le montage manuel. Vous gardez la main sur chaque plan et pouvez vérifier le résultat avant de décider de poursuivre.
+
+### Q3. Que faire si les personnages changent d’une séquence à l’autre dans Director ?
 
 Demandez à l’assistant IA : « Conçois d’abord un personnage stickman adapté au style choisi. Fais-moi valider ses trois vues — face, profil et dos — avant de préparer les prompts de storyboard. » C’est aussi une bonne façon de créer un personnage propre à votre chaîne. Réutilisez vos références déjà validées ; si vous n’avez pas besoin d’un personnage personnalisé, cette étape reste facultative.
 
 Dans un outil vidéo qui accepte les images de référence, **joignez les vues validées à chaque séquence générée**. Elles servent d’aide supplémentaire : elles ne remplacent pas les prompts de storyboard et ne modifient pas les règles du style choisi. Vérifiez tout de même la cohérence des personnages entre les séquences.
-
-### Q3. Faut-il savoir dessiner ou animer ?
-
-Non. Director fournit le storyboard et les prompts de chaque séquence ; vous générez ensuite les clips et réalisez le montage. Une fois les services nécessaires configurés, Autopilot peut prendre en charge les visuels, la voix off, les sous-titres, les effets sonores et l’assemblage vidéo.
 
 ### Q4. Faut-il obligatoirement utiliser Codex ?
 
@@ -304,33 +306,25 @@ Non. Director fonctionne dans les assistants IA qui permettent d’installer et 
 
 Autopilot nécessite un environnement comme Codex ou Claude Code, capable de lire et d’écrire des fichiers et d’exécuter des commandes, ainsi que les services de génération d’images et de voix et les dépendances locales nécessaires.
 
+<!-- readme:platforms -->
+
 ### Q5. Comment rendre un article ou une source plus accrocheur en vidéo ?
 
 Indiquez à l’assistant IA qui vous souhaitez toucher, le message essentiel et ce que vous aimeriez que le public fasse après la vidéo. Il pourra en tirer un angle, une accroche d’ouverture, une progression narrative et un appel à l’action, puis préparer le découpage.
 
 Vous pouvez également partager une vidéo de référence et préciser ce qui vous plaît : son rythme, son ton ou sa structure. Inspirez-vous de la méthode tout en gardant votre point de vue et votre expression. Vérifiez les faits historiques, économiques ou scientifiques avant publication.
 
-<!-- readme:platforms -->
-
-### Q6. Peut-on choisir le format, la langue et la voix ?
-
-Oui, précisez-les dès le départ. Le `16:9` convient généralement aux vidéos longues YouTube, le `9:16` aux Shorts, TikTok et Reels. La langue de narration, la voix et les sous-titres s’adaptent aussi à vos besoins ; les voix disponibles dépendent du service de synthèse vocale choisi.
-
-### Q7. Est-ce payant ?
+### Q6. Est-ce payant ?
 
 Le Skill est gratuit et open source. La génération d’images, de voix et de vidéos dépend des tarifs de vos plateformes et de vos offres. Un abonnement à un service n’inclut pas forcément des crédits pour son API.
 
-### Q8. Faut-il tout refaire si une image ou une voix ne convient pas ?
+### Q7. Faut-il tout refaire si une image ou une voix ne convient pas ?
 
 Non. Validez d’abord le scénario et le plan de production, puis un court aperçu vidéo avec le son pour vérifier le style, les personnages, la voix, les sous-titres et le rythme, avant de lancer la vidéo complète.
 
 Si une seule séquence pose problème, retouchez-la en priorité et réutilisez les voix off et les médias déjà validés. Cela limite les reprises et les dépenses inutiles.
 
-### Q9. Le Skill est installé : que faire ensuite ?
-
-Décrivez simplement la vidéo souhaitée à l’assistant IA, avec un sujet, un article, un lien ou un scénario. Il vous guidera pour choisir le mode et le style, puis vérifiera la configuration requise. Il vous expliquera progressivement ce qui manque, comment le compléter et quoi faire ensuite. En mode Autopilot, vous validez le scénario et un aperçu vidéo de 20 secondes avec le son avant la production complète.
-
-### Q10. Peut-on publier les vidéos sur YouTube ou les utiliser dans un projet commercial ?
+### Q8. Peut-on publier les vidéos sur YouTube ou les utiliser dans un projet commercial ?
 
 Le projet est sous licence MIT, qui autorise l’usage commercial. Les images, musiques, effets sonores et services de voix tiers restent soumis à leurs propres conditions. L’accès à la monétisation YouTube dépend de l’examen de votre chaîne et de vos contenus par la plateforme.
 

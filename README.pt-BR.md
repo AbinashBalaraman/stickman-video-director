@@ -292,15 +292,17 @@ A descrição do estilo, as amostras e os exemplos de uso serão publicados aqui
 
 Sim. Passe um tema, artigo, link ou pedido específico, e o assistente de IA organiza o material em um roteiro. Se você já tiver um, pode usá-lo diretamente. Vale informar também o público, a plataforma e a duração desejada.
 
-### Q2. Como manter o personagem consistente no modo Director?
+### Q2. Dá para automatizar os estilos do Director? Por que manter esse modo?
+
+Por enquanto, os estilos da série A têm fluxos de produção próprios. Mas você pode pedir ao assistente de IA para combinar seu estilo favorito da série A com o fluxo de produção da série B e montar uma solução DIY, do seu jeito.
+
+Manter o Director é, principalmente, uma forma de controlar o custo da geração de vídeo e das tentativas. Para um vídeo de dez e poucos minutos, uma rodada completa de geração pode custar **algumas dezenas de dólares americanos**, e refazer o trabalho aumenta a conta. Por isso, o Director mantém a geração e a revisão cena a cena, com edição manual: você controla cada plano e pode conferir o resultado antes de decidir se continua.
+
+### Q3. Como manter o personagem consistente no modo Director?
 
 Você pode pedir: “Crie primeiro um boneco de palito que combine com o estilo escolhido. Quero aprovar as três vistas — frente, lado e costas — antes dos prompts das cenas.” É uma boa opção para ter um personagem próprio. Se já houver uma referência aprovada, reutilize-a; se não precisar personalizar, pode pular essa etapa.
 
 Em ferramentas de vídeo que aceitam imagens de referência, **anexe o personagem aprovado ao gerar cada clipe**. A referência é um apoio extra: não substitui os prompts das cenas nem altera as regras do estilo escolhido. Confira a consistência entre os clipes antes de finalizar.
-
-### Q3. Preciso saber desenhar ou animar?
-
-Não. O Director entrega storyboard e prompts por trecho; você gera os clipes e faz a edição. No Autopilot, depois de configurar os serviços necessários, o assistente pode produzir imagens, narração, legendas, efeitos sonoros e a montagem do vídeo automaticamente.
 
 ### Q4. Só funciona no Codex?
 
@@ -308,33 +310,25 @@ Não. O modo Director funciona em assistentes de IA que permitem instalar e usar
 
 O Autopilot precisa de um ambiente como Codex ou Claude Code, capaz de ler e gravar arquivos e executar comandos, com os serviços de imagem e voz e as dependências locais configurados.
 
+<!-- readme:platforms -->
+
 ### Q5. Como transformar um artigo ou referência em um vídeo mais interessante?
 
 Diga a quem quer chegar, qual é a ideia principal e o que deseja que o público faça ao terminar. O assistente de IA usa isso para encontrar um ângulo, criar um gancho de abertura, organizar a narrativa e planejar a chamada final antes do storyboard.
 
 Tem um vídeo de referência? Mostre-o e explique se gosta do ritmo, da linguagem ou da estrutura. Aproveite as técnicas sem copiar a opinião e a expressão de outra pessoa. Fatos históricos, comerciais e científicos ainda precisam ser verificados antes da publicação.
 
-<!-- readme:platforms -->
-
-### Q6. Posso escolher formato, idioma e voz?
-
-Sim, basta informar no início. Para vídeos longos no YouTube, o mais comum é `16:9`; para Shorts, TikTok e Reels, `9:16`. Você também pode escolher idioma, voz e legendas. As vozes disponíveis dependem do serviço de narração usado.
-
-### Q7. É pago?
+### Q6. É pago?
 
 A Skill é gratuita e de código aberto. Serviços de imagem, voz e geração de vídeo podem cobrar conforme a plataforma e o plano da sua conta. Uma assinatura não inclui necessariamente créditos de API.
 
-### Q8. Se não gostar de uma imagem ou da narração, preciso refazer tudo?
+### Q7. Se não gostar de uma imagem ou da narração, preciso refazer tudo?
 
 Não. Aprove primeiro o roteiro e o plano de produção. Depois, use uma amostra curta para conferir estilo, personagem, voz, legendas e ritmo antes de produzir o vídeo completo.
 
 Se o problema estiver em um trecho, ajuste só essa parte e reaproveite a narração e os materiais já aprovados. Isso reduz retrabalho e custos repetidos.
 
-### Q9. Instalei. Qual é o próximo passo?
-
-Diga ao assistente de IA qual vídeo quer criar e envie um tema, artigo, link ou roteiro. Ele orienta a escolha do modo e do estilo, confere a configuração e explica o que falta, como resolver e o que fazer em seguida. No Autopilot, você aprova primeiro o roteiro e uma amostra de 20 segundos com áudio, depois o vídeo completo é produzido.
-
-### Q10. Posso publicar no YouTube ou usar comercialmente?
+### Q8. Posso publicar no YouTube ou usar comercialmente?
 
 O projeto usa a licença MIT, que permite uso comercial. Imagens, músicas, efeitos sonoros e serviços de voz de terceiros continuam sujeitos às suas próprias licenças. A monetização no YouTube depende da análise e das regras da plataforma.
 

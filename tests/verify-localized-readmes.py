@@ -103,8 +103,35 @@ for name in selected:
     for variant in ("A1.1", "A1.2", "A2.1", "A2.2"):
         assert variant in text, (name, variant)
     faq = section(text, "faq", "<!-- readme:contribute -->")
-    assert re.findall(r"^### Q(\d+)\.", faq, re.M) == [str(i) for i in range(1, 11)], name
-    assert all(tag not in faq for tag in ("<details", "<summary")), (name, "visible Q1-Q10")
+    assert re.findall(r"^### Q(\d+)\.", faq, re.M) == [str(i) for i in range(1, 9)], name
+    assert all(tag not in faq for tag in ("<details", "<summary")), (name, "visible Q1-Q8")
+    character_faq = faq.split("### Q3.", 1)[1].split("### Q4.", 1)[0]
+    engagement_faq = faq.split("### Q5.", 1)[1].split("### Q6.", 1)[0]
+    for answer, label in ((character_faq, "character consistency"),
+                          (engagement_faq, "engaging article adaptation")):
+        assert len(answer.split("\n", 1)[1].strip().split("\n\n")) == 2, (name, label)
+    cost_faq = faq.split("### Q2.", 1)[1].split("### Q3.", 1)[0]
+    assert "100" not in cost_faq, (name, "Use the revised tens-of-dollars estimate, not US$100")
+    cost_answer = cost_faq.split("\n", 1)[1].strip()
+    assert len(cost_answer.split("\n\n")) == 2, (name, "Concise DIY and cost answer")
+    if name in ("README.md", "README.en.md"):
+        assert "Can Director Mode styles be fully automated? Why keep Director Mode?" in cost_faq
+        for phrase in ("one complete generation pass", "**tens of US dollars**",
+                       "your preferred A-series style", "B-series workflow", "DIY adaptation",
+                       "generation and review scene by scene", "manual editing",
+                       "control of every shot", "decide whether to continue"):
+            assert phrase in cost_faq, (name, phrase)
+        assert "I have installed it. What do I do next?" not in faq
+        assert "How do I keep characters consistent in Director Mode?" in character_faq
+        for phrase in ("front, side, and back views", "skip this optional step",
+                       "attach the approved character image to every clip you generate",
+                       "do not replace those prompts or change the selected style's rules"):
+            assert phrase in character_faq, (name, phrase)
+        assert "How do I turn an article or reference into a more engaging video?" in engagement_faq
+        for phrase in ("who you want to reach", "what you want viewers to do afterward",
+                       "opening hook, narrative progression, and call to action",
+                       "your own perspective and wording", "claims before publishing"):
+            assert phrase in engagement_faq, (name, phrase)
     assert "MIT" in faq and "API" in faq and "YouTube" in faq and "Codex" in faq and "Claude Code" in faq, name
     code = re.findall(r"```text\n(.*?)```", text, re.S)
     assert len(code) == 3, (name, "installation, A example, B example")
@@ -132,6 +159,6 @@ for name in selected:
     alts = re.findall(r'<img\b[^>]*\balt="([^"]*)"', text)
     assert len(alts) == len(expected_images) and all(alt.strip() for alt in alts), name
     assert "api.star-history.com/svg" in text
-    print(f"{name}: navigation, A/B structure, 10 FAQs, media, links and examples passed.")
+    print(f"{name}: navigation, A/B structure, 8 FAQs, media, links and examples passed.")
 
 print("Eight languages share the approved A/B layout; French follows Korean.")

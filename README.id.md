@@ -293,15 +293,17 @@ Penjelasan gaya, contoh video tersendiri, dan contoh penggunaan akan ditambahkan
 
 Bisa. Berikan topik, artikel, tautan, atau kebutuhan yang spesifik. Asisten AI akan menyusunnya menjadi naskah video; naskah yang sudah ada juga bisa langsung digunakan. Sebaiknya jelaskan juga target penonton, platform, dan durasi yang diinginkan.
 
-### Q2. Bagaimana jika karakter di mode Director tidak konsisten?
+### Q2. Bisakah gaya Director dibuat sepenuhnya otomatis? Mengapa mode ini tetap ada?
+
+Alur produksi gaya seri A saat ini masih relatif terpisah. Namun, Anda bisa meminta asisten AI membantu memadukan gaya seri A yang Anda sukai dengan alur produksi seri B untuk membuat versi DIY Anda sendiri.
+
+Alasan utama mempertahankan Director adalah untuk mengendalikan biaya pembuatan video dan percobaan ulang. Untuk video berdurasi belasan menit, satu putaran pembuatan keseluruhan video bisa menghabiskan **puluhan dolar AS**, dan mengulang prosesnya akan menambah biaya. Karena itu, Director tetap menggunakan pembuatan dan pemeriksaan per adegan serta editing manual. Anda memegang kendali atas setiap shot dan bisa memastikan hasilnya sebelum memutuskan untuk melanjutkan.
+
+### Q3. Bagaimana jika karakter di mode Director tidak konsisten?
 
 Anda bisa meminta: “Bantu desain stickman yang sesuai dengan gaya pilihan saya terlebih dahulu. Saya ingin menyetujui tiga tampaknya — depan, samping, dan belakang — sebelum menerima prompt adegan.” Cara ini juga cocok untuk membuat karakter khas sendiri. Jika sudah ada referensi karakter yang disetujui, gunakan kembali; bila tidak perlu karakter khusus, langkah ini boleh dilewati.
 
 Pada alat video yang mendukung gambar referensi, **lampirkan gambar karakter yang sudah disetujui setiap kali menghasilkan klip**. Gambar referensi hanya bantuan tambahan: tidak menggantikan prompt adegan atau mengubah aturan gaya yang dipilih. Tetap periksa konsistensi karakter antarklip sebelum menyelesaikan video.
-
-### Q3. Harus bisa menggambar atau membuat animasi?
-
-Tidak perlu. Director memberikan storyboard dan prompt per bagian, lalu Anda menghasilkan klip dan menyelesaikan editing. Setelah layanan yang diperlukan dikonfigurasi, Autopilot bisa mengerjakan gambar, narasi, subtitle, efek suara, dan penggabungan video secara otomatis.
 
 ### Q4. Harus memakai Codex?
 
@@ -309,33 +311,25 @@ Tidak. Mode Director bisa digunakan melalui asisten AI yang mendukung pemasangan
 
 Autopilot membutuhkan lingkungan seperti Codex atau Claude Code yang dapat membaca dan menulis file serta menjalankan perintah, dengan layanan gambar, suara, dan dependensi lokal yang sesuai.
 
+<!-- readme:platforms -->
+
 ### Q5. Bagaimana mengubah artikel atau referensi menjadi video yang lebih menarik?
 
 Jelaskan siapa yang ingin Anda tarik, apa poin utamanya, dan apa yang Anda ingin penonton lakukan setelah menonton. Asisten AI akan mencari sudut bahasan, merancang pembuka yang memancing perhatian, menyusun alur, dan menyiapkan ajakan penutup sebelum membuat storyboard.
 
 Jika punya video referensi, sertakan dan jelaskan apakah Anda menyukai ritme, cara penyampaian, atau struktur ceritanya. Pelajari metodenya, tetapi pertahankan sudut pandang dan penyampaian sendiri. Fakta sejarah, bisnis, dan sains tetap perlu diperiksa sebelum dipublikasikan.
 
-<!-- readme:platforms -->
-
-### Q6. Bisa memilih rasio, bahasa, dan suara?
-
-Bisa, sebutkan sejak awal. Video panjang YouTube biasanya memakai `16:9`; Shorts, TikTok, dan Reels biasanya `9:16`. Bahasa narasi, suara, dan subtitle juga bisa disesuaikan. Pilihan suara bergantung pada layanan narasi yang digunakan.
-
-### Q7. Apakah berbayar?
+### Q6. Apakah berbayar?
 
 Skill ini gratis dan open source. Layanan gambar, suara, dan pembuatan video dapat mengenakan biaya sesuai platform dan paket akun. Berlangganan suatu platform belum tentu termasuk kuota penggunaan API.
 
-### Q8. Jika gambar atau narasinya kurang cocok, harus mengulang semua?
+### Q7. Jika gambar atau narasinya kurang cocok, harus mengulang semua?
 
 Tidak. Setujui naskah dan rencana produksi dahulu, lalu buat contoh singkat untuk memeriksa gaya, karakter, suara, subtitle, serta ritme. Setelah cocok, barulah lanjutkan video lengkap.
 
 Jika hanya satu bagian yang perlu diperbaiki, ubah bagian tersebut dan gunakan kembali narasi serta materi yang sudah disetujui. Ini mengurangi pengerjaan ulang dan biaya berulang.
 
-### Q9. Sudah terpasang. Selanjutnya apa?
-
-Langsung jelaskan video yang ingin dibuat kepada asisten AI. Anda bisa memberi topik, artikel, tautan, atau naskah. Asisten memandu pemilihan mode dan gaya, memeriksa konfigurasi, lalu menjelaskan apa yang kurang, cara melengkapinya, dan langkah berikutnya. Untuk Autopilot, setujui naskah dan contoh 20 detik dengan audio sebelum produksi video lengkap.
-
-### Q10. Boleh dipublikasikan ke YouTube atau dipakai secara komersial?
+### Q8. Boleh dipublikasikan ke YouTube atau dipakai secara komersial?
 
 Proyek ini memakai lisensi MIT yang mengizinkan penggunaan komersial. Gambar, musik, efek suara, dan layanan narasi pihak ketiga tetap mengikuti ketentuan lisensinya masing-masing. Kelayakan monetisasi YouTube ditentukan melalui peninjauan dan kebijakan platform.
 

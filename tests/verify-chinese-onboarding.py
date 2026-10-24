@@ -74,26 +74,45 @@ assert "## 使用小贴士" not in cn
 faq = cn.split('<a id="faq"></a>', 1)[1].split('<!-- readme:contribute -->', 1)[0]
 faq_questions = (
     "没有脚本，也能做视频吗？",
+    "导演模式的画风可以做成全自动吗？为什么要有导演模式？",
     "导演模式生成的人物不一致怎么办？",
-    "不会画画、不会做动画，也能用吗？",
     "一定要用 Codex 吗？",
     "怎么把文章或参考内容，变成更有吸引力的视频？",
-    "可以自定义画幅、语言和配音吗？",
     "使用需要付费吗？",
     "画面或配音不满意，需要全部重做吗？",
-    "安装好了，接下来做什么？",
     "做出来的视频可以发 YouTube、用于商业项目吗？",
 )
 assert re.findall(r"^### Q(\d+)\. (.+)$", faq, re.M) == [
     (str(number), question) for number, question in enumerate(faq_questions, 1)
-], "Keep Q1-Q10 directly visible, with character consistency near the front"
+], "Keep Q1-Q8 visible, with generation costs near the front and the removed FAQs absent"
 assert "<details" not in faq and "</details>" not in faq and "<summary" not in faq, "Do not collapse the FAQ answers"
-for requirement in ("目标观众、发布平台和期望时长", "开场钩子、叙事推进和结尾引导",
-                    "具体音色取决于所用配音服务", "不一定包含它的 API 调用额度",
-                    "复用已经确认的配音和素材", "缺什么、怎么补、下一步做什么",
-                    "全自动模式先确认脚本和 20 秒有声样片，再制作整片",
+for requirement in ("目标观众、发布平台和期望时长",
+                    "不一定包含它的 API 调用额度",
+                    "复用已经确认的配音和素材",
                     "第三方图片、音乐、音效及配音服务", "以平台审核为准"):
     assert requirement in faq, requirement
+assert "安装好了，接下来做什么？" not in faq, "Remove the redundant post-install FAQ, not the actual onboarding"
+assert "不会画画、不会做动画，也能用吗？" not in faq
+assert "可以自定义画幅、语言和配音吗？" not in faq
+character_faq = faq.split("### Q3.", 1)[1].split("### Q4.", 1)[0]
+for requirement in ("符合所选画风的火柴人", "三视图（正面、侧面、背面）",
+                    "已有确认的角色参考图可直接复用", "不需要定制时也可跳过",
+                    "每段视频时都附上已确认的角色图", "不替代原有分镜提示词",
+                    "不改变所选画风的规则", "最终仍需检查各段人物是否一致"):
+    assert requirement in character_faq, requirement
+engagement_faq = faq.split("### Q5.", 1)[1].split("### Q6.", 1)[0]
+for requirement in ("想吸引谁、重点讲什么", "希望观众看完后做什么",
+                    "开场钩子、叙事推进和结尾引导", "节奏、表达方式或故事结构",
+                    "保留自己的观点与表达", "历史、商业和科学的事实，发布前仍需核查"):
+    assert requirement in engagement_faq, requirement
+cost_faq = faq.split("### Q2. 导演模式的画风可以做成全自动吗？为什么要有导演模式？", 1)[1].split("### Q3.", 1)[0]
+for requirement in ("视频生成和试错成本", "一轮完整生成", "几十美元左右",
+                    "逐段生成、检查和手动剪辑", "制作流程相对独立",
+                    "让 AI 助手采用喜欢的 A 系列画风", "结合 B 系列的制作流程",
+                    "自行 DIY", "掌控每个镜头", "再决定是否继续"):
+    assert requirement in cost_faq, requirement
+assert "100 美元" not in cost_faq and "还不能直接切换" not in cost_faq
+assert len(cost_faq.strip().split("\n\n")) == 2, "Keep the approved concise two-paragraph answer"
 assert "**10 分钟及以上**" in cn and "连续故事短剧" in cn
 assert "Codex、Claude Code" in cn and "Google Flow" in cn
 assert "A、B 画风独立编号、分别展示，不共用画面" in cn
@@ -128,12 +147,7 @@ for number, name in enumerate(style_names, 1):
 assert "史前黑色幽默" not in cn and "史前手绘 / 黑色幽默" not in cn
 assert "采用 A3「史前洞穴风」" in director_example
 assert "按需确认人物三视图" in director_start, "Keep character references optional for ordinary A use"
-character_faq = faq.split("### Q2. 导演模式生成的人物不一致怎么办？", 1)[1].split("### Q3.", 1)[0]
-assert "三视图（正面、侧面、背面）" not in director_start, "Keep detailed character guidance in the FAQ, not the quick-start"
-for requirement in ("三视图（正面、侧面、背面）", "已有确认的角色参考图可直接复用",
-                    "在支持参考图的视频工具中", "每段视频时都附上已确认的角色图",
-                    "不替代原有分镜提示词", "不改变所选画风的规则"):
-    assert requirement in character_faq, requirement
+assert "三视图（正面、侧面、背面）" not in director_start, "Do not move the removed FAQ's detailed guidance into the quick-start"
 for variant in ("A1.1", "A1.2", "A2.1", "A2.2"):
     assert variant in cn, variant
 

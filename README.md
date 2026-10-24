@@ -284,15 +284,17 @@ A style overview, dedicated examples, and usage prompts will be added here.
 
 Yes. Give the AI assistant a topic, an article, a link, or a brief, and it will shape that into a video script. You can also bring a finished script. Include your target audience, publishing platform, and intended length for a more focused result.
 
-### Q2. How do I keep characters consistent in Director Mode?
+### Q2. Can Director Mode styles be fully automated? Why keep Director Mode?
+
+The A series currently has its own production workflows, but you can ask your AI assistant to combine your preferred A-series style with the B-series workflow for a DIY adaptation.
+
+Director Mode is retained primarily to keep video generation and experimentation costs under control. For a video over ten minutes long, one complete generation pass can cost **tens of US dollars**, and repeated attempts add to the bill. That's why Director Mode keeps generation and review scene by scene, followed by manual editing: you stay in control of every shot, check the results, and then decide whether to continue.
+
+### Q3. How do I keep characters consistent in Director Mode?
 
 Ask your AI assistant: “First design a stick figure that fits my chosen style. Let me approve the front, side, and back views before writing the storyboard prompts.” This also works if you want a character of your own. Reuse approved character references when you have them; skip this optional step if you do not need a custom design.
 
 If your video tool supports reference images, **attach the approved character image to every clip you generate**. References supplement the existing storyboard prompts; they do not replace those prompts or change the selected style's rules. Check the finished clips for consistency.
-
-### Q3. Do I need drawing or animation skills?
-
-No. Director Mode gives you storyboards and scene-by-scene prompts; you generate the clips and finish the edit. With the required services configured, Autopilot Mode handles visuals, narration, captions, sound effects, and final video rendering.
 
 ### Q4. Do I have to use Codex?
 
@@ -300,33 +302,25 @@ No. Director Mode works in AI assistants that support installing and using Skill
 
 Autopilot Mode needs an environment such as Codex or Claude Code that can read and write files and execute commands, plus the required image generation, voiceover services, and local dependencies.
 
+<!-- readme:platforms -->
+
 ### Q5. How do I turn an article or reference into a more engaging video?
 
 Tell your AI assistant who you want to reach, what matters most, and what you want viewers to do afterward. It can develop the angle, opening hook, narrative progression, and call to action, then turn those into scenes.
 
 You can also share a reference video and say what you like about its pacing, delivery, or story structure. Learn from the approach while keeping your own perspective and wording. Verify historical, business, and scientific claims before publishing.
 
-<!-- readme:platforms -->
-
-### Q6. Can I choose the aspect ratio, language, and voice?
-
-Yes—specify them at the start. YouTube long-form videos usually use `16:9`; Shorts, TikTok, and Reels usually use `9:16`. Choose the narration language, voice, and captions for your audience. Available voices depend on the voiceover service.
-
-### Q7. Does it cost anything?
+### Q6. Does it cost anything?
 
 The Skill is free and open source. Image generation, voiceover, and video generation services charge according to the platform and account plan you choose. A consumer subscription does not necessarily include API credits.
 
-### Q8. Do I have to redo everything if a visual or voiceover is wrong?
+### Q7. Do I have to redo everything if a visual or voiceover is wrong?
 
 No. Approve the script and production plan first, then check a short preview for style, characters, voice, captions, and pacing before making the full video.
 
 If only one section needs work, revise that section and reuse the approved voiceover and assets to avoid unnecessary rework and generation costs.
 
-### Q9. I have installed it. What do I do next?
-
-Tell your AI assistant what video you want to make: a topic, article, link, or script is enough to start. It will help you choose a mode and style, check the setup, and explain what is missing, how to add it, and what to do next. In Autopilot Mode, approve the script and a 20-second preview with sound before full production.
-
-### Q10. Can I publish on YouTube or use the videos commercially?
+### Q8. Can I publish on YouTube or use the videos commercially?
 
 The project uses the MIT license, which permits commercial use. Third-party images, music, sound effects, and voiceover services remain subject to their own license terms. YouTube monetization is subject to the platform's review and policies.
 
