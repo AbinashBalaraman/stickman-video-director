@@ -2,16 +2,16 @@
 
 [🇺🇸 EN](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [**🇯🇵 日本語**](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# AI棒人間アニメの画風ライブラリ
+# 顔出しなしのYouTube向け AI棒人間動画生成ツール
 
-**アイデアを、画風のそろったクオリティの高い一本の動画に。**
+**どんなアイデアも、統一感のある画風で高品質な棒人間動画に。**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-テーマや原稿、物語の台本から、**ナレーション・字幕・部分アニメーション付きの動画を自動制作**。自分で演出を調整したい場合はDirectorモードで**動画台本・絵コンテ・クリップごとの動画プロンプト**を作り、生成と編集を進められます。
+テーマや記事、リンクを渡すだけで、映像・ナレーション・字幕・効果音・細かなアニメーションを自動で制作し、一本の棒人間動画に仕上げます。**顔出しなしでも、個性が伝わるYouTubeチャンネルを作れます。**
 
-ネットで人気の棒人間アニメの画風を集め、無料・オープンソースで継続更新。**YouTubeの解説動画、TikTok、仕事や成長の物語、学習コンテンツ、日常や人間関係を描く動画**に活用できます。
+ネットで人気の棒人間の画風を集め、継続的に更新しながらオープンソースで公開しています。**知識・科学の解説、心理学・自己啓発、教育・啓発、心を癒やすストーリー、話題の物語など、幅広いジャンルに活用できます。**
 
 </div>
 

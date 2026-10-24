@@ -2,16 +2,16 @@
 
 [🇺🇸 EN](README.en.md) · [**🇨🇳 简中**](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# 火柴人动画画风库
+# AI 火柴人视频生成器
 
 **将任何想法变成一部高质量的、稳定画风火柴人视频。**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-给一个话题、一段文案或故事脚本，**自动制作带配音、字幕与微动画的完整视频**；也可选择导演模式，获取**动画脚本、分镜与逐段视频提示词**，自己把控生成与剪辑。
+给一个话题、一篇文章或链接，自动制作画面、旁白、字幕、音效与微动画，交付完整火柴人视频。**不出镜，也能做出有辨识度的 YouTube 频道。**
 
-汇总全网热门的火柴人画风，持续更新与开源——适用于 **YouTube 知识讲解、TikTok 短视频、职场励志、教育科普和情感故事**。
+汇总全网热门的火柴人画风，持续更新与开源——适用于 **知识科普、心理励志、教育宣传、情感治愈、流行故事等多赛道。**
 
 </div>
 

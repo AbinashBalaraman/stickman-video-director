@@ -2,16 +2,16 @@
 
 [**🇺🇸 EN**](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# AI Stickman Video Generator & Animation Styles
+# AI Stickman Video Generator for Faceless YouTube Channels
 
-**Turn an idea into a polished stickman video with a consistent visual style.**
+**Turn any idea into a high-quality stickman video with a consistent visual style.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Start with a topic, a piece of copy, or a story script. **Create a complete video with voiceover, captions, and subtle animation automatically**—or choose Director Mode for **scripts, storyboards, and scene-by-scene video prompts**, with you in control of generation and editing.
+Start with a topic, an article, or a link. Automatically create visuals, voiceover, captions, sound effects, and subtle animation, and get a complete stickman video. **Build a distinctive YouTube channel without ever appearing on camera.**
 
-An expanding, open-source collection of popular stickman animation styles for **YouTube explainers, TikTok videos, motivational stories, educational content, and relatable everyday stories**.
+An open-source collection of popular stickman animation styles from across the web, continually updated for **science and knowledge explainers, psychology and motivation, education and awareness, uplifting stories, trending stories, and more.**
 
 </div>
 

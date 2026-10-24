@@ -2,16 +2,16 @@
 
 [🇺🇸 EN](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [**🇮🇩 ID**](README.id.md)
 
-# Animasi Stickman: Koleksi Gaya Visual
+# Pembuat Video Stickman AI untuk YouTube Tanpa Tampil di Kamera
 
-**Ubah ide apa pun menjadi video stickman berkualitas dengan gaya visual yang konsisten.**
+**Ubah ide apa pun menjadi video stickman berkualitas tinggi dengan gaya visual yang konsisten.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Berikan topik, teks, atau naskah cerita untuk **membuat video lengkap secara otomatis, dengan narasi, subtitle, dan animasi ringan**. Ingin mengatur produksinya sendiri? Pilih mode Director untuk mendapatkan **naskah animasi, storyboard, dan prompt video per adegan**, lalu tentukan sendiri proses pembuatan klip dan editing-nya.
+Cukup berikan topik, artikel, atau tautan untuk membuat video stickman lengkap secara otomatis, mulai dari visual, narasi, subtitle, dan efek suara hingga animasi ringan. **Bangun channel YouTube dengan ciri khas sendiri, tanpa tampil di kamera.**
 
-Beragam gaya animasi stickman populer dalam satu proyek yang gratis, open source, dan terus diperbarui — untuk **video penjelasan di YouTube, konten TikTok, cerita dunia kerja dan motivasi, konten edukasi, serta kisah keseharian**.
+Menghimpun berbagai gaya animasi stickman populer di internet, terus diperbarui dan tersedia secara open source — cocok untuk **sains dan pengetahuan umum, psikologi dan motivasi, edukasi dan kampanye kesadaran, konten yang menenangkan hati, cerita populer, dan beragam niche lainnya.**
 
 </div>
 

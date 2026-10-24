@@ -2,16 +2,16 @@
 
 [🇺🇸 EN](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [**🇹🇷 TR**](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# Yapay Zekâ ile Çöp Adam Videosu Oluşturun
+# YouTube için Yapay Zekâ ile Çöp Adam Videosu Oluşturun
 
-**Fikirlerinizi tutarlı bir görsel stille, kaliteli çöp adam videolarına dönüştürün.**
+**Her fikri, tutarlı bir görsel stile sahip yüksek kaliteli bir çöp adam videosuna dönüştürün.**
 
 [![GitHub Yıldızları](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT Lisansı](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Bir konu, metin veya senaryo verin; **seslendirme, altyazı ve mikro animasyon içeren eksiksiz bir video otomatik hazırlansın**. Kontrolü elinizde tutmak isterseniz Director moduyla **animasyon senaryosu, sahne planı ve her bölüm için video istemleri** alın; klip üretimini ve kurguyu kendiniz yönetin.
+Bir konu, makale veya bağlantı paylaşın; görseller, seslendirme, altyazılar, ses efektleri ve mikro animasyonlar otomatik hazırlansın, eksiksiz bir çöp adam videosu ortaya çıksın. **Kameraya çıkmadan da kendine özgü bir YouTube kanalı oluşturun.**
 
-Popüler çöp adam stillerini bir araya getiren, sürekli gelişen açık kaynaklı bir kütüphane. **YouTube açıklayıcı videoları, TikTok içerikleri, iş hayatı ve motivasyon, eğitici videolar ve duygusal hikâyeler** için tasarlandı.
+İnternette popüler olan çöp adam animasyon stillerini bir araya getirir; açık kaynak olarak sürekli güncellenir. **Bilim ve bilgi içerikleri, psikoloji ve motivasyon, eğitim ve farkındalık, duygusal destek, popüler hikâyeler ve daha pek çok içerik alanı** için uygundur.
 
 </div>
 

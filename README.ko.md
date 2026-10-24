@@ -2,16 +2,16 @@
 
 [🇺🇸 EN](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [**🇰🇷 한국어**](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# AI 스틱맨 애니메이션 스타일 모음
+# 얼굴 공개 없는 YouTube 채널을 위한 AI 스틱맨 영상 생성기
 
-**아이디어 하나를, 일관된 그림체의 완성도 있는 영상으로.**
+**어떤 아이디어든, 일관된 그림체의 고품질 스틱맨 영상으로.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-주제, 원고, 이야기 대본을 주면 **내레이션·자막·부분 애니메이션이 담긴 완성 영상을 자동으로 제작**합니다. 직접 연출을 조정하고 싶다면 Director 모드에서 **영상 대본, 스토리보드, 구간별 영상 프롬프트**를 받아 생성과 편집을 진행할 수 있습니다.
+주제, 글, 링크만 주면 화면, 내레이션, 자막, 효과음, 부분 애니메이션을 자동으로 제작해 한 편의 스틱맨 영상을 완성합니다. **얼굴을 공개하지 않아도, 개성이 뚜렷한 YouTube 채널을 만들 수 있습니다.**
 
-온라인에서 인기 있는 스틱맨 스타일을 모아 무료 오픈소스로 꾸준히 업데이트합니다. **YouTube 지식·정보 영상, TikTok, 직장 이야기와 동기부여 콘텐츠, 교육 영상, 일상의 감정을 담은 이야기**에 활용해 보세요.
+온라인에서 인기 있는 스틱맨 그림체를 모아 꾸준히 업데이트하고 오픈소스로 공개합니다. **지식·과학 해설, 심리·자기계발, 교육·캠페인, 공감·힐링, 인기 스토리 등 다양한 콘텐츠 분야에 활용할 수 있습니다.**
 
 </div>
 

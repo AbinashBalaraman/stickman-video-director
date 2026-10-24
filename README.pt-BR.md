@@ -2,16 +2,16 @@
 
 [🇺🇸 EN](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [**🇧🇷 PT-BR**](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# Animação com bonecos de palito: biblioteca de estilos
+# Gerador de vídeos de bonecos de palito com IA para o YouTube
 
-**Transforme qualquer ideia em um vídeo bem produzido, com um estilo visual consistente.**
+**Transforme qualquer ideia em um vídeo de bonecos de palito de alta qualidade, com um estilo visual consistente.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Passe um tema, um texto ou um roteiro e **crie automaticamente um vídeo completo, com narração, legendas e microanimações**. Prefere controlar a produção? No modo Director, receba **roteiro de animação, storyboard e prompts de vídeo por trecho** para gerar e editar os clipes do seu jeito.
+Basta fornecer um tema, um artigo ou um link para gerar automaticamente imagens, narração, legendas, efeitos sonoros e microanimações — e receber um vídeo completo de bonecos de palito. **Crie um canal no YouTube com identidade própria, sem aparecer na câmera.**
 
-Estilos populares de animação com bonecos de palito, reunidos em um projeto gratuito, de código aberto e em constante evolução — para **vídeos explicativos no YouTube, TikTok, histórias sobre trabalho e superação, conteúdo educativo e histórias do cotidiano**.
+Reúne estilos de animação com bonecos de palito populares na internet, com atualizações contínuas e código aberto — para **divulgação científica, psicologia e motivação, educação e conscientização, acolhimento emocional, histórias em alta e muitos outros nichos.**
 
 </div>
 

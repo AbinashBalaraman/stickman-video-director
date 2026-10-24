@@ -2,16 +2,16 @@
 
 [🇺🇸 EN](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [**🇫🇷 FR**](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# Générateur de vidéos stickman par IA et styles d’animation
+# Générateur de vidéos stickman par IA pour YouTube sans montrer son visage
 
-**Transformez vos idées en vidéos de qualité, avec des personnages en bâtons et un style visuel cohérent.**
+**Transformez n’importe quelle idée en une vidéo stickman de haute qualité, au style visuel cohérent.**
 
 [![Étoiles GitHub](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![Licence MIT](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Un sujet, un texte ou un scénario suffit pour **créer automatiquement une vidéo complète avec voix off, sous-titres et micro-animations**. Vous préférez garder la main ? Le mode Director vous fournit **le scénario, le découpage et les prompts vidéo de chaque séquence**, puis vous gérez la génération et le montage.
+Donnez un sujet, un article ou un lien : les visuels, la voix off, les sous-titres, les effets sonores et les micro-animations sont créés automatiquement pour livrer une vidéo stickman complète. **Créez une chaîne YouTube à l’identité reconnaissable, sans montrer votre visage.**
 
-Une sélection de styles stickman populaires, enrichie au fil du temps et disponible en open source, pour vos **vidéos explicatives YouTube, TikTok, contenus sur le travail et la motivation, vidéos éducatives et récits du quotidien**.
+Retrouvez les styles stickman populaires sur le web dans une collection open source, régulièrement enrichie et mise à jour. Elle se prête à de nombreux formats : **vulgarisation, psychologie et motivation, éducation et sensibilisation, récits réconfortants, histoires du moment et bien plus encore.**
 
 </div>
 

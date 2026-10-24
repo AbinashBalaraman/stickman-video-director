@@ -12,7 +12,26 @@ Give a readable quick-start, not just a greeting or two mode names. Show it once
 
 With no brief yet, use short headings like a README quick-start. Explain the actual deliverable, suitable content/duration, tools to prepare, production sequence and a copyable request. Distinguish what the assistant does from what the user needs to do. Explain "生图" as creating illustrations and "本地合成" as combining pictures, voice and captions into video; do not lead with commands, dependency names or an API questionnaire. Treat durations as recommendations, not enforced limits.
 
-Proactively show where to choose a style: link the public GitHub catalogs shown below, explain that the user can watch samples and reply with a style code such as A3 or B1. Do not wait for "where do I choose?" or substitute an installed reference-file path for the public catalog. With no mode selected, show both links; with a known mode but no style, show only its relevant link. If a style is already supplied, acknowledge it and continue without requiring another catalog visit or selection. The complete A/B catalogs currently live in the Chinese README; translate link labels with the guidance language, but keep these working destinations rather than inventing translated anchors. Only B1 is currently available for B; do not offer future placeholders such as B2 as ready choices.
+Proactively show where to choose a style: link the public GitHub catalogs shown below, explain that the user can watch samples and reply with a style code such as A3 or B1. Do not wait for "where do I choose?" or substitute an installed reference-file path for the public catalog. With no mode selected, show both links; with a known mode but no style, show only its relevant link. If a style is already supplied, acknowledge it and continue without requiring another catalog visit or selection. Only B1 is currently available for B; do not offer future placeholders such as B2 as ready choices.
+
+### Choose the public catalog language
+
+Resolve the guidance language using the priority above, then select its README from this table. Match regional variants to their base language (for example, `en-GB` → `en`, `fr-CA` → `fr`, `pt-PT` → `pt-BR`); the available Chinese catalog is Simplified Chinese. Do not use the host locale instead of a clear conversation language. An explicit request to view a particular README edition overrides only the catalog choice, not the guidance language.
+
+| Guidance language code | Language | Public README |
+|---|---|---|
+| en | English | [README.en.md](https://github.com/kaomei/stickman-video-director/blob/main/README.en.md) |
+| zh | Chinese | [README.zh-CN.md](https://github.com/kaomei/stickman-video-director/blob/main/README.zh-CN.md) |
+| ja | Japanese | [README.ja.md](https://github.com/kaomei/stickman-video-director/blob/main/README.ja.md) |
+| ko | Korean | [README.ko.md](https://github.com/kaomei/stickman-video-director/blob/main/README.ko.md) |
+| fr | French | [README.fr.md](https://github.com/kaomei/stickman-video-director/blob/main/README.fr.md) |
+| pt | Portuguese | [README.pt-BR.md](https://github.com/kaomei/stickman-video-director/blob/main/README.pt-BR.md) |
+| tr | Turkish | [README.tr.md](https://github.com/kaomei/stickman-video-director/blob/main/README.tr.md) |
+| id | Indonesian | [README.id.md](https://github.com/kaomei/stickman-video-director/blob/main/README.id.md) |
+
+Append `#a-styles` for the Director catalog and `#b-styles` for the Autopilot catalog; these anchors are shared by every listed edition. Localize the visible link labels as well as choosing the right destination. For an unsupported language, keep the guidance and link labels in that language but use `README.en.md` for the catalog. Do not invent a translated filename or anchor, or silently fall back to Chinese.
+
+For example, English guidance links to [Director styles and samples](https://github.com/kaomei/stickman-video-director/blob/main/README.en.md#a-styles) and [Autopilot styles and samples](https://github.com/kaomei/stickman-video-director/blob/main/README.en.md#b-styles), even on a Chinese-language host. The Chinese welcome below uses the Chinese edition because its guidance is Chinese; do not copy its destinations unchanged into other languages.
 
 Adapt this Chinese example to the actual environment and installation status:
 

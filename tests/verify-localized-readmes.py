@@ -19,7 +19,14 @@ navigation = (
 expected_files = {"README.md", *(f"README.{locale}.md" for locale, _ in navigation)}
 assert {p.name for p in root.glob("README*.md")} == expected_files
 assert source == (root / "README.en.md").read_text(), "Default homepage must match English"
-assert "# AI Stickman Video Generator & Animation Styles" in source
+assert "# AI Stickman Video Generator for Faceless YouTube Channels" in source
+english_hero = source.split("</div>", 1)[0]
+assert "**Turn any idea into a high-quality stickman video with a consistent visual style.**" in english_hero
+for phrase in ("a topic, an article, or a link", "visuals, voiceover, captions, sound effects, and subtle animation",
+               "complete stickman video", "distinctive YouTube channel without ever appearing on camera",
+               "open-source collection", "continually updated", "science and knowledge explainers",
+               "psychology and motivation", "education and awareness", "uplifting stories", "trending stories"):
+    assert phrase in english_hero, phrase
 
 def images(text):
     return re.findall(r'<img\b[^>]*\bsrc="([^"]+)"', text)
@@ -59,6 +66,13 @@ assert all(name in expected_files for name in selected), selected
 for name in selected:
     path = root / name
     text = path.read_text()
+    top = text.split("</div>", 1)[0]
+    hero_blocks = [block.strip() for block in top.split("\n\n") if block.strip()]
+    assert len(hero_blocks) == 7, (name, "title, subtitle, badges and exactly two introduction paragraphs")
+    subtitle = hero_blocks[3]
+    assert subtitle.startswith("**") and subtitle.endswith("**"), (name, "bold subtitle")
+    assert "YouTube" not in subtitle, (name, "subtitle focuses on quality and visual consistency")
+    assert "YouTube" in hero_blocks[5], (name, "faceless-channel value in first introduction paragraph")
     active = "en" if name == "README.md" else name[7:-3]
     expected_nav = " · ".join(
         f"[{'**' + label + '**' if locale == active else label}](README.{locale}.md)"
