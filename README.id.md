@@ -345,7 +345,7 @@ Proyek ini memakai lisensi MIT yang mengizinkan penggunaan komersial. Gambar, mu
 
 🎨 **Gaya yang direncanakan:** buku cerita bergambar, aksi grafiti, sitkom dua karakter, petualangan permainan kartu, perpaduan latar nyata dan ilustrasi, serta penjelasan dengan papan tulis atau presentasi.
 
-💬 **Saran dan karya komunitas:** ingin mengusulkan gaya, membagikan karya, atau melaporkan masalah? Silakan buka [Issue](https://github.com/kaomei/stickman-video-director/issues). Usulan gaya sebaiknya menyertakan referensi dan topik yang ingin dicoba. Untuk kiriman karya, sertakan video, gaya yang digunakan, dan tautan kreator agar bisa ditampilkan dengan kredit yang sesuai.
+💬 **Saran dan karya komunitas:** ingin mengusulkan gaya, membagikan karya, atau melaporkan masalah? Hubungi [@CrazyKaomei](https://t.me/CrazyKaomei) di Telegram. Usulan gaya sebaiknya menyertakan referensi dan topik yang ingin dicoba. Untuk kiriman karya, sertakan video, gaya yang digunakan, dan tautan kreator agar bisa ditampilkan dengan kredit yang sesuai.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

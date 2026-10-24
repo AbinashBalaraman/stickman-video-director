@@ -339,7 +339,7 @@ Proje MIT lisanslıdır ve ticari kullanıma izin verir. Videoda kullanılan ü�
 
 🎨 **Planlanan stiller**: resimli hikâye kitabı, grafiti dövüş, iki kişilik sitcom, kart oyunu macerası, gerçek ve çizimin birleştiği dünyalar, tahta başında anlatım.
 
-💬 **Öneri ve katkılar**: yeni bir stil önermek, çalışmanızı paylaşmak veya sorun bildirmek için [Issues](https://github.com/kaomei/stickman-video-director/issues) bölümüne yazın. Stil önerirken bir referans ve işlemek istediğiniz konuyu ekleyin. Çalışmanızı paylaşırken videoyu, kullandığınız stili ve sunumda adınızı belirtmek için bir yazar bağlantısını gönderin.
+💬 **Öneri ve katkılar**: yeni bir stil önermek, çalışmanızı paylaşmak veya sorun bildirmek için Telegram üzerinden [@CrazyKaomei](https://t.me/CrazyKaomei) ile iletişime geçin. Stil önerirken bir referans ve işlemek istediğiniz konuyu ekleyin. Çalışmanızı paylaşırken videoyu, kullandığınız stili ve sunumda adınızı belirtmek için bir yazar bağlantısını gönderin.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

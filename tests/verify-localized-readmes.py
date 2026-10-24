@@ -54,7 +54,7 @@ for video in expected_videos:
     assert (root / video).is_file(), video
 shared_links = (
     "https://github.com/kaomei/stickman-video-director",
-    "https://github.com/kaomei/stickman-video-director/issues",
+    "https://t.me/CrazyKaomei",
     "https://github.com/kaomei/stickman-video-director/blob/main/LICENSE",
     "https://github.com/leksautomate",
     "https://x.com/CrazyKaomei/status/2102311241046008268",
@@ -85,6 +85,9 @@ for name in selected:
     assert anchors(text) == expected_anchors, (name, "shared anchors and section order")
     for link in shared_links:
         assert link in text, (name, link)
+    feedback = next(line for line in text.splitlines() if line.startswith("💬 **"))
+    assert "Telegram" in feedback and "[@CrazyKaomei](https://t.me/CrazyKaomei)" in feedback, (name, "Telegram feedback contact")
+    assert "https://github.com/kaomei/stickman-video-director/issues" not in feedback, (name, "Do not require a GitHub Issue for feedback")
     assert "recent-updates" not in text, (name, "removed updates section")
     assert not re.search(r"monixin888|2109651037850325112", text, re.I), name
     assert not re.search(r"guaranteed (viral|views|income)|/Users/|eva2050|240669650", text, re.I), name

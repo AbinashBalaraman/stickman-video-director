@@ -338,7 +338,7 @@ Skill은 무료 오픈소스입니다. 이미지 생성, 음성 합성, 영상 �
 
 🎨 **추가 예정 스타일**: 손그림 그림책, 그래피티 액션, 두 사람의 시트콤, 카드 게임 모험, 실사와 일러스트의 결합, 강의·설명형 연출. 아직 계획 단계입니다.
 
-💬 **제안·작품 공유**: 새로운 스타일 요청, 작품 소개, 문제 제보는 [Issues](https://github.com/kaomei/stickman-video-director/issues)에 남겨 주세요. 스타일 제안에는 참고 자료와 만들고 싶은 주제를, 작품 제출에는 영상·사용한 스타일·작가 링크를 함께 보내 주시면 소개와 크레딧 표기에 도움이 됩니다.
+💬 **제안·작품 공유**: 새로운 스타일 요청, 작품 소개, 문제 제보는 Telegram의 [@CrazyKaomei](https://t.me/CrazyKaomei)로 편하게 연락해 주세요. 스타일 제안에는 참고 자료와 만들고 싶은 주제를, 작품 제출에는 영상·사용한 스타일·작가 링크를 함께 보내 주시면 소개와 크레딧 표기에 도움이 됩니다.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

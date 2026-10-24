@@ -336,7 +336,7 @@ The project uses the MIT license, which permits commercial use. Third-party imag
 
 🎨 **Planned styles**: illustrated storybooks, doodle fights, two-character sitcoms, card-based adventures, live-action/animation hybrids, and classroom explainers.
 
-💬 **Ideas and submissions**: suggest a style, share your work, or report a problem in [Issues](https://github.com/kaomei/stickman-video-director/issues). For style requests, include a reference and the topic you want to cover. For submissions, include your video, the style used, and your creator link so your work can be showcased and credited.
+💬 **Ideas and submissions**: suggest a style, share your work, or report a problem by messaging [@CrazyKaomei](https://t.me/CrazyKaomei) on Telegram. For style requests, include a reference and the topic you want to cover. For submissions, include your video, the style used, and your creator link so your work can be showcased and credited.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

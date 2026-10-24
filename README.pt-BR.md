@@ -344,7 +344,7 @@ O projeto usa a licença MIT, que permite uso comercial. Imagens, músicas, efei
 
 🎨 **Estilos planejados:** livro ilustrado, lutas em grafite, sitcom de dois personagens, aventura com cartas, mistura de cenários reais e ilustrados e explicações com quadro ou apresentação.
 
-💬 **Sugestões e trabalhos da comunidade:** quer propor um estilo, mostrar um vídeo ou relatar um problema? Abra uma [Issue](https://github.com/kaomei/stickman-video-director/issues). Para sugerir um estilo, inclua referências e o tema que quer explorar. Para enviar um trabalho, inclua o vídeo, o estilo usado e o link do autor para exibição e créditos.
+💬 **Sugestões e trabalhos da comunidade:** quer propor um estilo, mostrar um vídeo ou relatar um problema? Fale com [@CrazyKaomei](https://t.me/CrazyKaomei) no Telegram. Para sugerir um estilo, inclua referências e o tema que quer explorar. Para enviar um trabalho, inclua o vídeo, o estilo usado e o link do autor para exibição e créditos.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

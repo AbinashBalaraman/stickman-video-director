@@ -337,7 +337,7 @@ Skillは無料のオープンソースです。画像生成、音声合成、動
 
 🎨 **今後追加したい画風（計画中）**：手描き絵本、グラフィティ・アクション、二人のシチュエーションコメディ、カードゲーム風アドベンチャー、実写とイラストの組み合わせ、講義・解説スタイル。
 
-💬 **提案・作品投稿**：新しい画風のリクエスト、作品紹介、不具合の報告は [Issues](https://github.com/kaomei/stickman-video-director/issues) へ。画風の提案には参考作品と作りたいテーマを、作品投稿には動画・使用した画風・作者リンクを添えてください。紹介やクレジット表記に役立ちます。
+💬 **提案・作品投稿**：新しい画風のリクエスト、作品紹介、不具合の報告は、Telegram の [@CrazyKaomei](https://t.me/CrazyKaomei) までお気軽にご連絡ください。画風の提案には参考作品と作りたいテーマを、作品投稿には動画・使用した画風・作者リンクを添えてください。紹介やクレジット表記に役立ちます。
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

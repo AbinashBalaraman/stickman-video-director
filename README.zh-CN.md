@@ -336,7 +336,7 @@ Skill 免费开源。生图、配音和视频生成等服务，按你选择的�
 
 🎨 **更多画风（计划中）**：手绘绘本、涂鸦打斗、双人情景喜剧、卡牌闯关，以及虚实融合和讲台解说。
 
-💬 **建议与投稿**：想看新画风、分享作品或反馈问题，都欢迎到 [Issues](https://github.com/kaomei/stickman-video-director/issues) 留言。画风建议请附参考和想做的主题；投稿请附作品、所用风格与作者链接，方便展示和署名。
+💬 **建议与投稿**：想看新画风、分享作品或反馈问题，欢迎通过 Telegram 联系 [@CrazyKaomei](https://t.me/CrazyKaomei)。画风建议请附参考和想做的主题；投稿请附作品、所用风格与作者链接，方便展示和署名。
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">
