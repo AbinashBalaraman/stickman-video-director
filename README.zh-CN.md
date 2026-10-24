@@ -54,13 +54,13 @@
 
 ⭐ **本系列持续更新，欢迎点个 Star，更多热门画风陆续上线。**
 
-[开始使用](#quick-start) · [A 画风](#a-styles) · [B 画风](#b-styles) · [最近更新](#recent-updates) · [常见问题](#faq)
+[开始使用](#quick-start) · [A 画风](#a-styles) · [B 画风](#b-styles) · [常见问题](#faq)
 
 </div>
 
 <a id="creation-modes"></a>
 
-## 你想怎么做？
+## 两种视频制作模式
 
 **想精细控制镜头，选 A · Director；想做长片、不想逐段拼装，选 B · Autopilot。** 同一个项目，两种制作方式。
 
@@ -242,7 +242,7 @@ https://github.com/kaomei/stickman-video-director
 | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="历史卡通风：江户武士与街巷日常" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="历史卡通风：古埃及神庙、黑猫与木乃伊" width="360"> |
 | 江户街巷 · 武士服饰 · 日常反差 | 彩色神庙 · 黑猫角色 · 历史趣事 |
 
-画风与提示词贡献：[Lawal Ridwan / @leksautomate](https://github.com/leksautomate)；日本样片由原作者提供。
+画风与提示词贡献：[Lawal Ridwan / @leksautomate](https://github.com/leksautomate)。
 
 ---
 
@@ -262,10 +262,20 @@ https://github.com/kaomei/stickman-video-director
 - **适合内容**：YouTube 知识讲解、心理成长、职场故事、教育科普与产品宣传。
 - **怎么选**：想把一个话题、一段文案或故事脚本做成带配音、字幕的完整视频，可以选这一风格。画面跟随语音节奏编排，适合持续讲解和长篇叙事。
 
-| 案例 1：为什么越努力发布，越没人记住？ | 案例 2：待更新… |
-|:---:|:---:|
-| <a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 极简手绘风：点击查看或下载 Bodi 有声样片，含字幕、手绘角色与微动画" width="360"></a> | 待更新… |
-| 手绘角色 · 重点文字 · 微动画 | 更多样片陆续更新 |
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">案例 1：不露脸做 YouTube</th>
+    <th width="50%" align="center">案例 2：为什么没人看？</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b1-minimal-handdrawn.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="B1 极简手绘风案例 1：点击查看或下载不露脸的 YouTube 视频创作有声样片" width="360"></a></td>
+    <td width="50%" align="center"><a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 极简手绘风案例 2：点击查看或下载 Bodi 有声样片，含字幕、手绘角色与微动画" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">手绘角色 · 重点文字 · 微动画</td>
+    <td align="center">Bodi 旁白 · 生动表情 · 微动画</td>
+  </tr>
+</table>
 
 ---
 
@@ -281,89 +291,63 @@ https://github.com/kaomei/stickman-video-director
 
 ## 常见问题
 
-<details>
-<summary>没有脚本，也能做视频吗？</summary>
+### Q1. 没有脚本，也能做视频吗？
 
 可以。给一个话题、一篇文章、一个链接或具体需求，助手会先整理成视频脚本；已有脚本也可以直接使用。最好一起说明目标观众、发布平台和期望时长。
 
-</details>
-
-<details>
-<summary>不会画画、不会做动画，也能用吗？</summary>
+### Q2. 不会画画、不会做动画，也能用吗？
 
 不需要绘画或动画基础。导演模式会提供分镜和逐段提示词，你再生成片段、完成剪辑；自动成片模式在配置好所需服务后，可以自动完成画面、旁白、字幕、音效和视频合成。
 
-</details>
-
-<details>
-<summary>一定要用 Codex 吗？</summary>
+### Q3. 一定要用 Codex 吗？
 
 不一定。导演模式可以在支持安装和使用 Skill 的 AI 助手中使用。
 
 自动成片模式需要 Codex、Claude Code 等能够读写文件、执行命令的环境，并配置相应的生图、配音服务和本地依赖。
 
-</details>
-
-<details>
-<summary>怎么把文章或参考内容，变成更有吸引力的视频？</summary>
+### Q4. 怎么把文章或参考内容，变成更有吸引力的视频？
 
 告诉助手你想吸引谁、重点讲什么，以及希望观众看完后做什么。助手会据此提炼选题角度，设计开场钩子、叙事推进和结尾引导，再整理成分镜。
 
 有喜欢的视频，也可以提供参考，说明你喜欢它的节奏、表达方式或故事结构。借鉴方法，保留自己的观点与表达；涉及历史、商业和科学的事实，发布前仍需核查。
 
-</details>
-
 <!-- readme:platforms -->
 
-<details>
-<summary>可以自定义画幅、语言和配音吗？</summary>
+### Q5. 可以自定义画幅、语言和配音吗？
 
 可以，在开始时说明即可。YouTube 长视频通常选 `16:9`，Shorts、TikTok 和 Reels 通常选 `9:16`；旁白语言、音色和字幕也可以按需求选择，具体音色取决于所用配音服务。
 
-</details>
-
-<details>
-<summary>使用需要付费吗？</summary>
+### Q6. 使用需要付费吗？
 
 Skill 免费开源。生图、配音和视频生成等服务，按你选择的平台及账号方案计费；订阅某个平台的会员，不一定包含它的 API 调用额度。
 
-</details>
-
-<details>
-<summary>画面或配音不满意，需要全部重做吗？</summary>
+### Q7. 画面或配音不满意，需要全部重做吗？
 
 不需要。建议先确认脚本和制作方案，再做短样片，检查画风、人物、声音、字幕与节奏，满意后再制作整片。
 
 如果只有某一段不合适，可以优先调整对应片段，复用已经确认的配音和素材，减少返工与重复消耗。
 
-</details>
+### Q8. 安装好了，接下来做什么？
 
-<a id="recent-updates"></a>
+直接告诉助手你想做的视频，可以提供话题、文章、链接或脚本。助手会引导你选择模式、画风，并检查所需配置；缺什么、怎么补、下一步做什么，都会逐步说明。自动成片先确认脚本和 20 秒有声样片，再制作整片。
 
-## 最近更新
+### Q9. 做出来的视频可以发 YouTube、用于商业项目吗？
 
-- **2026-10-23**：B1「极简手绘风」定稿，更新 21 秒 Bodi 有声样片与中文预览；各 B 画风独立维护配音、字幕和节奏，A1–A5 保持原样。同一个 Skill 内使用 **B · Autopilot 自动成片模式**，本轮先更新中文介绍。
-- **2026-10-20：** 首页默认展示英语，新增土耳其语和印尼语版本，保留中文、日语、韩语和巴西葡语入口。Skill 规则不变。
-- **2026-10-20**：新增风格 5「历史卡通风」，展示日本与埃及样片，日本样片作为头部预览；感谢 @leksautomate 的画风与提示词贡献。
-- **2026-10-15**：优化中文首页、安装入口和案例说明，加入轻量动图预览与 Star 增长曲线；Skill 规则不变。
-
-已有用户：想用 **B · Autopilot 自动成片模式**，请更新同一个 Skill；已有导演模式和 A 系列画风继续保留。[查看更新记录](https://github.com/kaomei/stickman-video-director/blob/main/CHANGELOG.zh-CN.md)。
+项目采用 MIT 许可，允许商用。视频使用的第三方图片、音乐、音效及配音服务仍需遵守各自的授权条款；能否开通 YouTube 收益，则以平台审核为准。
 
 <!-- readme:contribute -->
-
-<a id="whats-next"></a>
-
-## 接下来做什么
-
-- **更多画风（计划中）**：手绘绘本、涂鸦打斗、双人情景喜剧、卡牌闯关，以及虚实融合和讲台解说。
-
-想看新画风、分享作品或反馈问题，都欢迎到 [Issues](https://github.com/kaomei/stickman-video-director/issues) 留言。画风建议请附参考和想做的主题；投稿请附作品、所用风格与作者链接，方便展示和署名。
 
 ## Star 增长曲线
 
 ⭐ **想做不露脸的 YouTube 频道，探索内容变现？** Star 这个项目，持续获取火柴人画风、视频提示词和自动化制作流程，让你的频道不再卡在“视频怎么做”这一步。
 
 🔔 **关注 [@CrazyKaomei](https://x.com/CrazyKaomei)**：我是烤妹儿，专注不出镜视频与自动化工作流，分享如何把脚本、配音、生图和剪辑串起来。让一个人也能持续做视频，把更多精力留给选题、频道增长和变现。
+
+<a id="whats-next"></a>
+
+🎨 **更多画风（计划中）**：手绘绘本、涂鸦打斗、双人情景喜剧、卡牌闯关，以及虚实融合和讲台解说。
+
+💬 **建议与投稿**：想看新画风、分享作品或反馈问题，都欢迎到 [Issues](https://github.com/kaomei/stickman-video-director/issues) 留言。画风建议请附参考和想做的主题；投稿请附作品、所用风格与作者链接，方便展示和署名。
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

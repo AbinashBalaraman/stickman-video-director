@@ -16,9 +16,14 @@ assert "本系列持续更新，欢迎点个 Star，更多热门画风陆续上�
 assert "想做不露脸的 YouTube 频道，探索内容变现？" in cn
 assert "我是烤妹儿，专注不出镜视频与自动化工作流" in cn
 
-sections = ("## 你想怎么做？", "## 开始使用", "## A · 导演模式画风一览",
-            "## B · 自动成片画风一览", "## 常见问题", "## 最近更新")
+sections = ("## 两种视频制作模式", "## 开始使用", "## A · 导演模式画风一览",
+            "## B · 自动成片画风一览", "## 常见问题", "## Star 增长曲线", "## 许可证")
 assert [cn.index(s) for s in sections] == sorted(cn.index(s) for s in sections)
+assert "## 接下来做什么" not in cn, "Keep the removed next-steps heading out of the footer"
+footer = cn.split("## Star 增长曲线", 1)[1].split("## 许可证", 1)[0]
+footer_items = ("⭐ **想做不露脸的 YouTube 频道", "🔔 **关注", '<a id="whats-next"></a>',
+                "🎨 **更多画风（计划中）**：", "💬 **建议与投稿**：", '<div align="center">')
+assert [footer.index(s) for s in footer_items] == sorted(footer.index(s) for s in footer_items), "Place icon-led contribution paragraphs after the creator introduction and before the Star chart"
 mode_comparison = cn.split('<a id="creation-modes"></a>', 1)[1].split('<a id="quick-start"></a>', 1)[0]
 mode_rows = [line for line in mode_comparison.splitlines() if line.startswith("|")]
 assert mode_rows[0] == '|  | <div align="center">A · 导演模式 · Director</div> | <div align="center">B · 自动成片 · Autopilot</div> |', "Center only the mode headings"
@@ -30,10 +35,13 @@ assert "[查看画风一览 ↓]" not in cn, "Do not restore the removed per-mod
 assert "[A 画风](#a-styles) · [B 画风](#b-styles)" in cn, "Keep the top style navigation"
 navigation = next(line for line in cn.splitlines() if line.startswith("[开始使用](#quick-start)"))
 assert navigation.endswith("[常见问题](#faq)"), "Replace only the tutorial shortcut with the FAQ anchor"
+assert "[最近更新]" not in navigation, "Keep the removed updates shortcut out of the navigation"
+assert '<a id="recent-updates"></a>' not in cn, "Do not restore the removed updates anchor"
+assert "## 最近更新" not in cn, "Do not restore the removed updates section"
 assert "完整制作教程" not in navigation
 assert "[完整制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)" in cn, "Keep the tutorial in the Director instructions"
 assert "## 使用小贴士" not in cn
-faq = cn.split('<a id="faq"></a>', 1)[1].split('<a id="recent-updates"></a>', 1)[0]
+faq = cn.split('<a id="faq"></a>', 1)[1].split('<!-- readme:contribute -->', 1)[0]
 faq_questions = (
     "没有脚本，也能做视频吗？",
     "不会画画、不会做动画，也能用吗？",
@@ -42,13 +50,18 @@ faq_questions = (
     "可以自定义画幅、语言和配音吗？",
     "使用需要付费吗？",
     "画面或配音不满意，需要全部重做吗？",
+    "安装好了，接下来做什么？",
+    "做出来的视频可以发 YouTube、用于商业项目吗？",
 )
-assert re.findall(r"<summary>(.*?)</summary>", faq) == list(faq_questions), "Keep the seven approved FAQ questions in order"
-assert faq.count("<details>") == faq.count("</details>") == 7
-assert "<details open" not in faq, "Keep FAQs collapsed by default"
+assert re.findall(r"^### Q(\d+)\. (.+)$", faq, re.M) == [
+    (str(number), question) for number, question in enumerate(faq_questions, 1)
+], "Keep Q1-Q9 directly visible with the nine approved questions in order"
+assert "<details" not in faq and "</details>" not in faq and "<summary" not in faq, "Do not collapse the FAQ answers"
 for requirement in ("目标观众、发布平台和期望时长", "开场钩子、叙事推进和结尾引导",
                     "具体音色取决于所用配音服务", "不一定包含它的 API 调用额度",
-                    "复用已经确认的配音和素材"):
+                    "复用已经确认的配音和素材", "缺什么、怎么补、下一步做什么",
+                    "自动成片先确认脚本和 20 秒有声样片，再制作整片",
+                    "第三方图片、音乐、音效及配音服务", "以平台审核为准"):
     assert requirement in faq, requirement
 assert "不需要另装第二个 Skill" in cn
 assert "**10 分钟及以上**" in cn and "连续故事短剧" in cn
@@ -101,7 +114,7 @@ for link in re.findall(r"\]\(([^)]+)\)", cn):
         assert (root / link.split("#")[0]).is_file(), link
 
 previews = sorted(set(re.findall(r'src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/(assets/readme/previews/[^" ]+\.gif)"', cn)))
-assert len(previews) == 12, "Keep all existing lightweight A previews and the B1 preview"
+assert len(previews) == 13, "Keep all existing lightweight A previews and both B1 short previews"
 for preview in previews:
     file = root / preview
     header = file.read_bytes()[:10]
@@ -114,9 +127,22 @@ assert re.search(r'src="([^"]+/b1-minimal-handdrawn-2026-10-23\.gif)"', hero).gr
 fields = ("- **画面特点**：", "- **适合内容**：", "- **怎么选**：")
 assert all(b1.count(field) == 1 for field in fields), "Use the same introduction fields as A styles"
 assert [b1.index(field) for field in fields] == sorted(b1.index(field) for field in fields)
-rows = [line for line in b1.splitlines() if line.startswith("|")]
-assert len(rows) == 4 and all(row.count("|") == 3 for row in rows), "Match A's two-column sample table"
-assert rows[1] == "|:---:|:---:|" and "待更新" in rows[2]
+table = re.search(r'<table width="100%">(.*?)</table>', b1, re.S).group(1)
+rows = re.findall(r"<tr>(.*?)</tr>", table, re.S)
+assert len(rows) == 3, "Keep two B1 short cases with a heading, preview and caption row"
+assert re.findall(r'<th width="50%" align="center">(.*?)</th>', rows[0]) == [
+    "案例 1：不露脸做 YouTube", "案例 2：为什么没人看？"
+], "Use concise B1 case titles while preserving the original and later sample order"
+cells = re.findall(r'<td width="50%" align="center">(.*?)</td>', rows[1], re.S)
+assert len(cells) == 2, "Keep both preview columns equally sized and centered"
+assert 'href="assets/readme/b1-minimal-handdrawn.mp4"' in cells[0] and "/b1-minimal-handdrawn.gif\"" in cells[0]
+assert 'href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"' in cells[1] and "/b1-minimal-handdrawn-2026-10-23.gif\"" in cells[1]
+assert all('width="360"' in cell for cell in cells), "Match A's lightweight preview width"
+assert len(re.findall(r'<td align="center">.*?</td>', rows[2])) == 2
+assert "待更新" not in table, "Both short cases already exist"
+assert re.findall(r'href="([^"]+\.mp4)"', b1) == [
+    "assets/readme/b1-minimal-handdrawn.mp4", "skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"
+], "Show only the two approved short samples, not the new longform film"
 assert "播放有声样片" not in b1 and "画风与制作说明" not in b1, "Do not restore the removed redundant link row"
 assert re.search(r'<img src="https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/assets/readme/previews/b1-minimal-handdrawn-2026-10-23\.gif"[^>]+width="360">', b1), "Keep the immutable B1 preview route and match A's preview width"
 assert 'href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"' in b1, "Click the preview to view/download the approved sample with sound"
@@ -124,10 +150,10 @@ assert "点击查看或下载 Bodi 有声样片" in b1, "GitHub MP4 blob links m
 current_sample = root / "skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"
 assert hashlib.sha256(current_sample.read_bytes()).hexdigest() == "111c241a836a0c26b27df2cbff3ba5697b97460dbb873b68dd2f6eda2383b3fc", "Publish the accepted Ryan V4, not the runtime fixture"
 sample = root / "assets/readme/b1-minimal-handdrawn.mp4"
-assert hashlib.sha256(sample.read_bytes()).hexdigest() == "9d2a1789eec25ad3b825631ee3d1ea3cb7417aafb0a5c223ccce08434cedcc3a", "Preserve the original V15 archive"
+assert hashlib.sha256(sample.read_bytes()).hexdigest() == "9d2a1789eec25ad3b825631ee3d1ea3cb7417aafb0a5c223ccce08434cedcc3a", "Restore the original V15 sample without regenerating it"
 assert "https://github.com/leksautomate" in cn
 assert "api.star-history.com/svg" in cn
 license_targets = {"LICENSE", "https://github.com/kaomei/stickman-video-director/blob/main/LICENSE"}
 assert any("MIT" in label and target in license_targets
            for label, target in re.findall(r"\[([^\]]+)\]\(([^)]+)\)", cn)), "Link the repository's MIT license"
-print("Chinese A/B layout, approved narration/CTA, links, current Ryan V4 and preserved V15 archive passed.")
+print("Chinese A/B layout, approved narration/CTA, links, restored V15 case 1 and Ryan V4 case 2 passed.")

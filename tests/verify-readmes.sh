@@ -3,6 +3,7 @@ set -euo pipefail
 
 readme_root=$(git rev-parse --show-toplevel)
 python3 "$readme_root/tests/verify-first-use-guidance.py"
+python3 "$readme_root/tests/verify-b-common-quality.py"
 default_readmes=(
   README.md
   README.en.md
