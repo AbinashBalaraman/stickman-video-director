@@ -1,133 +1,123 @@
 #!/usr/bin/env python3
-"""Check locale parity without requiring literal translations."""
+"""Check eight-language parity against the approved Chinese A/B layout.
+
+Wording is localized, not required to be a literal translation. These checks
+protect navigation, structure, examples, pinned media and setup boundaries.
+"""
 from pathlib import Path
 import re
+import sys
 
 root = Path(__file__).resolve().parents[1]
+cn = (root / "README.zh-CN.md").read_text()
 source = (root / "README.md").read_text()
-# Pin uploaded assets, not a moving branch; GitHub proxies this external CDN via Camo.
-preview_base = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/"
-# B1 is published in Chinese first; each accepted short case pins its asset commit.
-chinese_b1_preview = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif"
-chinese_b1_original_preview = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif"
-chinese_b1_previews = {chinese_b1_preview, chinese_b1_original_preview}
-preview_pattern = rf'src="{re.escape(preview_base)}(assets/readme/previews/[^" ]+\.gif)"'
-expected_previews = set(re.findall(preview_pattern, source))
-assert len(expected_previews) == 11
-for readme in root.glob("README*.md"):
-    text = readme.read_text()
-    images = re.findall(r'src="([^" ]+\.gif)"', text)
-    assert images and all(
-        url.startswith(preview_base)
-        or (readme.name == "README.zh-CN.md" and url in chinese_b1_previews)
-        for url in images
-    ), readme.name
-    if readme.name == "README.zh-CN.md":
-        assert {url for url in images if not url.startswith(preview_base)} == chinese_b1_previews, "Keep both approved Chinese B1 short-case previews pinned"
-    hero = text.split('<table width="100%">', 1)[1].split("</table>", 1)[0]
-    rows = re.findall(r"<tr>(.*?)</tr>", hero, re.DOTALL)
-    assert len(rows) == 3, (readme.name, "Hero must use three rows")
-    assert all(row.count('<td width="50%"') == 2 for row in rows), readme.name
-    order = ("dark-theme-demo.gif", "style-2a-demo.gif", "style-3-demo.gif",
-             "style-4-cozy-cafe.gif", "style-5-japan-hero.gif")
-    assert [hero.index(asset) for asset in order] == sorted(hero.index(asset) for asset in order)
-    last_cells = re.findall(r"<td[^>]*>(.*?)</td>", rows[-1], re.DOTALL)
-    assert "style-5-japan-hero.gif" in last_cells[0]
-    if readme.name == "README.zh-CN.md":
-        assert "<strong>极简手绘风</strong>" in last_cells[1]
-        assert f'href="#b1"><img src="{chinese_b1_preview}"' in last_cells[1]
-    else:
-        assert "<strong>" in last_cells[1] and "<img" not in last_cells[1]
-approved_voiceover = (
-    "Ten thousand years ago, one man finally solved all his problems. He shut them outside.",
-    "Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.",
-    "The reward got smaller. The workload got bigger. And somehow… they called that progress.",
-)
-locales = {
-    "en": ("English", "# AI Stickman Animation Style Library", "### Style", "Cozy Storytelling", "Both are in Chinese"),
-    "ja": ("日本語", "# AI棒人間アニメのスタイル集", "### スタイル", "ほっとする日常ストーリー", "どちらも中国語"),
-    "ko": ("한국어", "# AI 스틱맨 애니메이션 스타일 모음", "### 스타일", "따뜻한 일상 이야기", "두 글 모두 중국어"),
-    "pt-BR": ("Português do Brasil", "# Bonecos de palito com IA: biblioteca de estilos", "### Estilo", "Histórias acolhedoras", "Os dois estão em chinês"),
-    "tr": ("Türkçe", "# Yapay Zekâyla Çöp Adam Animasyonu: Stil Kütüphanesi", "### Stil", "İç Isıtan Hikâyeler", "Her iki rehber de Çince"),
-    "id": ("Bahasa Indonesia", "# Animasi Stickman AI: Kumpulan Gaya Visual", "### Gaya", "Cerita yang Menghangatkan Hati", "Keduanya dalam bahasa Mandarin"),
-}
 navigation = (
-    ("en", "English"), ("zh-CN", "简体中文"), ("ja", "日本語"),
-    ("ko", "한국어"), ("pt-BR", "Português do Brasil"),
-    ("tr", "Türkçe"), ("id", "Bahasa Indonesia"),
+    ("en", "🇺🇸 EN"), ("zh-CN", "🇨🇳 简中"), ("ja", "🇯🇵 日本語"),
+    ("ko", "🇰🇷 한국어"), ("fr", "🇫🇷 FR"), ("pt-BR", "🇧🇷 PT-BR"),
+    ("tr", "🇹🇷 TR"), ("id", "🇮🇩 ID"),
 )
 expected_files = {"README.md", *(f"README.{locale}.md" for locale, _ in navigation)}
-assert {path.name for path in root.glob("README*.md")} == expected_files
-for path in root.glob("README*.md"):
+assert {p.name for p in root.glob("README*.md")} == expected_files
+assert source == (root / "README.en.md").read_text(), "Default homepage must match English"
+assert "# AI Stickman Video Generator & Animation Styles" in source
+
+def images(text):
+    return re.findall(r'<img\b[^>]*\bsrc="([^"]+)"', text)
+
+def anchors(text):
+    return re.findall(r'<a id="([^"]+)"></a>', text)
+
+def section(text, start, end):
+    return text.split(f'<a id="{start}"></a>', 1)[1].split(end, 1)[0]
+
+expected_images = images(cn)
+assert len(expected_images) == 19 and len(set(expected_images)) == 14
+pinned = "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@"
+for url in expected_images:
+    if "/previews/" in url:
+        assert re.match(re.escape(pinned) + r"[a-f0-9]{40}/assets/readme/previews/[^/]+\.gif$", url)
+        assert (root / "assets/readme/previews" / url.rsplit("/", 1)[1]).is_file(), url
+expected_anchors = anchors(cn)
+assert len(expected_anchors) == len(set(expected_anchors))
+expected_videos = (
+    "assets/readme/b1-minimal-handdrawn.mp4",
+    "skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4",
+)
+for video in expected_videos:
+    assert (root / video).is_file(), video
+shared_links = (
+    "https://github.com/kaomei/stickman-video-director",
+    "https://github.com/kaomei/stickman-video-director/issues",
+    "https://github.com/kaomei/stickman-video-director/blob/main/LICENSE",
+    "https://github.com/leksautomate",
+    "https://x.com/CrazyKaomei/status/2102311241046008268",
+    "https://x.com/CrazyKaomei",
+    "https://flow.google.com/",
+)
+selected = sys.argv[1:] or sorted(expected_files)
+assert all(name in expected_files for name in selected), selected
+for name in selected:
+    path = root / name
     text = path.read_text()
-    active = "en" if path.name == "README.md" else path.name[7:-3]
+    active = "en" if name == "README.md" else name[7:-3]
     expected_nav = " · ".join(
         f"[{'**' + label + '**' if locale == active else label}](README.{locale}.md)"
         for locale, label in navigation
     )
-    assert expected_nav in text, (path.name, "navigation order/active language")
-    assert text.count("[**") == 1, (path.name, "one active language")
-common_links = (
-    "https://github.com/kaomei/stickman-video-director",
-    "https://github.com/kaomei/stickman-video-director/issues",
-    "https://x.com/CrazyKaomei/status/2102311241046008268",
-    "https://x.com/CrazyKaomei/status/2093893997223923822?s=20",
-    "https://flow.google.com/",
-)
-for locale, (label, title, style_prefix, style_four, tutorial_language) in locales.items():
-    path = root / f"README.{locale}.md"
-    text = path.read_text()
-    assert not re.search(r"monixin888|2109651037850325112", text, re.IGNORECASE), path.name
-    assert title in text, path.name
-    assert f"[**{label}**]({path.name})" in text
-    assert set(re.findall(preview_pattern, text)) == expected_previews
-    assert text.count('width="90%"') == 5
-    assert text.count('width="360"') == 10
-    assert text.count('width="640"') == 0
-    assert len(re.findall(rf"^{re.escape(style_prefix)} [1-5]:|^{re.escape(style_prefix)}[1-5]：", text, re.MULTILINE)) == 5
-    assert 'https://github.com/leksautomate' in text
-    assert text.index('style-4-cozy-cafe.gif') < text.index('style-5-japan-hero.gif')
-    assert style_four in text
-    assert tutorial_language in text
-    for link in common_links:
-        assert link in text, (path.name, link)
-    for voiceover in approved_voiceover:
-        assert text.count(voiceover) == 1, (path.name, voiceover)
-    rows = [line for line in text.splitlines() if any(vo in line for vo in approved_voiceover)]
-    assert len(rows) == 3 and all(row.count("|") == 4 for row in rows)
-    assert all(len(row.split("|")[2].strip()) > 80 for row in rows)
-    for date in ("2026-10-20", "2026-10-15", "2026-10-14", "2026-10-13", "2026-10-12"):
-        assert date in text
+    assert expected_nav in text, (name, "navigation order and active language")
+    assert text.count("[**") == 1, (name, "one active language")
+    assert "FR（待同步）" not in text
+    assert images(text) == expected_images, (name, "pinned images and order")
+    assert anchors(text) == expected_anchors, (name, "shared anchors and section order")
+    for link in shared_links:
+        assert link in text, (name, link)
+    assert "recent-updates" not in text, (name, "removed updates section")
+    assert not re.search(r"monixin888|2109651037850325112", text, re.I), name
+    assert not re.search(r"guaranteed (viral|views|income)|/Users/|eva2050|240669650", text, re.I), name
+    assert not any(old in text for old in ("git clone", "$skill-installer", "$directing-stickman-videos")), name
+    assert text.count('<div align="center">') == text.count("</div>"), name
+    for tag in ("table", "tr", "td", "th"):
+        assert len(re.findall(rf"<{tag}(?:\s|>)", text)) == text.count(f"</{tag}>"), (name, tag)
+    hero = text.split('<table width="100%">', 1)[1].split("</table>", 1)[0]
+    rows = re.findall(r"<tr>(.*?)</tr>", hero, re.S)
+    assert len(rows) == 3 and all(row.count('<td width="50%"') == 2 for row in rows), name
+    assert re.findall(r'href="#([^"]+)"><img', hero) == ["a1", "a2", "a3", "a4", "style-5", "b1"], name
+    assert text.count('width="90%"') == 6 and text.count('width="360"') == 12, name
+    # French typography separates a heading label from its colon with a space.
+    style_ids = re.findall(r"^### (A[1-5]|B[12])\s*[:：]", text, re.M)
+    assert style_ids == ["A1", "A2", "A3", "A4", "A5", "B1", "B2"], name
+    for variant in ("A1.1", "A1.2", "A2.1", "A2.2"):
+        assert variant in text, (name, variant)
+    faq = section(text, "faq", "<!-- readme:contribute -->")
+    assert re.findall(r"^### Q(\d+)\.", faq, re.M) == [str(i) for i in range(1, 11)], name
+    assert all(tag not in faq for tag in ("<details", "<summary")), (name, "visible Q1-Q10")
+    assert "MIT" in faq and "API" in faq and "YouTube" in faq and "Codex" in faq and "Claude Code" in faq, name
+    code = re.findall(r"```text\n(.*?)```", text, re.S)
+    assert len(code) == 3, (name, "installation, A example, B example")
+    assert shared_links[0] in code[0] and "SKILL.md" in code[0], name
+    assert all(token in code[1] for token in ("A3", "30", "16:9")), name
+    assert all(token in code[2] for token in ("B1", "5", "10", "20", "16:9", "YouTube")), name
+    assert "B1" not in code[0] and "A3" not in code[0], name
+    modes = section(text, "creation-modes", '<a id="quick-start"></a>')
+    assert all(token in modes for token in ("Codex", "Claude Code", "Google Flow", "10")), name
+    b1 = section(text, "b1", '<a id="b2"></a>')
+    assert "Bodi" in b1
+    assert re.findall(r'<a href="([^"]+\.mp4)">', b1) == list(expected_videos), name
+    assert "3min" not in b1, "Keep the long promotional video out of the short-case gallery"
+    # Resolve both Markdown and HTML links; language labels need not match.
+    links = re.findall(r"\]\(([^)]+)\)", text) + re.findall(r'href="([^"]+)"', text)
+    known_ids = set(expected_anchors)
+    for link in links:
+        if link.startswith("#"):
+            assert link[1:] in known_ids, (name, "missing anchor", link)
+        elif "://" not in link:
+            target, _, fragment = link.partition("#")
+            assert (root / target).is_file(), (name, "missing file", link)
+            if fragment and target.endswith(".md"):
+                assert fragment in anchors((root / target).read_text()), (name, link)
+    alts = re.findall(r'<img\b[^>]*\balt="([^"]*)"', text)
+    assert len(alts) == len(expected_images) and all(alt.strip() for alt in alts), name
     assert "api.star-history.com/svg" in text
-    assert "CHANGELOG.zh-CN.md" in text
-    assert text.count('<div align="center">') == text.count("</div>")
-    assert text.count("<table") == text.count("</table>")
-    assert text.count("<tr>") == text.count("</tr>")
-    assert text.count("<td ") == text.count("</td>")
-    assert not any(old in text for old in ("git clone", "$skill-installer", "$directing-stickman-videos", 'href="assets/readme/'))
-    # The two code blocks remain a short installation request and a topic.
-    code_blocks = re.findall(r"```text\n(.*?)```", text, re.DOTALL)
-    assert len(code_blocks) == 2
-    assert code_blocks[0].strip().splitlines()[-1] == common_links[0]
-    assert len(code_blocks[0].strip().splitlines()) == 2
-    assert len(code_blocks[1].strip().splitlines()) == 1
-    assert all(preset not in code_blocks[1] for preset in ("16:9", "9:16", "$directing"))
-    markers = (
-        "<!-- readme:demos -->", "<!-- readme:advantages -->",
-        "<!-- readme:install -->", "<!-- readme:workflow -->",
-        "<!-- readme:reliability -->", "<!-- readme:contribute -->",
-    )
-    assert [text.index(marker) for marker in markers] == sorted(text.index(marker) for marker in markers)
-    ids = set(re.findall(r'<a id="([^"]+)"></a>', text))
-    for anchor in re.findall(r'\]\(#([^)]+)\)|href="#([^"]+)"', text):
-        assert next(part for part in anchor if part) in ids, (path.name, anchor)
-    for link in re.findall(r"\]\(([^)]+)\)", text):
-        if "://" not in link and not link.startswith("#"):
-            assert (root / link.split("#")[0]).exists(), (path.name, link)
-    print(f"{path.name}: style/asset parity, original narration, links and onboarding passed.")
+    print(f"{name}: navigation, A/B structure, 10 FAQs, media, links and examples passed.")
 
-assert source == (root / "README.en.md").read_text()
-assert not re.search(r"monixin888|2109651037850325112", source, re.IGNORECASE)
-assert "# AI Stickman Animation Style Library" in source
-assert "[**English**](README.en.md) · [简体中文](README.zh-CN.md)" in source
-print("English is the default homepage; seven languages share working navigation.")
+print("Eight languages share the approved A/B layout; French follows Korean.")

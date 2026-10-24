@@ -1,6 +1,6 @@
 <div align="center">
 
-[English](README.en.md) · [**简体中文**](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
+[🇺🇸 EN](README.en.md) · [**🇨🇳 简中**](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
 # 火柴人动画画风库
 

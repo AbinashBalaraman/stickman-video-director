@@ -9,7 +9,9 @@ root = Path(__file__).resolve().parents[1]
 cn = (root / "README.zh-CN.md").read_text()
 assert (root / "README.md").read_bytes() == (root / "README.en.md").read_bytes()
 assert "# 火柴人动画画风库" in cn
-assert "[**简体中文**](README.zh-CN.md)" in cn
+assert "[**🇨🇳 简中**](README.zh-CN.md)" in cn
+assert "[🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md)" in cn, "French follows Korean in the shared navigation"
+assert (root / "README.fr.md").is_file(), "French navigation must open a complete README"
 assert "自动制作带配音、字幕与微动画的完整视频" in cn
 assert "汇总全网热门的火柴人画风，持续更新与开源" in cn
 assert "本系列持续更新，欢迎点个 Star，更多热门画风陆续上线。" in cn
