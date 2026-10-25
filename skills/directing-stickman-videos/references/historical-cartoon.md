@@ -2,7 +2,7 @@
 
 Historical explainers, daily life, civilization stories and comic historical shorts, using expressive stick figures in colorful historical worlds.
 
-On A5 selection, read **A5 proactive character guidance** in [first-use guidance](getting-started.md). Recommend confirmed front/side/back character views before video, then attach approved references with the complete prompt for every clip in a supporting tool. Users can knowingly choose text-only; references help but do not guarantee consistency.
+On A5 selection, read **A5 proactive character guidance** in [first-use guidance](getting-started.md). Remind users to generate their own front/side/back character views and attach their confirmed references with the complete prompt for every clip in a supporting tool. This is advice only: do not supply or automatically generate reference images, or make them a delivery gate. Additional reference work needs an explicit user request. Users can knowingly choose text-only; references help but do not guarantee consistency.
 
 Visual concept and Roman era-pack contribution: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate), via [History Stickman](https://github.com/kaomei/stickman-video-director/pull/41). Adapted to this project's Style 5 with owner-directed cross-era trials. The contributor's PR numbering is not the published style number.
 
@@ -78,7 +78,7 @@ Preserve complete approved style, cast and voice blocks; there is no style-speci
 NO VISIBLE TEXT, LETTERS, NUMBERS, SUBTITLES, LOGOS OR WATERMARKS (blank paper or abstract brush strokes only), NO SPEECH BUBBLES, NO BLOOD OR GORE, NO PHOTOREALISTIC FACES, NO 3D CGI, NO PAPER TEXTURE, NO EXTRA LIMBS, NO FUSED OR DUPLICATE HEADS, NO COSTUME CHANGES, NO EXTRA CHARACTERS, NO INDIVIDUAL FINGERS, NO FINGER SEPARATIONS, NO WHITE HANDS OR GLOVES, NO FLOATING HEAD, NO BACKGROUND GAP BETWEEN HEAD AND NECKLINE.
 ```
 
-Keep negatives compatible with the approved cast: do not ban expressive faces, the chosen nose, historical clothing or chosen hair/beards. Proactively recommend references as above, rather than offering them only when asked. When chosen, include a separate per-clip attachment list of the approved character reference file(s); keep the full prompt intact. Never claim an attachment was submitted unless it actually was.
+Keep negatives compatible with the approved cast: do not ban expressive faces, the chosen nose, historical clothing or chosen hair/beards. Proactively remind users about self-generated references as above, rather than offering that advice only when asked. Keep the full prompt intact; only list specific reference files when the user actually supplies them. Never claim an attachment was submitted unless it actually was.
 
 ## Review
 

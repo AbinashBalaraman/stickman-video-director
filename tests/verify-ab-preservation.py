@@ -48,8 +48,9 @@ def pre_b_bytes(name, content):
 # The dedicated A5 reference has its own exact approved patch fingerprint.
 # Do not refresh the shared-file baseline or weaken A1–A4/voice comparisons.
 # 2026-10-25 owner-selected rich-face/short-white-neck baseline and proactive
-# three-view guidance. This fingerprint is scope evidence, not visual approval.
-a5_contact_mitten_reference_sha256 = "a8b885d327ed1177e3316d6082c7048923cedaaaa7d070635e58d11c3a2ff785"
+# three-view guidance, narrowed to user-generated-reference advice only.
+# This fingerprint is scope evidence, not visual approval.
+a5_contact_mitten_reference_sha256 = "74ad606ea2d8a237806661b0ee5e81ead4759aae003cee50bf328f2b383a38bd"
 
 entry = pre_b_bytes("SKILL.md", (skill / "SKILL.md").read_bytes())
 director = b"## A \xc2\xb7 Director\n" + entry.split(b"## A \xc2\xb7 Director\n", 1)[1]

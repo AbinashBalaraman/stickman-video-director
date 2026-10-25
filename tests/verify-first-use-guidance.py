@@ -103,6 +103,10 @@ for requirement in ("before planning", "even if the user has not asked", "正面
                     "additional image input", "not a replacement", "first-frame image",
                     "not claim guaranteed identity", "missing hair and disconnected heads"):
     assert requirement in a5_reference, requirement
+for requirement in ("建议你先自行生成", "advice only", "Do not bundle or supply reference images",
+                    "automatically generate them", "only when the user explicitly requests",
+                    "name specific files only when actually supplied"):
+    assert requirement in a5_reference, requirement
 
 # Per-style defaults stay inside one installation; B1 is not all of B.
 autopilot = (skill / "references/autopilot.md").read_text()
