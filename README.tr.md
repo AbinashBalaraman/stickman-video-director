@@ -1,287 +1,358 @@
-<!-- readme:hero -->
-
 <div align="center">
 
-[English](README.en.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [**Türkçe**](README.tr.md) · [Bahasa Indonesia](README.id.md)
+[🇺🇸 EN](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [**🇹🇷 TR**](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# Yapay Zekâyla Çöp Adam Animasyonu: Stil Kütüphanesi
+# YouTube için Yapay Zekâ ile Çöp Adam Videosu Oluşturun
 
-**Bir fikri, görsel tarzı tutarlı ve özenle hazırlanmış bir çöp adam videosuna dönüştürün.**
+**Her fikri, tutarlı bir görsel stile sahip yüksek kaliteli bir çöp adam videosuna dönüştürün.**
 
-[![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
-![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
+[![GitHub Yıldızları](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
+![MIT Lisansı](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-</div>
+Bir konu, makale veya bağlantı paylaşın; görseller, seslendirme, altyazılar, ses efektleri ve mikro animasyonlar otomatik hazırlansın, eksiksiz bir çöp adam videosu ortaya çıksın. **Kameraya çıkmadan da kendine özgü bir YouTube kanalı oluşturun.**
 
-<div align="center">
-
-İnternette ilgi gören çöp adam animasyon stillerini tek tek deniyor, iş akışlarını burada ücretsiz ve açık kaynak olarak paylaşıyorum. Skill’i kurup yapay zekâ asistanınıza bir konu verin; senaryo, hareketli sahne planları, seslendirme ve ses efektleri için istemler alın.
-
-<strong>Çöp adam animasyonu yapmak istediğinizde, stilinizi buradan seçin.</strong> **YouTube’da açıklayıcı videolar, TikTok içerikleri, iş hayatı ve motivasyon hikâyeleri, eğitici içerikler ve gündelik hayata dair kısa hikâyeler** için.
+İnternette popüler olan çöp adam animasyon stillerini bir araya getirir; açık kaynak olarak sürekli güncellenir. **Bilim ve bilgi içerikleri, psikoloji ve motivasyon, eğitim ve farkındalık, duygusal destek, popüler hikâyeler ve daha pek çok içerik alanı** için uygundur.
 
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>Minimalist Siyah-Beyaz</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Siyah fonda beyaz çizgilerle minimalist çöp adam animasyonu" width="90%"></a>
+<strong>Klasik Siyah Beyaz</strong><br>
+<a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Klasik siyah beyaz çöp adam animasyonu: siyah fonda beyaz çizgilerle bilgi anlatımı" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Modern Teknoloji</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Sade teknoloji ortamında kırmızı bereli çöp adam" width="90%"></a>
+<strong>Modern ve Renkli</strong><br>
+<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Modern çöp adam animasyonu: kırmızı bereli karakter ve teknolojik ışık efektleri" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Tarih Öncesi Kara Mizah</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Komik bir sürprizle biten tarih öncesi çöp adam hikâyesi" width="90%"></a>
+<strong>Tarih Öncesi Mağara</strong><br>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Tarih öncesi çöp adam animasyonu: mağara hikâyesi ve beklenmedik bir son" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>İç Isıtan Hikâyeler</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Renkli gündelik bir mekânda ifadeleri belirgin çöp adamlar" width="90%"></a>
+<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="İç ısıtan çöp adam animasyonu: renkli mekânlar ve gündelik duygular" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>Tarihi Çizgi Film</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Edo dönemi Japonya’sında geçen tarihi çöp adam animasyonu" width="90%"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Tarihi çöp adam animasyonu: Edo dönemi Japonya’sında bir samurayın hikâyesi" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Yeni stiller yolda…</strong>
+<strong>Minimalist El Çizimi</strong><br>
+<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Minimalist el çizimi çöp adam videosu: canlı ifadeler, vurgulu metinler ve mikro animasyonlar" width="90%"></a>
 </td>
 </tr>
 </table>
 
 <div align="center">
 
-**5 stil · 7 görsel seçenek · Denenmiş örnekler · Ücretsiz ve açık kaynak**
+**6 stil · 8 görsel seçenek · Denenmiş örnekler · Ücretsiz ve açık kaynak**
 
-⭐ **Şimdi yıldızlayın; bir sonraki videonuzda yeniden istem aramakla uğraşmayın.**
+⭐ **Kütüphane gelişmeye devam ediyor. Yeni stilleri takip etmek ve projeyi kolayca bulmak için yıldız ekleyin.**
 
-[Başlayın](#quick-start) · [Son güncellemeler](#recent-updates) · [Baştan sona yapım rehberi (Çince)](https://x.com/CrazyKaomei/status/2102311241046008268)
+[Başlayın](#quick-start) · [A stilleri](#a-styles) · [B stilleri](#b-styles) · [Sık sorulan sorular](#faq)
 
 </div>
 
-<!-- readme:demos -->
+<a id="creation-modes"></a>
 
-<a id="style-gallery"></a>
+## Video üretmek için iki ayrı mod
 
-## Size uygun stili bulun
+**Her planı kendiniz yönetmek için A · Director Mode’u; uzun videoları klip klip birleştirmeden üretmek için B · Autopilot Mode’u seçin.** Tek proje, iki farklı üretim yolu.
 
-### Stil 1: Minimalist Siyah-Beyaz
+|  | <div align="center">A · Director Mode</div> | <div align="center">B · Autopilot Mode</div> |
+|:---:|:---|:---|
+| **Temel yaklaşım** | **Kontrol sizde, yönetmenlik planı yapay zekâda**: sahne planı ve istemler hazırlanır; klip üretimini ve kurguyu siz yönetirsiniz. | **Bir konu veya ihtiyaç verin, bitmiş videoyu alın**: çizimler, seslendirme, altyazı, mikro animasyonlar ve video birleştirme otomatik tamamlanır. |
+| **Süre** | **Kısa videolar için ideal**; örneğin 30 saniye–3 dakika. Daha uzun içerikler de bölüm bölüm hazırlanabilir. | **Uzun videolar öncelikli**; özellikle **10 dakika ve üzeri** seslendirmeli içeriklere uygun. Kısa videolar ve bölümlü hikâyeler de yapılabilir. |
+| **Araçlar** | Öneriyi Skill destekleyen bir yapay zekâ asistanıyla hazırlayın, klipleri **Google Flow** gibi bir platformda üretin, **CapCut** gibi bir araçta kurgulayın. | **Codex veya Claude Code** gibi dosya okuyup yazabilen, araç kullanabilen ve komut çalıştırabilen bir yapay zekâ kodlama ajanı; medya üretimini yerel video birleştirmeyle buluşturur. |
+| **Görsel anlatım** | **Bölüm bölüm üretilen animasyonlar**: karakter hareketleri, kamera düzeni ve karakterler arası etkileşim ön plandadır. | **Çizimli sahne planı + mikro animasyon**: kesmeler, yakınlaşmalar ve kaydırmalar anlatıcıyı takip eder; her bölüm için baştan sona hareketli video üretmek gerekmez. |
+| **Çıktı** | Yönetmen önerisi, sahne planı, bölüm bazında video istemleri ve ses tasarımı. | **Seslendirme, altyazı ve mikro animasyon içeren eksiksiz video dosyası.** |
+| **Başlangıç** | <div align="center"><a href="#director-start">Director ile başlayın</a></div> | <div align="center"><a href="#autopilot-start">Autopilot ile başlayın</a></div> |
 
-Büyük bir fikri anlatmak için birkaç çizgi yeter. Bembeyaz ya da simsiyah bir fonda karakterler, nesneler ve vurgu renkleri hikâyeyi taşır. Hızlı ve anlaşılır açıklayıcı videolar için iyi bir seçenek.
+İki mod da **bir konu, metin veya tamamlanmış senaryoyla** başlayabilir. **A ve B stillerinin numaraları ve görselleri ayrıdır; yeni stiller ve örnekler kendi serilerinde güncellenir.** En-boy oranını, anlatım dilini ve sesi ihtiyacınıza göre seçin. Yukarıdaki süreler öneridir, kesin sınır değildir.
 
-- **Görünüm:** Yuvarlak başlar, çizgiden kollar ve bacaklar, tutarlı çizgi kalınlığı ve sade yüz ifadeleri. Duyguları, riskleri veya eylemleri ayırmak için en fazla üç canlı vurgu rengi kullanılır. Kaygı bir kafese, dikkat bir ilerleme çubuğuna dönüşebilir.
-- **Ne için uygun?** Bilim, psikoloji, motivasyon, kişisel yönetim, iş dünyası analizleri ve kavram anlatımları.
-- **Hangi sürüm?** Beyaz fon sade ve doğrudandır. Daha güçlü kontrast, gerilim ve duygusal etki için siyah fonu seçin.
-
-| Stil 1A: Beyaz Üzerine Siyah | Stil 1B: Siyah Üzerine Beyaz |
-|:---:|:---:|
-| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="Bembeyaz fonda siyah çöp adam" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Simsiyah fonda beyaz çöp adam" width="360"><!-- demo:dark:end --> |
-| Beyaz fon · Siyah karakter | Siyah fon · Beyaz karakter |
-
----
-
-### Stil 2: Modern Pop
-
-Kırmızı bere ve sarı tişört, bu karakteri hemen tanınır kılar. Bir ürünü anlatırken sade bir teknoloji ortamını kullanın; hikâye anlatırken karakteri odalara, sokaklara veya açık alanlara taşıyın.
-
-- **Görünüm:** Aynı tanınabilir karakter, iki farklı dünya. 2A; beyaz alanları, hafif bir ızgarayı, havada duran cam benzeri arayüzleri ve turkuaz-mavi ışığı birleştirir. 2B ise renkli mekânlar, sinematik ışık ve derinlik kullanır.
-- **Ne için uygun?** 2A; yapay zekâ araçları, teknoloji ürünleri, eğitimler ve özellik tanıtımları için. 2B; kişisel gelişim, gündelik olaylar, macera ve motivasyon hikâyeleri için.
-- **Hangi sürüm?** Bir araç veya yöntem anlatacaksanız 2A’yı; bir karakterin yaşadıklarını gösterecekseniz 2B’yi seçin.
-
-| Stil 2A: Minimal Teknoloji | Stil 2B: Sinematik Hikâye |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Kırmızı bereli karakterle minimalist teknoloji animasyonu" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="Renkli, sinematik bir mekânda kırmızı bereli karakter" width="360"> |
-| Beyaz alan · Hafif ızgara · Turkuaz ışık | Renkli mekânlar · Sinematik ışık · Hikâye atmosferi |
-
----
-
-### Stil 3: Tarih Öncesi Çizimler / Kara Mizah
-
-Bugünün dertlerini telefonların ve ofislerin olmadığı bir dünyaya taşıyın. Mağaralar, hayvan postları, kamp ateşleri ve abartılı ifadeler; tanıdık iş hayatı sıkıntılarını ve insan hallerini sürprizli hikâyelere dönüştürür.
-
-- **Görünüm:** El çizimi hissi veren kaba hatlar, içi beyaz başlar, koyu çizgi uzuvlar, post kıyafetler ve toprak tonlarında mekânlar. Karakter etkileşimi, tepki planları ve mizahın zamanlaması önemlidir. Hikâyeye göre yetişkinler, çocuklar veya yaşlılar seçin; her hikâyede aynı yüzü kullanmak gerekmez.
-- **Ne için uygun?** Tarih öncesi senaryolar, iş hayatı hicvi, insan doğasına dair gözlemler, kara mizah, fabllar ve çocuklara yönelik İngilizce hikâyeler.
-- **Neden bu stil?** Kısa bir kurulumdan beklenmedik bir sona gitmek için. Özellikle günümüz ilişkilerinin tarih öncesi bir kabilede tuhaf biçimde tanıdık gelmesini istediğinizde.
-
-| Örnek 1: “İnsanlığın İlk İşi Nasıl Ortaya Çıktı?” | Örnek 2: “İnsanlar Ateşi Keşfediyor” |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="İnsanlığın İlk İşi Nasıl Ortaya Çıktı? animasyon ön izlemesi" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="İnsanlar Ateşi Keşfediyor: topluluk yapımı animasyon" width="360"> |
-| Tarih öncesinde iş hayatı komedisi | Ateşin keşfi · Topluluk yapımı |
-
----
-
-### Stil 4: İç Isıtan Hikâyeler
-
-Özel bir güne sakladığınız bir kupa. Yanıtlamak zorunda hissettiğiniz bir mesaj. Sonunda kendinize ayırdığınız bir öğleden sonra. Sade karakterler renkli gündelik mekânlara girer; hikâyeyi hareketler, ifadeler ve kamera anlatır.
-
-- **Görünüm:** İçi beyaz yuvarlak başlar, ince gövdeler, koyu çizgi uzuvlar ve küçük, doğal ifadeler; rengârenk 2D çizgi film ortamlarıyla buluşur. Genel plan mekânı tanıtır, yakın plan tereddüdü veya rahatlamayı yakalar, takip planı hikâyeyi ilerletir.
-- **Ne için uygun?** Tanıdık gündelik hikâyeler, kişisel gelişim, ilişkiler, sıcak anlar, alışkanlık kazanma ve çocuklara yönelik İngilizce içerikler.
-- **Neden bu stil?** İzleyicinin küçük bir anda kendini bulmasını sağlamak için. Renk ve ışık konuya göre değişir: sıcaklık, kaygı, yorgunluk veya yeni bir başlangıç.
-
-| Örnek 1: Yolda Gelen Mesajların Kaygısı | Örnek 2: Kendine Zaman Ayırmak |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="Tren istasyonunda mesaj kaygısı yaşayan bir karakter" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Güneşli bir açık hava kafesinde mola" width="360"> |
-| Tren istasyonu · Takip planları · Duygusal yakın planlar | Açık hava kafesi · Sıcak ışık · Gündelik hareketler |
-
----
-
-<a id="style-5"></a>
-
-### Stil 5: Tarihi Çizgi Film
-
-Tarihi, peşinden gidebileceğiniz karakterlerle anlatın. Edo sokaklarında bir samuraya eşlik edin, Mısır tapınağında kara bir kediyle karşılaşın veya bir askeri Roma kampına kadar izleyin. Dönem kıyafetleri, renkli mekânlar ve küçük komik dönüşler, geçmişi bir slayt sunumundan çıkarıp hikâyeye dönüştürür.
-
-- **Görünüm:** İçi beyaz yuvarlak başlar, sade siyah oval gözler, belirgin konturlar ve ince çizgi uzuvlar; dönem kıyafetleri, yumuşak çizgi film gölgelendirmesi ve boyanmış fonlarla tamamlanır. Her dönemde kıyafetleri, yapıları, nesneleri ve müziği değiştirin; temel karakter çizimini değil.
-- **Ne için uygun?** Dünya tarihi, şaşırtıcı bilgiler, geçmişte gündelik yaşam, tarihi kişiler ve tarih temalı komedi.
-- **Neden bu stil?** Bir bilgiyi, bir karakterin başından geçen olaya dönüştürmek için. Açıklamayı net bir durum, anlamlı bir tepki veya sürprizle taşıyın.
-
-| Örnek 1: Edo Dönemi Japonya’sında Gündelik Yaşam | Örnek 2: Antik Mısır’da Kediler ve Mumyalar |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="Edo dönemi Japonya’sında bir samurayın gündelik yaşamı" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="Antik Mısır tapınağında kara bir kedi ve bir mumya" width="360"> |
-| Edo sokakları · Samuray kıyafetleri · Gündelik sürprizler | Boyalı tapınak fonu · Kara kedi · Tarihten ilginç bilgiler |
-
-Stil ve istem katkısı: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). Japonya örneği, stilin özgün yaratıcısı tarafından sağlanmıştır.
-
-<!-- readme:advantages -->
-
-## Skill sizin için ne yapar?
-
-Yalnızca çöp adamın görünümünü değil, metni ve görsel anlatımı birlikte planlar.
-
-| Bölüm | Alacağınız çıktı |
-|---|---|
-| **Senaryo** | Dikkat çeken bir giriş, gelişme ve sonuç; seslendirme metni ve gerektiğinde anlamayı kolaylaştıran bir çeviri. |
-| **Görseller** | Karakter hareketleri, nesneler, kamera hareketleri, geçişler ve ses işaretleri. |
-| **Devamlılık** | Karakter, nesne ve anlatıcı profilleri; klipler arası geçişler. |
-| **Kadraj** | Yatay veya dikey formata uygun kompozisyon ve plan seçimi. |
-| **Düzeltmeler** | Nihai istemlerden önce onayınıza sunulan bir yönetmen önerisi. |
-
-<!-- readme:output -->
-
-Önce **yönetmen önerisini** inceleyin: seslendirme, sahneler, kamera ve ses tasarımı. Onayınızdan sonra her bölüm için tek başına kullanılabilen **Gemini Omni Flash video istemleri**, ayrıca birleştirme, geçiş ve altyazı notları alın.
-
-Skill videoyu planlar ve istemleri yazar. Klipleri Flow veya başka bir video aracı üretir; son birleştirme ve altyazıları bir kurgu programında tamamlarsınız. Skill için API veya MCP kurulumu gerekmez.
-
-<!-- readme:install -->
+Autopilot için kullanılabilir görsel üretim ve seslendirme hizmetleri ile yerel video birleştirme ortamı gerekir. Sıradan bir sohbet penceresi bu ortamın yerini tutmaz. Skill ücretsiz ve açık kaynaklıdır; bağladığınız hizmetler ayrıca ücretli olabilir.
 
 <a id="quick-start"></a>
 
 ## Başlayın
 
-### 1. Skill’i kurun
-
-Yapay zekâ asistanınıza şunu gönderin:
+Aşağıdaki mesajı Skill destekleyen bir yapay zekâ asistanına gönderin. Kurulumdan sonra asistan, **iki modun neler sunduğunu ve nasıl başlayacağınızı** anlatır; doğrudan kullanabileceğiniz örnek istekler verir.
 
 ```text
 Bu Skill’i benim için kur:
 https://github.com/kaomei/stickman-video-director
+
+Kurulum başarılı olunca kurulan SKILL.md dosyasını hemen oku.
+İki modun çıktılarını, gerekli araçları ve üretim adımlarını anlaşılır biçimde açıkla.
+Doğrudan kullanabileceğim örnek istekler ver.
+İhtiyacıma göre nelerin eksik olduğunu ve sıradaki somut adımı söyle.
 ```
 
-<!-- readme:workflow -->
+<a id="director-start"></a>
 
-### 2. Bir konu verin
+### A · Director Mode: her bölüm için ayrıntılı video istemleri
 
-Bir konu, taslak veya makale gönderin. Örneğin:
+Kurulumdan sonra aşağıdaki mesajı yapay zekâ asistanına gönderin; konuyu kendinize göre değiştirmeniz yeterli:
 
 ```text
-“İnsanlığın İlk İşi Nasıl Ortaya Çıktı?” adlı bir çöp adam videosu hazırla.
+Director / A modunu kullanarak aşağıdaki konuyu, metni veya ihtiyacı
+bir çöp adam videosuna dönüştür:
+[Konuyu yaz, metni yapıştır veya ihtiyacını doğrudan anlat]
+
+İsteklerim: yatay 16:9, A3 “Tarih Öncesi Mağara” stili; önce 30 saniye hazırlayalım.
+Önce yönetmen önerisini göster; onayladıktan sonra bölüm bölüm video istemlerini ver.
 ```
 
-### 3. Yönlendirmeleri izleyin, planı onaylayın
+**Akış: konu ve ihtiyaçlar → hikâye senaryosu → gerekirse karakterin üç görünüşünü onaylama → ayrıntılı sahne istemleri → klipleri elle üretip kurgulayarak birleştirme**
 
-**Ayarları seçin → Öneriyi inceleyin → Değişiklik isteyin → Onaylayıp istemleri alın.**
+Öneri; hikâye yapısını, bölüm bölüm seslendirmeyi, karakter hareketlerini, kamerayı ve ses tasarımını içerir. İstemleri aldıktan sonra sırayla [Google Flow](https://flow.google.com/) veya başka bir video üretim aracına kopyalayın; ardından CapCut gibi bir araçta altyazı ve kurguyu tamamlayın.
 
-En-boy oranını veya stili seçmediyseniz Skill size sorar. Yatay `16:9` ya da dikey `9:16` seçip galeriden bir stil belirleyin. Daha önce verdiğiniz ayarları tekrar sormaz. Varsayılan süre 60 saniyedir; kısa bir deneme için “önce 30 saniye deneyelim” diyebilirsiniz.
+İlk denemenizde [baştan sona yapım rehberini (Çince)](https://x.com/CrazyKaomei/status/2102311241046008268) izleyebilirsiniz.
 
-Sonra yönetmen önerisi gelir: hikâye yapısı, bölüm bölüm seslendirme, karakter hareketleri, kamera ve ses tasarımı. Nihai video istemlerini onaylamadan önce planın tamamını gözden geçirin ve istediğiniz değişiklikleri belirtin.
+<a id="autopilot-start"></a>
 
-**“İnsanlığın İlk İşi Nasıl Ortaya Çıktı?” | Yatay 16:9 · Stil 3: Tarih Öncesi Kara Mizah · 30 saniye**
+### B · Autopilot Mode: tek bir istekten uzun videoya
 
-Yukarıdaki örnek yapılmadan önce onaylanan sahne planı aşağıda. Örnek videonun özgün seslendirme metni aynen korunmuştur:
+Codex veya Claude Code gibi dosya işlemleri ve komut çalıştırma destekleyen bir ortamda kurulum yaptıktan sonra şöyle söyleyin:
 
-| Süre | Sahne ve hareket | Seslendirme |
-|---|---|---|
-| **0–10 sn: Dertleri dışarıda bırakmak** | Mağara adamı taş sopasını sürükleyerek içeri girer, saman yatağına yığılır. Girişte dev bir kılıç dişli kaplanın gölgesi belirir. Tek gözünü açar: “Yine mi?” Girişe bir kaya yuvarlar, ellerinin tozunu silker ve yatağına döner. Plan, memnun yüzünde biter. | **“Ten thousand years ago, one man finally solved all his problems. He shut them outside.”** |
-| **10–20 sn: Patron sizi bulur** | Tam gözlerini kapatırken girişten üç vuruş duyulur. Kaya hafifçe aralanır. Kabile reisi gülümseyerek uzanır ve bir mızrak sunar. Mağara adamı eliyle reddeder. Reis bu kez kızarmış bir et parçası çıkarır. Adam kokuyu alır, gözleri açılır. Dışarı kesilir: elinde mızrakla dev hayvan izlerine doğru yönlendirilmektedir. | **“Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.”** |
-| **20–30 sn: İlerlemenin bedeli** | Aynı mağaraya toz içinde döner, mızrağı bırakır ve et için elini uzatır. Reis profesyonel bir gülümsemeyle küçücük bir parça verir; ardından kucağına bir demet mızrak yığar, omzunu sıvazlayıp gider. Adam etten mızraklara, sonra yavaşça kameraya bakar. Yeniden uzanır ama mızraklar batınca doğrulmak zorunda kalır. | **“The reward got smaller. The workload got bigger. And somehow… they called that progress.”** |
+```text
+Autopilot / B modunu kullanarak aşağıdaki konuyu, makaleyi, gönderiyi,
+haberi veya somut ihtiyacı YouTube’da ilgi çekecek bir videoya dönüştür:
+[İçeriği veya bağlantıyı yapıştır; tanıtım ihtiyacını doğrudan da anlatabilirsin]
 
-Bir cümleyi veya sahneyi beğenmediniz mi? Ne değişsin istediğinizi söyleyin. Nihai istemler ancak onayınızdan sonra verilir. Bu 30 saniyelik örnekte; karakterleri, hareketi, kamerayı, anlatımı ve sesi kapsayan yaklaşık onar saniyelik üç istem hazırlanır.
+İsteklerim: 5–10 dakika, yatay 16:9, B1 “Minimalist El Çizimi” stili;
+seslendirme, altyazı ve ses efektleri de olsun.
 
-### 4. Klipleri üretin, videonuzu kurgulayın
+Önce görsel üretim, seslendirme ve video birleştirme ayarlarını kontrol et.
+Ardından senaryoyu ve 20 saniyelik sesli ön izlemeyi göster.
+Onayımdan sonra görselleri seslendirmenin ritmine göre düzenleyerek videonun tamamını
+otomatik hazırla. Klipleri tek tek birleştirmemi istemeden bitmiş video dosyasını teslim et.
+```
 
-İstemleri sırayla [Google Flow](https://flow.google.com/)’a gönderin. Klipleri CapCut veya başka bir kurgu programında birleştirin, geçişleri düzenleyin ve altyazı ekleyin. 30 saniyelik bir video genellikle yaklaşık onar saniyelik üç istem, 60 saniyelik bir video ise altı istem kullanır.
+**Akış: konu, içerik veya ihtiyaç → senaryoyu onaylama → 20 saniyelik sesli ön izlemeyi onaylama → videonun tamamını otomatik üretme → eksiksiz video dosyasını alma**
 
-İlk denemenizde [baştan sona yapım rehberini](https://x.com/CrazyKaomei/status/2102311241046008268) izleyebilirsiniz. Bir [Flow rehberi](https://x.com/CrazyKaomei/status/2093893997223923822?s=20) de var. Her iki rehber de Çince. Skill ücretsizdir; video üretim ücretleri ve kullanılabilir modeller platforma bağlıdır.
+Yapay zekâ asistanı içeriğe uygun sahneleri tasarlar, görselleri ve seslendirmeyi üretir, altyazı ile ses efektlerini ekler ve hepsini anlatımın ritmine göre birleştirir. Sizin asıl işiniz senaryoyu ve ön izlemeyi onaylamaktır; her klibi kendiniz üretip birleştirmeniz gerekmez.
+
+İlk kullanımda gerekli ayarlar kontrol edilir; neyin eksik olduğu ve nasıl tamamlanacağı adım adım açıklanır. Bir görseli veya sesi beğenmezseniz yalnızca ilgili bölümü değiştirip onayladığınız kısımları koruyabilirsiniz.
+
+<a id="style-gallery"></a>
+
+<a id="a-styles"></a>
+
+## A · Director Mode stil galerisi
+
+Stiller A1, A2, A3… olarak güncellenir. Her stilin altında ilgili animasyon örnekleri yer alır.
+
+<a id="a1"></a>
+
+### A1: Klasik Siyah Beyaz
+
+Az çizgiyle bir fikri net anlatın. Bembeyaz veya simsiyah zeminde karakterler, nesneler ve vurgu renkleri bilgiyi taşır; tempolu açıklayıcı videolar için uygundur.
+
+- **Görsel özellikler**: sade yuvarlak başlar, çizgi uzuvlar ve tutarlı çizgi kalınlığı; gerektiğinde basit yüz ifadeleri. Duyguları, riskleri veya eylemleri ayırmak için en fazla üç canlı vurgu rengi kullanılır. Soyut kavramlar somutlaştırılabilir: kaygı bir kafese, dikkat bir ilerleme çubuğuna dönüşebilir.
+- **Uygun içerikler**: bilimsel bilgiler, psikoloji, motivasyon, kişisel yönetim, iş dünyası analizleri ve kavram açıklamaları.
+- **Nasıl seçilir?** Beyaz zeminde siyah karakterler temiz ve doğrudandır; eğitim ve gündelik bilgi anlatımına uygundur. Siyah zeminde beyaz karakterler daha güçlü kontrast sunar; gerilim, çatışma ve duygu anlatımında öne çıkar.
+
+| A1.1 · Beyaz zeminde siyah karakterler | A1.2 · Siyah zeminde beyaz karakterler |
+|:---:|:---:|
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="A1.1: beyaz zeminde siyah çöp adam animasyonu" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="A1.2: siyah zeminde beyaz çöp adam animasyonu" width="360"><!-- demo:dark:end --> |
+| Düz beyaz zemin · Siyah karakterler | Düz siyah zemin · Beyaz karakterler |
+
+---
+
+<a id="a2"></a>
+
+### A2: Modern ve Renkli
+
+Kırmızı bere ve sarı tişört bu stilin ayırt edici karakter özellikleri. Karakter, sade bir teknoloji ortamında ürün anlatabilir; yatak odasında, sokakta veya doğada inişli çıkışlı bir hikâyenin de kahramanı olabilir.
+
+- **Görsel özellikler**: kırmızı beresi ve sarı tişörtü sabit kalan minimalist karakter, iki farklı ortamla eşleşir. Minimalist Teknoloji seçeneği; beyaz alan, çok silik ızgara, havada duran cam arayüzler ve camgöbeği ışıklarla teknoloji hissi verir. Renkli Hikâye seçeneği ise renkli mekânlar, ışık-gölge ve derinlikle hikâye atmosferi kurar.
+- **Uygun içerikler**: Minimalist Teknoloji; yapay zekâ araçları, teknoloji ürünleri, yöntem anlatımları ve özellik tanıtımları için uygundur. Renkli Hikâye; kişisel gelişim yolculukları, gündelik konular, macera ve motivasyon hikâyelerine uyar.
+- **Nasıl seçilir?** Amaç bir aracı veya yöntemi açıklamaksa Minimalist Teknoloji’yi; karakterin yaşadığı bir olayı takip etmekse Renkli Hikâye’yi seçin.
+
+| A2.1 · Minimalist Teknoloji | A2.2 · Renkli Hikâye |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="A2.1: Minimalist Teknoloji stilinin animasyon örneği" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="A2.2: Renkli Hikâye stilinin animasyon örneği" width="360"> |
+| Beyaz alan · Çok silik ızgara · Camgöbeği ışık | Renkli mekânlar · Sinematik ışık · Hikâye atmosferi |
+
+---
+
+<a id="a3"></a>
+
+### A3: Tarih Öncesi Mağara
+
+Bugünün dertlerini telefonların ve ofislerin olmadığı tarih öncesi bir dünyaya taşıyın. Mağaralar, hayvan postları, kamp ateşleri ve abartılı ifadeler; iş hayatının ve insan ilişkilerinin tuhaflıklarını sürpriz sonlu küçük hikâyelere dönüştürür.
+
+- **Görsel özellikler**: kalın el çizgileri, içi beyaz başlar, koyu uzuvlar, post giysiler ve toprak tonlarında çevreler. Karakter etkileşimi, yüz tepkileri ve komik duraksamalar öne çıkar. Karakterler hikâyeye göre tasarlanır; kadınlar, erkekler, çocuklar ve yaşlılar yer alabilir. Farklı hikâyelerde aynı yüzü kullanmak gerekmez.
+- **Uygun içerikler**: tarih öncesi hayal gücü, iş hayatı hicvi, insan davranışları, kara mizah, fabllar ve çocuklar için İngilizce hikâyeler.
+- **Nasıl seçilir?** Küçük bir olayla “Demek öyleymiş!” ya da “Bu nasıl oldu?” dedirten bir son istiyorsanız bu stili seçin. Modern ilişkileri ilkel bir kabileye taşımak, hem tanıdık hem beklenmedik espriler yaratır.
+
+| Örnek 1: İnsanlığın İlk İşi Nasıl Ortaya Çıktı? | Örnek 2: Ateşin İlk Keşfi |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="İnsanlığın İlk İşi Nasıl Ortaya Çıktı? animasyon ön izlemesi" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Ateşin İlk Keşfi: topluluk tarafından hazırlanan örnek" width="360"> |
+| Tarih öncesi hikâye · İş hayatına sürprizli bakış | Ateşin keşfi · Topluluk çalışması |
+
+---
+
+<a id="a4"></a>
+
+### A4: İç Isıtan Hikâyeler
+
+Kullanmaya kıyamadığınız bir fincan, hemen yanıtlamadan duramadığınız bir mesaj, sonunda kendinize ayırdığınız bir öğleden sonra. Minimalist karakterler renkli günlük mekânlara girer; hareketleri, ifadeleri ve kamera planlarıyla hepimize tanıdık gelen küçük anları anlatır.
+
+- **Görsel özellikler**: içi beyaz yuvarlak başlar, ince uzun gövdeler, koyu ince uzuvlar ve doğal küçük ifadeler; tamamlanmış 2D çizgi film ortamlarıyla bir araya gelir. Geniş plan mekânı tanıtır, yakın plan tereddüdü veya rahatlamayı yakalar, takip planı karakterle birlikte ilerler.
+- **Uygun içerikler**: gündelik duygular, psikolojik gelişim, ilişkiler, sıcak hikâyeler, alışkanlıklar ve çocuklar için İngilizce içerikler.
+- **Nasıl seçilir?** İzleyicinin belirli bir yaşam anında kendini bulmasını istiyorsanız bu stili seçin. Renk ve ışık konuya göre değişir; sıcaklığın yanı sıra kaygıyı, yorgunluğu ve yeniden başlamayı da anlatabilir.
+
+| Örnek 1: İşe giderken mesaj kaygısı | Örnek 2: Kendine zaman ayırmak |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="İç Isıtan Hikâyeler: metro istasyonunda mesaj kaygısı" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="İç Isıtan Hikâyeler: açık hava kafesinde bir mola" width="360"> |
+| Metro istasyonu · Yürüyüşü takip eden kamera · Duygu yakın planı | Açık hava kafesi · Sıcak ışık ve ağaç gölgeleri · Gündelik hareketler |
+
+---
+
+<a id="style-5"></a>
+<a id="a5"></a>
+
+### A5: Tarihi Çizgi Film
+
+Çöp adamları tarihin içine yerleştirin: Edo sokaklarında samuraylar, Antik Mısır tapınaklarında kara kediler, Roma kamplarında askerler. Döneme özgü kıyafetler, renkli mekânlar ve küçük ters köşeler tarih bilgisini gözünüzde canlandırır.
+
+- **Görsel özellikler**: içi beyaz yuvarlak başlar, siyah oval gözler, belirgin kalın konturlar ve ince çizgi uzuvlar; dönem kıyafetleri, yumuşak cel-shading gölgeleri ve renkli boyanmış dekorlarla birleşir. Ülke ve dönem değişirken kıyafetleri, mimariyi, nesneleri ve müziği değiştirin; karakterlerin çizim dilini koruyun.
+- **Uygun içerikler**: dünya tarihi, uygarlıklardan ilginç bilgiler, geçmişte günlük yaşam, kişi hikâyeleri ve tarihi mizah kısa filmleri.
+- **Nasıl seçilir?** Bir bilgiyi “geçmişte birinin yaşadığı olay” hâline getirmek istediğinizde bu stili kullanın. Tarihi bir ayrıntıyı aktarırken karakter tepkileri ve sürprizlerle izleyicinin ilgisini canlı tutabilirsiniz.
+
+| Örnek 1: Edo Japonyası · Bir samurayın günlük yaşamı | Örnek 2: Antik Mısır · Kediler ve mumyalar |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="Tarihi Çizgi Film: Edo dönemi samurayı ve sokak yaşamı" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="Tarihi Çizgi Film: Antik Mısır tapınağı, kara kedi ve mumya" width="360"> |
+| Edo sokakları · Samuray kıyafetleri · Gündelik sürprizler | Renkli tapınak · Kara kedi · Tarihten ilginç bilgiler |
+
+Stil ve istem katkısı: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate).
+
+---
+
+<a id="b-styles"></a>
+
+## B · Autopilot Mode stil galerisi
+
+Stiller B1, B2, B3… olarak güncellenir. Her stilin altında çizimli sahneler ve mikro animasyonlarla hazırlanmış videolar yer alır; A serisinden ayrı tutulur.
+
+<a id="b1"></a>
+
+### B1: Minimalist El Çizimi
+
+Görseller anlatıcının ritmini takip eder. İfadeleri canlı çöp adamlar, renkli el çizimi nesneler ve dikkat çeken anahtar metinlerle bilgiyi, hikâyeyi veya ürünün öne çıkan yönlerini açık ve eğlenceli anlatın.
+
+- **Görsel özellikler**: beyaza yakın kâğıt zemin, çok silik ızgara, siyah el çizgileri ve az sayıda renkli nesne. İfadeler, yerel mikro animasyonlar, akıcı geçişler ve ses efektleri görselleri ilerletir. Ekrandaki vurgulu metin ana mesajı öne çıkarır; altyazılar seslendirmeye eşlik eder.
+- **Uygun içerikler**: YouTube açıklayıcı videoları, psikolojik gelişim, iş hayatı hikâyeleri, eğitici içerikler ve ürün tanıtımları.
+- **Nasıl seçilir?** Bir konuyu, metni veya senaryoyu seslendirmeli ve altyazılı eksiksiz bir videoya dönüştürmek istiyorsanız bu stili seçin. Görseller konuşmanın ritmine göre düzenlenir; kesintisiz anlatımlar ve uzun hikâyeler için uygundur.
+
+Sesli örneği izlemek veya indirmek için hareketli ön izlemeye tıklayın.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Örnek 1: Yüzünü göstermeden YouTube içeriği üretmek</th>
+    <th width="50%" align="center">Örnek 2: Neden kimse izlemiyor?</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b1-minimal-handdrawn.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="B1 örnek 1: yüzünü göstermeden YouTube videosu üretme konulu sesli örneği izleyin veya indirin" width="360"></a></td>
+    <td width="50%" align="center"><a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 örnek 2: Bodi seslendirmesi, altyazı, el çizimi karakterler ve mikro animasyon içeren sesli örneği izleyin veya indirin" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">El çizimi karakterler · Vurgulu metin · Mikro animasyon</td>
+    <td align="center">Bodi seslendirmesi · Canlı ifadeler · Mikro animasyon</td>
+  </tr>
+</table>
+
+---
+
+<a id="b2"></a>
+
+### B2: Yakında…
+
+Stil tanıtımı, bu stile özel örnekler ve kullanım örnekleri buraya eklenecek.
 
 <!-- readme:reliability -->
 
-## Birkaç pratik ipucu
+<a id="faq"></a>
+
+## Sık sorulan sorular
+
+### Q1. Senaryom olmadan da video yapabilir miyim?
+
+Evet. Bir konu, makale, bağlantı veya somut ihtiyaç verin; yapay zekâ asistanı önce bunu video senaryosuna dönüştürür. Hazır senaryonuzu da doğrudan kullanabilirsiniz. Hedef izleyiciyi, yayın platformunu ve istediğiniz süreyi de belirtmeniz faydalı olur.
+
+### Q2. Director stilleri tamamen otomatik üretilebilir mi? Bu mod neden var?
+
+Şu anda A serisi stillerin üretim akışları nispeten bağımsızdır. Ancak sevdiğiniz bir A serisi stili B serisinin üretim akışıyla birleştirip kendi DIY çözümünüzü oluşturmak için yapay zekâ asistanından yardım isteyebilirsiniz.
+
+Director modunu korumanın temel amacı, video üretimi ve deneme-yanılma maliyetlerini kontrol altında tutmaktır. On küsur dakikalık bir videonun tek seferlik tam üretimi **onlarca ABD dolarına** mal olabilir; tekrar tekrar üretmek bu maliyeti artırır. Bu nedenle Director modu, sahne sahne üretim ve kontrol ile elle kurguyu korur. Böylece her planı siz yönetir, sonucu gördükten sonra devam edip etmeyeceğinize karar verebilirsiniz.
+
+### Q3. Director modunda karakterler klipler arasında değişiyorsa ne yapmalıyım?
+
+Yapay zekâ asistanına şöyle söyleyebilirsiniz: “Önce seçtiğim stile uygun bir çöp adam tasarla. Önden, yandan ve arkadan görünüşünü onaylayalım; sonra sahne istemlerini hazırla.” Kendinize özgü bir karakterle video yapmak için de bu şekilde başlayabilirsiniz. Daha önce onayladığınız karakter referanslarını yeniden kullanın; özel tasarıma ihtiyacınız yoksa bu adımı atlayabilirsiniz.
+
+Referans görsel destekleyen video araçlarında, **her klibi üretirken onaylanan karakter görsellerini de ekleyin**. Referans görseller ek destektir; mevcut sahne istemlerinin yerini almaz ve seçilen stilin kurallarını değiştirmez. Sonuçta klipler arasındaki karakter tutarlılığını yine kontrol edin.
+
+### Q4. Mutlaka Codex mi kullanmalıyım?
+
+Hayır. Director modu, Skill kurulumunu ve kullanımını destekleyen yapay zekâ asistanlarında çalışır.
+
+Autopilot modu için Codex veya Claude Code gibi dosya okuyup yazabilen ve komut çalıştırabilen bir ortam; ayrıca görsel üretim, seslendirme hizmetleri ve yerel bağımlılıklar gerekir.
 
 <!-- readme:platforms -->
 
-**Yatay mı, dikey mi?**
+### Q5. Bir makaleyi veya referans içeriği nasıl daha ilgi çekici videoya dönüştürebilirim?
 
-| Format | Nerede kullanılır? | Kompozisyon |
-|---|---|---|
-| `9:16` | YouTube Shorts, TikTok, Instagram Reels | Dikey hareket, merkezde bir ana karakter ve mobil ekrana uygun kadraj |
-| `16:9` | YouTube ve yatay eğitici videolar | Yana doğru hareket, geniş mekânlar ve yan yana karşılaştırmalar |
+Yapay zekâ asistanına kime ulaşmak istediğinizi, asıl mesajınızı ve izleyicinin video sonunda ne yapmasını beklediğinizi söyleyin. Asistan buna göre konuya bir açı bulur; dikkat çeken açılışı, anlatının ilerleyişini ve kapanış çağrısını tasarlayıp sahne planına dönüştürür.
 
-Yüzünüzü göstermeden hazırlayacağınız açıklayıcı videolar, tarih ve iş dünyası konuları, kişisel gelişim, gündelik hikâyeler ve ürün tanıtımları için kullanın. İngilizce seslendirmenin üzerine sonradan iki dilli altyazı eklemek; İngilizce öğrenme içerikleri, kısa dramatik hikâyeler ve ayrıntılı metin incelemeleri için de uygundur. Süreyi on saniyenin katları olarak seçebilirsiniz: 30 saniye, 60 saniye, 90 saniye, üç dakika veya daha uzun.
+Sevdiğiniz bir videoyu da paylaşabilir; ritmini, anlatımını veya hikâye yapısını neden beğendiğinizi açıklayabilirsiniz. Yöntemden ilham alın, kendi bakış açınızı ve ifadenizi koruyun. Tarih, iş dünyası veya bilimle ilgili bilgileri yayımlamadan önce doğrulayın.
 
-- Karakter, nesne ve anlatıcı profillerini video boyunca tutarlı tutun. Ses değişikliği istiyorsanız önce yönetmen önerisinde kararlaştırın.
-- Bir klipte karakter, nesne veya ses farklılaşıyorsa her şeyi baştan yapmak yerine o klibi düzeltip yeniden deneyin.
-- Metni güçlendirirken gerçek, istatistik veya ürün iddiası uydurmayın.
+### Q6. Kullanmak ücretli mi?
 
-<a id="recent-updates"></a>
+Skill ücretsiz ve açık kaynaklıdır. Görsel, ses ve video üretim hizmetlerinin ücretleri seçtiğiniz platforma ve hesap planına bağlıdır. Bir platforma abonelik, o platformun API kullanım kotasını mutlaka kapsamaz.
 
-## Son güncellemeler
+### Q7. Bir görseli veya sesi beğenmezsem her şeyi baştan mı yapmalıyım?
 
-- **2026-10-20:** Varsayılan ana sayfa İngilizce oldu; Türkçe ve Endonezce sayfalar eklendi. Çince, Japonca, Korece ve Brezilya Portekizcesi seçenekleri korunuyor. Skill kuralları değişmedi.
-- **2026-10-20:** Stil 5, Tarihi Çizgi Film eklendi. Japonya ve Mısır örnekleriyle birlikte üst bölümde Japonya ön izlemesi yer alıyor. Stil ve istem katkısı için @leksautomate’e teşekkürler.
-- **2026-10-15:** Çince ana sayfa, kurulum adımları ve örnekler iyileştirildi; daha hafif ön izlemeler ve yıldız grafiği eklendi. Skill kuralları değişmedi.
-- **2026-10-14:** Tren istasyonu ve kafe örnekleriyle Stil 4, İç Isıtan Hikâyeler eklendi.
-- **2026-10-13:** Stil 1’in karakter tanımları ve mevcut poz kısıtları iyileştirildi.
-- **2026-10-12:** Ortak ses tutarlılığı kuralları iyileştirildi; tarih öncesi ve topluluk örnekleri eklendi.
+Hayır. Önce senaryoyu ve üretim planını onaylayın; sonra kısa bir örnekle stili, karakterleri, sesi, altyazıları ve ritmi kontrol edin. Memnun kaldığınızda tam videoya geçin.
 
-Zaten kurdunuz mu? Yalnızca ana sayfanın değişmesi yeniden kurulum gerektirmez. Stil 5’i istiyorsanız veya karakter ve ses kuralları değişmeden önce kurduysanız Skill’i güncelleyin. [Ayrıntılı değişiklik günlüğü (Çince)](CHANGELOG.zh-CN.md).
+Yalnızca bir bölüm uygun değilse önce o bölümü düzeltin; onaylanan seslendirmeyi ve medyayı yeniden kullanın. Böylece gereksiz tekrarları ve maliyeti azaltırsınız.
+
+### Q8. Videoları YouTube’da yayımlayabilir veya ticari projelerde kullanabilir miyim?
+
+Proje MIT lisanslıdır ve ticari kullanıma izin verir. Videoda kullanılan üçüncü taraf görselleri, müzikler, ses efektleri ve seslendirme hizmetleri kendi lisans koşullarına tabidir. YouTube’da para kazanma özelliğinin açılması ise platformun değerlendirmesine bağlıdır.
 
 <!-- readme:contribute -->
 
-## Sırada hangi stil olsun?
+## Daha çok stil, daha çok yaratıcı olasılık
 
-Aşağıdaki stiller planlanıyor; henüz kullanıma hazır değiller:
+⭐ **Yüzünüzü göstermeden bir YouTube kanalı kurmak ve içerikten gelir elde etme yollarını keşfetmek mi istiyorsunuz?** Projeye yıldız ekleyin; yeni çöp adam stillerini, video istemlerini ve otomatik üretim akışlarını takip edin. Kanalınız “Videoyu nasıl yapacağım?” aşamasında takılı kalmasın.
 
-- **Karma medya dünyaları** — Daha zengin ortamlarda 2D çöp adamları keşfetmek.
-- **Kara Tahta Anlatımı** — Kara tahtayla etkileşimli dersler ve anlatımlar.
-- **Stil 6: Resimli Hikâye Kitabı** — Masallar, fabllar ve çocuk hikâyeleri.
-- **Stil 7: Grafiti Aksiyon** — Dövüş sahneleri, kısa aksiyon filmleri ve hareket serileri.
-- **Stil 8: İki Kişilik Sitcom** — Atışmalar, gündelik yanlış anlaşılmalar ve iş hayatından sürprizler.
-- **Stil 9: Kart Oyunu Macerası** — Seviye atlama, canavar savaşları ve oyun mantığıyla ilerleyen hikâyeler.
+🔔 **[@CrazyKaomei](https://x.com/CrazyKaomei)’yi takip edin**: yüzünüzü göstermeden YouTube içeriği üretmek için otomasyon akışları ve pratik araçlar keşfedin. Senaryo, seslendirme, görsel üretim ve kurguyu birbirine bağlayın; tekrar eden işleri azaltıp tek başınıza daha düzenli içerik üretin. Konu bulma, kanal büyütme ve içerikten gelir elde etme fikirleri de paylaşılmaya devam ediyor.
 
-Stil önermek, çalışmanızı paylaşmak veya sorun bildirmek için [Issues](https://github.com/kaomei/stickman-video-director/issues) bölümüne yazın. Stil önerirken bir referans ve denemek istediğiniz konuyu ekleyin. Çalışma paylaşırken videoyu, kullandığınız stili ve size atıf yapabileceğimiz bir yazar bağlantısını gönderin.
+<a id="whats-next"></a>
 
-## Yıldızların zaman içindeki artışı
+🎨 **Planlanan stiller**: resimli hikâye kitabı, grafiti dövüş, iki kişilik sitcom, kart oyunu macerası, gerçek ve çizimin birleştiği dünyalar, tahta başında anlatım.
 
-⭐ **Bu kütüphane sizi istem aramaktan veya hatalı denemeleri düzeltmekten kurtardıysa, bir yıldızla destekleyebilirsiniz. Bir sonraki videonuz için burayı yeniden kolayca bulursunuz.**
-
-Ben [Kaomei](https://x.com/CrazyKaomei). Stilleri denemeye; işe yarayan istemleri, iş akışlarını ve kaçınmaya değer hataları ücretsiz paylaşmaya devam edeceğim. Araçlarla daha az uğraşın, anlatmak istediğiniz hikâyelere daha çok zaman ayırın.
+💬 **Öneri ve katkılar**: yeni bir stil önermek, çalışmanızı paylaşmak veya sorun bildirmek için Telegram üzerinden [@CrazyKaomei](https://t.me/CrazyKaomei) ile iletişime geçin. Stil önerirken bir referans ve işlemek istediğiniz konuyu ekleyin. Çalışmanızı paylaşırken videoyu, kullandığınız stili ve sunumda adınızı belirtmek için bir yazar bağlantısını gönderin.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date&amp;theme=dark">
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date">
-    <img src="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date" alt="kaomei/stickman-video-director için GitHub yıldızlarının artışı" width="800">
+    <img src="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date" alt="kaomei/stickman-video-director projesinin GitHub yıldızlarının zaman içindeki değişimi" width="800">
   </picture>
 </a>
 </div>
 
 ## Lisans
 
-Proje [MIT License](LICENSE) kapsamında sunulmaktadır. Kullanabilir, değiştirebilir, yeniden dağıtabilir ve ticari amaçlarla yararlanabilirsiniz. Projeyi veya önemli bölümlerini dağıtırken telif hakkı ve lisans bildirimini koruyun.
+Proje [MIT Lisansı](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE) ile sunulur. Ücretsiz kullanabilir, değiştirebilir, dağıtabilir ve ticari amaçlarla yararlanabilirsiniz. Projeyi veya önemli bir bölümünü dağıtırken mevcut telif hakkı ve lisans bildirimini koruyun.
 
-Herhangi bir garanti olmaksızın, “olduğu gibi” sunulur. Koşulların tamamı için [LICENSE](LICENSE) dosyasına bakın.
+Proje herhangi bir garanti olmaksızın “olduğu gibi” sunulur. Koşulların tamamı için [LICENSE](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE) dosyasına bakın.

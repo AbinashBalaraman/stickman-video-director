@@ -1,287 +1,355 @@
-<!-- readme:hero -->
-
 <div align="center">
 
-[**English**](README.en.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md) · [Türkçe](README.tr.md) · [Bahasa Indonesia](README.id.md)
+[**🇺🇸 EN**](README.en.md) · [🇨🇳 简中](README.zh-CN.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md) · [🇧🇷 PT-BR](README.pt-BR.md) · [🇹🇷 TR](README.tr.md) · [🇮🇩 ID](README.id.md)
 
-# AI Stickman Animation Style Library
+# AI Stickman Video Generator for Faceless YouTube Channels
 
-**Turn an idea into a polished stickman video with a consistent visual style.**
+**Turn any idea into a high-quality stickman video with a consistent visual style.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-</div>
+Start with a topic, an article, or a link. Automatically create visuals, voiceover, captions, sound effects, and subtle animation, and get a complete stickman video. **Build a distinctive YouTube channel without ever appearing on camera.**
 
-<div align="center">
-
-I'm testing popular stickman animation styles from across the web and sharing the workflows here, free and open source. Install the Skill, give your AI a topic, and get a script, animated storyboards, and prompts for narration and sound effects.
-
-<strong>Next time you want to make a stickman animation, start here.</strong> For **YouTube explainers, TikTok videos, workplace and motivational stories, educational content, and punchy shorts about everyday life.**
+An open-source collection of popular stickman animation styles from across the web, continually updated for **science and knowledge explainers, psychology and motivation, education and awareness, uplifting stories, trending stories, and more.**
 
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>Minimalist Monochrome</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Minimalist stickman animation with white lines on black" width="90%"></a>
+<strong>Classic Black & White</strong><br>
+<a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Classic black-and-white stickman animation: white lines on black for dynamic explainers" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Modern Tech</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Red-beanie stickman with clean tech visuals" width="90%"></a>
+<strong>Modern Pop</strong><br>
+<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Modern pop stickman animation: red-beanie character with tech lighting" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Prehistoric Dark Comedy</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Prehistoric stickman story with a comic twist" width="90%"></a>
+<strong>Prehistoric Cave</strong><br>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Prehistoric cave stickman animation: short cave stories with a twist" width="90%"></a>
 </td>
 <td width="50%" align="center">
 <strong>Cozy Storytelling</strong><br>
-<a href="#style-gallery"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Expressive stick characters in a colorful everyday setting" width="90%"></a>
+<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Cozy stickman storytelling: colorful everyday scenes and relatable moments" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>Historical Cartoon</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman animation set in Edo-period Japan" width="90%"></a>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman cartoon: a samurai story in Edo Japan" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>More styles coming soon…</strong>
+<strong>Minimal Hand-Drawn</strong><br>
+<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Minimal hand-drawn stickman video: expressive characters, key text, and subtle animation" width="90%"></a>
 </td>
 </tr>
 </table>
 
 <div align="center">
 
-**5 styles · 7 visual options · Tested examples · Free and open source**
+**6 styles · 8 visual options · Tested examples · Free and open source**
 
-⭐ **Star it now. Next time you make an animation, skip the hunt for prompts.**
+⭐ **Star the project to keep up with new stickman styles as they arrive.**
 
-[Get started](#quick-start) · [Latest updates](#recent-updates) · [Full walkthrough (Chinese)](https://x.com/CrazyKaomei/status/2102311241046008268)
+[Get started](#quick-start) · [A styles](#a-styles) · [B styles](#b-styles) · [FAQ](#faq)
 
 </div>
 
-<!-- readme:demos -->
+<a id="creation-modes"></a>
 
-<a id="style-gallery"></a>
+## Two ways to make your video
 
-## Find your style
+**Want control over every shot? Choose A · Director Mode. Want a finished long-form video without assembling every scene? Choose B · Autopilot Mode.** One project, two workflows.
 
-### Style 1: Minimalist Monochrome
+|  | <div align="center">A · Director Mode</div> | <div align="center">B · Autopilot Mode</div> |
+|:---:|:---|:---|
+| **Approach** | **You control production; AI plans the shots.** Get storyboards and prompts, then generate clips and edit them yourself. | **Give it a topic or a brief; get a finished video.** Automate illustrations, voiceover, captions, subtle animation, and video assembly. |
+| **Length** | **Short-first**, typically 30 seconds–3 minutes. Longer videos can be built scene by scene. | **Long-form-first**, especially narrated videos of **10 minutes or more**. Also works for shorts and episodic stories. |
+| **Tools** | Plan with a Skill-compatible AI assistant, generate clips in **Google Flow** or a similar service, then edit in **CapCut** or your preferred editor. | Run in **Codex, Claude Code**, or another AI coding agent that can read and write files, call tools, and execute commands to connect generation with local rendering. |
+| **Visuals** | **Generated animated clips**, with character movement, camera direction, and interactions. | **Illustrated scenes with subtle animation**, using cuts, pans, and zooms to support the narration rather than generating a full-motion clip for every scene. |
+| **Output** | A director's treatment, storyboards, scene-by-scene video prompts, and sound design. | **A complete video file with voiceover, captions, and subtle animation.** |
+| **Start** | <div align="center"><a href="#director-start">Use Director Mode</a></div> | <div align="center"><a href="#autopilot-start">Use Autopilot Mode</a></div> |
 
-A few lines can explain a big idea. On a pure-white or pure-black canvas, characters, props, and accent colors do the storytelling. A good fit for fast, clear explainers.
+Both workflows can start with **a topic, copy, or a complete script**. **A and B have separate style numbers, galleries, and visual assets; new styles and examples are added to their own series.** Choose the aspect ratio, narration language, and voice you need. The lengths above are recommendations, not limits.
 
-- **The look:** Round heads, line limbs, consistent stroke weight, and occasional simple expressions. Up to three vivid accent colors distinguish emotions, risks, or actions. Turn anxiety into a cage or attention into a progress bar.
-- **Best for:** Science, psychology, motivation, self-management, business breakdowns, and explaining concepts.
-- **Which version?** White backgrounds feel clean and direct; choose black backgrounds for stronger contrast, tension, and emotional impact.
-
-| Style 1A: Black on White | Style 1B: White on Black |
-|:---:|:---:|
-| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="Black stick figure on a pure-white background" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="White stick figure on a pure-black background" width="360"><!-- demo:dark:end --> |
-| White canvas · Black figure | Black canvas · White figure |
-
----
-
-### Style 2: Modern Pop
-
-The red beanie and yellow T-shirt make this character easy to recognize. Use a clean tech setting to explain a product, or take the character into bedrooms, streets, and open landscapes for a story.
-
-- **The look:** One recognizable character, two kinds of world. 2A pairs white space and a faint grid with floating glass interfaces and cyan-blue light. 2B uses colorful settings, cinematic lighting, and depth.
-- **Best for:** 2A suits AI tools, tech products, tutorials, and feature demos. 2B suits personal growth, everyday situations, adventures, and motivational stories.
-- **Which version?** Choose 2A to explain a tool or method; choose 2B to follow a character through an experience.
-
-| Style 2A: Minimal Tech | Style 2B: Cinematic Story |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Minimal tech animation with a red-beanie character" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="Red-beanie character in a colorful cinematic setting" width="360"> |
-| White space · Faint grid · Cyan glow | Colorful settings · Cinematic light · Story atmosphere |
-
----
-
-### Style 3: Prehistoric Sketch / Dark Comedy
-
-Take today's problems back to a world without phones or offices. Caves, animal hides, campfires, and exaggerated expressions turn familiar workplace frustrations and human quirks into stories with a twist.
-
-- **The look:** Rough hand-drawn outlines, white-filled heads, dark stick limbs, animal-hide clothes, and earthy scenery. Character interaction, reaction shots, and comic timing matter. Cast adults, children, or elders to fit the story; every story needn't use the same face.
-- **Best for:** Prehistoric what-ifs, workplace satire, observations about human nature, dark comedy, fables, and children's English stories.
-- **Why choose it?** For a short setup and an unexpected payoff—especially when modern relationships become absurdly familiar in a prehistoric tribe.
-
-| Example 1: “How Did Humans Get Their First Job?” | Example 2: “Humans Discover Fire” |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? animated preview" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Humans Discover Fire, a community-made animation" width="360"> |
-| Prehistoric workplace comedy | Fire discovery · Community creation |
-
----
-
-### Style 4: Cozy Storytelling
-
-A mug you've been saving for a special occasion. A message you feel compelled to answer. An afternoon you finally keep for yourself. Simple characters step into colorful everyday settings, with actions, expressions, and camera work carrying the story.
-
-- **The look:** White-filled round heads, slender bodies, dark stick limbs, and small, natural expressions in full-color 2D cartoon environments. Wide shots establish the place; close-ups catch hesitation or relief; tracking shots keep the story moving.
-- **Best for:** Relatable everyday stories, personal growth, relationships, warm moments, habit building, and children's English content.
-- **Why choose it?** To help viewers recognize themselves in a small moment. Color and lighting follow the topic: warmth, anxiety, exhaustion, or a fresh start.
-
-| Example 1: Message Anxiety on the Commute | Example 2: Making Time for Yourself |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="A character dealing with message anxiety at a train station" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Taking a break at a sunlit outdoor café" width="360"> |
-| Train station · Tracking shots · Emotional close-ups | Outdoor café · Warm light · Everyday gestures |
-
----
-
-<a id="style-5"></a>
-
-### Style 5: Historical Cartoon
-
-History, with a cast you can follow. Send a samurai through Edo's streets, meet a black cat in an Egyptian temple, or follow a soldier into a Roman camp. Period costumes, colorful settings, and small comic turns make the past feel like a story rather than a slide deck.
-
-- **The look:** White-filled round heads, simple black oval eyes, bold outlines, and thin stick limbs, with period clothing, soft cel shading, and painted backgrounds. Change the wardrobe, buildings, props, and score for each era—not the underlying character style.
-- **Best for:** World history, surprising facts, everyday life in the past, historical figures, and history-themed comedy.
-- **Why choose it?** To turn a fact into something happening to a character. Use a clear situation, a telling reaction, or a twist to carry the explanation.
-
-| Example 1: Everyday Life in Edo Japan | Example 2: Cats and Mummies in Ancient Egypt |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="A samurai's everyday life in Edo Japan" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="A black cat and a mummy in an ancient Egyptian temple" width="360"> |
-| Edo streets · Samurai clothing · Everyday surprises | Painted temple · Black cat · Historical curiosity |
-
-Style and prompt contribution: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate). Japanese sample provided by the original creator.
-
-<!-- readme:advantages -->
-
-## What the Skill does
-
-It plans the writing and the visuals together—not just a stick figure's appearance.
-
-| Part | What you get |
-|---|---|
-| **Script** | A hook, progression, and payoff, with narration and a reference translation where needed. |
-| **Visuals** | Character actions, props, camera moves, transitions, and sound cues. |
-| **Continuity** | Character, prop, and narrator profiles, plus transitions between clips. |
-| **Framing** | Composition and shot choices adapted to landscape or portrait. |
-| **Revisions** | A proposal to approve before the final prompts. |
-
-<!-- readme:output -->
-
-First, review the **director's proposal**: narration, scenes, camera work, and sound design. Once you approve it, get standalone **Gemini Omni Flash video prompts** for each segment, plus stitching, transition, and subtitle notes.
-
-The Skill plans the video and writes the prompts. Flow or another video tool generates the clips; a video editor handles the final assembly and subtitles. No API or MCP setup is required for the Skill.
-
-<!-- readme:install -->
+Autopilot Mode needs working image and voice generation services plus a local video-rendering environment. A standard chat window alone cannot replace that setup. The Skill is free and open source; connected services may charge separately.
 
 <a id="quick-start"></a>
 
 ## Get started
 
-### 1. Install the Skill
-
-Send this to your AI assistant:
+Send the following to an AI assistant that supports Skills. After installation, it will explain **what each mode produces and how to begin**, with examples you can copy.
 
 ```text
 Install this Skill for me:
 https://github.com/kaomei/stickman-video-director
+
+Once installed, read the installed SKILL.md right away.
+Explain what each mode produces, the tools it needs, and the workflow
+in plain language, with examples I can copy.
+Based on what I want to make, tell me what is missing and exactly what to do next.
 ```
 
-<!-- readme:workflow -->
+<a id="director-start"></a>
 
-### 2. Give it a topic
+### A · Director Mode: scene-by-scene video prompts
 
-Send a topic, draft, or article. For example:
+After installation, send this to your AI assistant and replace the placeholder with your topic:
 
 ```text
-Make a stickman video called “How Did Humans Get Their First Job?”
+Use Director Mode / mode A to turn the following topic, copy, or brief
+into a stickman video:
+[Enter a topic, paste your copy, or describe what you need]
+
+Requirements: landscape 16:9, A3 "Prehistoric Cave" style, starting with 30 seconds.
+Give me the director's treatment first. After I approve it, provide scene-by-scene video prompts.
 ```
 
-### 3. Follow the prompts and approve the plan
+**Workflow: share your topic and brief → develop the story script → optionally approve front, side, and back character views → generate detailed storyboard prompts → manually generate clips and edit the final video**
 
-**Choose settings → Review the proposal → Request changes → Approve and get your prompts.**
+The treatment covers the story structure, scene-by-scene narration, actions, camera direction, and sound design. Copy each prompt into [Google Flow](https://flow.google.com/) or another video generator, then add captions and finish the edit in CapCut or your preferred editor.
 
-If you haven't chosen an aspect ratio or style, the Skill asks. Pick landscape `16:9` or portrait `9:16`, then a style from the gallery. It won't ask again for settings you've already given. Videos default to 60 seconds; say “let's try 30 seconds first” for a shorter test.
+For your first video, follow the [full production walkthrough](https://x.com/CrazyKaomei/status/2102311241046008268) (in Chinese).
 
-Next comes the director's proposal: story structure, narration for each segment, character actions, camera work, and sound design. Review the whole plan and request changes before approving the final video prompts.
+<a id="autopilot-start"></a>
 
-**“How Did Humans Get Their First Job?” | Landscape 16:9 · Style 3: Prehistoric Dark Comedy · 30 seconds**
+### B · Autopilot Mode: from a brief to a long-form video
 
-This is the storyboard approved before making the example above. The sample's original narration is preserved:
+After installing in Codex, Claude Code, or another environment with file access and command execution, try:
 
-| Time | Scene and action | Voiceover |
-|---|---|---|
-| **0–10s: Keeping trouble out** | A caveman drags his stone club into the cave and collapses onto a straw bed. A huge saber-toothed tiger's shadow appears at the entrance. He opens one eye: “Again?” He rolls a boulder across the opening, dusts off his hands, and goes back to bed. End on his satisfied face. | **“Ten thousand years ago, one man finally solved all his problems. He shut them outside.”** |
-| **10–20s: The boss finds you** | Just as he closes his eyes, three knocks come from the entrance. The boulder shifts open a crack. The chief leans in, smiling, and offers a spear. The caveman waves it away. Then the chief produces a roasted leg of meat. The caveman sniffs, eyes suddenly wide. Cut outside: spear in hand, he's being nudged toward giant animal tracks. | **“Then someone offered him food… in exchange for a small favor. Congratulations. Employment was invented.”** |
-| **20–30s: The price of progress** | He returns to the same cave covered in dust, drops the spear, and holds out his hand for the meat. The chief offers a tiny piece with a professional smile, then presses a whole bundle of spears into his arms, pats his shoulder, and leaves. The caveman looks from the meat to the spears, then slowly at the camera. He lies back down, but the spears jab him upright. | **“The reward got smaller. The workload got bigger. And somehow… they called that progress.”** |
+```text
+Use Autopilot Mode / mode B to turn the following topic, article, post, news item, or brief
+into a compelling YouTube video:
+[Paste content or a link, or describe what you want to promote]
 
-Don't like a line or a scene? Say what to change. Final prompts come only after your approval. This 30-second example produces three roughly ten-second prompts covering characters, action, camera work, narration, and audio.
+Requirements: 5–10 minutes, landscape 16:9, B1 "Minimal Hand-Drawn" style, with voiceover, captions, and sound effects.
 
-### 4. Generate the clips and edit your video
+Check the image generation, voiceover, and video-rendering setup first. Then give me a script and a 20-second preview with sound.
+After I approve it, build the full video with visuals timed to the narration. Deliver a complete video file; I do not want to assemble scenes myself.
+```
 
-Submit the prompts to [Google Flow](https://flow.google.com/) in order. Assemble the clips in CapCut or another editor, adjust the joins, and add subtitles. A 30-second video usually uses three roughly ten-second prompts; a 60-second video uses six.
+**Workflow: share a topic, content, or brief → approve the script → approve a 20-second preview with sound → automatically produce the full video → receive the finished video file**
 
-For a first run, follow the [complete production walkthrough](https://x.com/CrazyKaomei/status/2102311241046008268). There's also a [Flow tutorial](https://x.com/CrazyKaomei/status/2093893997223923822?s=20). Both are in Chinese. The Skill is free; video generation costs and model availability depend on the platform.
+The AI assistant plans the scenes, generates the visuals and narration, adds captions and sound effects, and renders a complete video to the voiceover's timing. You approve the script and preview; you do not have to generate and assemble every scene yourself.
+
+On first use, it checks the required setup and walks you through anything missing. If a visual or voiceover section needs work, revise just that section and keep what you have already approved.
+
+<a id="style-gallery"></a>
+
+<a id="a-styles"></a>
+
+## A · Director Mode style gallery
+
+Styles are numbered A1, A2, A3… Each includes its own animated examples.
+
+<a id="a1"></a>
+
+### A1: Classic Black & White
+
+Explain an idea with just a few lines. On a pure white or black canvas, characters, props, and a little accent color do the heavy lifting—ideal for brisk, clear explainers.
+
+- **Visual style**: simple round heads, line-drawn limbs, and consistent stroke widths, with occasional simple expressions. Up to three saturated accent colors signal emotion, risk, or action. Abstract ideas become visual metaphors: anxiety as a cage, attention as a progress bar.
+- **Best for**: science explainers, psychology, motivation, self-management, business breakdowns, and abstract concepts.
+- **Choose your look**: black characters on white feel clean and direct for teaching and everyday explainers. White characters on black create stronger contrast for suspense, conflict, and emotion.
+
+| A1.1 · Black on white | A1.2 · White on black |
+|:---:|:---:|
+| <!-- demo:light:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/light-theme-demo.gif" alt="A1.1 · Black stick figures on white: animated preview" width="360"><!-- demo:light:end --> | <!-- demo:dark:start --><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="A1.2 · White stick figures on black: animated preview" width="360"><!-- demo:dark:end --> |
+| Pure white canvas · Black characters | Pure black canvas · White characters |
+
+---
+
+<a id="a2"></a>
+
+### A2: Modern Pop
+
+A red beanie and yellow T-shirt give this character an instantly recognizable look. Explain a product in a clean tech setting, or follow the character into bedrooms, city streets, and the wilderness for a story with real ups and downs.
+
+- **Visual style**: a minimalist character with a consistent red beanie and yellow shirt, in two types of setting. Minimal Tech pairs white space and a faint grid with floating glass-like interfaces and cyan light. Colorful Story uses richer scenery, lighting, and depth to set the mood.
+- **Best for**: Minimal Tech suits AI tools, tech products, tutorials, and feature walkthroughs. Colorful Story works for personal growth, everyday life, adventure, and motivational stories.
+- **Choose your look**: explaining a tool or method? Pick Minimal Tech. Taking viewers through a character's experience? Pick Colorful Story.
+
+| A2.1 · Minimal Tech | A2.2 · Colorful Story |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="A2.1 · Minimal Tech: animated preview" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2b-demo.gif" alt="A2.2 · Colorful Story: animated preview" width="360"> |
+| White space · Faint grid · Cyan glow | Colorful scenes · Cinematic lighting · Story atmosphere |
+
+---
+
+<a id="a3"></a>
+
+### A3: Prehistoric Cave
+
+Take today's problems back to a world without phones or offices. Caves, animal skins, campfires, and exaggerated expressions turn the absurdities of work and human nature into short stories with a twist.
+
+- **Visual style**: bold hand-drawn strokes, solid white heads, dark limbs, animal-skin clothing, and earthy surroundings. Character interactions, reaction shots, and comic pauses drive the story. Design the cast for each story—different ages and genders are welcome; not every story needs the same face.
+- **Best for**: prehistoric what-ifs, workplace satire, observations on human nature, dark comedy, fables, and English-learning stories for children.
+- **Choose this when**: a small story needs an “aha” moment or an unexpected turn. Modern relationships transplanted into a prehistoric tribe make for jokes that feel both familiar and surprising.
+
+| Example 1: "How Did Humans Get Their First Job?" | Example 2: "The First Discovery of Fire" |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? Animated preview" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="The First Discovery of Fire: community animation" width="360"> |
+| Prehistoric story · Workplace twist | Discovery of fire · Community creation |
+
+---
+
+<a id="a4"></a>
+
+### A4: Cozy Storytelling
+
+A mug too special to use. A message you feel you have to answer immediately. An afternoon finally kept for yourself. Simple characters inhabit colorful everyday settings, telling relatable stories through movement, expressions, and camera work.
+
+- **Visual style**: solid white round heads, slim bodies, fine dark limbs, and natural expressions in fully illustrated 2D environments. Wide shots establish the setting, close-ups capture hesitation or relief, and tracking shots follow the character forward.
+- **Best for**: relatable everyday stories, personal growth, relationships, heartwarming moments, habit-building, and English-learning content for children.
+- **Choose this when**: you want viewers to recognize themselves in a small moment. Adapt the colors and lighting to the theme, from warmth and comfort to anxiety, exhaustion, and starting over.
+
+| Example 1: Message anxiety on the commute | Example 2: Making time for yourself |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="Cozy Storytelling: message anxiety at a subway station" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Cozy Storytelling: a quiet break at an outdoor café" width="360"> |
+| Subway station · Walking shots · Emotional close-ups | Outdoor café · Warm light · Everyday gestures |
+
+---
+
+<a id="style-5"></a>
+<a id="a5"></a>
+
+### A5: Historical Cartoon
+
+Send stick figures into history: samurai on Edo streets, black cats in ancient Egyptian temples, soldiers in Roman camps. Period clothing, colorful settings, and playful contrasts make history easier to picture.
+
+- **Visual style**: solid white round heads, black oval eyes, bold clear outlines, and thin line-drawn limbs, paired with period clothing, soft cel shading, and colorful backgrounds. Change the costumes, buildings, props, and music for each place and era while keeping the same character drawing style.
+- **Best for**: world history, curious facts about civilizations, everyday life in the past, historical figures, and humorous history shorts.
+- **Choose this when**: you want to turn a fact into something a character actually experiences. Reactions and story twists help a small historical detail hold the viewer's attention.
+
+| Example 1: Edo Japan · A samurai's everyday life | Example 2: Ancient Egypt · Cats and mummies |
+|:---:|:---:|
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="Historical Cartoon: an Edo samurai and everyday street life" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="Historical Cartoon: ancient Egyptian temples, black cats, and mummies" width="360"> |
+| Edo streets · Samurai clothing · Everyday contrasts | Colorful temples · Black cat characters · History with a twist |
+
+Style and prompt contribution: [Lawal Ridwan / @leksautomate](https://github.com/leksautomate).
+
+---
+
+<a id="b-styles"></a>
+
+## B · Autopilot Mode style gallery
+
+Styles are numbered B1, B2, B3… Each has its own finished examples combining illustrated scenes with subtle animation, maintained separately from the A series.
+
+<a id="b1"></a>
+
+### B1: Minimal Hand-Drawn
+
+Let the narration lead. Expressive stick figures, colorful hand-drawn props, and bold on-screen text make ideas, stories, and product benefits clear and engaging.
+
+- **Visual style**: near-white paper with a barely visible grid, black hand-drawn lines, and a few colorful props. Expressive faces, small animated details, flowing transitions, and sound effects keep the story moving. On-screen text highlights key ideas; captions follow the narration.
+- **Best for**: YouTube explainers, psychology and personal growth, workplace stories, educational videos, and product promotion.
+- **Choose this when**: you want a complete narrated, captioned video from a topic, copy, or story script. The visuals follow the voiceover's natural rhythm, making it a good fit for sustained explanations and long-form storytelling.
+
+Click a GIF to view or download the preview with sound.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Example 1: YouTube without showing your face</th>
+    <th width="50%" align="center">Example 2: Why is nobody watching?</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b1-minimal-handdrawn.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="B1 Minimal Hand-Drawn example 1: click to view or download a faceless YouTube video preview with sound" width="360"></a></td>
+    <td width="50%" align="center"><a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 Minimal Hand-Drawn example 2: click to view or download a Bodi-narrated preview with captions and expressive animated characters" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Hand-drawn characters · Key text · Subtle animation</td>
+    <td align="center">Bodi voiceover · Expressive faces · Subtle animation</td>
+  </tr>
+</table>
+
+---
+
+<a id="b2"></a>
+
+### B2: Coming soon…
+
+A style overview, dedicated examples, and usage prompts will be added here.
 
 <!-- readme:reliability -->
 
-## A few practical tips
+<a id="faq"></a>
+
+## Frequently asked questions
+
+### Q1. Can I make a video without a script?
+
+Yes. Give the AI assistant a topic, an article, a link, or a brief, and it will shape that into a video script. You can also bring a finished script. Include your target audience, publishing platform, and intended length for a more focused result.
+
+### Q2. Can Director Mode styles be fully automated? Why keep Director Mode?
+
+The A series currently has its own production workflows, but you can ask your AI assistant to combine your preferred A-series style with the B-series workflow for a DIY adaptation.
+
+Director Mode is retained primarily to keep video generation and experimentation costs under control. For a video over ten minutes long, one complete generation pass can cost **tens of US dollars**, and repeated attempts add to the bill. That's why Director Mode keeps generation and review scene by scene, followed by manual editing: you stay in control of every shot, check the results, and then decide whether to continue.
+
+### Q3. How do I keep characters consistent in Director Mode?
+
+Ask your AI assistant: “First design a stick figure that fits my chosen style. Let me approve the front, side, and back views before writing the storyboard prompts.” This also works if you want a character of your own. Reuse approved character references when you have them; skip this optional step if you do not need a custom design.
+
+If your video tool supports reference images, **attach the approved character image to every clip you generate**. References supplement the existing storyboard prompts; they do not replace those prompts or change the selected style's rules. Check the finished clips for consistency.
+
+### Q4. Do I have to use Codex?
+
+No. Director Mode works in AI assistants that support installing and using Skills.
+
+Autopilot Mode needs an environment such as Codex or Claude Code that can read and write files and execute commands, plus the required image generation, voiceover services, and local dependencies.
 
 <!-- readme:platforms -->
 
-**Landscape or portrait?**
+### Q5. How do I turn an article or reference into a more engaging video?
 
-| Format | Good for | Composition |
-|---|---|---|
-| `9:16` | YouTube Shorts, TikTok, Instagram Reels | Vertical action, a central subject, and mobile-safe framing |
-| `16:9` | YouTube and landscape educational videos | Lateral movement, wider scenes, and side-by-side comparisons |
+Tell your AI assistant who you want to reach, what matters most, and what you want viewers to do afterward. It can develop the angle, opening hook, narrative progression, and call to action, then turn those into scenes.
 
-Use it for faceless explainers, history and business topics, personal growth, everyday stories, and product demos. English narration with bilingual subtitles added later also works for English-learning content, short dramas, and close-reading videos. Durations can be any multiple of ten seconds: 30 seconds, 60 seconds, 90 seconds, three minutes, and beyond.
+You can also share a reference video and say what you like about its pacing, delivery, or story structure. Learn from the approach while keeping your own perspective and wording. Verify historical, business, and scientific claims before publishing.
 
-- Keep character, prop, and narrator profiles consistent across the whole video. Choose any voice changes in the proposal first.
-- If one clip's character, props, or voice drift, adjust and retest that clip rather than remaking everything.
-- Improve the writing without inventing facts, statistics, or product claims.
+### Q6. Does it cost anything?
 
-<a id="recent-updates"></a>
+The Skill is free and open source. Image generation, voiceover, and video generation services charge according to the platform and account plan you choose. A consumer subscription does not necessarily include API credits.
 
-## Latest updates
+### Q7. Do I have to redo everything if a visual or voiceover is wrong?
 
-- **2026-10-20:** Made English the default homepage and added Turkish and Indonesian pages. Chinese, Japanese, Korean, and Brazilian Portuguese remain available. Skill rules unchanged.
-- **2026-10-20:** Added Style 5, Historical Cartoon, with Japanese and Egyptian samples and the Japanese film in the hero preview. Thanks to @leksautomate for the style and prompt contribution.
-- **2026-10-15:** Refined the Chinese homepage, installation steps, and examples; added lighter previews and a Star History chart. Skill rules unchanged.
-- **2026-10-14:** Added Style 4, Cozy Storytelling, with train-station and café examples.
-- **2026-10-13:** Refined Style 1's character descriptions and current-pose constraints.
-- **2026-10-12:** Improved shared voice-consistency rules and added prehistoric and community examples.
+No. Approve the script and production plan first, then check a short preview for style, characters, voice, captions, and pacing before making the full video.
 
-Already installed? Homepage changes alone don't require a reinstall. Update the Skill if you want Style 5 or installed before the character and voice-rule changes. [Detailed changelog (Chinese)](CHANGELOG.zh-CN.md).
+If only one section needs work, revise that section and reuse the approved voiceover and assets to avoid unnecessary rework and generation costs.
+
+### Q8. Can I publish on YouTube or use the videos commercially?
+
+The project uses the MIT license, which permits commercial use. Third-party images, music, sound effects, and voiceover services remain subject to their own license terms. YouTube monetization is subject to the platform's review and policies.
 
 <!-- readme:contribute -->
 
-## What should we add next?
+## More styles. More ways to create.
 
-These styles are planned, not available yet:
+⭐ **Building a faceless YouTube channel and exploring content monetization?** Star this project for new stickman styles, video prompts, and automated workflows—so figuring out how to make the video stops holding your channel back.
 
-- **Mixed-media worlds** — Exploring 2D stick figures in richer environments.
-- **Blackboard Explainer** — Lessons and talks with blackboard interaction.
-- **Style 6: Illustrated Storybook** — Fairy tales, fables, and children's stories.
-- **Style 7: Graffiti Action** — Fight scenes, short action films, and combos.
-- **Style 8: Two-Character Sitcom** — Banter, everyday misunderstandings, and workplace twists.
-- **Style 9: Card-Game Adventure** — Level-ups, monster battles, and game-like storytelling.
+🔔 **Follow [@CrazyKaomei](https://x.com/CrazyKaomei)** for faceless YouTube workflows and practical tools that connect scripting, voiceover, image generation, and editing. Spend less time on repetitive tasks and make consistent production more manageable as a solo creator, with more ideas on topics, channel growth, and monetization along the way.
 
-Suggest a style, share your work, or report a problem in [Issues](https://github.com/kaomei/stickman-video-director/issues). For style requests, include a reference and a topic you'd like to try. For submissions, include the video, style used, and an author link so we can credit you.
+<a id="whats-next"></a>
 
-## Star History
+🎨 **Planned styles**: illustrated storybooks, doodle fights, two-character sitcoms, card-based adventures, live-action/animation hybrids, and classroom explainers.
 
-⭐ **If this library saved you time hunting for prompts or fixing failed generations, consider giving it a Star. It'll be here when you're ready to make your next video.**
-
-I'm [Kaomei](https://x.com/CrazyKaomei). I'll keep testing styles and sharing useful prompts, workflows, and the mistakes worth avoiding—all for free. Less time wrestling with tools, more time for the stories you actually want to tell.
+💬 **Ideas and submissions**: suggest a style, share your work, or report a problem by messaging [@CrazyKaomei](https://t.me/CrazyKaomei) on Telegram. For style requests, include a reference and the topic you want to cover. For submissions, include your video, the style used, and your creator link so your work can be showcased and credited.
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date&amp;theme=dark">
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date">
-    <img src="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date" alt="GitHub star growth for kaomei/stickman-video-director" width="800">
+    <img src="https://api.star-history.com/svg?repos=kaomei/stickman-video-director&amp;type=Date" alt="GitHub star history for kaomei/stickman-video-director" width="800">
   </picture>
 </a>
 </div>
 
 ## License
 
-Released under the [MIT License](LICENSE). You can use, modify, redistribute, and use the project commercially. Keep the copyright and license notice when distributing the project or substantial portions of it.
+Released under the [MIT License](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE). Free to use, modify, distribute, and use commercially. Keep the original copyright and license notice when distributing the project or substantial portions of it.
 
-Provided “as is,” without warranty. See [LICENSE](LICENSE) for the full terms.
+Provided “as is,” without warranty. See [LICENSE](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE) for the full terms.
