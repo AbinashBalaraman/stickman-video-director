@@ -18,8 +18,13 @@ for source in (skill / "SKILL.md", guide):
         if not target.startswith(("https://", "http://")):
             assert (source.parent / target).is_file(), f"Broken reference: {source}: {target}"
 
-# Keep the existing Director production contract byte-for-byte unchanged.
+# Normalize only the exact owner-directed A5 baseline summary; preserve every other
+# Director byte and the original baseline digest.
 legacy = "## A · Director\n" + entry.split("## A · Director\n", 1)[1]
+original_a5 = "  - `Style 5 (Historical Cartoon / 历史卡通风)`: white-filled round heads, simple black oval eyes and thin black stick limbs in era-specific costume, with cel shading and full-color painterly historical settings"
+revised_a5 = "  - `Style 5 (Historical Cartoon / 历史卡通风)`: white heads with connected short white necks, expressive faces, black stick limbs and compact fingerless palms, period dress and cel-shaded historical settings"
+assert legacy.count(revised_a5) == 1, "Missing exact owner-directed A5 baseline summary"
+legacy = legacy.replace(revised_a5, original_a5, 1)
 assert hashlib.sha256(legacy.encode()).hexdigest() == "f710612be73c952fb130d891b0650388ec5ae89469cae95eda8e147eec18b73e"
 assert len(entry.encode()) <= 14000, "Keep the new workflow detail in references"
 frontmatter = entry.split("---\n", 2)[1]
@@ -78,7 +83,7 @@ assert not re.search(r"\b(?:Director|Autopilot)\b|自动成片", welcome)
 assert "A 模式的旁白和声音设计沿用原有规则" in welcome
 assert "稳定男声默认" not in welcome, "Do not misstate A's source-appropriate voice selection"
 
-# Optional A references are reachable without changing the frozen Director body.
+# Optional A references remain reachable without any additional Director changes.
 reference_heading = "Optional A character references"
 assert reference_heading in entry
 a_reference = guide_text.split(f"### {reference_heading}\n", 1)[1].split("## B · Autopilot handoffs", 1)[0]
@@ -88,6 +93,16 @@ for requirement in ("not a new setup requirement", "front, side and back views",
                     "not replace, shorten or globally rewrite", "fixed character anchor"):
     assert requirement in a_reference, requirement
 assert "按需确认人物三视图" in welcome and "三视图（正面、侧面、背面）" in welcome
+
+# A5 recommends references proactively, while preserving a non-blocking text route.
+assert "A5 proactive character guidance" in entry
+a5_reference = guide_text.split("### A5 proactive character guidance\n", 1)[1].split("## B · Autopilot handoffs", 1)[0]
+for requirement in ("before planning", "even if the user has not asked", "正面、侧面、背面",
+                    "每段视频", "完整分镜提示词一起提交", "not a new mandatory setup",
+                    "prefers text-only", "do not repeatedly ask", "Reuse suitable approved",
+                    "additional image input", "not a replacement", "first-frame image",
+                    "not claim guaranteed identity", "missing hair and disconnected heads"):
+    assert requirement in a5_reference, requirement
 
 # Per-style defaults stay inside one installation; B1 is not all of B.
 autopilot = (skill / "references/autopilot.md").read_text()
@@ -99,7 +114,7 @@ assert "caption font/size/placement" in autopilot
 assert "B1 defaults, not requirements for other B styles" in b1
 assert "Google Gemini **Bodi**" in b1 and "original **Sadaltager** recording" in b1
 assert "without added style/direction instructions" in b1
-print("First-use reference wiring, single-Skill identity and unchanged Director contract passed.")
+print("First-use wiring, proactive A5 reference guidance and single-Skill identity passed; other Director bytes preserved.")
 print("Independent B-style settings, defaults precedence and unchanged demo-voice policy passed.")
 print("Eight-language catalog destinations, shared anchors and English fallback instruction checks passed.")
 print("Static checks only; fresh-host conversational acceptance remains a separate test.")

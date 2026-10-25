@@ -127,6 +127,18 @@ At prompt handoff, explain that the user attaches the approved character image(s
 
 Keep the original validated prompt templates, full style/cast anchors and frozen voice blocks as required by the selected A style. References supplement those prompts, not replace, shorten or globally rewrite them. Personalize only within that style's allowed choices, not by changing a fixed character anchor; do not import B's TTS rules or add a generic character-description block to all A prompts.
 
+### A5 proactive character guidance
+
+When A5 / Style 5 / Historical Cartoon is selected, proactively give this recommendation before planning, even if the user has not asked about consistency. Use the conversation language; do not hide it in a FAQ or wait for a failed generation. For example:
+
+> A5 建议先生成并确认人物三视图（正面、侧面、背面），再做视频。在支持参考图的视频工具里，生成每段视频时，都把已确认的角色参考图和该段完整分镜提示词一起提交。只靠文字提示词，人物一致性通常不够稳定；参考图有助于保持形象，但仍需检查实际结果。已有满意的角色图可以直接复用。
+
+Explain that this is recommended, not a new mandatory setup or approval gate. If the user prefers text-only or skips character design, briefly acknowledge the consistency limitation and continue the existing Director workflow. Once this choice is known, do not repeatedly ask or repeat the warning at every clip. Suggest three views again only for a new character or a material design change.
+
+When accepted, include the reference plan in Phase A. Help design story-specific characters using `historical-cartoon.md`; confirm front, side and back views with the user before final clip-prompt handoff. Reuse suitable approved character images instead of regenerating them. Inspect the actual sheet for a connected short white neck, balanced proportions, approved face/hair/costume and compact black fingerless palms in all three views; writing these features in a prompt does not prove they appeared.
+
+At handoff, name which approved reference file(s) to attach to each clip and retain the full standalone style, cast, action and voice instructions. A reference is an additional image input, not a replacement for the prompt or permission to change A5's drawing rules. Check the chosen model/mode actually supports character-reference images; do not assume that accepting a first-frame image is the same as supporting a multi-view reference sheet, or force a multi-panel sheet to become the opening shot. Offer a supported reference workflow or the text-only path with its limitation. Do not claim guaranteed identity or stable text-to-video: recent cross-country text-only trials still showed missing hair and disconnected heads despite explicit prompt constraints.
+
 ## B · Autopilot handoffs
 
 Read [Autopilot](autopilot.md), its [runtime configuration](autopilot-runtime.md) and the selected B-style reference before production.
