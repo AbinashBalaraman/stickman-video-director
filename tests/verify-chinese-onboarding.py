@@ -13,7 +13,7 @@ assert "[**🇨🇳 简中**](README.zh-CN.md)" in cn
 assert "[🇰🇷 한국어](README.ko.md) · [🇫🇷 FR](README.fr.md)" in cn, "French follows Korean in the shared navigation"
 assert (root / "README.fr.md").is_file(), "French navigation must open a complete README"
 hero_copy = cn.split("</div>", 1)[0]
-assert "**将任何脚本变成适合不露脸 YouTube 频道的多画风爆款火柴人动画视频。完全开源。**" in hero_copy
+assert "**将任何脚本变成适合不露脸 YouTube 频道的多画风爆款火柴人动画视频。**" in hero_copy
 assert "从一个话题、一篇文章或一份脚本开始，自动编排画面、配音、字幕与音效，制作可直接发布的火柴人视频。" in hero_copy
 assert "**⚡ 100% 免费开源。无需出镜，无需每月 $50 的订阅，几分钟就能完成，不必等上几天。**" in hero_copy
 assert "画风持续更新，适用于 **科学科普、暗黑心理学、科技寓言、热门奇闻与故事类频道。**" in hero_copy
@@ -130,7 +130,7 @@ for requirement in ("AI 助手会根据内容设计分镜", "配好字幕和音�
                     "只调整对应片段，保留已经确认的部分"):
     assert requirement in autopilot_notes, requirement
 for label in ("A1：经典黑白风", "A2：现代潮酷风", "A3：史前洞穴风",
-              "A4：治愈故事风", "A5：历史卡通风", "A6：暖金暗影风", "A7：待更新…", "B1：极简线稿风", "B2：彩色手绘风", "B3：复古电视风", "B4：求生短剧风"):
+              "A4：治愈故事风", "A5：历史卡通风", "A6：暖金暗影风", "A7：待更新…", "B1：极简线稿风", "B2：彩色手绘风", "B3：复古电视风", "B4：求生短剧风", "B5：角色解说风"):
     assert f"### {label}\n" in cn, label
 hero = cn.split('<table width="100%">', 1)[1].split("</table>", 1)[0]
 style_names = ("经典黑白风", "现代潮酷风", "史前洞穴风", "治愈故事风", "历史卡通风", "暖金暗影风")
@@ -167,7 +167,8 @@ for link in re.findall(r"\]\(([^)]+)\)", cn):
         assert (root / link.split("#")[0]).is_file(), link
 
 previews = sorted(set(re.findall(r'src="(?:https://cdn\.jsdelivr\.net/gh/kaomei/stickman-video-director@[0-9a-f]{40}/)?(assets/readme/previews/[^" ]+\.gif)"', cn)))
-assert len(previews) == 21, "Keep the 19 published previews plus the two approved B4 previews"
+assert len(previews) == 22, "Keep all 21 published previews and append the approved B5 preview"
+assert "assets/readme/previews/b5-character-explainer.gif" in previews
 for name in ("b4-dispatch", "b4-death-clock"):
     assert f"assets/readme/previews/{name}.gif" in previews
 for a6_name in ("flow", "mcp"):
