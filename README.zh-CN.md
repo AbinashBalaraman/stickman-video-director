@@ -74,7 +74,7 @@
 <tr>
 <td width="50%" align="center">
 <strong>角色解说风</strong><br>
-<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer: speaking avatar and energetic stickman physical comedy" width="90%"></a>
+<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 角色解说：为什么不愿开口求助，个性主讲人与火柴人小剧场" width="90%"></a>
 </td>
 <td width="50%" align="center"><a href="#a7"><strong>敬请期待…</strong></a></td>
 </tr>
@@ -87,7 +87,7 @@
 
 ⭐ **为项目点个 Star，及时关注下一批画风和新功能解锁。**
 
-[开始使用](#quick-start) · [导演模式画风](#a-styles) · [全自动模式画风](#b-styles) · [常见问题](#faq) · [路线图](#road-to-10000-stars--creator-ecosystem)
+[开始使用](#quick-start) · [画风与样片](#style-gallery) · [常见问题](#faq) · [路线图](#road-to-10000-stars--creator-ecosystem) · [加入社区](#community)
 
 </div>
 
@@ -104,7 +104,6 @@
 | **工具** | 用支持 Skill 的 AI 助手规划分镜，在你偏好的视频生成工具中生成片段（Google Flow、Runway、Luma、Kling 等），再用 CapCut 或 Premiere 完成剪辑。 | 在 **Codex、Claude Code** 等能读写文件、调用工具和执行命令的 AI 编程代理中运行，串起素材生成与本地合成。 |
 | **画面** | **逐段生成动画**：侧重角色动作、镜头调度与人物互动。 | **插画分镜＋微动画**：用切镜、推拉和平移配合旁白讲故事，不必逐段生成完整动作视频。 |
 | **产出** | 导演提案、分镜、逐段视频提示词与声音设计。 | **带配音、字幕与微动画的完整视频文件**。 |
-| **开始** | <div align="center"><a href="#director-start">使用导演模式</a></div> | <div align="center"><a href="#autopilot-start">使用全自动模式</a></div> |
 
 两种工作流都可以从一个初步话题、一个网页链接或一份完整脚本开始。画幅（9:16、16:9、1:1）、旁白语言与配音均可自由选择。上面的时长仅供参考，不是硬性限制。
 
@@ -112,6 +111,28 @@
 
 - **导演模式**可在普通对话式 AI 窗口中使用。
 - **全自动模式**运行在具备文件和终端访问能力的 AI 编程代理中（如 **Claude Code、OpenAI Codex 或 Cursor**），自动完成从渲染到文件交付的全流程。
+
+<!-- project-sponsor:start -->
+<a id="project-sponsor"></a>
+
+#### API 合作伙伴 · [支持本项目 ↗](https://telegram.me/CrazyKaomei)
+
+<table>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-sjolt"></a><a href="https://sjolt.ai/"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/sjolt.png" alt="SJolt 官方 Logo" width="64"><br><strong>SJolt</strong></a></td>
+<td><p>SJolt 通过一套 API 接入多种图片、视频与音频生成模型。先在 Playground 中比较效果与成本，再将同一套请求流程接入你的项目，减少从试验到开发的切换。</p><p>支持异步任务查询与按用量计费，通过一个余额管理不同模型的使用。前往 <a href="https://sjolt.ai/">SJolt 官网</a>探索模型与在线试用。</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-apimart"></a><a href="https://go.apimart.ai/tw-stickman-video-director"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/apimart.png" alt="APIMart 项目赞助" width="110"></a></td>
+<td><p>APIMart 是专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 $0.006/张，1 美元可出图 160+ 张。图片、视频一套异步 API 通吃，提交任务拿 ID、回调取结果，跑批万张不超时、换模型不改代码。按量付费、无月费，通过此<a href="https://go.apimart.ai/tw-stickman-video-director">注册链接</a>注册即可开用。</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-renoise"></a><a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@5f5985c73757a643925e06cd010767684c1e926a/assets/sponsors/renoise.png" alt="Renoise" width="64"><br><strong>Renoise</strong></a></td>
+<td><p>Renoise AI 是面向营销广告和自媒体创作者的一站式 AI 视频与图片创作平台。用大白话跟 Agent 说需求，它替你写提示词、拆分镜、批量出片，同一个角色或产品换了镜头也不走样。</p><p>网页和 iOS、安卓 App 都能直接创作，也能通过 MCP 接进 Claude、ChatGPT（Codex），在对话里生成素材和剪辑包装，无需剪辑软件，获得可发布的成片。<a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom">前往 Renoise 官网</a>探索模型与创作工具。</p></td>
+</tr>
+</table>
+
+<!-- project-sponsor:end -->
 
 <a id="quick-start"></a>
 
@@ -411,21 +432,27 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 ### B5：角色解说风
 
-**Turn your favorite avatar into a stickman star.**
+让你喜欢的头像成为频道的主讲人，其中使用知名角色需获得授权。角色在右下角开口讲述，火柴人在左侧把观点演成小剧场——被账单拖着跑、被压力压扁，抽象知识也能有笑点和记忆点。
 
-让你喜欢的头像担任讲解员，用火柴人的夸张动作把观点演出来。
+- **视觉亮点**：暖纸背景、个性角色与黑红重点字；夸张受力、回弹和道具变形，把每句话变成看得懂的视觉比喻。
+- **声音氛围**：清晰旁白带动讲述，口型、表情与字幕跟随语音；音效卡住动作落点，轻量配乐不抢人声。
+- **适合内容**：知识解说、日常心理、生活观察、流行文化与趣味评论。
 
-- **画面**: 暖纸背景、右下角半身主讲人，左侧用大物件、受力与回弹制造动态十足的物理喜剧。
-- **声音**: 清晰配音优先，关键音效紧贴动作，背景乐克制铺底。样片使用 The Pharaoh 3。
-- **适合**: 生活观察、知识解说、流行文化和趣味评论。
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">样片 1：为什么你总是不愿开口求助？</th>
+    <th width="50%" align="center">样片 2：做视频，别再踩这三个坑</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 角色解说：为什么不愿开口求助，个性主讲人与火柴人小剧场" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer-crazymei.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/readme/previews/b5-character-explainer-crazymei.gif" alt="B5 Crazy Mei 解说：三个视频创作误区，视觉比喻与物理喜剧" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">The Pharaoh 3 旁白 · 动画主讲 · 夸张动作</td>
+    <td align="center">Claire 旁白 · Crazy Mei 主讲 · 视觉比喻</td>
+  </tr>
+</table>
 
-<div align="center">
-<a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer approved 16:9 example" width="360"></a>
-
-已确认样片 · 22.8 秒 · 16:9
-</div>
-
-新角色先确认辨识度，再由代码完成动画。已确认的横屏样片是效果参考，不代表任意头像都能自动绑定；请使用获得相应授权的形象。 [B5](skills/directing-stickman-videos/references/b5-character-explainer.md) · [Credits](skills/directing-stickman-videos/assets/b5/CREDITS.md)
 <!-- b5:section:end -->
 
 
@@ -582,9 +609,11 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 - **双麦播客与单口喜剧** — 节奏明快的对话喜剧、访谈再创作与角色斗嘴
 - **互联网谜团与都市传说** — 诡异铅笔素描、模拟信号故障与 Reddit 悬疑故事
 
+<a id="community"></a>
+
 ## 💬 社区与投稿
 
-想推荐画风，或让你的频道获得展示？欢迎通过 Telegram 联系 **[@CrazyKaomei](https://telegram.me/CrazyKaomei)**：
+想推荐画风，或让你的频道获得展示？欢迎加入[官方 Telegram 交流群](https://telegram.me/stickmanskill)。
 
 - **推荐画风**：发送视觉参考链接 + 你想做的内容领域。
 - **作品展示**：用这个工具制作了视频？发送作品链接，就有机会在本 README 和官方 YouTube 频道中展示！

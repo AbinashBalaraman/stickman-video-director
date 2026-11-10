@@ -74,7 +74,7 @@ Continually updated visual styles for **science explainers, dark psychology, tec
 <tr>
 <td width="50%" align="center">
 <strong>Character Explainer</strong><br>
-<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer: speaking avatar and energetic stickman physical comedy" width="90%"></a>
+<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 explainer about asking for help, with a distinctive presenter and expressive stickmen" width="90%"></a>
 </td>
 <td width="50%" align="center"><a href="#a7"><strong>Coming Soon…</strong></a></td>
 </tr>
@@ -87,7 +87,7 @@ Continually updated visual styles for **science explainers, dark psychology, tec
 
 ⭐ **Star the project to catch the next style drop and feature unlocks.**
 
-[Get started](#quick-start) · [Director Styles](#a-styles) · [Autopilot Styles](#b-styles) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem)
+[Get started](#quick-start) · [Styles & Demos](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Community](#community)
 
 </div>
 
@@ -104,7 +104,6 @@ Continually updated visual styles for **science explainers, dark psychology, tec
 | **Tools** | Plan with a Skill-compatible AI assistant, generate clips in your preferred video generator (Google Flow, Runway, Luma, Kling, etc.), then assemble in CapCut or Premiere. | Run in **Codex, Claude Code**, or another AI coding agent that can read and write files, call tools, and execute commands to connect generation with local rendering. |
 | **Visuals** | **Generated animated clips**, with character movement, camera direction, and interactions. | **Illustrated scenes with subtle animation**, using cuts, pans, and zooms to support the narration rather than generating a full-motion clip for every scene. |
 | **Output** | A director's treatment, storyboards, scene-by-scene video prompts, and sound design. | **A complete video file with voiceover, captions, and subtle animation.** |
-| **Start** | <div align="center"><a href="#director-start">Use Director Mode</a></div> | <div align="center"><a href="#autopilot-start">Use Autopilot Mode</a></div> |
 
 Both workflows can start with a raw topic, a web link, or a full script. Customize your aspect ratio (9:16, 16:9, 1:1), narration language, and voiceover freely. The lengths above are recommendations, not hard limits.
 
@@ -112,6 +111,28 @@ Both workflows can start with a raw topic, a web link, or a full script. Customi
 
 - **Director Mode** works anywhere in standard conversational AI windows.
 - **Autopilot Mode** runs inside AI coding agents with file/terminal access (like **Claude Code, OpenAI Codex, or Cursor**) to automatically handle end-to-end rendering and file delivery.
+
+<!-- project-sponsor:start -->
+<a id="project-sponsor"></a>
+
+#### API Partners · [Support this project ↗](https://telegram.me/CrazyKaomei)
+
+<table>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-sjolt"></a><a href="https://sjolt.ai/"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/sjolt.png" alt="Official SJolt logo" width="64"><br><strong>SJolt</strong></a></td>
+<td><p>SJolt brings image, video, and audio generation models together through one API. Compare output quality and cost in the playground, then bring the same request flow into your project—from experimentation to integration, without switching tools.</p><p>Track asynchronous tasks and pay by usage, with one balance across supported models. <a href="https://sjolt.ai/">Explore SJolt</a> to browse models and try the playground.</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-apimart"></a><a href="https://go.apimart.ai/tw-stickman-video-director"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/apimart.png" alt="APIMart project sponsor" width="110"></a></td>
+<td><p>APIMart is a low-cost API platform for AI image &amp; video generation — GPT-Image-2 from $0.006/image, 160+ images per dollar. One async API covers both image and video: submit a task, get an ID, fetch results via polling or callback. Batch tens of thousands of images without timeouts, switch models without changing code. Pay-as-you-go with no monthly fee — <a href="https://go.apimart.ai/tw-stickman-video-director">sign up here</a> to get started.</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-renoise"></a><a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@5f5985c73757a643925e06cd010767684c1e926a/assets/sponsors/renoise.png" alt="Renoise" width="64"><br><strong>Renoise</strong></a></td>
+<td><p>Renoise AI is an all-in-one AI video and image creation platform for marketers, advertisers, and content creators. Tell the Agent what you need in plain language—it writes prompts, breaks your idea into shots, and generates videos in batches, keeping the same character or product consistent across shots.</p><p>Create directly on the web or in the iOS and Android apps, or connect Renoise to Claude or ChatGPT (Codex) via MCP. Generate assets, edit, and polish your video right in the conversation—no editing software required—and get a finished video ready to publish. <a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom">Visit Renoise</a> to explore its models and creative tools.</p></td>
+</tr>
+</table>
+
+<!-- project-sponsor:end -->
 
 <a id="quick-start"></a>
 
@@ -411,21 +432,27 @@ A countdown. A late-night call. A rule you must never break. Ordinary places bec
 
 ### B5: Character Explainer
 
-**Turn your favorite avatar into a stickman star.**
+Give your favorite avatar a starring role—permission is required to use well-known characters. Your presenter takes the mic in the corner while expressive stickmen act out the idea—dragged around by bills, flattened by pressure, or caught in a visual punchline. Even abstract ideas become something viewers can see and remember.
 
-Your chosen avatar takes the mic while expressive stickmen turn the idea into physical comedy.
+- **The look**: Warm paper textures, a distinctive presenter, and bold black-and-red type. Exaggerated weight, recoil, and transforming props turn explanations into visual metaphors.
+- **The sound**: Clear narration leads, with lip sync, expressions, and captions following the voice. Sound effects land on the action; light music stays out of the way.
+- **Made for**: Explainers, everyday psychology, observations, pop culture, and witty commentary.
 
-- **The look**: Warm paper, a speaking character at bottom right, oversized props and energetic cause-and-effect animation on the left.
-- **The sound**: Voice-led delivery with action-synced effects and restrained background music. The example uses The Pharaoh 3.
-- **Made for**: Relatable explainers, everyday observations, pop culture and comic commentary.
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Example 1: Why Is Asking for Help So Hard?</th>
+    <th width="50%" align="center">Example 2: Stop Making These Three Video Mistakes</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 explainer about asking for help, with a distinctive presenter and expressive stickmen" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer-crazymei.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/readme/previews/b5-character-explainer-crazymei.gif" alt="B5 Crazy Mei explainer about three video mistakes, with visual metaphors and physical comedy" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">The Pharaoh 3 narration · Animated Host · Expressive action</td>
+    <td align="center">Claire narration · Crazy Mei presenter · Visual metaphors</td>
+  </tr>
+</table>
 
-<div align="center">
-<a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer approved 16:9 example" width="360"></a>
-
-Approved example · 22.8s · 16:9
-</div>
-
-New characters start with an approved likeness; code handles animation. The approved 16:9 example is a reference, not a guarantee for every uploaded avatar. Use avatars you have permission to use. [B5](skills/directing-stickman-videos/references/b5-character-explainer.md) · [Credits](skills/directing-stickman-videos/assets/b5/CREDITS.md)
 <!-- b5:section:end -->
 
 
@@ -582,9 +609,11 @@ We are actively training new specialized engines for the most requested faceless
 - **Two-Mic Podcast & Stand-Up** — Snappy dialogue comedy, interview repurposing & character banter
 - **Internet Mysteries & Urban Legends** — Eerie pencil sketches, analog glitch & Reddit mystery lore
 
+<a id="community"></a>
+
 ## 💬 Community & Submissions
 
-Want to suggest a style or get your channel featured? Message **[@CrazyKaomei](https://telegram.me/CrazyKaomei)** on Telegram:
+Got a style idea or want to get featured? Join our [Telegram Community](https://telegram.me/stickmanskill):
 
 - **Request a Style**: Send a visual reference link + the niche you want to cover.
 - **Get Featured**: Made a video with this tool? Send your link to be showcased in this README and on our official YouTube channel!

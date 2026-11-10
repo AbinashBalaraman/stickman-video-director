@@ -74,7 +74,7 @@
 <tr>
 <td width="50%" align="center">
 <strong>キャラクター解説</strong><br>
-<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer: speaking avatar and energetic stickman physical comedy" width="90%"></a>
+<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5の助けを求める心理の解説。アニメの語り手と表情豊かな棒人間" width="90%"></a>
 </td>
 <td width="50%" align="center"><a href="#a7"><strong>近日公開…</strong></a></td>
 </tr>
@@ -87,7 +87,7 @@
 
 ⭐ **プロジェクトに Star を付けて、次の画風追加や新機能の解放をチェックしましょう。**
 
-[使い始める](#quick-start) · [Director の画風](#a-styles) · [Autopilot の画風](#b-styles) · [よくある質問](#faq) · [ロードマップ](#road-to-10000-stars--creator-ecosystem)
+[使い始める](#quick-start) · [画風とサンプル動画](#style-gallery) · [よくある質問](#faq) · [ロードマップ](#road-to-10000-stars--creator-ecosystem) · [コミュニティ](#community)
 
 </div>
 
@@ -104,7 +104,6 @@
 | **必要な環境** | Skill 対応の AI アシスタントで構成を練り、好みの動画生成ツール（Google Flow、Runway、Luma、Kling など）でクリップを生成して、CapCut や Premiere で編集します。 | **Codex、Claude Code**など、ファイルの読み書き・ツール呼び出し・コマンド実行ができるAIエージェントで、素材生成とローカルでの動画合成をつなぎます。 |
 | **映像表現** | **クリップごとのアニメーション生成**。人物の動作、カメラワーク、キャラクター同士のやり取りを重視します。 | **イラスト絵コンテ＋部分アニメーション**。カットの切り替え、ズーム、パンをナレーションに合わせ、毎回フルアニメーションを生成せずに物語を伝えます。 |
 | **受け取れるもの** | 演出プラン、絵コンテ、クリップごとの動画プロンプト、サウンドデザイン。 | **ナレーション・字幕・部分アニメーション付きの完成動画ファイル**。 |
-| **始める** | <div align="center"><a href="#director-start">Directorモードを使う</a></div> | <div align="center"><a href="#autopilot-start">Autopilotモードを使う</a></div> |
 
 どちらのワークフローも、大まかなトピック、Web リンク、完成した台本から始められます。アスペクト比（9:16、16:9、1:1）、ナレーション言語、音声は自由に選べます。上記の長さは目安であり、厳密な制限ではありません。
 
@@ -112,6 +111,28 @@
 
 - **Director Mode** は通常の対話型 AI のチャット画面で利用できます。
 - **Autopilot Mode** はファイルとターミナルにアクセスできる AI コーディングエージェント（**Claude Code、OpenAI Codex、Cursor** など）内で動作し、レンダリングからファイル納品までを自動で処理します。
+
+<!-- project-sponsor:start -->
+<a id="project-sponsor"></a>
+
+#### API パートナー · [このプロジェクトを支援する ↗](https://telegram.me/CrazyKaomei)
+
+<table>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-sjolt"></a><a href="https://sjolt.ai/"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/sjolt.png" alt="SJolt" width="64"><br><strong>SJolt</strong></a></td>
+<td><p>SJolt は、画像・動画・音声の生成モデルを1つの API で利用できるプラットフォームです。Playground で品質とコストを比較してから、同じリクエストの流れをプロジェクトに組み込めるため、試作から開発へスムーズに移れます。</p><p>非同期タスクの状況確認と従量課金に対応し、対応モデルの利用を共通の残高で管理できます。 <a href="https://sjolt.ai/">SJolt 公式サイト</a> でモデルを探し、Playground を試せます。</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-apimart"></a><a href="https://go.apimart.ai/tw-stickman-video-director"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/apimart.png" alt="APIMart" width="110"></a></td>
+<td><p>APIMart は AI 画像・動画生成に特化した低価格 API プラットフォームです。GPT-Image-2 は1枚 $0.006 から、1ドルで160枚以上。画像と動画を共通の非同期 API で処理し、タスクを送信して ID を受け取り、ポーリングまたはコールバックで結果を取得できます。数万枚の一括生成でもタイムアウトせず、モデルを変えてもコードの変更は不要。月額料金なしの従量課金です。 <a href="https://go.apimart.ai/tw-stickman-video-director">登録リンク</a> から登録して利用を始められます。</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-renoise"></a><a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@5f5985c73757a643925e06cd010767684c1e926a/assets/sponsors/renoise.png" alt="Renoise" width="64"><br><strong>Renoise</strong></a></td>
+<td><p>Renoise AI は、マーケティング・広告担当者やコンテンツクリエイター向けの、AI 動画・画像制作を一つにまとめたプラットフォームです。普段の言葉でエージェントに依頼するだけで、プロンプト作成、カット割り、動画の一括生成まで対応。カットが変わっても、同じキャラクターや商品の一貫性を保てます。</p><p>Web や iOS・Android アプリで直接制作できるほか、MCP 経由で Claude や ChatGPT（Codex）にも接続できます。会話の中で素材生成から編集・仕上げまで行えるため、編集ソフトを使わずに、そのまま公開できる動画が完成します。 <a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom">Renoise 公式サイト</a>でモデルと制作ツールをご覧ください。</p></td>
+</tr>
+</table>
+
+<!-- project-sponsor:end -->
 
 <a id="quick-start"></a>
 
@@ -412,21 +433,27 @@ B1、B2、B3…の番号で追加。各画風に、イラスト絵コンテと�
 
 ### B5: キャラクター解説
 
-**Turn your favorite avatar into a stickman star.**
+お気に入りのアバターを、チャンネルの語り手に。有名なキャラクターを使う場合は許諾が必要です。画面の隅で主役が語り、左側では棒人間がアイデアを小さな劇に変えます。請求書に引きずられたり、プレッシャーに押しつぶされたり——抽象的な話にも、笑いと記憶に残る場面が生まれます。
 
-お気に入りのアバターが解説し、棒人間の動きがアイデアをコミカルに表現します。
+- **映像の魅力**: 温かい紙の質感、個性のある語り手、黒と赤の強調文字。大げさな重み、反動、小道具の変形で、言葉を視覚的なたとえに変えます。
+- **音の雰囲気**: 明瞭なナレーションを軸に、口の動き、表情、字幕を音声に合わせます。効果音は動作の決めどころに置き、控えめな音楽で声を引き立てます。
+- **おすすめの内容**: 知識解説、身近な心理、日常の気づき、ポップカルチャー、ユーモラスなコメント。
 
-- **映像**: 温かい紙の背景、右下の話すキャラクター、左側の大きな小道具と因果関係のある物理コメディ。
-- **音**: 声を中心に、動きと同期した効果音と控えめなBGM。作例の声は The Pharaoh 3。
-- **用途**: 身近な話題、知識解説、ポップカルチャー、ユーモラスなコメント。
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">作例1：なぜ人に助けを求められないの？</th>
+    <th width="50%" align="center">作例2：動画作りで避けたい3つの失敗</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5の助けを求める心理の解説。アニメの語り手と表情豊かな棒人間" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer-crazymei.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/readme/previews/b5-character-explainer-crazymei.gif" alt="B5 Crazy Meiによる動画作りの3つの失敗の解説。視覚的なたとえと体を使ったコメディ" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">The Pharaoh 3 ナレーション · アニメの語り手 · 大げさな動き</td>
+    <td align="center">Claire ナレーション · Crazy Mei が解説 · 視覚的なたとえ</td>
+  </tr>
+</table>
 
-<div align="center">
-<a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer approved 16:9 example" width="360"></a>
-
-承認済み作例 · 22.8秒 · 16:9
-</div>
-
-新しいキャラクターは外見を確認してからコードで動かします。16:9の承認済み作例は参考であり、すべてのアバターへの自動適用を保証しません。使用権を確認してください。 [B5](skills/directing-stickman-videos/references/b5-character-explainer.md) · [Credits](skills/directing-stickman-videos/assets/b5/CREDITS.md)
 <!-- b5:section:end -->
 
 
@@ -582,9 +609,11 @@ B1、B2、B3…の番号で追加。各画風に、イラスト絵コンテと�
 - **2マイクのポッドキャストとスタンドアップ** — テンポのよい会話コメディ、インタビューの再構成、キャラクターの掛け合い
 - **ネットの謎と都市伝説** — 不気味な鉛筆画、アナログ映像の乱れ、Reddit発のミステリー
 
+<a id="community"></a>
+
 ## 💬 コミュニティと作品投稿
 
-画風を提案したい方、自分のチャンネルを紹介してほしい方は、Telegramの **[@CrazyKaomei](https://telegram.me/CrazyKaomei)** へ：
+スタイルのアイデアや、作品紹介のご希望はありますか？[Telegram コミュニティ](https://telegram.me/stickmanskill)にご参加ください：
 
 - **画風をリクエスト**：見た目の参考リンク + 扱いたいジャンルを送ってください。
 - **作品を紹介**：このツールで動画を作りましたか？リンクを送ると、このREADMEや公式YouTubeチャンネルで紹介できます！

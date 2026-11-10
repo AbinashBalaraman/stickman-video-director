@@ -73,8 +73,8 @@ Des styles visuels régulièrement enrichis pour les chaînes de **vulgarisation
 <!-- b5:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>Character Explainer</strong><br>
-<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer: speaking avatar and energetic stickman physical comedy" width="90%"></a>
+<strong>Explications par un personnage</strong><br>
+<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 : demander de l’aide, avec un présentateur animé et des stickmen expressifs" width="90%"></a>
 </td>
 <td width="50%" align="center"><a href="#a7"><strong>Bientôt…</strong></a></td>
 </tr>
@@ -87,7 +87,7 @@ Des styles visuels régulièrement enrichis pour les chaînes de **vulgarisation
 
 ⭐ **Ajoutez une étoile au projet pour suivre les prochains styles et les nouvelles fonctionnalités à débloquer.**
 
-[Bien démarrer](#quick-start) · [Styles Director](#a-styles) · [Styles Autopilot](#b-styles) · [FAQ](#faq) · [Feuille de route](#road-to-10000-stars--creator-ecosystem)
+[Bien démarrer](#quick-start) · [Styles et démos](#style-gallery) · [FAQ](#faq) · [Feuille de route](#road-to-10000-stars--creator-ecosystem) · [Communauté](#community)
 
 </div>
 
@@ -104,7 +104,6 @@ Des styles visuels régulièrement enrichis pour les chaînes de **vulgarisation
 | **Outils** | Préparez les plans avec un assistant IA compatible avec les Skills, générez les séquences dans votre outil vidéo préféré (Google Flow, Runway, Luma, Kling, etc.), puis assemblez-les dans CapCut ou Premiere. | Un agent de développement IA comme **Codex ou Claude Code**, capable de lire et d’écrire des fichiers, d’appeler des outils et d’exécuter des commandes, pour relier génération des médias et assemblage local. |
 | **Rendu** | **Séquences animées générées une par une** : gestes, mise en scène et interactions entre personnages. | **Illustrations de storyboard + micro-animations** : changements de plan, zooms et panoramiques accompagnent la narration, sans générer une animation complète pour chaque séquence. |
 | **Livrable** | Proposition de réalisation, storyboard, prompts vidéo par séquence et indications sonores. | **Un fichier vidéo complet avec voix off, sous-titres et micro-animations.** |
-| **Démarrer** | <div align="center"><a href="#director-start">Utiliser Director</a></div> | <div align="center"><a href="#autopilot-start">Utiliser Autopilot</a></div> |
 
 Les deux méthodes peuvent partir d’un sujet brut, d’un lien web ou d’un script complet. Choisissez librement le format (9:16, 16:9, 1:1), la langue de narration et la voix off. Les durées ci-dessus sont des recommandations, pas des limites strictes.
 
@@ -112,6 +111,28 @@ Les deux méthodes peuvent partir d’un sujet brut, d’un lien web ou d’un s
 
 - **Director Mode** fonctionne dans les fenêtres de conversation IA classiques.
 - **Autopilot Mode** s’exécute dans un agent de développement IA ayant accès aux fichiers et au terminal (comme **Claude Code, OpenAI Codex ou Cursor**) pour gérer automatiquement le rendu et la livraison des fichiers de bout en bout.
+
+<!-- project-sponsor:start -->
+<a id="project-sponsor"></a>
+
+#### Partenaires API · [Soutenir ce projet ↗](https://telegram.me/CrazyKaomei)
+
+<table>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-sjolt"></a><a href="https://sjolt.ai/"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/sjolt.png" alt="SJolt" width="64"><br><strong>SJolt</strong></a></td>
+<td><p>SJolt réunit des modèles de génération d’images, de vidéos et d’audio dans une seule API. Comparez la qualité et le coût dans le Playground, puis intégrez le même flux de requêtes à votre projet, sans changer d’outils entre expérimentation et développement.</p><p>Suivez les tâches asynchrones et payez à l’usage, avec un solde commun aux modèles pris en charge. <a href="https://sjolt.ai/">Découvrez SJolt</a> pour explorer les modèles et essayer le Playground.</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-apimart"></a><a href="https://go.apimart.ai/tw-stickman-video-director"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/sponsors/apimart.png" alt="APIMart" width="110"></a></td>
+<td><p>APIMart est une plateforme API à bas prix dédiée à la génération d’images et de vidéos par IA : GPT-Image-2 à partir de 0,006 $ par image, soit plus de 160 images par dollar. Une API asynchrone commune couvre les images et les vidéos : soumettez une tâche, recevez un identifiant, puis récupérez les résultats par interrogation périodique ou callback. Générez des dizaines de milliers d’images par lots sans expiration et changez de modèle sans modifier le code. Paiement à l’usage, sans abonnement mensuel : <a href="https://go.apimart.ai/tw-stickman-video-director">inscrivez-vous ici</a> pour commencer.</p></td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle"><a id="sponsor-renoise"></a><a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@5f5985c73757a643925e06cd010767684c1e926a/assets/sponsors/renoise.png" alt="Renoise" width="64"><br><strong>Renoise</strong></a></td>
+<td><p>Renoise AI est une plateforme tout-en-un de création de vidéos et d’images par IA, pensée pour le marketing, la publicité et les créateurs de contenu. Décrivez simplement votre besoin à l’agent : il rédige les prompts, découpe votre idée en plans et génère des vidéos par lots, tout en préservant la cohérence d’un même personnage ou produit d’un plan à l’autre.</p><p>Créez directement sur le web ou dans les applications iOS et Android, ou connectez Renoise à Claude ou ChatGPT (Codex) via MCP. Générez vos contenus, montez et finalisez vos vidéos dans la conversation, sans logiciel de montage, pour obtenir un résultat prêt à publier. <a href="https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom">Découvrez Renoise</a> pour explorer ses modèles et ses outils créatifs.</p></td>
+</tr>
+</table>
+
+<!-- project-sponsor:end -->
 
 <a id="quick-start"></a>
 
@@ -413,23 +434,29 @@ Un compte à rebours. Un appel nocturne. Une règle à ne jamais enfreindre. Ins
 <!-- b5:section:start -->
 <a id="b5"></a>
 
-### B5 : Character Explainer
+### B5 : Explications par un personnage
 
-**Turn your favorite avatar into a stickman star.**
+Faites de votre avatar préféré la voix de votre chaîne ; l’utilisation de personnages connus nécessite une autorisation. Votre présentateur raconte dans un coin de l’écran, tandis que les stickmen jouent l’idée à gauche : entraînés par des factures, écrasés par la pression ou piégés dans un gag visuel. Même les concepts abstraits deviennent drôles et mémorables.
 
-Votre avatar prend la parole pendant que des personnages bâtons transforment les idées en comédie physique.
+- **Le style**: Papier aux tons chauds, présentateur distinctif et mots-clés noirs et rouges. Poids exagéré, rebonds et accessoires qui se transforment convertissent chaque explication en métaphore visuelle.
+- **L’ambiance sonore**: Une narration claire mène le récit ; lèvres, expressions et sous-titres suivent la voix. Les effets sonores soulignent les gestes, et la musique discrète laisse toute sa place à la parole.
+- **Idéal pour**: Vulgarisation, psychologie du quotidien, observations, culture populaire et commentaires pleins d’humour.
 
-- **Le visuel**: Papier chaleureux, personnage parlant en bas à droite, grands accessoires et animation de cause à effet à gauche.
-- **Le son**: Voix claire, effets synchronisés aux gestes et musique discrète. La voix de cet exemple est The Pharaoh 3.
-- **Pour**: Explications du quotidien, observations, culture populaire et commentaires humoristiques.
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Exemple 1 : Pourquoi est-ce si difficile de demander de l’aide ?</th>
+    <th width="50%" align="center">Exemple 2 : Vidéos : évitez ces trois erreurs</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 : demander de l’aide, avec un présentateur animé et des stickmen expressifs" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b5-character-explainer-crazymei.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/readme/previews/b5-character-explainer-crazymei.gif" alt="B5 : Crazy Mei explique trois erreurs vidéo par des métaphores visuelles et des gags physiques" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Narration The Pharaoh 3 · Présentateur animé · Gestes expressifs</td>
+    <td align="center">Narration Claire · Crazy Mei aux commandes · Métaphores visuelles</td>
+  </tr>
+</table>
 
-<div align="center">
-<a href="assets/readme/b5-character-explainer.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 Character Explainer approved 16:9 example" width="360"></a>
-
-Exemple approuvé · 22,8 s · 16:9
-</div>
-
-Validez d’abord la ressemblance du nouveau personnage, puis animez-le par code. Cet exemple 16:9 approuvé est une référence, pas une garantie pour tous les avatars. Vérifiez les droits d’utilisation. [B5](skills/directing-stickman-videos/references/b5-character-explainer.md) · [Credits](skills/directing-stickman-videos/assets/b5/CREDITS.md)
 <!-- b5:section:end -->
 
 
@@ -585,9 +612,11 @@ Nous entraînons de nouveaux moteurs spécialisés pour les niches YouTube sans 
 - **Podcast à deux micros et stand-up** — Comédie dialoguée rythmée, réutilisation d’interviews et échanges entre personnages
 - **Mystères d’Internet et légendes urbaines** — Croquis au crayon inquiétants, parasites analogiques et récits mystérieux de Reddit
 
+<a id="community"></a>
+
 ## 💬 Communauté et contributions
 
-Vous voulez proposer un style ou faire découvrir votre chaîne ? Contactez **[@CrazyKaomei](https://telegram.me/CrazyKaomei)** sur Telegram :
+Une idée de style ou envie d’être mis à l’honneur ? Rejoignez notre [communauté Telegram](https://telegram.me/stickmanskill) :
 
 - **Proposer un style** : envoyez un lien de référence visuelle + la niche que vous souhaitez traiter.
 - **Présenter votre travail** : vous avez créé une vidéo avec cet outil ? Envoyez votre lien pour la présenter dans ce README et sur notre chaîne YouTube officielle !
