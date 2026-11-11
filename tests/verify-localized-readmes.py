@@ -19,6 +19,12 @@ navigation = (
 expected_files = {"README.md", *(f"README.{locale}.md" for locale, _ in navigation)}
 assert {p.name for p in root.glob("README*.md")} == expected_files
 assert source == (root / "README.en.md").read_text(), "Default homepage must match English"
+b3_boundaries = (root / "skills/directing-stickman-videos/references/mode-execution-boundaries.md").read_text()
+assert "Follow its Bodi voice" not in b3_boundaries, "B3 sample voice must not become a provider requirement"
+assert all(phrase in b3_boundaries for phrase in (
+    "Preserve its television finish", "Bodi is the sample voice credit",
+    "not a required service or voice", "the user's selected available voice route takes priority",
+)), "B3 television finish and configurable voice boundary must remain explicit"
 assert "# 🎬 Stickman Video Director" in source
 english_hero = source.split("</div>", 1)[0]
 assert "**Turn any script into viral, multi-style animated stickman videos for Faceless YouTube Channels.**" in english_hero
@@ -263,7 +269,7 @@ for name in selected:
             ("$30–$60/month", "zero subscription fees", "third-party API usage"),
             ("code-driven", "image assets", "reference image"),
             ("recommend Codex", "created and tested", "GPT's built-in model", "without a separate image-generation API"),
-            ("shower thought", "3-second hook", "tight 6-scene narrative arc"),
+            ("shower thought", "3-second hook", "story and shots", "topic, target length, and chosen style"),
             ("**visual storytelling psychology**", "**The 3-Second Hook**", "**Visual Metaphors**", "**Pacing & Comic Pauses**"),
             ("completely original", "YouTube Partner Program (YPP)"),
             ("RTX", "**Director Mode**", "**Autopilot Mode**", "cloud APIs or procedural rendering"),
@@ -274,7 +280,48 @@ for name in selected:
         assert [len(re.findall(r"^- ", answer, re.M)) for answer in faq_answers] == [0, 0, 0, 0, 3, 0, 2], (name, "approved FAQ list formatting")
     faq_answers = re.split(r"^### Q\d+\. .+\n", faq, flags=re.M)[1:]
     assert [len(re.findall(r"^- ", answer, re.M)) for answer in faq_answers] == [0, 0, 0, 0, 3, 0, 2], (name, "localized FAQ bullet parity")
-    for answer, tokens in zip(faq_answers, (("MIT", "API"), ("B", "A"), ("Codex", "GPT"), ("3", "6"), ("SFX", "Casually Explained"), ("YouTube", "YPP"), ("Codex", "Claude Code", "Cursor"))):
+    # Model neutrality and real local motion must not disappear in translation.
+    production_copy = {
+        "en": ("Other agents", "available image tools", "B5", "not code-drawn substitutes", "not a required provider", "local animation", "prop movement", "alone do not count"),
+        "zh-CN": ("其他 Agent", "可用的生图工具", "B5", "不能用代码头像替代", "不绑定服务商", "局部动画", "道具动作", "不算画面微动画"),
+        "ja": ("他のエージェント", "使える画像生成ツール", "B5", "コードで描いた代用の顔は使いません", "サービスの指定ではありません", "部分アニメーション", "小道具の動き", "だけでは"),
+        "ko": ("다른 에이전트", "이미지 도구", "B5", "코드로 그린 대체 얼굴은 허용하지 않습니다", "특정 서비스를 요구하지 않습니다", "부분 애니메이션", "소품 움직임", "만으로는"),
+        "fr": ("autre agent", "outils d’image disponibles", "B5", "pas un visage de remplacement dessiné par code", "n’imposent aucun fournisseur", "animations locales", "mouvements d’objets", "ne comptent pas"),
+        "pt-BR": ("outros agentes", "ferramentas de imagem disponíveis", "B5", "não de rostos substitutos desenhados por código", "sem exigir um fornecedor", "animações locais", "movimentos de objetos", "não conta"),
+        "tr": ("Diğer ajanlarda", "görsel araçlarını", "B5", "kodla çizilmiş genel bir yüzle değiştirilemez", "sağlayıcıyı zorunlu kılmaz", "yerel animasyon", "nesne hareketleri", "sayılmaz"),
+        "id": ("Agen lain", "alat gambar yang tersedia", "B5", "bukan wajah pengganti yang digambar dengan kode", "bukan layanan yang wajib", "animasi lokal", "gerakan objek", "tidak dihitung"),
+    }
+    neutrality, motion_copy = production_copy[active][:5], production_copy[active][5:]
+    assert all(token in faq_answers[2] for token in neutrality), (name, "localized model/voice neutrality")
+    typography_copy = {
+        "en": ("defaults, not restrictions", "fonts, text effects, or the video language", "adapt the layout"),
+        "zh-CN": ("画风预设不是限制", "字体、文字动效或视频语言", "适配排版"),
+        "ja": ("初期設定であり、制限ではありません", "フォント、文字の演出、動画の言語", "レイアウトを調整"),
+        "ko": ("기본값이지 제한이 아닙니다", "글꼴, 텍스트 효과, 영상 언어", "레이아웃을 맞출"),
+        "fr": ("points de départ, pas des restrictions", "polices, les effets de texte ou la langue", "adapter la mise en page"),
+        "pt-BR": ("pontos de partida, não restrições", "fontes, efeitos de texto ou o idioma", "adaptar o layout"),
+        "tr": ("başlangıç noktasıdır, kısıtlama değildir", "yazı tiplerini, metin efektlerini veya video dilini", "yerleşimi isteğinize göre"),
+        "id": ("titik awal, bukan batasan", "font, efek teks, atau bahasa video", "menyesuaikan tata letaknya"),
+    }
+    assert all(token in faq_answers[2] for token in typography_copy[active]), (name, "localized typography/language customization")
+    visual_row = text.splitlines()[104]
+    assert all(token in visual_row for token in motion_copy), (name, "local animation is not camera/text-only")
+    for style_id, next_marker, voice in (("b1", '<a id="b2"></a>', "Bodi"), ("b2", '<a id="b3"></a>', "Fola"), ("b3", '<!-- b3:section:end -->', "Bodi")):
+        style_section = section(text, style_id, next_marker)
+        assert re.search(r'<td align="center">Google Gemini · [^<]*' + voice, style_section), (name, style_id, "verified sample platform and voice")
+    story_plan_copy = {
+        "en": ("story and shots", "topic", "target length", "chosen style"),
+        "zh-CN": ("故事与分镜", "主题", "目标时长", "所选画风"),
+        "ja": ("物語とカット", "題材", "目標の長さ", "選んだスタイル"),
+        "ko": ("이야기와 장면", "주제", "목표 길이", "선택한 스타일"),
+        "fr": ("récit et les plans", "sujet", "durée visée", "style choisi"),
+        "pt-BR": ("história e os planos", "tema", "duração desejada", "estilo escolhido"),
+        "tr": ("hikâyeyi ve çekimleri", "konuya", "hedef süreye", "seçilen stile"),
+        "id": ("cerita dan pengambilan gambar", "topik", "durasi target", "gaya pilihan"),
+    }
+    assert all(token in faq_answers[3] for token in story_plan_copy[active]), (name, "story and shot structure scales with topic, length and style")
+    assert not re.search(r"6(?:[- ]scene| 幕|シーン|개 장면| scènes| cenas| sahne| adegan)", faq_answers[3]), (name, "no fixed six-scene FAQ promise")
+    for answer, tokens in zip(faq_answers, (("MIT", "API"), ("B", "A"), ("Codex", "GPT"), ("3",), ("SFX", "Casually Explained"), ("YouTube", "YPP"), ("Codex", "Claude Code", "Cursor"))):
         assert all(token in answer for token in tokens), (name, "localized FAQ topic parity", tokens)
     assert "MIT" in faq and "API" in faq and "YouTube" in faq and "Codex" in faq and "Claude Code" in faq, name
     code = re.findall(r"```text\n(.*?)```", text, re.S)
