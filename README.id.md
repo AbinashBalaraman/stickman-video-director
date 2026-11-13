@@ -322,7 +322,6 @@ Bagaimana jika saat bangun, semua barang sepuluh ribu kali lebih murah? Inspiras
 
 Gaya khusus Director yang baru sedang dilatih. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk membukanya saat mencapai 5,000 Stars!
 
----
 
 <a id="b-styles"></a>
 
@@ -408,6 +407,8 @@ Seperti tak sengaja menemukan siaran aneh larut malam. Terinspirasi oleh [@Bradi
 </table>
 <!-- b3:section:end -->
 
+---
+
 <!-- b4:section:start -->
 <a id="b4"></a>
 
@@ -435,6 +436,8 @@ Hitung mundur. Telepon larut malam. Aturan yang tak boleh dilanggar. Terinspiras
 </table>
 
 <!-- b4:section:end -->
+
+---
 
 <!-- b5:section:start -->
 <a id="b5"></a>
@@ -465,7 +468,6 @@ Jadikan avatar favorit Anda pembawa acara di kanal Anda; penggunaan karakter ter
 <!-- b5:section:end -->
 
 
----
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -580,19 +582,20 @@ Tidak. Anda tidak memerlukan kartu grafis RTX kelas atas atau pengetahuan pemrog
 
 <a id="road-to-10000-stars--creator-ecosystem"></a>
 
-## ⭐ Menuju 10,000 Stars dan ekosistem kreator
+## ⭐ Menuju 20,000 Stars dan ekosistem kreator
 
 **Setiap Star mendukung rilisan berikutnya!** Bersama-sama, kita membangun studio 100% gratis dan open source untuk membantu kreator solo mengelola channel tanpa tampil di kamera, tanpa langganan SaaS seharga US$ 50/bulan.
 
 - [x] **1,000 Stars**: Director Mode + 5 gaya visual inti telah dirilis
 - [x] **3,000 Stars**: AutoPilot Mode untuk membuat video dalam satu klik telah dirilis
-- [ ] **🔥 5,000 Stars**:
-  - Rilis 5–10 gaya visual baru
-  - Editor massal satu klik untuk YouTube Shorts dan TikTok
-- [ ] **7,500 Stars**:
+- [x] **6,000 Stars**: Lebih dari 10 gaya visual baru berkualitas tinggi telah dirilis
+- [ ] **🔥 10,000 Stars**:
   - Koleksi 1,000+ prompt naskah YouTube viral
   - 200+ efek suara dan transisi bebas royalti serta aman dari Content ID
-- [ ] **10,000 Stars**: peluncuran Web Studio resmi serba lengkap
+  - Editor massal satu klik untuk YouTube Shorts dan TikTok
+- [ ] **20,000 Stars**:
+  - luncurkan Stickman AI Studio — dari ide hingga video siap tayang, serba otomatis
+  - Kejutan lainnya menanti — yuk, kita nantikan bersama
 
 <div align="center">
 <a href="https://www.star-history.com/?repos=kaomei%2Fstickman-video-director&amp;type=date">

@@ -5,6 +5,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {verifyB4StyleLock} from './b4-style-lock.mjs';
+import {B4_HOOK, B4_PORTRAIT} from './b4-opening.mjs';
 
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const nonempty = value => typeof value === 'string' && value.trim().length > 0;
@@ -53,12 +54,17 @@ export function checkB4Production(ledgerFile, {planning = false, skillRoot} = {}
   requireThat(voice.input_script_sha256 === script.sha256, 'Voice input script fingerprint does not match the authorized script');
   file(voice.file, voice.sha256, 'voice', true);
   const opening = data.opening;
-  requireThat(opening && (nonempty(opening.user_override) || (opening.left_half_shadow === true &&
+  const portrait = opening?.preset === B4_PORTRAIT.id;
+  const layout = portrait ? opening.layout === 'portrait-poster' && Number.isSafeInteger(data.width) && Number.isSafeInteger(data.height) && data.height > data.width && data.width > 0 &&
+    opening.top_breathing_space === true && opening.lower_picture_unobscured === true && opening.native_portrait_art === true &&
+    opening.whole_payoff_settle === true && opening.short_emphasis_line === true && opening.left_half_shadow !== true :
+    (!opening?.preset || opening.preset === B4_HOOK.id) && !(data.height > data.width) && opening?.left_half_shadow === true;
+  requireThat(opening && (nonempty(opening.user_override) || (layout &&
     Array.isArray(opening.question_groups) && opening.question_groups.length === 2 && opening.question_groups.every(nonempty) &&
     Array.isArray(opening.group_start_frames) && opening.group_start_frames.length === 2 &&
     opening.group_start_frames.every(Number.isSafeInteger) && opening.group_start_frames[0] === 0 &&
     opening.group_start_frames[1] > 0 && opening.group_start_frames[1] < Math.min(3 * data.fps, duration) &&
-    opening.remainder_entrance === 'together')), 'Opening must preserve half-shadow and semantic grouped question entrance');
+    opening.remainder_entrance === 'together')), 'Opening must preserve the aspect-specific layout, semantic grouped entrance and native portrait poster facts when applicable');
   const canonicalPrompt = fs.readFileSync(lock.prompt.path, 'utf8').trim();
   const ids = new Set(lock.references.map(item => item.id));
   requireThat(data.style_lock_version === lock.version, 'Missing or stale canonical style-lock version');
@@ -120,7 +126,8 @@ export function checkB4Production(ledgerFile, {planning = false, skillRoot} = {}
     file(cue.file, cue.sha256, cue.id, true);
   }
   return {schema: 'b4-production-check-v1', mode: planning ? 'planning_only' : 'evidence_check',
-    status: 'pass', renderer_support: lock.cli_supported, duration_seconds: duration / data.fps,
+    status: 'technical_only', typography_visual_acceptance: 'not_reviewed', delivery_ready: false,
+    renderer_support: lock.cli_supported, duration_seconds: duration / data.fps,
     asset_count: assets.size, shot_count: data.shots.length, pending,
     aesthetic_review: 'not performed', physical_listening: 'not performed',
     human_acceptance: 'not implied', provenance: 'self-reported; verify provider/source records separately'};
