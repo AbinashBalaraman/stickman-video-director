@@ -76,14 +76,19 @@
 <strong>캐릭터 해설</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="도움 요청의 심리를 설명하는 B5 영상: 애니메이션 진행자와 표정이 풍부한 스틱맨" width="90%"></a>
 </td>
-<td width="50%" align="center"><a href="#a7"><strong>공개 예정…</strong></a></td>
+<!-- b6:hero:start -->
+<td width="50%" align="center">
+<strong>Dynamic Meme Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+</td>
+<!-- b6:hero:end -->
 </tr>
 <!-- b5:hero:end -->
 </table>
 
 <div align="center">
 
-**11가지 비주얼 스타일 · 실제 제작 예시 · 무료 오픈소스**
+**12가지 비주얼 스타일 · 실제 제작 예시 · 무료 오픈소스**
 
 ⭐ **프로젝트에 Star를 눌러 다음 스타일과 새 기능 공개를 확인하세요.**
 
@@ -154,6 +159,8 @@ https://github.com/kaomei/stickman-video-director
 내가 만들려는 영상에 맞춰 무엇이 부족한지,
 다음에 구체적으로 무엇을 하면 되는지도 안내해 줘.
 ```
+
+설치 시간이 초과되면 [설치 문제 해결](skills/directing-stickman-videos/references/installation-troubleshooting.md)(macOS/Linux 및 Windows)을 확인하세요.
 
 <a id="director-start"></a>
 
@@ -313,7 +320,7 @@ A1, A2, A3… 순으로 추가하며, 각 스타일에 맞는 애니메이션 �
 
 ### A7: 곧 공개…
 
-새로운 특화 Director 스타일을 훈련하고 있습니다. [프로젝트에 Star를 눌러](#road-to-10000-stars--creator-ecosystem) 5,000 Stars 달성 시 공개될 수 있도록 응원해 주세요!
+새로운 특화 Director 스타일을 준비하고 있습니다. [프로젝트에 Star를 누르고](#road-to-10000-stars--creator-ecosystem) 앞으로의 업데이트를 확인해 주세요!
 
 
 <a id="b-styles"></a>
@@ -424,7 +431,7 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
   </tr>
   <tr>
     <td align="center">Brian 내레이션 · 전개에 맞춘 효과음 · 긴장감 있는 선택형 결말</td>
-    <td align="center">Brian 내레이션 · 시선을 잡는 공포 오프닝 · 핵심을 강조하는 글자 연출</td>
+    <td align="center">시선을 잡는 공포 오프닝 · 핵심을 강조하는 글자 연출</td>
   </tr>
 </table>
 
@@ -460,7 +467,43 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 <!-- b5:section:end -->
 
+---
 
+<!-- b6:section:start -->
+<a id="b6"></a>
+
+### B6: Dynamic Meme Animation
+
+과장된 밈 표정, 자유로운 손그림 선, 부드러운 색으로 기묘한 이야기를 생동감 있는 짧은 애니메이션으로 만듭니다. 넓은 장면은 인물과 소품, 카메라가 움직일 공간을 제공합니다.
+
+- **화면**: 굵기에 변화가 있는 잉크 선, 무광 채색과 부드러운 빛으로 머리·몸·배경의 손그림 질감을 통일하며, **세로형에서 효과가 더 좋습니다**.
+- **움직임**: 가로 추적, 전경과 배경의 시차, 소품 전달과 반응 클로즈업을 이야기에 맞춰 연결하고 동작과 웃음을 읽을 여유를 둡니다.
+- **추천 소재**: 역사의 기이한 사건, 사기 이야기, 부조리 코미디와 반전 단편.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">샘플 1: 에펠탑을 판 남자</th>
+    <th width="50%" align="center">샘플 2: 1990년대 홍콩 · 파인애플번과 오락실</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="샘플 1: 에펠탑을 판 남자" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="샘플 2: 1990년대 홍콩 · 파인애플번과 오락실" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">과장된 표정 · 손그림 캐릭터 애니메이션 · 반전 있는 이야기</td>
+    <td align="center">The Pharaoh 3 내레이션 · 인물 간 상호작용 · 장면 전환</td>
+  </tr>
+</table>
+
+<!-- b6:section:end -->
+
+---
+
+<a id="b7"></a>
+
+### B7: 곧 공개…
+
+새로운 Autopilot 스타일과 코드 애니메이션을 준비하고 있습니다. [프로젝트에 Star를 누르고](#road-to-10000-stars--creator-ecosystem) 앞으로의 업데이트를 확인해 주세요!
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -583,9 +626,8 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 - [x] **3,000 Stars**: 클릭 한 번으로 영상을 생성하는 AutoPilot 모드 출시
 - [x] **6,000 Stars**: 10가지 이상의 고품질 신규 스타일 출시 완료
 - [ ] **🔥 10,000 Stars**:
-  - 1,000개 이상의 바이럴 YouTube 대본 프롬프트 모음
-  - 200개 이상의 로열티 프리·Content ID 안전 효과음과 전환 효과
-  - YouTube Shorts와 TikTok용 원클릭 일괄 편집기
+  - A/B 모드 공용 YouTube 대본 프롬프트 1,000개 이상
+  - [B 오디오 라이브러리](skills/directing-stickman-videos/references/b-audio-library.md): 효과음/전환음 774개 + 배경음악 31곡 + 짧은 징글 85개. B 스타일·장면별 추천, 오프라인 내보내기, 개별 라이선스와 필수 크레딧 포함
 - [ ] **20,000 Stars**:
   - Stickman AI Studio 출시 — 아이디어부터 완성된 영상까지, 전 과정을 자동으로
   - 더 많은 놀라움, 함께 기대해요~

@@ -76,14 +76,19 @@ Des styles visuels régulièrement enrichis pour les chaînes de **vulgarisation
 <strong>Explications par un personnage</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 : demander de l’aide, avec un présentateur animé et des stickmen expressifs" width="90%"></a>
 </td>
-<td width="50%" align="center"><a href="#a7"><strong>Bientôt…</strong></a></td>
+<!-- b6:hero:start -->
+<td width="50%" align="center">
+<strong>Dynamic Meme Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+</td>
+<!-- b6:hero:end -->
 </tr>
 <!-- b5:hero:end -->
 </table>
 
 <div align="center">
 
-**11 styles visuels · Des exemples testés · Gratuit et open source**
+**12 styles visuels · Des exemples testés · Gratuit et open source**
 
 ⭐ **Ajoutez une étoile au projet pour suivre les prochains styles et les nouvelles fonctionnalités à débloquer.**
 
@@ -153,6 +158,8 @@ Explique simplement les livrables, les outils nécessaires et le déroulement de
 Donne-moi des exemples de demandes prêts à l’emploi.
 Selon mon projet, indique ce qui manque encore et la prochaine étape concrète.
 ```
+
+L’installation a expiré ? Consultez le [guide de dépannage](skills/directing-stickman-videos/references/installation-troubleshooting.md) pour macOS/Linux et Windows.
 
 <a id="director-start"></a>
 
@@ -315,7 +322,7 @@ Et si, au réveil, tout coûtait dix mille fois moins cher ? L’inspiration vis
 
 ### A7 : Bientôt disponible…
 
-De nouveaux styles spécialisés pour le mode Director sont en cours d’entraînement. [Ajoutez une étoile au projet](#road-to-10000-stars--creator-ecosystem) pour les débloquer à 5,000 Stars !
+De nouveaux styles spécialisés pour le mode Director sont en préparation. [Ajoutez une étoile au projet](#road-to-10000-stars--creator-ecosystem) pour suivre les prochaines mises à jour !
 
 
 <a id="b-styles"></a>
@@ -426,7 +433,7 @@ Un compte à rebours. Un appel nocturne. Une règle à ne jamais enfreindre. Ins
   </tr>
   <tr>
     <td align="center">Narration Brian · Effets calés sur le récit · Un choix final sous tension</td>
-    <td align="center">Narration Brian · Accroche visuelle glaçante · Texte animé percutant</td>
+    <td align="center">Accroche visuelle glaçante · Texte animé percutant</td>
   </tr>
 </table>
 
@@ -462,7 +469,43 @@ Faites de votre avatar préféré la voix de votre chaîne ; l’utilisation de 
 
 <!-- b5:section:end -->
 
+---
 
+<!-- b6:section:start -->
+<a id="b6"></a>
+
+### B6 : Dynamic Meme Animation
+
+Des expressions de meme, des traits dessinés à la main et des couleurs douces transforment les récits insolites en courts dessins animés pleins de vie. Les décors larges laissent de la place aux personnages, aux accessoires et à la caméra.
+
+- **Image**: Des traits d’encre d’épaisseur variable, une peinture mate et une lumière douce donnent à la tête, au corps et au décor une touche dessinée à la main cohérente, **pour un meilleur rendu en format vertical**.
+- **Mouvement**: Travellings latéraux, profondeur par plans, échanges d’objets et gros plans de réaction suivent le récit, avec des pauses pour lire chaque gag.
+- **Idéal pour**: Anecdotes historiques, escroqueries, comédies absurdes et récits à chute.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Exemple 1 : L’homme qui a vendu la tour Eiffel</th>
+    <th width="50%" align="center">Exemple 2 : Hong Kong des années 1990 · Brioches et arcade</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="Exemple 1 : L’homme qui a vendu la tour Eiffel" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="Exemple 2 : Hong Kong des années 1990 · Brioches et arcade" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Expressions exagérées · Animation de personnages dessinés à la main · Rebondissements</td>
+    <td align="center">Narration The Pharaoh 3 · Interactions entre personnages · Changements de décor</td>
+  </tr>
+</table>
+
+<!-- b6:section:end -->
+
+---
+
+<a id="b7"></a>
+
+### B7 : Bientôt disponible…
+
+De nouveaux styles Autopilot et de nouvelles animations par code sont en préparation. [Ajoutez une étoile au projet](#road-to-10000-stars--creator-ecosystem) pour suivre les prochaines mises à jour !
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -585,9 +628,8 @@ Non. Vous n’avez besoin ni d’une carte RTX haut de gamme ni de connaissances
 - [x] **3,000 Stars** : lancement du mode AutoPilot pour générer des vidéos en un clic
 - [x] **6,000 Stars** : Plus de 10 nouveaux styles visuels de qualité déjà disponibles
 - [ ] **🔥 10,000 Stars** :
-  - Bibliothèque de plus de 1,000 prompts de scripts YouTube viraux
-  - Plus de 200 effets sonores et transitions libres de redevances et sans risque Content ID
-  - Éditeur par lots en un clic pour YouTube Shorts et TikTok
+  - Plus de 1,000 prompts de scripts YouTube communs aux modes A et B
+  - [Bibliothèque audio B](skills/directing-stickman-videos/references/b-audio-library.md): 774 effets/transitions + 31 musiques + 85 jingles courts, avec suggestions par style B/scène, export hors ligne, licences et crédits requis
 - [ ] **20,000 Stars** :
   - lancement de Stickman AI Studio — de l’idée à la vidéo finale, en pilote automatique
   - D’autres surprises nous attendent — découvrons-les ensemble

@@ -76,14 +76,19 @@
 <strong>キャラクター解説</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5の助けを求める心理の解説。アニメの語り手と表情豊かな棒人間" width="90%"></a>
 </td>
-<td width="50%" align="center"><a href="#a7"><strong>近日公開…</strong></a></td>
+<!-- b6:hero:start -->
+<td width="50%" align="center">
+<strong>Dynamic Meme Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+</td>
+<!-- b6:hero:end -->
 </tr>
 <!-- b5:hero:end -->
 </table>
 
 <div align="center">
 
-**11種類の画風 · 制作例あり · 無料・オープンソース**
+**12種類の画風 · 制作例あり · 無料・オープンソース**
 
 ⭐ **プロジェクトに Star を付けて、次の画風追加や新機能の解放をチェックしましょう。**
 
@@ -153,6 +158,8 @@ https://github.com/kaomei/stickman-video-director
 分かりやすく説明し、そのまま使える依頼文の例を教えてください。
 私の作りたい動画に合わせて、足りないものと次にすることも具体的に案内してください。
 ```
+
+インストールがタイムアウトした場合は、[インストールのトラブルシューティング](skills/directing-stickman-videos/references/installation-troubleshooting.md)（macOS/Linux・Windows）をご覧ください。
 
 <a id="director-start"></a>
 
@@ -312,7 +319,7 @@ A1、A2、A3…の番号で追加し、それぞれの画風に対応するア�
 
 ### A7: 近日公開…
 
-新しい特化型のディレクタースタイルをトレーニング中です。[プロジェクトに Star を付けて](#road-to-10000-stars--creator-ecosystem)、5,000 Stars での解放を応援してください！
+新しい特化型のディレクタースタイルを準備中です。[プロジェクトに Star を付けて](#road-to-10000-stars--creator-ecosystem)、今後の更新をチェックしてください！
 
 
 <a id="b-styles"></a>
@@ -423,7 +430,7 @@ B1、B2、B3…の番号で追加。各画風に、イラスト絵コンテと�
   </tr>
   <tr>
     <td align="center">Brianの語り · 展開に連動する効果音 · 選択で締めるサスペンス</td>
-    <td align="center">Brianの語り · 恐怖で引き込む映像 · 要点を際立たせる文字演出</td>
+    <td align="center">恐怖で引き込む映像 · 要点を際立たせる文字演出</td>
   </tr>
 </table>
 
@@ -459,7 +466,43 @@ B1、B2、B3…の番号で追加。各画風に、イラスト絵コンテと�
 
 <!-- b5:section:end -->
 
+---
 
+<!-- b6:section:start -->
+<a id="b6"></a>
+
+### B6: Dynamic Meme Animation
+
+Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で、奇妙な物語を生き生きとした短編アニメに。広い背景が、人物・小道具・カメラの動きを支えます。
+
+- **画面**: 強弱のあるインク線、マットな塗り、柔らかな光で、頭・体・背景の手描きのタッチを統一し、**縦型でよりよい仕上がりに**。
+- **動き**: 横移動、前景と背景の視差、物の受け渡し、リアクションの寄りを物語に沿ってつなぎ、動作と笑いが伝わる間を確保。
+- **向いている内容**: 歴史の珍事件、詐欺の物語、不条理コメディ、意外な結末の短編。
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">作例1：エッフェル塔を売った男</th>
+    <th width="50%" align="center">作例2：90年代の香港 · パイナップルパンとゲームセンター</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="作例1：エッフェル塔を売った男" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="作例2：90年代の香港 · パイナップルパンとゲームセンター" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">大げさな表情 · 手描きキャラクターアニメ · 意外な展開</td>
+    <td align="center">The Pharaoh 3の語り · 人物同士のやりとり · 場面転換</td>
+  </tr>
+</table>
+
+<!-- b6:section:end -->
+
+---
+
+<a id="b7"></a>
+
+### B7: 近日公開…
+
+新しい Autopilot 画風とコードアニメーションを準備中です。[プロジェクトに Star を付けて](#road-to-10000-stars--creator-ecosystem)、今後の更新をチェックしてください！
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -582,9 +625,8 @@ B1、B2、B3…の番号で追加。各画風に、イラスト絵コンテと�
 - [x] **3,000 Stars**：ワンクリックで動画を生成するAutoPilotモードを公開
 - [x] **6,000 Stars**：高品質な新しい画風を10種類以上公開済み
 - [ ] **🔥 10,000 Stars**：
-  - 1,000本以上のバイラルYouTube台本用プロンプト集
-  - 200種類以上のロイヤリティフリーでContent IDにも安心な効果音・トランジション
-  - YouTube Shorts・TikTok向けのワンクリック一括編集ツール
+  - A/B 両モードで使える1,000本以上のYouTube台本プロンプト集
+  - [Bモード音声ライブラリ](skills/directing-stickman-videos/references/b-audio-library.md)：効果音・音声トランジション 774 点＋BGM 31 曲＋短いジングル 85 点。B スタイル・場面別の候補提示、オフライン書き出し、個別ライセンスと必要なクレジット付き
 - [ ] **20,000 Stars**：
   - Stickman AI Studioを公開 — アイデアから完成動画まで、すべて自動で
   - これからのサプライズも、一緒に楽しみにしましょう～

@@ -76,14 +76,19 @@ Bir konu, makale veya senaryoyla başlayın. Görselleri, seslendirmeleri, altya
 <strong>Karakterli Anlatım</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5: yardım isteme üzerine, animasyon sunucu ve ifadeli çöp adamlarla anlatım" width="90%"></a>
 </td>
-<td width="50%" align="center"><a href="#a7"><strong>Yakında…</strong></a></td>
+<!-- b6:hero:start -->
+<td width="50%" align="center">
+<strong>Dynamic Meme Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+</td>
+<!-- b6:hero:end -->
 </tr>
 <!-- b5:hero:end -->
 </table>
 
 <div align="center">
 
-**11 görsel stil · Denenmiş örnekler · Ücretsiz ve açık kaynak**
+**12 görsel stil · Denenmiş örnekler · Ücretsiz ve açık kaynak**
 
 ⭐ **Bir sonraki stil paketini ve yeni özellikleri kaçırmamak için projeye yıldız verin.**
 
@@ -153,6 +158,8 @@ Kurulum başarılı olunca kurulan SKILL.md dosyasını hemen oku.
 Doğrudan kullanabileceğim örnek istekler ver.
 İhtiyacıma göre nelerin eksik olduğunu ve sıradaki somut adımı söyle.
 ```
+
+Kurulum zaman aşımına mı uğradı? macOS/Linux ve Windows için [kurulum sorunlarını giderme kılavuzuna](skills/directing-stickman-videos/references/installation-troubleshooting.md) bakın.
 
 <a id="director-start"></a>
 
@@ -314,7 +321,7 @@ Uyandığınızda her şey on bin kat ucuzlamış olsa? Görsel ilham, YouTube�
 
 ### A7: Yakında…
 
-Yeni uzmanlaşmış Director stilleri şu anda eğitimde. 5,000 Stars hedefine ulaşıldığında açılmaları için [projeye yıldız verin](#road-to-10000-stars--creator-ecosystem)!
+Director moduna özel yeni stiller hazırlanıyor. [Projeye yıldız verin](#road-to-10000-stars--creator-ecosystem) ve gelecek güncellemeleri takip edin!
 
 
 <a id="b-styles"></a>
@@ -425,7 +432,7 @@ Bir geri sayım. Gece gelen bir telefon. Asla çiğnememeniz gereken bir kural. 
   </tr>
   <tr>
     <td align="center">Brian anlatımı · Öyküyle senkron efektler · Gerilimli final seçimi</td>
-    <td align="center">Brian anlatımı · Ürpertici görsel açılış · Vurgulu metin animasyonu</td>
+    <td align="center">Ürpertici görsel açılış · Vurgulu metin animasyonu</td>
   </tr>
 </table>
 
@@ -461,7 +468,43 @@ Sevdiğiniz avatarı kanalınızın sunucusuna dönüştürün; tanınmış kara
 
 <!-- b5:section:end -->
 
+---
 
+<!-- b6:section:start -->
+<a id="b6"></a>
+
+### B6: Dynamic Meme Animation
+
+Abartılı meme ifadeleri, serbest el çizgileri ve yumuşak renkler, sıra dışı hikâyeleri canlı kısa animasyonlara dönüştürür. Geniş sahneler karakterlere, nesnelere ve kameraya hareket alanı açar.
+
+- **Görünüm**: Kalınlığı değişen mürekkep çizgileri, mat boyama ve yumuşak ışık, başı, bedeni ve sahneyi tutarlı bir el çizimi tarzında birleştirir; **dikey formatta daha iyi sonuç verir**.
+- **Hareket**: Yanal takip, katmanlı derinlik, nesne alışverişi ve tepki yakın planları hikâyeyi izler; her esprinin anlaşılması için duraklamalar bırakır.
+- **Uygun konular**: Tarihin tuhaf olayları, dolandırıcılık hikâyeleri, absürt komedi ve sürpriz sonlu kısa öyküler.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Örnek 1: Eyfel Kulesi’ni satan adam</th>
+    <th width="50%" align="center">Örnek 2: 1990’lar Hong Kong’u · Çörek ve atari</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="Örnek 1: Eyfel Kulesi’ni satan adam" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="Örnek 2: 1990’lar Hong Kong’u · Çörek ve atari" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Abartılı ifadeler · El çizimi karakter animasyonu · Öyküde sürprizler</td>
+    <td align="center">The Pharaoh 3 anlatımı · Karakter etkileşimleri · Sahne geçişleri</td>
+  </tr>
+</table>
+
+<!-- b6:section:end -->
+
+---
+
+<a id="b7"></a>
+
+### B7: Yakında…
+
+Yeni Autopilot stilleri ve kod tabanlı animasyonlar hazırlanıyor. [Projeye yıldız verin](#road-to-10000-stars--creator-ecosystem) ve gelecek güncellemeleri takip edin!
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -584,9 +627,8 @@ Hayır. Üst düzey bir RTX ekran kartına veya kodlama bilgisine ihtiyacınız 
 - [x] **3,000 Stars**: tek tıkla video üreten AutoPilot Mode yayımlandı
 - [x] **6,000 Stars**: 10’dan fazla yüksek kaliteli yeni görsel stil yayımlandı
 - [ ] **🔥 10,000 Stars**:
-  - 1,000’den fazla viral YouTube senaryosu isteminden oluşan arşiv
-  - 200’den fazla telifsiz, Content ID açısından güvenli ses efekti ve geçiş
-  - YouTube Shorts ve TikTok için tek tıkla toplu düzenleyici
+  - A ve B modları için ortak 1,000’den fazla YouTube senaryosu istemi
+  - [B ses kütüphanesi](skills/directing-stickman-videos/references/b-audio-library.md): 774 efekt/geçiş + 31 müzik + 85 kısa jingle; B stili/sahne önerileri, çevrimdışı dışa aktarma, öğe lisansları ve gerekli atıflarla
 - [ ] **20,000 Stars**:
   - Stickman AI Studio’nun açılışı — fikirden tamamlanmış videoya, otomatik pilotta
   - Daha fazla sürpriz yolda — birlikte heyecanla bekleyelim

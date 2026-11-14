@@ -76,14 +76,19 @@ Estilos visuais sempre atualizados para canais de **divulgação científica, ps
 <strong>Explicação com personagem</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 sobre pedir ajuda, com apresentador animado e bonecos-palito expressivos" width="90%"></a>
 </td>
-<td width="50%" align="center"><a href="#a7"><strong>Em breve…</strong></a></td>
+<!-- b6:hero:start -->
+<td width="50%" align="center">
+<strong>Dynamic Meme Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+</td>
+<!-- b6:hero:end -->
 </tr>
 <!-- b5:hero:end -->
 </table>
 
 <div align="center">
 
-**11 estilos visuais · Exemplos testados · Grátis e de código aberto**
+**12 estilos visuais · Exemplos testados · Grátis e de código aberto**
 
 ⭐ **Dê uma estrela ao projeto para acompanhar os próximos estilos e novos recursos.**
 
@@ -155,6 +160,8 @@ Dê exemplos de pedidos que eu possa adaptar.
 Com base no que quero criar, diga o que falta configurar
 e qual é o próximo passo.
 ```
+
+A instalação excedeu o tempo limite? Veja a [solução de problemas de instalação](skills/directing-stickman-videos/references/installation-troubleshooting.md) para macOS/Linux e Windows.
 
 <a id="director-start"></a>
 
@@ -319,7 +326,7 @@ E se você acordasse e tudo custasse dez mil vezes menos? A inspiração visual 
 
 ### A7: Em breve…
 
-Novos estilos especializados para o modo Director estão em treinamento. [Dê uma estrela ao projeto](#road-to-10000-stars--creator-ecosystem) para desbloqueá-los ao chegar a 5,000 Stars!
+Novos estilos especializados para o modo Director estão em preparação. [Dê uma estrela ao projeto](#road-to-10000-stars--creator-ecosystem) e acompanhe as próximas atualizações!
 
 
 <a id="b-styles"></a>
@@ -430,7 +437,7 @@ Uma contagem regressiva. Uma ligação de madrugada. Uma regra que você nunca d
   </tr>
   <tr>
     <td align="center">Narração Brian · Efeitos sincronizados à história · Escolha final em suspense</td>
-    <td align="center">Narração Brian · Abertura visual arrepiante · Texto animado de impacto</td>
+    <td align="center">Abertura visual arrepiante · Texto animado de impacto</td>
   </tr>
 </table>
 
@@ -466,7 +473,43 @@ Transforme seu avatar favorito no apresentador do canal; o uso de personagens co
 
 <!-- b5:section:end -->
 
+---
 
+<!-- b6:section:start -->
+<a id="b6"></a>
+
+### B6: Dynamic Meme Animation
+
+Expressões de meme, traços soltos à mão e cores suaves transformam histórias curiosas em animações curtas e vivas. Cenários amplos dão espaço aos personagens, objetos e movimentos de câmera.
+
+- **Visual**: Traços de tinta de espessura variável, pintura fosca e luz suave mantêm a cabeça, o corpo e o cenário no mesmo estilo desenhado à mão, **com melhor resultado no formato vertical**.
+- **Movimento**: Travellings laterais, profundidade em camadas, entrega de objetos e closes de reação acompanham a história, com pausas para entender cada gag.
+- **Ideal para**: Curiosidades históricas, golpes, comédia absurda e histórias curtas com reviravolta.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Exemplo 1: O homem que vendeu a Torre Eiffel</th>
+    <th width="50%" align="center">Exemplo 2: Hong Kong dos anos 1990 · Pães e fliperamas</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="Exemplo 1: O homem que vendeu a Torre Eiffel" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="Exemplo 2: Hong Kong dos anos 1990 · Pães e fliperamas" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Expressões exageradas · Animação de personagens desenhados à mão · Reviravoltas</td>
+    <td align="center">Narração The Pharaoh 3 · Interação entre personagens · Mudanças de cena</td>
+  </tr>
+</table>
+
+<!-- b6:section:end -->
+
+---
+
+<a id="b7"></a>
+
+### B7: Em breve…
+
+Novos estilos Autopilot e animações por código estão em preparação. [Dê uma estrela ao projeto](#road-to-10000-stars--creator-ecosystem) e acompanhe as próximas atualizações!
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -589,9 +632,8 @@ Não. Você não precisa de uma placa RTX de ponta nem de conhecimentos de progr
 - [x] **3,000 Stars**: lançamento do modo AutoPilot para gerar vídeos em um clique
 - [x] **6,000 Stars**: Mais de 10 novos estilos visuais de alta qualidade já disponíveis
 - [ ] **🔥 10,000 Stars**:
-  - Biblioteca com mais de 1,000 prompts de roteiros virais para YouTube
-  - Mais de 200 efeitos sonoros e transições livres de royalties e seguros para Content ID
-  - Editor em lote com um clique para YouTube Shorts e TikTok
+  - Mais de 1,000 prompts de roteiros para YouTube compartilhados pelos modos A e B
+  - [Biblioteca de áudio B](skills/directing-stickman-videos/references/b-audio-library.md): 774 SFX/transições + 31 músicas + 85 jingles curtos, com sugestões por estilo B/cena, exportação offline, licenças por item e créditos obrigatórios
 - [ ] **20,000 Stars**:
   - lançamento do Stickman AI Studio — da ideia ao vídeo pronto, no piloto automático
   - Mais surpresas vêm por aí — vamos descobrir juntos

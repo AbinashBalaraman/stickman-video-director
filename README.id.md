@@ -76,14 +76,19 @@ Gaya visual terus diperbarui untuk channel **penjelasan sains, psikologi gelap, 
 <strong>Penjelasan dengan Karakter</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 tentang meminta bantuan, dengan pembawa acara animasi dan manusia lidi ekspresif" width="90%"></a>
 </td>
-<td width="50%" align="center"><a href="#a7"><strong>Segera Hadir…</strong></a></td>
+<!-- b6:hero:start -->
+<td width="50%" align="center">
+<strong>Dynamic Meme Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+</td>
+<!-- b6:hero:end -->
 </tr>
 <!-- b5:hero:end -->
 </table>
 
 <div align="center">
 
-**11 gaya visual · Contoh yang sudah diuji · Gratis dan open source**
+**12 gaya visual · Contoh yang sudah diuji · Gratis dan open source**
 
 ⭐ **Beri Star pada proyek ini agar tidak ketinggalan gaya dan fitur baru berikutnya.**
 
@@ -155,6 +160,8 @@ Berikan contoh permintaan yang bisa saya sesuaikan.
 Berdasarkan kebutuhan saya, jelaskan apa yang masih kurang
 dan langkah berikutnya secara konkret.
 ```
+
+Instalasi kehabisan waktu? Lihat [panduan pemecahan masalah instalasi](skills/directing-stickman-videos/references/installation-troubleshooting.md) untuk macOS/Linux dan Windows.
 
 <a id="director-start"></a>
 
@@ -320,7 +327,7 @@ Bagaimana jika saat bangun, semua barang sepuluh ribu kali lebih murah? Inspiras
 
 ### A7: Segera hadir…
 
-Gaya khusus Director yang baru sedang dilatih. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk membukanya saat mencapai 5,000 Stars!
+Gaya khusus Director yang baru sedang disiapkan. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk mengikuti pembaruan selanjutnya!
 
 
 <a id="b-styles"></a>
@@ -431,7 +438,7 @@ Hitung mundur. Telepon larut malam. Aturan yang tak boleh dilanggar. Terinspiras
   </tr>
   <tr>
     <td align="center">Narasi Brian · Efek selaras cerita · Pilihan akhir penuh ketegangan</td>
-    <td align="center">Narasi Brian · Pembuka visual mencekam · Animasi teks yang menonjolkan inti</td>
+    <td align="center">Pembuka visual mencekam · Animasi teks yang menonjolkan inti</td>
   </tr>
 </table>
 
@@ -467,7 +474,43 @@ Jadikan avatar favorit Anda pembawa acara di kanal Anda; penggunaan karakter ter
 
 <!-- b5:section:end -->
 
+---
 
+<!-- b6:section:start -->
+<a id="b6"></a>
+
+### B6: Dynamic Meme Animation
+
+Ekspresi meme yang berlebihan, garis gambar tangan yang lepas, dan warna lembut menghidupkan kisah unik menjadi animasi pendek. Latar yang luas memberi ruang gerak bagi tokoh, properti, dan kamera.
+
+- **Visual**: Garis tinta dengan ketebalan bervariasi, cat matte, dan pencahayaan lembut menjaga keselarasan gaya gambar tangan pada kepala, tubuh, dan latar; **hasilnya lebih baik dalam format vertikal**.
+- **Gerak**: Pelacakan menyamping, kedalaman berlapis, penyerahan benda, dan close-up reaksi mengikuti cerita, dengan jeda agar setiap aksi dan lelucon terbaca.
+- **Cocok untuk**: Keanehan sejarah, kisah penipuan, komedi absurd, dan cerita pendek dengan kejutan di akhir.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Contoh 1: Pria yang menjual Menara Eiffel</th>
+    <th width="50%" align="center">Contoh 2: Hong Kong 1990-an · Roti dan arkade</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="Contoh 1: Pria yang menjual Menara Eiffel" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="Contoh 2: Hong Kong 1990-an · Roti dan arkade" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Ekspresi berlebihan · Animasi karakter gambar tangan · Kejutan cerita</td>
+    <td align="center">Narasi The Pharaoh 3 · Interaksi antartokoh · Pergantian adegan</td>
+  </tr>
+</table>
+
+<!-- b6:section:end -->
+
+---
+
+<a id="b7"></a>
+
+### B7: Segera hadir…
+
+Gaya Autopilot dan animasi berbasis kode yang baru sedang disiapkan. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk mengikuti pembaruan selanjutnya!
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -590,9 +633,8 @@ Tidak. Anda tidak memerlukan kartu grafis RTX kelas atas atau pengetahuan pemrog
 - [x] **3,000 Stars**: AutoPilot Mode untuk membuat video dalam satu klik telah dirilis
 - [x] **6,000 Stars**: Lebih dari 10 gaya visual baru berkualitas tinggi telah dirilis
 - [ ] **🔥 10,000 Stars**:
-  - Koleksi 1,000+ prompt naskah YouTube viral
-  - 200+ efek suara dan transisi bebas royalti serta aman dari Content ID
-  - Editor massal satu klik untuk YouTube Shorts dan TikTok
+  - Koleksi 1,000+ prompt naskah YouTube untuk mode A dan B
+  - [Pustaka audio B](skills/directing-stickman-videos/references/b-audio-library.md): 774 SFX/transisi + 31 musik latar + 85 jingle singkat, dengan rekomendasi gaya/adegan B, ekspor offline, lisensi per aset dan atribusi wajib
 - [ ] **20,000 Stars**:
   - luncurkan Stickman AI Studio — dari ide hingga video siap tayang, serba otomatis
   - Kejutan lainnya menanti — yuk, kita nantikan bersama

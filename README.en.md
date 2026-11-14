@@ -76,14 +76,19 @@ Continually updated visual styles for **science explainers, dark psychology, tec
 <strong>Character Explainer</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 explainer about asking for help, with a distinctive presenter and expressive stickmen" width="90%"></a>
 </td>
-<td width="50%" align="center"><a href="#a7"><strong>Coming Soon…</strong></a></td>
+<!-- b6:hero:start -->
+<td width="50%" align="center">
+<strong>Dynamic Meme Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+</td>
+<!-- b6:hero:end -->
 </tr>
 <!-- b5:hero:end -->
 </table>
 
 <div align="center">
 
-**11 visual styles · Tested examples · Free and open source**
+**12 visual styles · Tested examples · Free and open source**
 
 ⭐ **Star the project to catch the next style drop and feature unlocks.**
 
@@ -153,6 +158,8 @@ Explain what each mode produces, the tools it needs, and the workflow
 in plain language, with examples I can copy.
 Based on what I want to make, tell me what is missing and exactly what to do next.
 ```
+
+Installation timed out? See [installation troubleshooting](skills/directing-stickman-videos/references/installation-troubleshooting.md) for macOS/Linux and Windows.
 
 <a id="director-start"></a>
 
@@ -311,7 +318,7 @@ What if you woke up and everything cost ten thousand times less? The visual insp
 
 ### A7: Coming soon…
 
-New specialized director styles are currently in training. [Star the project](#road-to-10000-stars--creator-ecosystem) to unlock them at 5,000 Stars!
+New specialized director styles are in preparation. [Star the project](#road-to-10000-stars--creator-ecosystem) to follow future updates.
 
 
 <a id="b-styles"></a>
@@ -422,7 +429,7 @@ A countdown. A late-night call. A rule you must never break. Ordinary places bec
   </tr>
   <tr>
     <td align="center">Brian narration · Story-synced SFX · A cliffhanger choice</td>
-    <td align="center">Brian narration · A chilling visual hook · Impactful text animation</td>
+    <td align="center">A chilling visual hook · Impactful text animation</td>
   </tr>
 </table>
 
@@ -458,8 +465,43 @@ Give your favorite avatar a starring role—permission is required to use well-k
 
 <!-- b5:section:end -->
 
+---
 
+<!-- b6:section:start -->
+<a id="b6"></a>
 
+### B6: Dynamic Meme Animation
+
+Expressive meme faces, loose hand-drawn lines and soft colors turn unusual stories into lively short cartoons. Wide scenes give characters, props and camera moves room to play.
+
+- **Visuals**: Ink lines of varying weight, matte paint and soft lighting keep the head, body and scenery in a consistent hand-drawn style, **with better results in portrait**.
+- **Motion**: Lateral tracking, layered depth, handoffs and reaction close-ups follow the story, with clear pauses for each visual punchline.
+- **Best for**: Historical oddities, con stories, absurd comedy and short stories with a twist.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Example 1: The Man Who Sold the Eiffel Tower</th>
+    <th width="50%" align="center">Example 2: 1990s Hong Kong · Buns and Arcades</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="Example 1: The Man Who Sold the Eiffel Tower" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="Example 2: 1990s Hong Kong · Buns and Arcades" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Expressive faces · Hand-drawn character animation · Story twists</td>
+    <td align="center">The Pharaoh 3 narration · Character interactions · Scene changes</td>
+  </tr>
+</table>
+
+<!-- b6:section:end -->
+
+---
+
+<a id="b7"></a>
+
+### B7: Coming soon…
+
+New Autopilot styles and procedural animations are in preparation. [Star the project](#road-to-10000-stars--creator-ecosystem) to follow future updates.
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -582,9 +624,8 @@ No. You do not need a high-end RTX graphics card or coding knowledge.
 - [x] **3,000 Stars**: Shipped AutoPilot Mode for 1-click video generation
 - [x] **6,000 Stars**: Shipped 10+ high-quality new visual styles
 - [ ] **🔥 10,000 Stars**:
-  - 1,000+ viral YouTube script prompt vault
-  - 200+ royalty-free, Content-ID safe SFX and transitions
-  - 1-click batch editor for YouTube Shorts & TikTok
+  - 1,000+ YouTube script prompts shared by modes A and B
+  - [B audio library](skills/directing-stickman-videos/references/b-audio-library.md): 774 SFX/transitions + 31 music tracks + 85 short musical stingers, with B-style/beat recommendations, offline export, item-level licenses and required credits
 - [ ] **20,000 Stars**:
   - Launch Stickman AI Studio — from idea to finished video, on autopilot
   - More surprises ahead — let’s discover them together

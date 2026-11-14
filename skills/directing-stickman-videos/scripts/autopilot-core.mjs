@@ -8,7 +8,10 @@ import {prepareB4, prepareAudioTracks} from './b4-runtime.mjs';
 import {prepareBStyleQuality, defaultBStyleCaptionFont} from './b-style-quality.mjs';
 import {B4_HOOK, B4_PORTRAIT, portraitHook, planB4Opening} from './b4-opening.mjs';
 import {planB4Typography} from './b4-typography-review.mjs';
+import {planB4Picture} from './b4-picture-review.mjs';
 import {referenceInputs} from './b-style-reference-review.mjs';
+import {assertB4StoryAsset} from './b4-asset-origin.mjs';
+import {canonicalJson} from './canonical-json.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const STYLES = ['B1', 'B2', 'B3', 'B4'];
@@ -70,14 +73,40 @@ function scopeB4Typography(p, rangeEnd) {
   };
   const result = {...typography};
   if (Array.isArray(result.moments)) result.moments = result.moments.filter(m => sourceInScope(m?.shot) && beforeEnd(m));
-  if (Array.isArray(result.image_text)) result.image_text = result.image_text.filter(item => sourceInScope(item?.shot, item?.layer_id));
+  if (Array.isArray(result.image_text)) result.image_text = result.image_text.map(item => {
+    // A physical marking can persist across multiple before/after images. Scope
+    // only known future sources, retaining unknown ids so validation rejects them.
+    if (item?.role !== 'environment_marking' || !Array.isArray(item.layer_ids)) return item;
+    return {...item, layer_ids: item.layer_ids.filter(id => sourceInScope(item.shot, id))};
+  }).filter(item => item?.role === 'environment_marking' && Array.isArray(item.layer_ids)
+    ? sourceInScope(item.shot) && item.layer_ids.length > 0
+    : sourceInScope(item?.shot, item?.layer_id));
   if (Array.isArray(result.caption_groups)) result.caption_groups = result.caption_groups.filter(g => beforeEnd(g) &&
     !(Array.isArray(g?.cue_indices) && g.cue_indices.length && g.cue_indices.every(i => p.captions[i] && p.captions[i].start >= rangeEnd)));
   return result;
 }
+function scopeB4Picture(p, rangeEnd) {
+  const plan = p.picture_motion;
+  if (!plan || typeof plan !== 'object' || Array.isArray(plan) || !Array.isArray(plan.shots)) return plan;
+  // Ignore known future shots only. Keep unknown references so a typo cannot
+  // disappear during preview validation. An incomplete current beat still fails.
+  return {...plan, shots: plan.shots.filter(entry => {
+    const shot = Number.isInteger(entry?.shot) ? p.shots[entry.shot] : null;
+    return !shot || !Number.isFinite(shot.start) || shot.start < rangeEnd;
+  })};
+}
 export function loadProject(file, {seconds} = {}) {
   file = fs.realpathSync(path.resolve(file));
-  const p = json(file), base = path.dirname(file);
+  const source = json(file), base = path.dirname(file);
+  const canonical = ['B1', 'B2', 'B3'].includes(source.style);
+  // B1–B3 never consume metadata.working_note as artwork, sound or review data.
+  // Exclude this one administrative field, keeping every unknown metadata key.
+  // Normalize the loaded object too: downstream caption/shot plans hash JSON.
+  const p = canonical ? JSON.parse(canonicalJson(source)) : source;
+  if (canonical && p.metadata && typeof p.metadata === 'object' && !Array.isArray(p.metadata)) {
+    delete p.metadata.working_note;
+    if (!Object.keys(p.metadata).length) delete p.metadata;
+  }
   if (p.version !== 1 || !STYLES.includes(p.style)) throw new Error('Expected version 1 and style B1, B2, B3 or B4');
   if (p.style !== 'B3' && p.television !== undefined) throw new Error('Television finish belongs to B3 only');
   if (p.style !== 'B4' && p.opening_audio_override !== undefined) throw new Error('B4 opening audio override belongs to B4 only');
@@ -121,8 +150,7 @@ export function loadProject(file, {seconds} = {}) {
     number(shot.start, 'shot start'); number(shot.end, 'shot end');
     if (Math.abs(shot.start - end) > 0.002 || shot.end <= shot.start) throw new Error(`Shot ${i}: gap/overlap or nonpositive duration`);
     end = shot.end;
-    if (p.style === 'B4' && shot.end - shot.start > 3.000001 &&
-      !(shot.kind === 'exceptional_hold' && typeof shot.user_approval === 'string' && shot.user_approval.trim() && typeof shot.reason === 'string' && shot.reason.trim())) throw new Error('B4 narrative shots must be at most 3 seconds; exceptional holds require user_approval and reason');
+    if (p.style === 'B4' && shot.end - shot.start > 3.000001) throw new Error(`B4 shot ${i}: maximum 3 seconds; animation, hold reasons and author approval fields cannot waive the limit`);
     if (!Array.isArray(shot.layers) || !shot.layers.length) throw new Error(`Shot ${i} has no layers`);
     if (p.style === 'B3') validateB3(shot.layers, p.television);
     for (const l of walkLayers(shot.layers)) {
@@ -143,7 +171,7 @@ export function loadProject(file, {seconds} = {}) {
       for (const k of ['x', 'y', 'w', 'h', 'size', 'angle', 'alpha', 'progress', 'lineWidth']) if (l[k] !== undefined) number(l[k], k, -10000, 10000);
       if (l.w !== undefined && l.w <= 0 || l.size !== undefined && l.size <= 0) throw new Error('Layer dimensions must be positive');
       if (l.type === 'shadow') { number(l.w, 'shadow width', 1, 10000); number(l.h, 'shadow height', 1, 10000); }
-      if (l.type === 'image') { const f = mediaPath(base, l.path); if (!/\.(png|jpe?g)$/i.test(f)) throw new Error('Only PNG/JPEG image layers'); assets.add(f); }
+      if (l.type === 'image') { const f = mediaPath(base, l.path); if (!/\.(png|jpe?g)$/i.test(f)) throw new Error('Only PNG/JPEG image layers'); if(p.style==='B4')assertB4StoryAsset(f); assets.add(f); }
       if (l.type === 'pose') { if (p.style !== 'B1') throw new Error('B1 pose atlas cannot be used in another style; author story-specific image layers'); number(l.pose, 'pose', 0, 2); if (!Number.isInteger(l.pose)) throw new Error('Integer pose index required'); assets.add(mediaPath(base, '@b1/character-pose-sheet-v6.png')); }
       if (l.type === 'text' && (typeof l.text !== 'string' || !l.text.trim() || l.text.length > 400)) throw new Error('Text layer must be 1–400 characters');
       if (l.type === 'line' && (!Array.isArray(l.points) || l.points.length < 2 || l.points.some(pt => !Array.isArray(pt) || pt.length !== 2 || pt.some(n => !Number.isFinite(n))))) throw new Error('Line requires finite [x,y] points');
@@ -178,16 +206,16 @@ export function loadProject(file, {seconds} = {}) {
   for (const s of sfx) { number(s.time, 'SFX time', 0, duration); number(s.gain, 'SFX gain', 0, s.kind === 'file' ? 1 : 0.3); if (!['tap', 'paper', 'pop', 'chime', 'jingle', 'file'].includes(s.kind)) throw new Error('Unknown SFX'); }
   if (p.music) { assets.add(mediaPath(base, p.music.path)); number(p.music.gain, 'music gain', 0, 0.2); }
   const b4 = (p.style === 'B4' ? prepareB4 : prepareAudioTracks)({...p, sfx}, {base, duration, rangeEnd, assets, mediaPath, probe});
-  const timeline = {...p, ...(scoped && p.style === 'B4' && p.typography !== undefined ? {typography: scopeB4Typography(p, rangeEnd)} : {}), shots, captions, sfx, ...b4};
+  const timeline = {...p, ...(scoped && p.style === 'B4' && p.typography !== undefined ? {typography: scopeB4Typography(p, rangeEnd)} : {}), ...(scoped && p.style === 'B4' && p.picture_motion !== undefined ? {picture_motion: scopeB4Picture(p, rangeEnd)} : {}), shots, captions, sfx, ...b4};
   const project = {...timeline, file, base, voicePath, voiceDuration, voiceTrimStart, lead, tail, duration, rangeEnd};
   project.motion_intervals = prepareBStyleQuality(project, {root: ROOT, hashFile, mediaPath});
-  if (p.style === 'B4') { planB4Opening(project, {hashFile, mediaPath}); planB4Typography(project); }
+  if (p.style === 'B4') { planB4Opening(project, {hashFile, mediaPath}); planB4Typography(project); planB4Picture(project); }
   for (const f of Object.values(fontPaths(project))) { if (!fs.existsSync(f)) throw new Error(`Missing font: ${f}`); assets.add(f); }
   if (p.style === 'B4' && hashFile(fontPaths(project).hook) !== B4_HOOK.font_sha256) throw new Error('B4 opening: bundled rounded font changed; restore the fixed font instead of silently substituting it');
   if (p.style === 'B4' && portraitHook(project) && hashFile(fontPaths(project).cinematic) !== B4_PORTRAIT.font_sha256) throw new Error('B4 portrait: bundled poster font changed; restore Anton instead of silently substituting it');
   if (['B1', 'B2', 'B3'].includes(p.style)) for (const f of referenceInputs(p.style, project)) assets.add(f);
   const inputs = [...assets].sort().map(f => ({path: f, sha256: hashFile(f)}));
-  const engine = ['autopilot-core.mjs', 'autopilot-render.mjs', 'b3-graphics.mjs', 'b-style-quality.mjs', 'b-style-motion-geometry.mjs', 'b-style-portrait.mjs', 'b-style-portrait-paint.mjs', 'b4-runtime.mjs', ...(['B1', 'B2', 'B3'].includes(p.style) ? ['b-style-reference-review.mjs', 'b4-font-coverage.mjs'] : []), ...(p.style === 'B4' ? ['b4-style-lock.mjs', 'b4-opening-audio-check.mjs', 'b4-opening.mjs', 'b4-opening-visual-check.mjs', 'b4-typography-review.mjs', 'b4-font-coverage.mjs'] : [])].map(f => hashFile(path.join(ROOT, 'scripts', f)));
+  const engine = ['autopilot-core.mjs', 'autopilot-render.mjs', 'b3-graphics.mjs', 'b-style-quality.mjs', 'b-style-motion-geometry.mjs', 'b-style-portrait.mjs', 'b-style-portrait-paint.mjs', 'b4-runtime.mjs', ...(['B1', 'B2', 'B3'].includes(p.style) ? ['b-style-reference-review.mjs', 'canonical-json.mjs', 'b4-font-coverage.mjs'] : []), ...(p.style === 'B3' ? ['b3-semantic-motion.mjs'] : []), ...(p.style === 'B4' ? ['b4-style-lock.mjs', 'b4-opening-audio-check.mjs', 'b4-opening.mjs', 'b4-opening-visual-check.mjs', 'b4-typography-review.mjs', 'b4-picture-review.mjs', 'b4-font-coverage.mjs', 'b4-asset-origin.mjs'] : [])].map(f => hashFile(path.join(ROOT, 'scripts', f)));
   return {...project, inputs, fingerprint: sha(JSON.stringify({project: timeline, rangeEnd, inputs, engine}))};
 }
 export function outputDir(p) {
