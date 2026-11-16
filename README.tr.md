@@ -24,18 +24,38 @@ Bir konu, makale veya senaryoyla başlayın. Görselleri, seslendirmeleri, altya
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Klasik siyah beyaz çöp adam animasyonu: siyah fonda beyaz çizgilerle bilgi anlatımı" width="90%"></a>
 </td>
 <td width="50%" align="center">
+<strong>Minimal Çizgi Sanatı</strong><br>
+<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Minimalist el çizimi çöp adam videosu: canlı ifadeler, vurgulu metinler ve mikro animasyonlar" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
 <strong>Modern ve Renkli</strong><br>
 <a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Modern çöp adam animasyonu: kırmızı bereli karakter ve teknolojik ışık efektleri" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>Renkli El Çizimi</strong><br>
+<a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="Renkli el çizimi çöp adam videosu: sessiz bir yatak odası ve nehirde süzülen bir düşünce" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>Tarih Öncesi Mağara</strong><br>
-<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Tarih öncesi çöp adam animasyonu: mağara hikâyesi ve beklenmedik bir son" width="90%"></a>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="Tarih öncesi çöp adam animasyonu: mağara hikâyesi ve beklenmedik bir son" width="90%"></a>
 </td>
+<td width="50%" align="center">
+<strong>Retro TV Stili</strong><br>
+<a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="Yuvarlak beyaz karakterlerle gece 3’te açılan TV hakkında kurgu gizem" width="90%"></a>
+</td>
+</tr>
+<tr>
 <td width="50%" align="center">
 <strong>İç Isıtan Hikâyeler</strong><br>
 <a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="İç ısıtan çöp adam animasyonu: renkli mekânlar ve gündelik duygular" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>Hayatta Kalma Gerilimi</strong><br>
+<a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · Hayatta Kalma Gerilimi" width="90%"></a>
 </td>
 </tr>
 <tr>
@@ -44,8 +64,8 @@ Bir konu, makale veya senaryoyla başlayın. Görselleri, seslendirmeleri, altya
 <a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Tarihi çöp adam animasyonu: Edo dönemi Japonya’sında bir samurayın hikâyesi" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Minimal Çizgi Sanatı</strong><br>
-<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Minimalist el çizimi çöp adam videosu: canlı ifadeler, vurgulu metinler ve mikro animasyonlar" width="90%"></a>
+<strong>Karakterli Anlatım</strong><br>
+<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5: yardım isteme üzerine, animasyon sunucu ve ifadeli çöp adamlarla anlatım" width="90%"></a>
 </td>
 </tr>
 <tr>
@@ -54,41 +74,22 @@ Bir konu, makale veya senaryoyla başlayın. Görselleri, seslendirmeleri, altya
 <a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Amber Noir çöp adam animasyonu: sıcak ışıklı ve derin gölgeli bir şehirde turuncu kapüşonlu karakter" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Renkli El Çizimi</strong><br>
-<a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="Renkli el çizimi çöp adam videosu: sessiz bir yatak odası ve nehirde süzülen bir düşünce" width="90%"></a>
-</td>
-</tr>
-<!-- b3:hero:start -->
-<tr>
-<td width="50%" align="center">
-<strong>Retro TV Stili</strong><br>
-<a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="Yuvarlak beyaz karakterlerle gece 3’te açılan TV hakkında kurgu gizem" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>Hayatta Kalma Gerilimi</strong><br>
-<a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · Hayatta Kalma Gerilimi" width="90%"></a>
-</td>
-</tr>
-<!-- b3:hero:end -->
-<!-- b5:hero:start -->
-<tr>
-<td width="50%" align="center">
-<strong>Karakterli Anlatım</strong><br>
-<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5: yardım isteme üzerine, animasyon sunucu ve ifadeli çöp adamlarla anlatım" width="90%"></a>
-</td>
-<!-- b6:hero:start -->
-<td width="50%" align="center">
 <strong>Dynamic Meme Animation</strong><br>
 <a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
 </td>
-<!-- b6:hero:end -->
 </tr>
-<!-- b5:hero:end -->
+<tr>
+<td width="50%" align="center">
+<strong>Rubber Hose Animation</strong><br>
+<a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation" width="90%"></a>
+</td>
+<td width="50%" align="center"></td>
+</tr>
 </table>
 
 <div align="center">
 
-**12 görsel stil · Denenmiş örnekler · Ücretsiz ve açık kaynak**
+**13 görsel stil · Denenmiş örnekler · Ücretsiz ve açık kaynak**
 
 ⭐ **Bir sonraki stil paketini ve yeni özellikleri kaçırmamak için projeye yıldız verin.**
 
@@ -98,24 +99,50 @@ Bir konu, makale veya senaryoyla başlayın. Görselleri, seslendirmeleri, altya
 
 <a id="creation-modes"></a>
 
-## 🎬 Video üretmek için iki ayrı mod
+## 🎬 İki video üretim modu: Model Engine vs Code Engine
 
-**Her planı kontrol etmek mi istiyorsunuz? A · Director Mode’u seçin. Sahneleri kendiniz birleştirmeden bitmiş bir video mu istiyorsunuz? B · Autopilot Mode’u seçin.** Tek proje, iki iş akışı.
+**Aynı çöp adam yönetmeni, iki görsel üretim yolu**: A modu, video modelleriyle kesintisiz çekimler üretir; B modu, materyalleri kodla hareket ettirerek katmanlı animasyon oluşturur. Her iki modda da Agent, seçilen stilin standartlarına uyarak üretimi otomatik biçimde tamamlanmış videoya kadar sürdürebilir.
 
-|  | <div align="center">A · Director Mode</div> | <div align="center">B · Autopilot Mode</div> |
-|:---:|:---|:---|
-| **Temel yaklaşım** | **Kontrol sizde, yönetmenlik planı yapay zekâda**: sahne planı ve istemler hazırlanır; klip üretimini ve kurguyu siz yönetirsiniz. | **Bir konu veya ihtiyaç verin, bitmiş videoyu alın**: çizimler, seslendirme, altyazı, mikro animasyonlar ve video birleştirme otomatik tamamlanır. |
-| **Süre** | **Kısa videolar için ideal**; örneğin 30 saniye–3 dakika. Daha uzun içerikler de bölüm bölüm hazırlanabilir. | **Uzun videolar öncelikli**; özellikle **10 dakika ve üzeri** seslendirmeli içeriklere uygun. Kısa videolar ve bölümlü hikâyeler de yapılabilir. |
-| **Araçlar** | Skill uyumlu bir yapay zekâ asistanıyla planlayın, klipleri tercih ettiğiniz video üreticisinde (Google Flow, Runway, Luma, Kling vb.) oluşturun, ardından CapCut veya Premiere’de birleştirin. | **Codex veya Claude Code** gibi dosya okuyup yazabilen, araç kullanabilen ve komut çalıştırabilen bir yapay zekâ kodlama ajanı; medya üretimini yerel video birleştirmeyle buluşturur. |
-| **Görsel anlatım** | **Bölüm bölüm üretilen animasyonlar**: karakter hareketleri, kamera düzeni ve karakterler arası etkileşim ön plandadır. | **Çizimli sahne planı + yerel animasyon**: yüz ifadeleri, karakter tepkileri ve nesne hareketleri anlatıma eşlik eder; kesmeler, yakınlaşmalar ve kaydırmalarla desteklenir. Yalnızca kamera hareketi veya yazı girişi, sahne animasyonu sayılmaz. |
-| **Çıktı** | Yönetmen önerisi, sahne planı, bölüm bazında video istemleri ve ses tasarımı. | **Seslendirme, altyazı ve mikro animasyon içeren eksiksiz video dosyası.** |
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle"></th>
+<th align="center" valign="middle">A · Model Engine (Model Motoru)</th>
+<th align="center" valign="middle">B · Code Engine (Kod Motoru)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"><strong>İlke</strong></td>
+<td align="left" valign="middle">Çekim planı, istemler ve referans görseller bir video üretim modeline verilir; model hareket, karakter ve sahne değişimleri içeren kesintisiz video klipleri üretir.</td>
+<td align="left" valign="middle">Yapay zekâ görsel materyalleri çizer veya üretir; ardından karakterleri, nesneleri, metin efektlerini ve kamera zaman çizelgesini yöneten kodu yazıp çalıştırarak videoyu yerelde render eder ve birleştirir.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Özellik</strong></td>
+<td align="left" valign="middle">Beden dili, karakter etkileşimleri, kesintisiz hareket ve sinematik ışık ile atmosfere odaklanır; canlı ve etkileyici sahneler üretir.</td>
+<td align="left" valign="middle">Görselleri katmanlar hâlinde düzenlemeye ve hassas kontrole odaklanır; zamanlama, yerleşim, yerel düzeltmeler ve materyallerin yeniden kullanımı daha kolay yönetilir.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Kullanım</strong></td>
+<td align="left" valign="middle">• <strong>Normal sohbet</strong>: Çekim senaryosu ve bağımsız istemler alın; video platformunda üretim ve kurguyu kendiniz yapın.<br>• <strong>Agent ile üretim</strong>: Tarayıcı, dosya ve kurgu araçlarına erişimi olan Codex veya Claude Code, yerleşik tarayıcıdan video platformunu kullanarak üretim, kontrol, hedefli düzeltmeler ve kurguyu kesintisiz tamamlar; altyazı ve sesi ihtiyacınıza ve seçilen stile göre hazırlar.</td>
+<td align="left" valign="middle">Dosya okuma-yazma ve terminalde komut çalıştırma yeteneği olan bir Agent’ta (Codex veya Claude Code gibi), seçilen stile göre senaryoyu ve örneği onaylayın. Agent materyalleri hazırlar, kodu yazar, animasyonu, altyazıyı ve sesi üretir; ardından videoyu yerelde render eder.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Çıktı</strong></td>
+<td align="left" valign="middle">• <strong>Normal sohbet</strong>: Çekim planı + her bölüm için bağımsız kullanılabilen istem paketi<br>• <strong>Agent ile üretim</strong>: Tamamlanmış video dosyası + yerel ön izleme</td>
+<td align="left" valign="middle">Tamamlanmış video dosyası + yerel ön izleme</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Maliyet</strong></td>
+<td align="left" valign="middle">Video üretimi, kullanılan platformun kotasını veya kredilerini tüketir. Görsel üretim, seslendirme ve Agent gibi hizmetler, seçilen yapılandırmaya göre ücretlendirilir.</td>
+<td align="left" valign="middle">Yerel kod render işlemi video modeli kredisi gerektirmez; görsel üretim, TTS seslendirme, Agent modeli çağrıları veya materyal lisansları ücret doğurabilir.</td>
+</tr>
+</tbody>
+</table>
 
-Her iki iş akışı da ham bir konu, web bağlantısı veya tam bir senaryoyla başlayabilir. En-boy oranını (9:16, 16:9, 1:1), anlatım dilini ve seslendirmeyi özgürce seçin. Yukarıdaki süreler öneridir, kesin sınırlar değildir.
+Bir fikir, makale, web bağlantısı veya tamamlanmış senaryoyla başlayabilirsiniz. Her iki mod da kısa ve uzun videoları destekler. Yayın platformuna göre `16:9` yatay veya `9:16` dikey formatı seçin; altyazı, seslendirme, fon müziği ve ses efektlerini ihtiyacınıza ve stil standartlarına göre yapılandırın.
 
-💡 **Hızlı Kurulum Notu**:
-
-- **Director Mode**, standart sohbet tabanlı yapay zekâ pencerelerinde çalışır.
-- **Autopilot Mode**, dosya ve terminal erişimi olan yapay zekâ kodlama ajanları (**Claude Code, OpenAI Codex veya Cursor** gibi) içinde çalışarak render işleminden dosya teslimine kadar tüm süreci otomatik yürütür.
+Hangi stili seçeceğinize henüz karar vermediniz mi? Aşağıdaki [A stilleri](#a-styles) ve [B stilleri](#b-styles) bölümlerinde ayrıntılı tanıtımlar, uygun konular ve daha fazla örnek video bulabilirsiniz.
 
 <!-- project-sponsor:start -->
 <a id="project-sponsor"></a>
@@ -143,9 +170,9 @@ Her iki iş akışı da ham bir konu, web bağlantısı veya tam bir senaryoyla 
 
 ## 🧭 Başlayın
 
-**Örneklere mümkün olduğunca yakın sonuçlar için önce Codex’i öneririm.** Bu projedeki kendi örneklerimi Codex kullanarak hazırladım ve test ettim.
+<strong>Gösterilen örneklere mümkün olduğunca yaklaşmak için Codex veya Claude Code gibi güçlü programlama yeteneklerine sahip yapay zekâ araçlarını tercih etmenizi öneririz.</strong>
 
-Skill’i Claude Code, Cursor, Antigravity veya dosya ve terminal erişimi olan başka agent ortamlarına da kurabilirsiniz. Ancak model yetenekleri, araç yapılandırması ve yürütme biçimi farklı olduğundan sonuçlar değişebilir.
+Skill, dosya okuma-yazma ve terminalde komut çalıştırma yeteneği olan diğer Agent’lara da kurulabilir; ancak model yetenekleri, araç yapılandırması ve yürütme biçimi farklı olduğundan sonuçlar değişebilir.
 
 Aşağıdaki mesajı yapay zekâ asistanınıza gönderin:
 
@@ -163,12 +190,12 @@ Kurulum zaman aşımına mı uğradı? macOS/Linux ve Windows için [kurulum sor
 
 <a id="director-start"></a>
 
-### A · Director Mode: her bölüm için ayrıntılı video istemleri
+### A · Model Engine (Model Motoru): istem teslimi veya kesintisiz üretim
 
-Kurulumdan sonra aşağıdaki mesajı yapay zekâ asistanına gönderin; konuyu kendinize göre değiştirmeniz yeterli:
+**Birinci yol: normal sohbette çekim planı ve bağımsız istemler alın.** Kurulumdan sonra aşağıdaki mesajı yapay zekâ asistanına gönderin; konuyu kendinize göre değiştirmeniz yeterli:
 
 ```text
-Director / A modunu kullanarak aşağıdaki konuyu, metni veya ihtiyacı
+Model Engine / A modunu kullanarak aşağıdaki konuyu, metni veya ihtiyacı
 bir çöp adam videosuna dönüştür:
 [Konuyu yaz, metni yapıştır veya ihtiyacını doğrudan anlat]
 
@@ -176,20 +203,36 @@ bir çöp adam videosuna dönüştür:
 Önce yönetmen önerisini göster; onayladıktan sonra bölüm bölüm video istemlerini ver.
 ```
 
-**Akış: konu ve ihtiyaçlar → hikâye senaryosu → gerekirse karakterin üç görünüşünü onaylama → ayrıntılı sahne istemleri → klipleri elle üretip kurgulayarak birleştirme**
+**Akış: konu ve ihtiyaçlar → hikâye ve çekim planını onaylama → gerekirse karakter referansını onaylama → bağımsız istemleri alma → klipleri kendiniz üretip kurgulayarak birleştirme.**
 
 Öneri; hikâye yapısını, bölüm bölüm seslendirmeyi, karakter hareketlerini, kamerayı ve ses tasarımını içerir. İstemleri aldıktan sonra sırayla [Google Flow](https://flow.google.com/) veya başka bir video üretim aracına kopyalayın; ardından CapCut gibi bir araçta altyazı ve kurguyu tamamlayın.
+
+**İkinci yol: terminalde komut çalıştırabilen bir Agent ile doğrudan tamamlanmış video üretin.** Otomatik üretim istediğinizde şunu ekleyin:
+
+```text
+Bu kez Agent ile otomatik üretim yolunu seçiyorum.
+Varsayılan olarak yerleşik tarayıcıda Google Flow’u açarak üretim yap.
+Önce tarayıcıyı, Flow oturumunu ve kredilerini, dosya ve kurgu araçlarını kontrol et.
+Üretim planını, araçları, maliyeti ve yürütme kapsamını birlikte açıkla.
+Onayımdan sonra izin verilen kapsamda üretimi, hedefli düzeltmeleri,
+kurguyu ve yerel ön izlemeyi kesintisiz tamamla;
+altyazı ve sesi ihtiyaçlarıma ve seçilen stile göre hazırla.
+Her bölüm için hatırlatmamı bekleme. Eksik araç varsa ya da planın değişmesi
+veya maliyetin artması gerekiyorsa bunu bildir.
+```
+
+**Akış: planı ve yürütme kapsamını onaylama → klipleri üretme ve kontrol etme → hedefli düzeltmeler → kurgu ve son işlemler → yerel ön izlemeyi teslim etme.** Altyazı, ses ve istemler ihtiyaçlara ve seçilen stilin standartlarına göre hazırlanır; onaylanmış karakterler, materyaller ve uygun klipler yeniden kullanılır.
 
 İlk videonuz için [X üzerindeki görsel yapım rehberini](https://x.com/CrazyKaomei/status/2102311241046008268) takip edin (adım adım video demoları içeren bir gönderi dizisi).
 
 <a id="autopilot-start"></a>
 
-### B · Autopilot Mode: tek bir istekten uzun videoya
+### B · Code Engine (Kod Motoru): tek bir istekten uzun videoya
 
 Codex veya Claude Code gibi dosya işlemleri ve komut çalıştırma destekleyen bir ortamda kurulum yaptıktan sonra şöyle söyleyin:
 
 ```text
-Autopilot / B modunu kullanarak aşağıdaki konuyu, makaleyi, gönderiyi,
+Code Engine / B modunu kullanarak aşağıdaki konuyu, makaleyi, gönderiyi,
 haberi veya somut ihtiyacı YouTube’da ilgi çekecek bir videoya dönüştür:
 [İçeriği veya bağlantıyı yapıştır; tanıtım ihtiyacını doğrudan da anlatabilirsin]
 
@@ -208,13 +251,15 @@ Yapay zekâ asistanı içeriğe uygun sahneleri tasarlar, görselleri ve seslend
 
 İlk kullanımda gerekli ayarlar kontrol edilir; neyin eksik olduğu ve nasıl tamamlanacağı adım adım açıklanır. Bir görseli veya sesi beğenmezseniz yalnızca ilgili bölümü değiştirip onayladığınız kısımları koruyabilirsiniz.
 
-**Her iki mod için isteğe bağlı son adım:** tamamlanan videoyu onayladıktan sonra, aynı görsel tarzda bir kapak ve yükleme metinleri için [Küçük Resim ve Yayın Kitine](#thumbnail-publishing-kit) geçebilir veya burada bitirebilirsiniz. Mod değiştirmeniz ya da yeniden kurulum yapmanız gerekmez.
+<strong>Her iki mod için isteğe bağlı son adım:</strong> tamamlanan videoyu onayladıktan sonra, aynı görsel tarzda bir kapak ve yükleme metinleri için [Küçük Resim ve Yayın Kitine](#thumbnail-publishing-kit) geçebilir veya burada bitirebilirsiniz. Mod değiştirmeniz ya da yeniden kurulum yapmanız gerekmez.
 
 <a id="style-gallery"></a>
 
 <a id="a-styles"></a>
 
-## 🎨 A · Director Mode stil galerisi
+## 🎨 A · Model Engine stil galerisi
+
+Mevcut A modu örnekleri Google Flow ile hazırlanmıştır; başka video üretim platformlarını da seçebilirsiniz. <strong>Otomatik üretimi Agent’a devretmeden önce hesabınıza giriş yapıldığından ve kullanılabilir kredi bulunduğundan emin olun.</strong>
 
 Stiller A1, A2, A3… olarak güncellenir. Her stilin altında ilgili animasyon örnekleri yer alır.
 
@@ -261,7 +306,7 @@ Telefon yok, ofis yok. Peki mağara insanları neden hâlâ çalışıyor? Görs
 
 | Örnek 1: İnsanlığın İlk İşi Nasıl Ortaya Çıktı? | Örnek 2: Ateşin İlk Keşfi |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="İnsanlığın İlk İşi Nasıl Ortaya Çıktı? animasyon ön izlemesi" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Ateşin İlk Keşfi: topluluk tarafından hazırlanan örnek" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="İnsanlığın İlk İşi Nasıl Ortaya Çıktı? animasyon ön izlemesi" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Ateşin İlk Keşfi: topluluk tarafından hazırlanan örnek" width="360"> |
 | Tarih öncesi hikâye · İş hayatına sürprizli bakış | Ateşin keşfi · Topluluk çalışması |
 
 ---
@@ -319,16 +364,34 @@ Uyandığınızda her şey on bin kat ucuzlamış olsa? Görsel ilham, YouTube�
 
 <a id="a7"></a>
 
-### A7: Yakında…
+### A7: Rubber Hose Animation
 
-Director moduna özel yeni stiller hazırlanıyor. [Projeye yıldız verin](#road-to-10000-stars--creator-ecosystem) ve gelecek güncellemeleri takip edin!
+İnce çizgili bir çöp adam, özenle çizilmiş retro dekorlarda hareket eder. Esnek uzuvlar, güçlü yüz ifadeleri ve kesintisiz oyunculuk, gündelik aksilikleri teatral komediye dönüştürür. Adaçayı yeşili, fildişi ve az miktarda soluk kırmızı dönem hissini korur.
+
+- **Görsel özellikler**：Beyaz yuvarlak yüz, iki kıvrık saç teli ve ince çizgili gövde tutarlıdır; mürekkep konturları, mat boya dokuları, nesne etkileşimi ve anlatıya uygun kurgu.
+- **Uygun içerikler**：Absürt komedi, gündelik yaşam öyküleri, sürpriz sonlu hikâyeler ve müzik odaklı kısa filmler.
+
+| Örnek 1: Peşindeki bulut | Örnek 2: Yağmurlu bir sokak |
+|:---:|:---:|
+| <a href="assets/readme/style-7-rubber-hose.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation · Örnek 1: Peşindeki bulut" width="360"></a> | <a href="assets/readme/style-7-rubber-hose-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose-2.gif" alt="A7 · Rubber Hose Animation · Örnek 2: Yağmurlu bir sokak" width="360"></a> |
+| Retro el çizimi sokaklar · Esnek karakter oyunculuğu | Yağmur atmosferi · Nesne etkileşimi ve tepki çekimleri |
+
+---
+
+<a id="a8"></a>
+
+### A8: Yakında…
+
+Model Engine için yeni stiller hazırlanıyor. [Projeye yıldız verin](#road-to-10000-stars--creator-ecosystem) ve gelecek güncellemeleri takip edin!
 
 
 <a id="b-styles"></a>
 
-## 🤖 B · Autopilot Mode stil galerisi
+## 🤖 B · Code Engine stil galerisi
 
-Stiller B1, B2, B3… olarak güncellenir. Her stilin altında çizimli sahneler ve mikro animasyonlarla hazırlanmış videolar yer alır; A serisinden ayrı tutulur.
+Mevcut B modu örneklerinin tamamı Codex ile hazırlanmıştır: görsel materyaller yerleşik <strong><code>gpt-image-2</code></strong> modeliyle üretilir; ardından katmanlı animasyon kodla yönetilir ve video yerelde render edilir. Otomatik üretimi başka bir Agent’a devretmeden önce <strong>dosya okuma-yazma ve terminalde komut çalıştırma yeteneği olduğundan, gerekli araçların da yapılandırıldığından emin olun.</strong>
+
+Stiller B1, B2, B3… olarak güncellenir. Her stilin altında ilgili tamamlanmış video örnekleri yer alır.
 
 <a id="b1"></a>
 
@@ -475,7 +538,7 @@ Sevdiğiniz avatarı kanalınızın sunucusuna dönüştürün; tanınmış kara
 
 ### B6: Dynamic Meme Animation
 
-Abartılı meme ifadeleri, serbest el çizgileri ve yumuşak renkler, sıra dışı hikâyeleri canlı kısa animasyonlara dönüştürür. Geniş sahneler karakterlere, nesnelere ve kameraya hareket alanı açar.
+Abartılı meme ifadeleri, serbest el çizgileri ve yumuşak renkler, sıra dışı hikâyeleri canlı kısa animasyonlara dönüştürür. Görsel tarz, YouTube’daki [@RicksClips3000](https://www.youtube.com/@RicksClips3000) kanalından ilham alır (**yaklaşık 180 bin abone**). Geniş sahneler karakterlere, nesnelere ve kameraya hareket alanı açar.
 
 - **Görünüm**: Kalınlığı değişen mürekkep çizgileri, mat boyama ve yumuşak ışık, başı, bedeni ve sahneyi tutarlı bir el çizimi tarzında birleştirir; **dikey formatta daha iyi sonuç verir**.
 - **Hareket**: Yanal takip, katmanlı derinlik, nesne alışverişi ve tepki yakın planları hikâyeyi izler; her esprinin anlaşılması için duraklamalar bırakır.
@@ -504,7 +567,7 @@ Abartılı meme ifadeleri, serbest el çizgileri ve yumuşak renkler, sıra dı�
 
 ### B7: Yakında…
 
-Yeni Autopilot stilleri ve kod tabanlı animasyonlar hazırlanıyor. [Projeye yıldız verin](#road-to-10000-stars--creator-ecosystem) ve gelecek güncellemeleri takip edin!
+Yeni Code Engine stilleri ve kod tabanlı animasyonlar hazırlanıyor. [Projeye yıldız verin](#road-to-10000-stars--creator-ecosystem) ve gelecek güncellemeleri takip edin!
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -513,7 +576,7 @@ Yeni Autopilot stilleri ve kod tabanlı animasyonlar hazırlanıyor. [Projeye y�
 
 **En iyi video bile önce tıklanmayı hak etmelidir.** Animasyon tamamlandığında aynı iş akışında görsel stile uygun küçük resimler, yüksek tıklanma oranını hedefleyen başlıklar ve izleyici etkileşimi sağlayan kancalar hazırlayın.
 
-Hem **Director Mode hem de Autopilot Mode** için entegre bir son dokunuş paketi: videonuzun onaylanmış karakterine ve görsel stiline uygun görsel kancalar ile yayına hazır YouTube meta verileri üretir.
+Hem **A · Model Engine hem de B · Code Engine** için entegre bir son dokunuş paketi: videonuzun onaylanmış karakterine ve görsel stiline uygun görsel kancalar ile yayına hazır YouTube meta verileri üretir.
 
 <table width="100%">
   <tr>
@@ -582,9 +645,9 @@ Evet. Stickman Video Director, MIT lisansıyla %100 ücretsiz ve açık kaynakl�
 
 ### Q2. Karakter tutarlılığını nasıl korurum?
 
-**B · Autopilot Modu**: Kod tabanlı bir üretim akışı kullanır. Video üretilmeden önce karakter görselleri oluşturulur ve farklı sahnelerde yeniden kullanılır; böylece karakterin görünümü nispeten tutarlı kalır.
+**B · Code Engine**: Kod tabanlı bir üretim akışı kullanır. Video üretilmeden önce karakter görselleri oluşturulur ve farklı sahnelerde yeniden kullanılır; böylece karakterin görünümü nispeten tutarlı kalır.
 
-**A · Yönetmen Modu**: Temelde metinden video üretimine dayanır. Saç modeli, kıyafet veya diğer özellikler karmaşıksa ve yalnızca metinle tutarlı biçimde yeniden üretilemiyorsa bir çöp adam karakter referans görseli ekleyin ve sonraki kliplerde de kullanın. Bu, sonuçların daha tutarlı olmasını sağlar.
+**A · Model Engine**: Temelde metinden video üretimine dayanır. Saç modeli, kıyafet veya diğer özellikler karmaşıksa ve yalnızca metinle tutarlı biçimde yeniden üretilemiyorsa bir çöp adam karakter referans görseli ekleyin ve sonraki kliplerde de kullanın. Bu, sonuçların daha tutarlı olmasını sağlar.
 
 ### Q3. Hangi araçları kullanmalıyım? Belirli bir görsel üretim modeli seçmem gerekiyor mu?
 
@@ -612,8 +675,8 @@ Evet, kesinlikle. Yüzünü göstermeyen içerik üreticilerinin önemli bir kay
 
 Hayır. Üst düzey bir RTX ekran kartına veya kodlama bilgisine ihtiyacınız yok.
 
-- **Director Mode**, Skill uyumlu herhangi bir yapay zekâ asistanında sohbet yoluyla çalışır.
-- **Autopilot Mode**, Claude Code, Codex veya Cursor gibi yapay zekâ kodlama ajanlarında basit İngilizce taleplerle çalışır. Ağır görsel üretim işlemleri yerel donanımınızda değil, hafif bulut API’leri veya prosedürel render ile yürütülür.
+- **A · Model Engine**, Skill uyumlu bir yapay zekâ asistanında çekim planı ve istemler sunar; gerekli araçlara sahip bir Agent, üretimi tamamlanmış videoya kadar sürdürebilir.
+- **B · Code Engine**, Claude Code, Codex veya Cursor gibi yapay zekâ kodlama ajanlarında doğal dildeki taleplerle çalışır. Agent videoyu yerelde render eder; görsel üretim ve seslendirme için yapılandırılmış harici hizmetleri kullanabilir.
 
 <!-- readme:contribute -->
 
@@ -623,8 +686,8 @@ Hayır. Üst düzey bir RTX ekran kartına veya kodlama bilgisine ihtiyacınız 
 
 **Her yıldız bir sonraki yeniliğe güç verir!** Tek başına içerik üretenlerin aylık 50 dolarlık SaaS abonelikleri olmadan yüzlerini göstermedikleri kanallar yönetebilmesi için birlikte %100 ücretsiz, açık kaynaklı bir stüdyo kuruyoruz.
 
-- [x] **1,000 Stars**: Director Mode + 5 temel görsel stil yayımlandı
-- [x] **3,000 Stars**: tek tıkla video üreten AutoPilot Mode yayımlandı
+- [x] **1,000 Stars**: A · Model Engine + 5 temel görsel stil yayımlandı
+- [x] **3,000 Stars**: tek tıkla video üreten B · Code Engine yayımlandı
 - [x] **6,000 Stars**: 10’dan fazla yüksek kaliteli yeni görsel stil yayımlandı
 - [ ] **🔥 10,000 Stars**:
   - A ve B modları için ortak 1,000’den fazla YouTube senaryosu istemi

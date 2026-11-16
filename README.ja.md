@@ -24,18 +24,38 @@
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="クラシック白黒の棒人間アニメ：黒背景と白い線で伝える解説動画" width="90%"></a>
 </td>
 <td width="50%" align="center">
+<strong>ミニマル線画</strong><br>
+<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="ミニマル線画の棒人間動画：表情豊かなキャラクター、強調テキスト、部分アニメーション" width="90%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
 <strong>モダンポップ</strong><br>
 <a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="モダンポップの棒人間アニメ：赤いニット帽のキャラクターとテック系の光" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>カラフル手描き</strong><br>
+<a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="カラフル手描きの棒人間動画：静かな寝室と川を流れる思い" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <strong>原始時代・洞窟スタイル</strong><br>
-<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="原始時代の棒人間アニメ：洞窟を舞台にした意外なオチのある物語" width="90%"></a>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="原始時代の棒人間アニメ：洞窟を舞台にした意外なオチのある物語" width="90%"></a>
 </td>
+<td width="50%" align="center">
+<strong>レトロテレビ風</strong><br>
+<a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="丸みのある白いキャラクターで描く午前3時のテレビ怪談" width="90%"></a>
+</td>
+</tr>
+<tr>
 <td width="50%" align="center">
 <strong>ほっとする日常ストーリー</strong><br>
 <a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="日常を描く棒人間アニメ：彩りのある風景と共感できる小さな出来事" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<strong>サバイバル・スリラー</strong><br>
+<a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · サバイバル・スリラー" width="90%"></a>
 </td>
 </tr>
 <tr>
@@ -44,8 +64,8 @@
 <a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="歴史カートゥーンの棒人間アニメ：江戸時代の武士の物語" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>ミニマル線画</strong><br>
-<a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="ミニマル線画の棒人間動画：表情豊かなキャラクター、強調テキスト、部分アニメーション" width="90%"></a>
+<strong>キャラクター解説</strong><br>
+<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5の助けを求める心理の解説。アニメの語り手と表情豊かな棒人間" width="90%"></a>
 </td>
 </tr>
 <tr>
@@ -54,41 +74,22 @@
 <a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Amber Noirの棒人間アニメーション：暖かな街灯と深い影の街、オレンジのパーカーのキャラクター" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>カラフル手描き</strong><br>
-<a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="カラフル手描きの棒人間動画：静かな寝室と川を流れる思い" width="90%"></a>
-</td>
-</tr>
-<!-- b3:hero:start -->
-<tr>
-<td width="50%" align="center">
-<strong>レトロテレビ風</strong><br>
-<a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="丸みのある白いキャラクターで描く午前3時のテレビ怪談" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>サバイバル・スリラー</strong><br>
-<a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · サバイバル・スリラー" width="90%"></a>
-</td>
-</tr>
-<!-- b3:hero:end -->
-<!-- b5:hero:start -->
-<tr>
-<td width="50%" align="center">
-<strong>キャラクター解説</strong><br>
-<a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5の助けを求める心理の解説。アニメの語り手と表情豊かな棒人間" width="90%"></a>
-</td>
-<!-- b6:hero:start -->
-<td width="50%" align="center">
 <strong>Dynamic Meme Animation</strong><br>
 <a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
 </td>
-<!-- b6:hero:end -->
 </tr>
-<!-- b5:hero:end -->
+<tr>
+<td width="50%" align="center">
+<strong>ラバーホース・アニメーション</strong><br>
+<a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · ラバーホース・アニメーション" width="90%"></a>
+</td>
+<td width="50%" align="center"></td>
+</tr>
 </table>
 
 <div align="center">
 
-**12種類の画風 · 制作例あり · 無料・オープンソース**
+**13種類の画風 · 制作例あり · 無料・オープンソース**
 
 ⭐ **プロジェクトに Star を付けて、次の画風追加や新機能の解放をチェックしましょう。**
 
@@ -98,24 +99,50 @@
 
 <a id="creation-modes"></a>
 
-## 🎬 動画の作り方は2通り
+## 🎬 2つの動画制作モード：Model Engine vs Code Engine
 
-**すべてのショットを自分で決めたい？ A · Director Mode。シーンを自分でつながず完成動画が欲しい？ B · Autopilot Mode。** 1つのプロジェクトに、2つのワークフロー。
+**同じ棒人間ディレクターで、映像制作のルートは2つ**：A モードは動画生成モデルで連続したショットを作り、B モードはコードで素材を動かしてレイヤーアニメーションを作ります。どちらも、対応するツールを備えた Agent が完成動画まで自動制作でき、選んだ画風の仕様に沿って仕上げます。
 
-|  | <div align="center">A · Directorモード</div> | <div align="center">B · Autopilotモード</div> |
-|:---:|:---|:---|
-| **特徴** | **AIが演出を提案し、仕上がりは自分で調整**：絵コンテとプロンプトを受け取り、クリップの生成と編集を行います。 | **テーマや要望から完成動画へ**：イラスト、ナレーション、字幕、部分アニメーション、動画の合成まで自動で進めます。 |
-| **長さ** | **短編向け**。目安は30秒〜3分。クリップを重ねて、より長い内容も作れます。 | **長編向け**。特に**10分以上**のナレーション動画に。短編や連続ストーリーにも対応します。 |
-| **必要な環境** | Skill 対応の AI アシスタントで構成を練り、好みの動画生成ツール（Google Flow、Runway、Luma、Kling など）でクリップを生成して、CapCut や Premiere で編集します。 | **Codex、Claude Code**など、ファイルの読み書き・ツール呼び出し・コマンド実行ができるAIエージェントで、素材生成とローカルでの動画合成をつなぎます。 |
-| **映像表現** | **クリップごとのアニメーション生成**。人物の動作、カメラワーク、キャラクター同士のやり取りを重視します。 | **イラスト絵コンテ＋部分アニメーション**。表情、人物の反応、小道具の動きをナレーションに合わせ、カット、ズーム、パンを組み合わせます。カメラ移動や文字の登場だけでは、画面内のアニメーションとは見なしません。 |
-| **受け取れるもの** | 演出プラン、絵コンテ、クリップごとの動画プロンプト、サウンドデザイン。 | **ナレーション・字幕・部分アニメーション付きの完成動画ファイル**。 |
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle"></th>
+<th align="center" valign="middle">A · Model Engine（モデルエンジン）</th>
+<th align="center" valign="middle">B · Code Engine（コードエンジン）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"><strong>仕組み</strong></td>
+<td align="left" valign="middle">絵コンテ、プロンプト、参考画像を動画生成モデルに入力し、動作や人物、場面の変化を含む連続した動画クリップを直接生成します。</td>
+<td align="left" valign="middle">AI が画面素材を描画・生成し、人物、小道具、文字のアニメーション、カメラのタイムラインを制御するコードを作成・実行して、ローカルで動画をレンダリング・合成します。</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>特徴</strong></td>
+<td align="left" valign="middle">身体表現、人物同士のやり取り、連続した動作、カメラと光の演出を重視。生き生きとした、映像と音の訴求力がある画面を作ります。</td>
+<td align="left" valign="middle">レイヤーの構成と細かな制御を重視。タイムラインのテンポ、配置、部分的な調整、素材の再利用を管理しやすい方式です。</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>使い方</strong></td>
+<td align="left" valign="middle">• <strong>通常のチャット</strong>：絵コンテと単独で使えるプロンプトを受け取り、動画生成プラットフォームで自分で生成・編集します。<br>• <strong>Agent による制作</strong>：ブラウザ、ファイル操作、編集機能を備えた Codex や Claude Code で、内蔵ブラウザから動画プラットフォームを操作。生成、確認、必要な部分の修正、編集を続けて行い、要望と画風に合わせて字幕と音を加えます。</td>
+<td align="left" valign="middle">ファイルの読み書きとターミナル実行ができる Agent（Codex、Claude Code など）で、選んだ画風の台本とサンプルを確認した後、素材の準備、コードの作成、アニメーション、字幕と音の制作を自動で進め、ローカルでレンダリングします。</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>納品物</strong></td>
+<td align="left" valign="middle">• <strong>通常のチャット</strong>：絵コンテのプラン＋各クリップで単独使用できるプロンプト集<br>• <strong>Agent による制作</strong>：完成動画ファイル＋ローカルプレビュー</td>
+<td align="left" valign="middle">完成動画ファイル＋ローカルプレビュー</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>コスト</strong></td>
+<td align="left" valign="middle">動画生成には利用先のプラットフォームの枠やクレジットを使います。画像生成、音声、Agent などの料金は実際に使用するサービスによります。</td>
+<td align="left" valign="middle">ローカルのコードレンダリングに動画モデルのクレジットは不要です。画像生成、TTS 音声、Agent のモデル利用、素材ライセンスには費用が発生する場合があります。</td>
+</tr>
+</tbody>
+</table>
 
-どちらのワークフローも、大まかなトピック、Web リンク、完成した台本から始められます。アスペクト比（9:16、16:9、1:1）、ナレーション言語、音声は自由に選べます。上記の長さは目安であり、厳密な制限ではありません。
+アイデア、記事、Web リンク、完成した台本のいずれからでも制作を始められます。どちらのモードも短編から長編まで対応し、公開先に合わせて `16:9` の横型か `9:16` の縦型を選択できます。字幕、ナレーション、BGM、効果音は、要望と画風の基準に合わせて設定します。
 
-💡 **セットアップのポイント**：
-
-- **Director Mode** は通常の対話型 AI のチャット画面で利用できます。
-- **Autopilot Mode** はファイルとターミナルにアクセスできる AI コーディングエージェント（**Claude Code、OpenAI Codex、Cursor** など）内で動作し、レンダリングからファイル納品までを自動で処理します。
+画風を迷っていますか？ 下の「[A の画風](#a-styles)」と「[B の画風](#b-styles)」では、各画風の詳しい紹介、向いている題材、さらに多くの作例をご覧いただけます。
 
 <!-- project-sponsor:start -->
 <a id="project-sponsor"></a>
@@ -143,9 +170,9 @@
 
 ## 🧭 使い始める
 
-**作例にできるだけ近い仕上がりを目指すなら、まず Codex をおすすめします。** このプロジェクトで紹介している私の作例は、Codex を使って制作・テストしています。
+<strong>展示されている作例にできるだけ近い仕上がりを目指すなら、Codex、Claude Code など、プログラミング能力の高い AI ツールを優先して使うことをおすすめします。</strong>
 
-Claude Code、Cursor、Antigravity など、ファイルとターミナルにアクセスできる Agent にもインストールできます。ただし、モデルの能力、ツール設定、実行方法の違いにより、仕上がりが異なる場合があります。
+ファイルの読み書きとターミナル実行ができる他の Agent にもインストールできます。ただし、モデルの能力、ツール設定、実行方法によって仕上がりは異なる場合があります。
 
 次の内容を AI アシスタントに送ってください：
 
@@ -163,12 +190,12 @@ https://github.com/kaomei/stickman-video-director
 
 <a id="director-start"></a>
 
-### A · Directorモード：クリップごとの動画プロンプトを作る
+### A · Model Engine（モデルエンジン）：プロンプトの受け取り、または完成までの制作を選ぶ
 
-インストール後、テーマを書き換えて次の文章をAIアシスタントに送ってください。
+**ルート1：通常のチャットで、絵コンテと単独で使えるプロンプトを受け取る。** インストール後、テーマを書き換えて次の文章を AI アシスタントに送ってください。
 
 ```text
-Directorモード／Aモードで、次のテーマ・原稿・要望を
+Model Engine／Aモードで、次のテーマ・原稿・要望を
 棒人間動画にしてください：
 [テーマを書く、原稿を貼る、または作りたい内容を説明する]
 
@@ -176,20 +203,33 @@ Directorモード／Aモードで、次のテーマ・原稿・要望を
 先に演出プランを見せて、確認してからクリップごとの動画プロンプトを出してください。
 ```
 
-**流れ：テーマと要望を伝える → 物語の台本を作る → 必要に応じてキャラクターの三面図を確認する → 詳細な動画プロンプトを作る → 自分でクリップを生成し、編集して仕上げる**
+**流れ：テーマと要望を伝える → 物語と絵コンテのプランを確認する → 必要に応じて人物の参考画像を確認する → 単独で使えるプロンプトを受け取る → 自分でクリップを生成し、編集して仕上げる。**
 
-演出プランには、物語の構成、場面ごとのナレーション、動作、カメラワーク、サウンドデザインが含まれます。確認したプロンプトを [Google Flow](https://flow.google.com/) などの動画生成ツールに順番に入力し、CapCutなどで字幕を付け、編集して仕上げます。
+演出プランには、物語の構成、場面ごとのナレーション、動作、カメラワーク、サウンドデザインが含まれます。プロンプトを受け取ったら、[Google Flow](https://flow.google.com/) などの動画生成ツールに順番に入力し、CapCut などで字幕を付け、編集して仕上げます。
+
+**ルート2：ターミナル実行ができる Agent に、完成動画まで制作してもらう。** 自動で制作を進めたい場合は、次の依頼を追加してください。
+
+```text
+今回はAgentによる自動制作ルートを選び、原則として内蔵ブラウザからGoogle Flowを開いて生成してください。
+まずブラウザ、Flowのログインと利用枠、ファイル操作と編集ツールを確認し、
+制作プラン、使うツール、費用、実行範囲をまとめて説明してください。
+確認後は、許可した範囲で生成、必要な部分の修正、編集、ローカルプレビューまで続けて進め、
+要望と選んだ画風に合わせて字幕と音も制作してください。
+クリップごとの指示を待たずに進め、ツールが足りない場合や、プラン変更・費用増額が必要な場合に説明してください。
+```
+
+**流れ：プランと実行範囲を確認する → クリップを生成・確認する → 必要な部分を修正する → 編集・仕上げを行う → ローカルプレビューを受け取る。** 字幕、音、プロンプトは要望と選んだ画風の基準に合わせて制作し、確認済みの人物、素材、合格したクリップは再利用します。
 
 初めての動画は、[X のビジュアル制作ガイド](https://x.com/CrazyKaomei/status/2102311241046008268)（ステップごとの動画デモ付きスレッド）を参考に作ってみてください。
 
 <a id="autopilot-start"></a>
 
-### B · Autopilotモード：ひと言の依頼から長編動画へ
+### B · Code Engine（コードエンジン）：ひと言の依頼から長編動画へ
 
-CodexやClaude Codeなど、ファイル操作とコマンド実行ができる環境にインストールしたら、次のように依頼します。
+Codex や Claude Code など、ファイル操作とコマンド実行ができる環境にインストールしたら、次のように依頼します。
 
 ```text
-Autopilotモード／Bモードで、次のテーマ・記事・投稿・ニュース・具体的な要望から、
+Code Engine／Bモードで、次のテーマ・記事・投稿・ニュース・具体的な要望から、
 YouTubeで興味を引く動画を作ってください：
 [内容やリンクを貼る、または紹介・宣伝したい内容を説明する]
 
@@ -202,17 +242,19 @@ YouTubeで興味を引く動画を作ってください：
 
 **流れ：テーマ・内容・要望を伝える → 台本を確認する → 音声付きの20秒プレビュー動画を確認する → 全編を自動制作する → 完成動画を受け取る**
 
-AIアシスタントが内容に合った絵コンテを作り、映像とナレーションを生成。字幕と効果音を加え、音声のテンポに合わせて一本の動画に仕上げます。主に確認するのは台本とサンプルで、クリップごとの生成や手作業での組み立ては不要です。
+AI アシスタントが内容に合った絵コンテを作り、映像とナレーションを生成。字幕と効果音を加え、音声のテンポに合わせて一本の動画に仕上げます。主に確認するのは台本とサンプルで、クリップごとの生成や手作業での組み立ては不要です。
 
 初回は必要な設定を確認し、不足しているものと準備方法を順番に案内します。映像や声が気になったら、その部分だけを調整し、確認済みの部分は残せます。
 
-**どちらのモードでも選べる仕上げ：**完成動画に満足したら、[サムネイル＆公開キット](#thumbnail-publishing-kit)で画風に合ったサムネイルと投稿文を作ることも、そのまま終了することもできます。モードの切り替えや再インストールは不要です。
+<strong>どちらのモードでも選べる仕上げ：</strong>完成動画に満足したら、[サムネイル＆公開キット](#thumbnail-publishing-kit)で画風に合ったサムネイルと投稿文を作ることも、そのまま終了することもできます。モードの切り替えや再インストールは不要です。
 
 <a id="style-gallery"></a>
 
 <a id="a-styles"></a>
 
-## 🎨 A · Directorモードの画風一覧
+## 🎨 A · Model Engine の画風一覧
+
+現在の A モードの作例は Google Flow で制作しています。他の動画生成プラットフォームを選ぶこともできます。<strong>Agent に自動制作を任せる前に、アカウントにログイン済みで、利用枠が残っていることを確認してください。</strong>
 
 A1、A2、A3…の番号で追加し、それぞれの画風に対応するアニメーション制作例を紹介します。
 
@@ -259,7 +301,7 @@ A1、A2、A3…の番号で追加し、それぞれの画風に対応するア�
 
 | 制作例1：『人類最初の仕事は、どう生まれた？』 | 制作例2：『人類が初めて火を見つけた日』 |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="『人類最初の仕事は、どう生まれた？』のプレビュー" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="火の発見をテーマにしたユーザー作品" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="『人類最初の仕事は、どう生まれた？』のプレビュー" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="火の発見をテーマにしたユーザー作品" width="360"> |
 | 原始時代の物語 · 仕事の皮肉 | 火の発見 · ユーザー作品 |
 
 ---
@@ -317,16 +359,34 @@ A1、A2、A3…の番号で追加し、それぞれの画風に対応するア�
 
 <a id="a7"></a>
 
-### A7: 近日公開…
+### A7: ラバーホース・アニメーション
 
-新しい特化型のディレクタースタイルを準備中です。[プロジェクトに Star を付けて](#road-to-10000-stars--creator-ecosystem)、今後の更新をチェックしてください！
+細い線の棒人間が、丁寧に描かれたレトロな背景の中で活躍。しなやかな手足、豊かな表情、連続した演技で、日常の失敗を劇場アニメのような喜劇に変えます。セージグリーンやアイボリーに少量のくすんだ赤を添え、年代感を表現します。
+
+- **見どころ**：白い丸顔、2本の曲がった髪、細い線の体を統一。インクの輪郭、マットな筆触、小道具とのやり取り、表情豊かなカット割り。
+- **向いている内容**：不条理コメディ、日常の寓話、どんでん返しの物語、音楽に合わせた短編。
+
+| サンプル1：雲に追われて | サンプル2：雨の街角 |
+|:---:|:---:|
+| <a href="assets/readme/style-7-rubber-hose.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · ラバーホース・アニメーション · サンプル1：雲に追われて" width="360"></a> | <a href="assets/readme/style-7-rubber-hose-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose-2.gif" alt="A7 · ラバーホース・アニメーション · サンプル2：雨の街角" width="360"></a> |
+| レトロな手描きの街並み · しなやかな演技 | 雨の空気感 · 小道具とのやり取りと表情のカット |
+
+---
+
+<a id="a8"></a>
+
+### A8: 近日公開…
+
+新しい Model Engine の特化型スタイルを準備中です。[プロジェクトに Star を付けて](#road-to-10000-stars--creator-ecosystem)、今後の更新をチェックしてください！
 
 
 <a id="b-styles"></a>
 
-## 🤖 B · Autopilotモードの画風一覧
+## 🤖 B · Code Engine の画風一覧
 
-B1、B2、B3…の番号で追加。各画風に、イラスト絵コンテと部分アニメーションによる完成動画を掲載します。Aシリーズとは別に管理します。
+現在の B モードの作例はすべて Codex で制作しています。内蔵の <strong><code>gpt-image-2</code></strong> モデルで画面素材を生成し、コードでレイヤーアニメーションを制御して、ローカルで動画をレンダリングします。他の Agent に自動制作を任せる前に、<strong>ファイルの読み書きとターミナル実行ができ、必要なツールが設定済みであることを確認してください。</strong>
+
+B1、B2、B3…の番号で追加し、各画風の完成動画を紹介します。
 
 <a id="b1"></a>
 
@@ -473,7 +533,7 @@ B1、B2、B3…の番号で追加。各画風に、イラスト絵コンテと�
 
 ### B6: Dynamic Meme Animation
 
-Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で、奇妙な物語を生き生きとした短編アニメに。広い背景が、人物・小道具・カメラの動きを支えます。
+Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で、奇妙な物語を生き生きとした短編アニメに。画風のインスピレーションは YouTube の [@RicksClips3000](https://www.youtube.com/@RicksClips3000)（**登録者約18万人**）。広い背景が、人物・小道具・カメラの動きを支えます。
 
 - **画面**: 強弱のあるインク線、マットな塗り、柔らかな光で、頭・体・背景の手描きのタッチを統一し、**縦型でよりよい仕上がりに**。
 - **動き**: 横移動、前景と背景の視差、物の受け渡し、リアクションの寄りを物語に沿ってつなぎ、動作と笑いが伝わる間を確保。
@@ -502,7 +562,7 @@ Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で�
 
 ### B7: 近日公開…
 
-新しい Autopilot 画風とコードアニメーションを準備中です。[プロジェクトに Star を付けて](#road-to-10000-stars--creator-ecosystem)、今後の更新をチェックしてください！
+新しい Code Engine の画風とコードアニメーションを準備中です。[プロジェクトに Star を付けて](#road-to-10000-stars--creator-ecosystem)、今後の更新をチェックしてください！
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -511,7 +571,7 @@ Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で�
 
 **動画の魅力は、まずクリックされてこそ伝わります。** アニメーション完成後も同じワークフローで、画風に合ったサムネイル、高クリック率を狙うタイトル、視聴者の反応を引き出すフックをまとめて用意できます。
 
-**Director Mode と Autopilot Mode** の両方で使える仕上げパックです。承認済みのキャラクターと画風に合わせたビジュアルフックに加え、公開用の YouTube メタデータを生成します。
+**A · Model Engine と B · Code Engine** の両方で使える仕上げパックです。承認済みのキャラクターと画風に合わせたビジュアルフックに加え、公開用の YouTube メタデータを生成します。
 
 <table width="100%">
   <tr>
@@ -610,8 +670,8 @@ Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で�
 
 いいえ。ハイエンドの RTX グラフィックカードも、プログラミングの知識も不要です。
 
-- **Director Mode** は Skill 対応の AI アシスタント内で、会話形式で利用できます。
-- **Autopilot Mode** は Claude Code、Codex、Cursor などの AI コーディングエージェント内で、簡単な英語の指示で動作します。負荷の高いビジュアル生成は軽量なクラウド API や手続き型レンダリングが処理し、手元のハードウェアでは行いません。
+- **A · Model Engine** は通常のチャットで絵コンテとプロンプトを受け取るか、必要なツールを備えた Agent に生成・編集まで任せられます。動画クリップは利用する動画プラットフォームで生成します。
+- **B · Code Engine** は Codex、Claude Code、Cursor などの Agent に自然な言葉で依頼できます。Agent がコードを作成・実行し、ローカルでレンダリングします。素材生成には設定した画像生成・音声サービスを使います。
 
 <!-- readme:contribute -->
 
@@ -621,8 +681,8 @@ Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で�
 
 **一つひとつのStarが、次のリリースの力に！** 月額50ドルのSaaSを契約せずに、一人でも顔出しなしのチャンネルを運営できるよう、100%無料・オープンソースのスタジオをみんなで作っています。
 
-- [x] **1,000 Stars**：Directorモード + 5つの基本画風を公開
-- [x] **3,000 Stars**：ワンクリックで動画を生成するAutoPilotモードを公開
+- [x] **1,000 Stars**：A · Model Engine + 5つの基本画風を公開
+- [x] **3,000 Stars**：動画を自動制作する B · Code Engineを公開
 - [x] **6,000 Stars**：高品質な新しい画風を10種類以上公開済み
 - [ ] **🔥 10,000 Stars**：
   - A/B 両モードで使える1,000本以上のYouTube台本プロンプト集
