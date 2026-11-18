@@ -96,7 +96,7 @@ Turn raw scripts into high-retention animated explainers in minutes — across 1
 <!-- b7:hero:start -->
 <td width="50%" align="center">
 <strong>Pixel Theater</strong><br>
-<a href="#b7"><img src="assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Pixel Theater" width="90%"></a>
+<a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Pixel Theater" width="90%"></a>
 </td>
 <!-- b7:hero:end -->
 </tr>
@@ -570,16 +570,14 @@ Small pixels, big consequences. A white stick-figure cast turns everyday choices
     <th width="50%" align="center">Demo 2: Don’t fast-forward your life</th>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="assets/readme/previews/b7-pixel-theater.gif" alt="Demo 1: What happens when you keep saying “I don’t care”?" width="360"></a></td>
-    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="assets/readme/previews/b7-fast-forward-excerpt.gif" alt="Demo 2: Don’t fast-forward your life" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="Demo 1: What happens when you keep saying “I don’t care”?" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-fast-forward-excerpt.gif" alt="Demo 2: Don’t fast-forward your life" width="360"></a></td>
   </tr>
   <tr>
     <td align="center">Pixel character animation · Game-inspired music & SFX</td>
-    <td align="center">Pixel animation · Story-driven SFX</td>
+    <td align="center">Brian voiceover · Story-driven SFX · Typewriter quote ending</td>
   </tr>
 </table>
-
-Music credits: [Paths](assets/readme/b7-pixel-theater-MUSIC-CREDIT.txt) · [Fast Forward](assets/readme/b7-fast-forward-excerpt-MUSIC-CREDIT.txt).
 
 <!-- b7:section:end -->
 

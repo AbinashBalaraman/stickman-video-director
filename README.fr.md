@@ -96,7 +96,7 @@ Transformez des scripts bruts en explications animées à haute rétention en qu
 <!-- b7:hero:start -->
 <td width="50%" align="center">
 <strong>Théâtre pixel</strong><br>
-<a href="#b7"><img src="assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Théâtre pixel" width="90%"></a>
+<a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Théâtre pixel" width="90%"></a>
 </td>
 <!-- b7:hero:end -->
 </tr>
@@ -570,16 +570,14 @@ De petits pixels, de grandes conséquences. Des personnages blancs transforment 
     <th width="50%" align="center">Démo 2 : ne passez pas votre vie en accéléré</th>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="assets/readme/previews/b7-pixel-theater.gif" alt="Démo 1 : que se passe-t-il quand on dit toujours « peu importe » ?" width="360"></a></td>
-    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="assets/readme/previews/b7-fast-forward-excerpt.gif" alt="Démo 2 : ne passez pas votre vie en accéléré" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="Démo 1 : que se passe-t-il quand on dit toujours « peu importe » ?" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-fast-forward-excerpt.gif" alt="Démo 2 : ne passez pas votre vie en accéléré" width="360"></a></td>
   </tr>
   <tr>
     <td align="center">Animation de personnages en pixels · Musique et bruitages inspirés du jeu vidéo</td>
-    <td align="center">Animation en pixels · Bruitages au service du récit</td>
+    <td align="center">Voix off Brian · Bruitages au service du récit · Phrase finale à effet machine à écrire</td>
   </tr>
 </table>
-
-Crédits musicaux: [Paths](assets/readme/b7-pixel-theater-MUSIC-CREDIT.txt) · [Fast Forward](assets/readme/b7-fast-forward-excerpt-MUSIC-CREDIT.txt).
 
 <!-- b7:section:end -->
 
