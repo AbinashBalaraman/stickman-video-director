@@ -29,63 +29,58 @@ assert "# 🎬 Stickman Video Director" in source
 english_hero = source.split("</div>", 1)[0]
 assert "**Scale your faceless channel with automated stickman animations.**" in english_hero
 english_intro = (
-    "Turn raw scripts into high-retention animated explainers in minutes — across 14 battle-tested styles, complete with voiceovers, dynamic camera moves, and sound design.",
+    '**Send your AI agent one message — get back a finished stickman video.**<br>\nScript, voiceover, captions & sound · 14 battle-tested styles · For Claude Code, Codex & more',
+    '💬 One message → ✅ Approve script & preview → 🎬 Finished video',
     "**No After Effects. No $50/mo SaaS tax. Ship daily without burnout.**",
 )
 assert "\n\n".join(english_intro) in english_hero, "Approved English introduction and bold formatting"
 assert "For your first video, see the [detailed tutorial on X](https://x.com/CrazyKaomei/status/2102311241046008268)." in source, "Approved first-video walkthrough copy and unchanged X thread link"
 
 # User-approved hero copy; publication and integration use their actual style counts.
-approved_localized_hero = {'zh-CN': ('**用全自动火柴人动画，规模化量产你的无人出镜频道。**',
-           '几分钟内，通过 14 款实操验证的画风把原始文案变成高完播率动画视频 —— 镜头调度、旁白配音与音效设计一键配齐。',
-           '**告别繁琐动效手搓，不交每月几十刀的软件订阅税。日更内容，轻松无压力。**',
-           '[快速上手](#quick-start) · [样片展厅](#style-gallery) · [常见问题](#faq) · '
-           '[路线图](#road-to-10000-stars--creator-ecosystem) · [交流社区](#community)',
-           '*⭐ 欢迎点亮 Star，第一时间解锁最新画风与功能更新！*'),
- 'ja': ('**自動化された棒人間アニメーションで、顔出しなしチャンネルを規模化・量産へ。**',
-        '生の原稿からわずか数分で高維持率の解説アニメへ —— 実戦検証済みの14種類の画風、ナレーション、カメラワーク、効果音まで完全自動。',
+approved_localized_hero = {
+    'zh-CN': ('**用全自动火柴人动画，规模化量产你的无人出镜频道。**',
+        '**发一句话给 AI Agent，拿回一条完整的火柴人视频。**<br>\n脚本、配音、字幕与音效全包 · 14 款实操验证的画风 · 支持 Claude Code、Codex 等',
+        '💬 发一句话 → ✅ 确认脚本和预览 → 🎬 拿到成片',
+        '**告别繁琐动效手搓，不交每月几十刀的软件订阅税。日更内容，轻松无压力。**',
+        '[快速上手](#quick-start) · [样片展厅](#style-gallery) · [常见问题](#faq) · [路线图](#road-to-10000-stars--creator-ecosystem) · [交流社区](#community)',
+        '*⭐ 欢迎点亮 Star，第一时间解锁最新画风与功能更新！*'),
+    'ja': ('**自動化された棒人間アニメーションで、顔出しなしチャンネルを規模化・量産へ。**',
+        '**AIエージェントにひと言送るだけで、完成した棒人間動画が届く。**<br>\n台本・音声・字幕・効果音までおまかせ · 実戦検証済みの14画風 · Claude Code・Codex 対応',
+        '💬 ひと言送る → ✅ 台本とプレビューを確認 → 🎬 完成動画',
         '**面倒な動画編集・アニメ付けは不要。月額50ドルのSaaS税もゼロ。毎日投稿を、もっと楽に。**',
-        '[クイックスタート](#quick-start) · [ショーケース](#style-gallery) · [FAQ](#faq) · '
-        '[ロードマップ](#road-to-10000-stars--creator-ecosystem) · [コミュニティ](#community)',
+        '[クイックスタート](#quick-start) · [ショーケース](#style-gallery) · [FAQ](#faq) · [ロードマップ](#road-to-10000-stars--creator-ecosystem) · [コミュニティ](#community)',
         '*⭐ 次のスタイル追加や新機能を見逃さないよう、ぜひ Star をお願いします！*'),
- 'ko': ('**자동화된 스틱맨 애니메이션으로 얼굴 없는 유튜브 채널을 대량 양산하세요.**',
-        '텍스트 원고를 몇 분 만에 높은 시청 지속 시간의 애니메이션 영상으로 —— 검증된 14가지 비주얼 스타일, 나레이션, 카메라 무빙, 사운드 디자인까지 한 번에.',
+    'ko': ('**자동화된 스틱맨 애니메이션으로 얼굴 없는 유튜브 채널을 대량 양산하세요.**',
+        '**AI 에이전트에게 메시지 한 줄만 보내면, 완성된 스틱맨 영상이 돌아옵니다.**<br>\n대본·내레이션·자막·사운드까지 한 번에 · 검증된 14가지 스타일 · Claude Code, Codex 등 지원',
+        '💬 메시지 한 줄 → ✅ 대본과 미리보기 확인 → 🎬 완성 영상',
         '**복잡한 모션 그래픽 작업 불필요. 매달 50달러의 SaaS 구독료도 제로. 지치지 않고 매일 업로드.**',
-        '[빠른 시작](#quick-start) · [쇼케이스](#style-gallery) · [FAQ](#faq) · '
-        '[로드맵](#road-to-10000-stars--creator-ecosystem) · [커뮤니티](#community)',
+        '[빠른 시작](#quick-start) · [쇼케이스](#style-gallery) · [FAQ](#faq) · [로드맵](#road-to-10000-stars--creator-ecosystem) · [커뮤니티](#community)',
         '*⭐ 저장소를 Star하고 다음 스타일 업데이트와 새로운 기능을 가장 먼저 확인하세요.*'),
- 'pt-BR': ('**Escale sua rede de canais dark com animações automatizadas de boneco-palito.**',
-           'Transforme roteiros brutos em animações explicativas de alta retenção em minutos — em 14 estilos '
-           'testados na prática, com locução, movimentos de câmera e sonoplastia inclusos.',
-           '**Chega de sofrer no After Effects. Sem taxa de US$ 50/mês em SaaS. Poste todo dia sem '
-           'esgotamento.**',
-           '[Início Rápido](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · '
-           '[Roadmap](#road-to-10000-stars--creator-ecosystem) · [Comunidade](#community)',
-           '*⭐ Deixe uma estrela no projeto para acompanhar os próximos estilos e novidades.*'),
- 'fr': ("**Industrialisez votre réseau de chaînes sans visage grâce à l'animation automatisée.**",
-        'Transformez des scripts bruts en explications animées à haute rétention en quelques minutes — parmi '
-        '14 styles éprouvés, avec voix off, caméra dynamique et design sonore inclus.',
-        '**Oubliez les galères sur After Effects. Fini la taxe SaaS à 50 $/mois. Publiez quotidiennement '
-        'sans épuisement.**',
-        '[Démarrage](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · '
-        '[Roadmap](#road-to-10000-stars--creator-ecosystem) · [Communauté](#community)',
+    'pt-BR': ('**Escale sua rede de canais dark com animações automatizadas de boneco-palito.**',
+        '**Mande uma mensagem para seu agente de IA e receba um vídeo de boneco-palito pronto.**<br>\nRoteiro, locução, legendas e som · 14 estilos testados · Para Claude Code, Codex e mais',
+        '💬 Uma mensagem → ✅ Aprove o roteiro e a prévia → 🎬 Vídeo pronto',
+        '**Chega de sofrer no After Effects. Sem taxa de US$ 50/mês em SaaS. Poste todo dia sem esgotamento.**',
+        '[Início Rápido](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Comunidade](#community)',
+        '*⭐ Deixe uma estrela no projeto para acompanhar os próximos estilos e novidades.*'),
+    'fr': ("**Industrialisez votre réseau de chaînes sans visage grâce à l'animation automatisée.**",
+        '**Un seul message à votre agent IA — et votre vidéo de bonshommes bâtons est prête.**<br>\nScript, voix off, sous-titres et son · 14 styles éprouvés · Pour Claude Code, Codex et plus',
+        '💬 Un message → ✅ Validez le script et l’aperçu → 🎬 Vidéo terminée',
+        '**Oubliez les galères sur After Effects. Fini la taxe SaaS à 50 $/mois. Publiez quotidiennement sans épuisement.**',
+        '[Démarrage](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Communauté](#community)',
         '*⭐ Ajoutez une étoile au projet pour ne manquer aucun nouveau style ni mise à jour.*'),
- 'tr': ('**Yüzsüz kanal ağınızı otomatik çöp adam animasyonlarıyla ölçeklendirin.**',
-        'Ham metinleri dakikalar içinde yüksek tutunma oranlı animasyonlu açıklamalara dönüştürün — '
-        'kanıtlanmış 14 farklı stil, seslendirme, dinamik kamera ve ses efektleriyle birlikte.',
-        "**Karmaşık After Effects kurgularına son. Aylık 50$'lık SaaS vergisi yok. Tükenmeden her gün "
-        'yayınlayın.**',
-        '[Hızlı Başlangıç](#quick-start) · [Vitrin](#style-gallery) · [SSS](#faq) · [Yol '
-        'Haritası](#road-to-10000-stars--creator-ecosystem) · [Topluluk](#community)',
+    'tr': ('**Yüzsüz kanal ağınızı otomatik çöp adam animasyonlarıyla ölçeklendirin.**',
+        '**Yapay zekâ ajanınıza tek bir mesaj gönderin, bitmiş çöp adam videonuzu alın.**<br>\nSenaryo, seslendirme, altyazı ve ses · Kanıtlanmış 14 stil · Claude Code, Codex ve dahası',
+        '💬 Tek mesaj → ✅ Senaryoyu ve önizlemeyi onaylayın → 🎬 Hazır video',
+        "**Karmaşık After Effects kurgularına son. Aylık 50$'lık SaaS vergisi yok. Tükenmeden her gün yayınlayın.**",
+        '[Hızlı Başlangıç](#quick-start) · [Vitrin](#style-gallery) · [SSS](#faq) · [Yol Haritası](#road-to-10000-stars--creator-ecosystem) · [Topluluk](#community)',
         '*⭐ Yeni stil güncellemelerini ve özellikleri kaçırmamak için projeye Star verin.*'),
- 'id': ('**Skalakan jaringan channel tanpa wajah Anda dengan animasi stickman otomatis.**',
-        'Ubah naskah mentah menjadi video animasi beretensi tinggi dalam hitungan menit — dari 14 gaya '
-        'visual teruji, lengkap dengan voiceover, gerakan kamera dinamis, dan efek suara.',
-        '**Tanpa ribet animasi After Effects. Tanpa pajak langganan SaaS $50/bulan. Upload tiap hari tanpa '
-        'burnout.**',
-        '[Panduan Cepat](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · '
-        '[Roadmap](#road-to-10000-stars--creator-ecosystem) · [Komunitas](#community)',
-        '*⭐ Berikan Star pada repositori ini untuk mendapatkan rilis gaya dan fitur terbaru.*')}
+    'id': ('**Skalakan jaringan channel tanpa wajah Anda dengan animasi stickman otomatis.**',
+        '**Kirim satu pesan ke agen AI Anda, dapatkan video stickman yang sudah jadi.**<br>\nNaskah, voiceover, subtitle & suara · 14 gaya teruji · Untuk Claude Code, Codex & lainnya',
+        '💬 Satu pesan → ✅ Setujui naskah & pratinjau → 🎬 Video jadi',
+        '**Tanpa ribet animasi After Effects. Tanpa pajak langganan SaaS $50/bulan. Upload tiap hari tanpa burnout.**',
+        '[Panduan Cepat](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Komunitas](#community)',
+        '*⭐ Berikan Star pada repositori ini untuk mendapatkan rilis gaya dan fitur terbaru.*'),
+}
 
 def images(text):
     return re.findall(r'<img\b[^>]*\bsrc="([^"]+)"', text)
@@ -158,7 +153,7 @@ shared_links = (
     "https://github.com/kaomei/stickman-video-director/blob/main/LICENSE",
     "https://github.com/leksautomate",
     "https://x.com/CrazyKaomei/status/2102311241046008268",
-    "https://x.com/CrazyKaomei",
+    "https://x.com/AveryRunsAI",
     "https://flow.google.com/",
     "https://telegram.me/stickmanskill",
     "https://renoise.ai/mcp?utm_source=crazykaomei-aini-202610&amp;utm_medium=xcom",
@@ -171,19 +166,19 @@ for name in selected:
     top = text.split("</div>", 1)[0]
     hero_blocks = [block.strip() for block in top.split("\n\n") if block.strip()]
     is_english = name in ("README.md", "README.en.md")
-    assert len(hero_blocks) == 9, (name, "localized hero, navigation and Star CTA")
+    assert len(hero_blocks) == 10, (name, "localized hero, flow, navigation and Star CTA")
     assert hero_blocks[2] == "# 🎬 Stickman Video Director", (name, "shared product title")
     subtitle = hero_blocks[3]
     assert subtitle.startswith("**") and subtitle.endswith("**"), (name, "bold subtitle")
     assert "🎬" not in subtitle, (name, "concise localized subtitle")
     if is_english:
-        assert tuple(hero_blocks[5:7]) == english_intro, (name, "approved English introduction")
-        assert hero_blocks[7] == '[Quickstart](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Community](#community)', (name, "approved English navigation labels")
+        assert tuple(hero_blocks[5:8]) == english_intro, (name, "approved English introduction")
+        assert hero_blocks[8] == '[Quickstart](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Community](#community)', (name, "approved English navigation labels")
     else:
         locale = name[7:-3]
-        assert tuple(hero_blocks[index] for index in (3, 5, 6, 7, 8)) == approved_localized_hero[locale], (name, "exact approved localized hero copy")
+        assert tuple(hero_blocks[index] for index in (3, 5, 6, 7, 8, 9)) == approved_localized_hero[locale], (name, "exact approved localized hero copy")
     assert "14" in hero_blocks[5], (name, "actual published style count in introduction")
-    assert hero_blocks[8].startswith(("⭐ *", "*⭐ ")) and hero_blocks[8].endswith("*"), (name, "italic Star CTA")
+    assert hero_blocks[9].startswith(("⭐ *", "*⭐ ")) and hero_blocks[9].endswith("*"), (name, "italic Star CTA")
     assert "Styles-" not in top and "img.shields.io/badge/Styles" not in top, (name, "removed Styles badge")
     active = "en" if name == "README.md" else name[7:-3]
     expected_nav = " · ".join(
@@ -213,10 +208,10 @@ for name in selected:
     assert planned.startswith("🔮 ") and community.startswith("💬 "), (name, "semantic icons match peer section headings")
     assert "20,000 Stars" in roadmap.splitlines()[0], (name, "current 20,000-Star roadmap heading")
     milestones = re.findall(r"^- \[([x ])\] \*\*(?:🔥 )?([0-9,]+) Stars\*\*", roadmap, re.M)
-    assert milestones == [("x", "1,000"), ("x", "3,000"), ("x", "6,000"), (" ", "10,000"), (" ", "20,000")], (name, "approved milestone states")
+    assert milestones == [("x", "1,000"), ("x", "3,000"), ("x", "6,000"), (" ", "10,000"), (" ", "15,000"), (" ", "20,000")], (name, "approved milestone states")
     assert "- [ ] **🔥 10,000 Stars**" in roadmap, (name, "current highlighted 10,000-Star milestone")
     milestone_blocks = re.split(r"(?=^- \[[x ]\] \*\*)", roadmap, flags=re.M)[1:]
-    assert [len(re.findall(r"^  - ", block, re.M)) for block in milestone_blocks] == [0, 0, 0, 2, 2], (name, "two 10,000-Star and two 20,000-Star deliverables")
+    assert [len(re.findall(r"^  - ", block, re.M)) for block in milestone_blocks] == [0, 0, 0, 2, 1, 2], (name, "two 10,000-Star, one 15,000-Star and two 20,000-Star deliverables")
     mode_names = ("模型引擎", "代码引擎") if active == "zh-CN" else ("Model Engine", "Code Engine")
     for token in mode_names:
         assert token in roadmap, (name, "roadmap deliverable", token)
@@ -229,7 +224,9 @@ for name in selected:
     assert not re.match(r"\[[xX ]\]\s", shared_deliverables[1]), (name, "no redundant nested sound-library checkbox")
     assert "Content" not in shared_deliverables[1], (name, "no unconditional Content ID guarantee")
     studio_name = "Stickman AI 视频工作台" if name == "README.zh-CN.md" else "Stickman AI Studio"
-    assert studio_name in milestone_blocks[4], (name, "20,000-Star studio deliverable")
+    autopilot_name = "频道自动驾驶" if name == "README.zh-CN.md" else "Channel Autopilot"
+    assert autopilot_name in milestone_blocks[4], (name, "15,000-Star batch production deliverable")
+    assert studio_name in milestone_blocks[5], (name, "20,000-Star studio deliverable")
     assert "api.star-history.com/svg" in roadmap, (name, "chart after roadmap and before styles")
     assert '<a id="whats-next"></a>' in roadmap, (name, "retained navigation anchor before planned styles")
     assert len(re.findall(r"^- \*\*.*?\*\* — ", planned, re.M)) == 6, (name, "six planned visual styles")
@@ -251,7 +248,7 @@ for name in selected:
     assert invitations[active] in community, (name, "preserved style/showcase lead and localized group invitation")
     assert "README" in community and "YouTube" in community, (name, "creator showcase destinations")
     assert "https://github.com/kaomei/stickman-video-director/issues" not in community, (name, "Do not require a GitHub Issue for feedback")
-    assert re.search(r"^🔔 \*\*.*\[@CrazyKaomei\]\(https://x\.com/CrazyKaomei\).*\*\*$", community, re.M), (name, "bold X follow line")
+    assert re.search(r"^🔔 \*\*.*\[@AveryRunsAI\]\(https://x\.com/AveryRunsAI\).*\*\*$", community, re.M), (name, "bold X follow line")
     assert "recent-updates" not in text, (name, "removed updates section")
     assert not re.search(r"monixin888|2109651037850325112", text, re.I), name
     assert not re.search(r"guaranteed (viral|views|income)|/Users/|eva2050|240669650", text, re.I), name
@@ -326,8 +323,8 @@ for name in selected:
     assert len(re.findall(r"^- \*\*", b5, re.M)) == 3, name
     assert all(token in b5 for token in ("The Pharaoh 3", "Claire", "Crazy Mei")), name
     assert b5.count('<th width="50%"') == 2 and b5.count('width="360"') == 2, name
-    host_terms = {"en": "Animated Host", "zh-CN": "动画主讲", "ja": "アニメの語り手", "ko": "애니메이션 진행자", "fr": "Présentateur animé", "pt-BR": "Apresentador animado", "tr": "Animasyon sunucu", "id": "Pembawa acara animasi"}
-    rights_terms = {"en": "permission is required to use well-known characters", "zh-CN": "使用知名角色需获得授权", "ja": "有名なキャラクターを使う場合は許諾が必要", "ko": "유명 캐릭터를 사용하려면 허가가 필요", "fr": "l’utilisation de personnages connus nécessite une autorisation", "pt-BR": "o uso de personagens conhecidos exige autorização", "tr": "tanınmış karakterleri kullanmak için izin gerekir", "id": "penggunaan karakter terkenal memerlukan izin"}
+    host_terms = {"en": "Animated presenter", "zh-CN": "动画主讲", "ja": "アニメの語り手", "ko": "애니메이션 진행자", "fr": "Présentateur animé", "pt-BR": "Apresentador animado", "tr": "Animasyonlu sunucu", "id": "Pembawa acara animasi"}
+    rights_terms = {"en": "Using a well-known character requires permission", "zh-CN": "使用知名角色需获得授权", "ja": "有名なキャラクターを使う場合は許諾が必要", "ko": "유명 캐릭터를 사용하려면 허가가 필요", "fr": "l’utilisation de personnages connus nécessite une autorisation", "pt-BR": "o uso de personagens conhecidos exige autorização", "tr": "tanınmış karakterleri kullanmak için izin gerekir", "id": "penggunaan karakter terkenal memerlukan izin"}
     assert host_terms[active] in b5, (name, "localized animated host caption")
     introduction = b5.split('<table', 1)[0]
     assert rights_terms[active] in introduction, (name, "inline localized rights reminder")
@@ -346,7 +343,7 @@ for name in selected:
         "en": ["Example 1: The Man Who Sold the Eiffel Tower", "Example 2: 1990s Hong Kong · Buns and Arcades"],
         "zh-CN": ["样片 1：卖掉埃菲尔铁塔的人", "样片 2：90 年代香港 · 菠萝包与街机"],
         "ja": ["作例1：エッフェル塔を売った男", "作例2：90年代の香港 · パイナップルパンとゲームセンター"],
-        "ko": ["샘플 1: 에펠탑을 판 남자", "샘플 2: 1990년대 홍콩 · 파인애플번과 오락실"],
+        "ko": ["예시 1: 에펠탑을 판 남자", "예시 2: 1990년대 홍콩 · 파인애플번과 오락실"],
         "fr": ["Exemple 1 : L’homme qui a vendu la tour Eiffel", "Exemple 2 : Hong Kong des années 1990 · Brioches et arcade"],
         "pt-BR": ["Exemplo 1: O homem que vendeu a Torre Eiffel", "Exemplo 2: Hong Kong dos anos 1990 · Pães e fliperamas"],
         "tr": ["Örnek 1: Eyfel Kulesi’ni satan adam", "Örnek 2: 1990’lar Hong Kong’u · Çörek ve atari"],
@@ -410,7 +407,7 @@ for name in selected:
             ("Codex’s built-in image generation tool", "no separate image generation API", "short sample with audio"),
             ("shower thought", "3-second hook", "story and shots", "topic, target length, and chosen style"),
             ("**visual storytelling psychology**", "**The 3-Second Hook**", "**Visual Metaphors**", "**Pacing & Comic Pauses**"),
-            ("completely original", "YouTube Partner Program (YPP)"),
+            ("reused-content policy", "YouTube Partner Program (YPP)", "decided by each platform"),
             ("GPU", "online video platforms", "renders locally", "performance", "isn’t the deciding factor"),
         )
         for number, (answer, phrases) in enumerate(zip(faq_answers, required_copy), 1):
@@ -446,7 +443,7 @@ for name in selected:
     assert all(token in faq_answers[3] for token in story_plan_copy[active]), (name, "story and shot structure scales with topic, length and style")
     assert not re.search(r"6(?:[- ]scene| 幕|シーン|개 장면| scènes| cenas| sahne| adegan)", faq_answers[3]), (name, "no fixed six-scene FAQ promise")
     for answer, tokens in zip(faq_answers, (("MIT", "API"), ("B", "A"), ("Google Flow", "Codex", "Claude Code", "API"), ("3",), ("SFX", "Casually Explained"), ("YouTube", "YPP"), ("A", "B", "Agent"))):
-        assert all(token in answer for token in tokens), (name, "localized FAQ topic parity", tokens)
+        assert all(token in answer or (token == "Agent" and any(term in answer for term in ("agent", "ajan", "agen", "エージェント", "에이전트"))) for token in tokens), (name, "localized FAQ topic parity", tokens)
     assert "MIT" in faq and "API" in faq and "YouTube" in faq and "Codex" in faq, name
     code = re.findall(r"```text\n(.*?)```", text, re.S)
     assert len(code) == 5, (name, "installation, A example, B example and two publishing-kit prompts")
@@ -521,11 +518,11 @@ for name in selected:
         approved_mode_intro = (
             '<a id="creation-modes"></a>\n\n'
             '## 🎬 Two video creation modes: Model Engine vs Code Engine\n\n'
-            "**One stickman director, two ways to create your visuals**: A uses video models to generate continuous shots; B uses code to animate layered assets. With the right tools, an Agent can take either approach through to a finished video, following the selected style’s specifications.\n"
+            "**One stickman director, two ways to create your visuals**: A uses video models to generate continuous shots; B uses code to animate layered assets. With the right tools, an AI agent can take either approach through to a finished video, following the selected style’s specifications.\n"
         )
         assert approved_mode_intro in text, (name, "approved centered CTA, navigation and bold workflow introduction")
         approved_setup_copy = (
-            "Start with an idea, an article, a web link, or a complete script. Both modes support short videos and longer content. Choose `16:9` landscape or `9:16` portrait for your publishing platform, and configure subtitles, voiceover, background music, and sound effects to suit your needs and the selected style.\n\n"
+            "Start with an idea, an article, a web link, or a complete script. Both modes support short videos and longer content. Choose `16:9` landscape or `9:16` portrait for your publishing platform, and configure captions, voiceover, background music, and sound effects to suit your needs and the selected style.\n\n"
             "Still deciding on a style? Below, you’ll find detailed descriptions, suggested topics, and more sample videos for each style."
         )
         assert modes_before_partners.rstrip().endswith(approved_setup_copy), (name, "approved input, length, ratio, audio and linked style guidance")
