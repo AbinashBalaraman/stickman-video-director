@@ -84,8 +84,8 @@ Roteiro, locução, legendas e som · 14 estilos testados · Para Claude Code, C
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
@@ -531,7 +531,7 @@ Transforme seu avatar favorito no apresentador do canal; o uso de personagens co
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6: Dynamic Meme Animation
+### B6: Meme Story Animation
 
 Expressões de meme, traços soltos à mão e cores suaves transformam histórias curiosas em animações curtas e vivas. Cenários amplos dão espaço aos personagens, objetos e movimentos de câmera. O estilo visual se inspira no canal do YouTube [@RicksClips3000](https://www.youtube.com/@RicksClips3000) (**cerca de 180 mil inscritos**).
 
@@ -712,9 +712,8 @@ Você não precisa escrever código por conta própria nem comprar uma GPU de po
 - [ ] **🔥 10,000 Stars**:
   - Mais de 1,000 prompts de roteiros para YouTube compartilhados pelos modos A e B
   - [Biblioteca de áudio B](skills/directing-stickman-videos/references/b-audio-library.md): já disponível — 774 efeitos e transições, 31 músicas e 85 jingles curtos, licenciados e prontos para usar
-- [ ] **15,000 Stars**:
-  - Channel Autopilot — informe o nicho do seu canal e receba, de uma vez, uma semana de vídeos prontos para publicar, com thumbnails e títulos
 - [ ] **20,000 Stars**:
+  - Channel Autopilot — informe o nicho do seu canal e receba, de uma vez, uma semana de vídeos prontos para publicar, com thumbnails e títulos
   - Lançamento do Stickman AI Studio — um app de desktop de código aberto: cole um roteiro, escolha um estilo, visualize e ajuste cada cena em uma linha do tempo visual e renderize. Sem terminal
   - Mais surpresas vêm por aí — vamos descobrir juntos
 

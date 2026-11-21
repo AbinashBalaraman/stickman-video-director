@@ -84,8 +84,8 @@
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
@@ -531,7 +531,7 @@ B1, B2, B3… 순서로 추가하며, 각 스타일에 해당하는 완성 영�
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6: Dynamic Meme Animation
+### B6: Meme Story Animation
 
 과장된 밈 표정, 자유로운 손그림 선, 부드러운 색으로 기묘한 이야기를 생동감 있는 짧은 애니메이션으로 만듭니다. 넓은 장면은 인물과 소품, 카메라가 움직일 공간을 제공합니다. 이 스타일은 YouTube의 [@RicksClips3000](https://www.youtube.com/@RicksClips3000)(**구독자 약 18만 명**)에서 영감을 받았습니다.
 
@@ -712,9 +712,8 @@ B1, B2, B3… 순서로 추가하며, 각 스타일에 해당하는 완성 영�
 - [ ] **🔥 10,000 Stars**:
   - A/B 모드 공용 YouTube 대본 프롬프트 1,000개 이상
   - [B 오디오 라이브러리](skills/directing-stickman-videos/references/b-audio-library.md): 이미 사용 가능. 효과음/전환음 774개, 배경음악 31곡, 짧은 징글 85개를 라이선스와 함께 바로 쓸 수 있습니다
-- [ ] **15,000 Stars**:
-  - Channel Autopilot — 채널 주제만 알려 주면 썸네일과 제목까지 갖춘 게시용 영상 일주일 치를 한 번에 제작
 - [ ] **20,000 Stars**:
+  - Channel Autopilot — 채널 주제만 알려 주면 썸네일과 제목까지 갖춘 게시용 영상 일주일 치를 한 번에 제작
   - Stickman AI Studio 출시 — 오픈소스 데스크톱 앱: 대본을 붙여 넣고 스타일을 고른 뒤, 비주얼 타임라인에서 장면마다 미리 보고 조정해 렌더링. 터미널 불필요
   - 더 많은 놀라움, 함께 기대해요~
 

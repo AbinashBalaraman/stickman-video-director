@@ -208,10 +208,10 @@ for name in selected:
     assert planned.startswith("🔮 ") and community.startswith("💬 "), (name, "semantic icons match peer section headings")
     assert "20,000 Stars" in roadmap.splitlines()[0], (name, "current 20,000-Star roadmap heading")
     milestones = re.findall(r"^- \[([x ])\] \*\*(?:🔥 )?([0-9,]+) Stars\*\*", roadmap, re.M)
-    assert milestones == [("x", "1,000"), ("x", "3,000"), ("x", "6,000"), (" ", "10,000"), (" ", "15,000"), (" ", "20,000")], (name, "approved milestone states")
+    assert milestones == [("x", "1,000"), ("x", "3,000"), ("x", "6,000"), (" ", "10,000"), (" ", "20,000")], (name, "approved milestone states")
     assert "- [ ] **🔥 10,000 Stars**" in roadmap, (name, "current highlighted 10,000-Star milestone")
     milestone_blocks = re.split(r"(?=^- \[[x ]\] \*\*)", roadmap, flags=re.M)[1:]
-    assert [len(re.findall(r"^  - ", block, re.M)) for block in milestone_blocks] == [0, 0, 0, 2, 1, 2], (name, "two 10,000-Star, one 15,000-Star and two 20,000-Star deliverables")
+    assert [len(re.findall(r"^  - ", block, re.M)) for block in milestone_blocks] == [0, 0, 0, 2, 3], (name, "two 10,000-Star and three 20,000-Star deliverables")
     mode_names = ("模型引擎", "代码引擎") if active == "zh-CN" else ("Model Engine", "Code Engine")
     for token in mode_names:
         assert token in roadmap, (name, "roadmap deliverable", token)
@@ -225,8 +225,8 @@ for name in selected:
     assert "Content" not in shared_deliverables[1], (name, "no unconditional Content ID guarantee")
     studio_name = "Stickman AI 视频工作台" if name == "README.zh-CN.md" else "Stickman AI Studio"
     autopilot_name = "频道自动驾驶" if name == "README.zh-CN.md" else "Channel Autopilot"
-    assert autopilot_name in milestone_blocks[4], (name, "15,000-Star batch production deliverable")
-    assert studio_name in milestone_blocks[5], (name, "20,000-Star studio deliverable")
+    assert autopilot_name in milestone_blocks[4], (name, "20,000-Star batch production deliverable")
+    assert studio_name in milestone_blocks[4], (name, "20,000-Star studio deliverable")
     assert "api.star-history.com/svg" in roadmap, (name, "chart after roadmap and before styles")
     assert '<a id="whats-next"></a>' in roadmap, (name, "retained navigation anchor before planned styles")
     assert len(re.findall(r"^- \*\*.*?\*\* — ", planned, re.M)) == 6, (name, "six planned visual styles")
@@ -380,7 +380,7 @@ for name in selected:
             next_id, _, title = entries[-1]
             assert title == "Coming soon…", (name, series, "placeholder follows the latest released style")
             assert f"### {next_id}: Coming soon…\n\n{teaser}" in text, (name, series, "approved placeholder copy")
-        assert re.findall(r"^### (B\d+): (.+)$", text, re.M) == [("B1", "Minimal Line Art"), ("B2", "Colorful Hand-Drawn"), ("B3", "Retro TV"), ("B4", "Survival Thriller"), ("B5", "Character Explainer"), ("B6", "Dynamic Meme Animation"), ("B7", "Pixel Theater"), ("B8", "Coming soon…")], (name, "approved B style names plus the next-style teaser")
+        assert re.findall(r"^### (B\d+): (.+)$", text, re.M) == [("B1", "Minimal Line Art"), ("B2", "Colorful Hand-Drawn"), ("B3", "Retro TV"), ("B4", "Survival Thriller"), ("B5", "Avatar Explainer"), ("B6", "Meme Story Animation"), ("B7", "Pixel Theater"), ("B8", "Coming soon…")], (name, "approved B style names plus the next-style teaser")
         assert "<strong>Retro TV</strong><br>" in hero and "Retro TV Style" not in text, (name, "concise English B3 name in gallery and section")
     for variant in ("A1.1", "A1.2", "A2.1", "A2.2"):
         assert variant in text, (name, variant)

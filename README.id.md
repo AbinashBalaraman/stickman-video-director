@@ -84,8 +84,8 @@ Naskah, voiceover, subtitle & suara · 14 gaya teruji · Untuk Claude Code, Code
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
@@ -531,7 +531,7 @@ Jadikan avatar favorit Anda pembawa acara di channel Anda; penggunaan karakter t
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6: Dynamic Meme Animation
+### B6: Meme Story Animation
 
 Ekspresi meme yang berlebihan, garis gambar tangan yang lepas, dan warna lembut menghidupkan kisah unik menjadi animasi pendek. Gaya visualnya terinspirasi oleh [@RicksClips3000](https://www.youtube.com/@RicksClips3000) di YouTube (**sekitar 180 ribu subscriber**). Latar yang luas memberi ruang gerak bagi tokoh, properti, dan kamera.
 
@@ -712,9 +712,8 @@ Anda tidak perlu menulis kode sendiri atau membeli GPU kelas atas. Mode A dapat 
 - [ ] **🔥 10,000 Stars**:
   - Koleksi 1,000+ prompt naskah YouTube untuk mode A dan B
   - [Pustaka audio B](skills/directing-stickman-videos/references/b-audio-library.md): sudah tersedia — 774 SFX/transisi, 31 musik latar, dan 85 jingle singkat, berlisensi dan siap dipakai
-- [ ] **15,000 Stars**:
-  - Channel Autopilot — sebutkan niche channel Anda, lalu dapatkan video siap tayang untuk satu minggu, lengkap dengan thumbnail dan judul, sekaligus
 - [ ] **20,000 Stars**:
+  - Channel Autopilot — sebutkan niche channel Anda, lalu dapatkan video siap tayang untuk satu minggu, lengkap dengan thumbnail dan judul, sekaligus
   - Peluncuran Stickman AI Studio — aplikasi desktop open source: tempel naskah, pilih gaya, pratinjau dan sesuaikan setiap adegan di linimasa visual, lalu render. Tanpa terminal
   - Kejutan lainnya menanti — yuk, kita nantikan bersama
 

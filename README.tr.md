@@ -84,8 +84,8 @@ Senaryo, seslendirme, altyazı ve ses · Kanıtlanmış 14 stil · Claude Code, 
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
@@ -531,7 +531,7 @@ Sevdiğiniz avatarı kanalınızın sunucusuna dönüştürün; tanınmış kara
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6: Dynamic Meme Animation
+### B6: Meme Story Animation
 
 Abartılı meme ifadeleri, serbest el çizgileri ve yumuşak renkler, sıra dışı hikâyeleri canlı kısa animasyonlara dönüştürür. Görsel tarz, YouTube’daki [@RicksClips3000](https://www.youtube.com/@RicksClips3000) kanalından (**yaklaşık 180 bin abone**) ilham alır. Geniş sahneler karakterlere, nesnelere ve kameraya hareket alanı açar.
 
@@ -712,9 +712,8 @@ Kendiniz kod yazmanız veya üst düzey bir GPU satın almanız gerekmez. A modu
 - [ ] **🔥 10,000 Stars**:
   - A ve B modları için ortak 1,000’den fazla YouTube senaryosu istemi
   - [B ses kütüphanesi](skills/directing-stickman-videos/references/b-audio-library.md): şimdiden kullanılabilir — 774 efekt/geçiş, 31 müzik ve 85 kısa jingle; lisanslı ve kullanıma hazır
-- [ ] **15,000 Stars**:
-  - Channel Autopilot — kanalınızın konusunu verin; küçük resimleri ve başlıklarıyla bir haftalık yayına hazır videoyu tek seferde alın
 - [ ] **20,000 Stars**:
+  - Channel Autopilot — kanalınızın konusunu verin; küçük resimleri ve başlıklarıyla bir haftalık yayına hazır videoyu tek seferde alın
   - Stickman AI Studio’nun açılışı — açık kaynaklı bir masaüstü uygulaması: senaryoyu yapıştırın, stili seçin, her sahneyi görsel zaman çizelgesinde önizleyip düzenleyin ve render alın. Terminal gerekmez
   - Daha fazla sürpriz yolda — birlikte heyecanla bekleyelim
 

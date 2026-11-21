@@ -84,8 +84,8 @@
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
@@ -531,7 +531,7 @@ B1、B2、B3…の順に追加し、各画風に対応する完成動画のサ�
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6：Dynamic Meme Animation
+### B6：Meme Story Animation
 
 Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で、奇妙な物語を生き生きとした短編アニメに。広い背景が、人物・小道具・カメラの動きを支えます。画風の着想元はYouTubeの[@RicksClips3000](https://www.youtube.com/@RicksClips3000)（**チャンネル登録者数：約18万人**）です。
 
@@ -712,9 +712,8 @@ Memeらしい大げさな表情、ラフな手描き線、柔らかな色彩で�
 - [ ] **🔥 10,000 Stars**：
   - A/B 両モードで使える1,000本以上のYouTube台本プロンプト集
   - [Bモードのサウンドライブラリ](skills/directing-stickman-videos/references/b-audio-library.md)：公開済み。効果音・トランジション 774 点、BGM 31 曲、短いジングル 85 点を、ライセンス付きですぐに使えます
-- [ ] **15,000 Stars**：
-  - Channel Autopilot — チャンネルのジャンルを伝えるだけで、サムネイルとタイトル付きの公開用動画を1週間分まとめて制作
 - [ ] **20,000 Stars**：
+  - Channel Autopilot — チャンネルのジャンルを伝えるだけで、サムネイルとタイトル付きの公開用動画を1週間分まとめて制作
   - Stickman AI Studioを公開 — オープンソースのデスクトップアプリ。台本を貼り付けて画風を選び、ビジュアルタイムラインで各シーンをプレビュー・調整してレンダリング。ターミナル不要
   - これからのサプライズも、一緒に楽しみにしましょう～
 
