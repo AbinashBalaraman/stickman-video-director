@@ -10,7 +10,7 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
 **Mande uma mensagem para seu agente de IA e receba um vídeo de boneco-palito pronto.**<br>
-Roteiro, locução, legendas e som · 14 estilos testados · Para Claude Code, Codex e mais
+Roteiro, locução, legendas e som · 15 estilos testados · Para Claude Code, Codex e mais
 
 💬 Uma mensagem → ✅ Aprove o roteiro e a prévia → 🎬 Vídeo pronto
 
@@ -25,66 +25,66 @@ Roteiro, locução, legendas e som · 14 estilos testados · Para Claude Code, C
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>Preto e branco clássico</strong><br>
+<b>A1-</b><strong>Preto e branco clássico</strong><br>
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Animação clássica com bonecos de palito brancos sobre fundo preto" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Traço minimalista</strong><br>
+<b>B1-</b><strong>Traço minimalista</strong><br>
 <a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Vídeo em desenho à mão minimalista com bonecos expressivos, texto em destaque e microanimações" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Pop moderno</strong><br>
+<b>A2-</b><strong>Pop moderno</strong><br>
 <a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Boneco de palito de gorro vermelho em cenário tecnológico moderno" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Desenho à mão colorido</strong><br>
+<b>B2-</b><strong>Desenho à mão colorido</strong><br>
 <a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="Vídeo de bonecos de palito em desenho colorido: um quarto tranquilo e um pensamento seguindo o rio" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Cavernas pré-históricas</strong><br>
+<b>A3-</b><strong>Cavernas pré-históricas</strong><br>
 <a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="História pré-histórica com bonecos de palito e uma virada cômica" width="90%"></a>
 </td>
 <!-- b3:hero:start -->
 <td width="50%" align="center">
-<strong>Estilo TV retrô</strong><br>
+<b>B3-</b><strong>Estilo TV retrô</strong><br>
 <a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="Mistério fictício da TV às 3 da manhã com personagens brancos arredondados" width="90%"></a>
 </td>
 <!-- b3:hero:end -->
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Histórias acolhedoras</strong><br>
+<b>A4-</b><strong>Histórias acolhedoras</strong><br>
 <a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Personagens expressivos em um cenário cotidiano colorido" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Suspense de sobrevivência</strong><br>
+<b>B4-</b><strong>Suspense de sobrevivência</strong><br>
 <a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · Suspense de sobrevivência" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Cartoon histórico</strong><br>
+<b>A5-</b><strong>Cartoon histórico</strong><br>
 <a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Animação histórica com bonecos de palito no Japão do período Edo" width="90%"></a>
 </td>
 <!-- b5:hero:start -->
 <td width="50%" align="center">
-<strong>Explicação com personagem</strong><br>
+<b>B5-</b><strong>Explicação com personagem</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 sobre pedir ajuda, com apresentador animado e bonecos-palito expressivos" width="90%"></a>
 </td>
 <!-- b5:hero:end -->
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Amber Noir</strong><br>
+<b>A6-</b><strong>Amber Noir</strong><br>
 <a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Animação stickman Amber Noir: personagem de moletom laranja em uma cidade com luz quente e sombras profundas" width="90%"></a>
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Meme Story Animation</strong><br>
+<b>B6-</b><strong>Meme Story Animation</strong><br>
 <a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
@@ -92,16 +92,25 @@ Roteiro, locução, legendas e som · 14 estilos testados · Para Claude Code, C
 <tr>
 <!-- a7:hero:start -->
 <td width="50%" align="center">
-<strong>Rubber Hose Animation</strong><br>
+<b>A7-</b><strong>Rubber Hose Animation</strong><br>
 <a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation" width="90%"></a>
 </td>
 <!-- a7:hero:end -->
 <!-- b7:hero:start -->
 <td width="50%" align="center">
-<strong>Teatro pixel</strong><br>
+<b>B7-</b><strong>Teatro pixel</strong><br>
 <a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Teatro pixel" width="90%"></a>
 </td>
 <!-- b7:hero:end -->
+</tr>
+<tr>
+<!-- a8:hero:start -->
+<td width="50%" align="center">
+<b>A8-</b><strong>Inspirado no Ghibli</strong><br>
+<a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Inspirado no Ghibli" width="90%"></a>
+</td>
+<!-- a8:hero:end -->
+<td width="50%" align="center"></td>
 </tr>
 </table>
 
@@ -218,7 +227,7 @@ Primeiro, apresente a estrutura da história, a direção sonora e o storyboard;
 após minha aprovação, forneça prompts de geração de vídeo que possam ser usados de forma independente para cada trecho.
 ```
 
-- **Produção:** Após aprovar o storyboard, você pode gerar as cenas manualmente ou deixar um agente operar pelo navegador integrado (primeiro faça um teste em baixa resolução; com o resultado aprovado, ele continua a produção e a edição do vídeo final).
+- **Produção:** Após aprovar o storyboard, você pode gerar as cenas manualmente ou deixar um agente operar pelo navegador integrado (primeiro faça um teste em baixa resolução; com o resultado aprovado, ele continua a produção e a edição do vídeo final). Um clipe gerado é material para edição, não necessariamente um único plano do vídeo final. A duração depende da história e dos recursos do modelo; depois, os clipes podem ser aparados, divididos e combinados na edição.
 - **Plataforma recomendada:** Recomendamos o Google Flow para se aproximar do resultado dos exemplos; para o primeiro vídeo, consulte o [tutorial detalhado no X](https://x.com/CrazyKaomei/status/2102311241046008268).
 
 <a id="autopilot-start"></a>
@@ -375,7 +384,23 @@ Um boneco de traços finos entra em cenários retrô desenhados com cuidado. Ges
 
 <a id="a8"></a>
 
-### A8: Em breve…
+### A8: Inspirado no Ghibli
+
+O azul intenso do céu e do mar, as nuvens altas e os muros de pedra aquecidos pelo sol compõem um mundo luminoso pintado à mão. A brisa do mar balança as roupas no varal e levanta os toldos da rua. Quando uma carta voa da bolsa a tiracolo do mensageiro, um detalhe do cotidiano dá início a uma pequena aventura.
+
+- **Destaques visuais**: Cenários pintados em guache com riqueza de detalhes, blocos de cor vibrantes e sombras bem definidas destacam os personagens de cores chapadas, típicos da animação em acetato. Os bonecos-palito mantêm a cabeça redonda, olhos feitos de pontinhos e braços e pernas de traço fino.
+- **Ideal para**: Histórias de viagem, pequenas aventuras do cotidiano, histórias sobre profissões e fábulas com um toque de fantasia.
+
+| Exemplo 1: Oficina na Montanha | Exemplo 2: Mensageiro à Beira-Mar |
+|:---:|:---:|
+| <a href="assets/readme/style-8-graphic-novel-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel-2.gif" alt="A8 · Inspirado no Ghibli · Exemplo 1: Oficina na Montanha" width="360"></a> | <a href="assets/readme/style-8-graphic-novel.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Inspirado no Ghibli · Exemplo 2: Mensageiro à Beira-Mar" width="360"></a> |
+| Vista das montanhas · Vento e movimento das cordas | Ruas litorâneas pintadas · Pedalada e carta apanhada no ar |
+
+---
+
+<a id="a9"></a>
+
+### A9: Em breve…
 
 Novos estilos especializados para Model Engine estão em preparação. [Dê uma estrela ao projeto](#road-to-10000-stars--creator-ecosystem) e acompanhe as próximas atualizações!
 

@@ -10,7 +10,7 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
 **Kirim satu pesan ke agen AI Anda, dapatkan video stickman yang sudah jadi.**<br>
-Naskah, voiceover, subtitle & suara · 14 gaya teruji · Untuk Claude Code, Codex & lainnya
+Naskah, voiceover, subtitle & suara · 15 gaya teruji · Untuk Claude Code, Codex & lainnya
 
 💬 Satu pesan → ✅ Setujui naskah & pratinjau → 🎬 Video jadi
 
@@ -25,66 +25,66 @@ Naskah, voiceover, subtitle & suara · 14 gaya teruji · Untuk Claude Code, Code
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>Hitam Putih Klasik</strong><br>
+<b>A1-</b><strong>Hitam Putih Klasik</strong><br>
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Animasi stickman hitam putih klasik dengan garis putih di latar hitam" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Seni Garis Minimalis</strong><br>
+<b>B1-</b><strong>Seni Garis Minimalis</strong><br>
 <a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Video stickman sketsa tangan minimalis dengan karakter ekspresif, teks utama, dan animasi ringan" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Pop Modern</strong><br>
+<b>A2-</b><strong>Pop Modern</strong><br>
 <a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Stickman berkupluk merah dengan efek cahaya teknologi modern" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Gambar Tangan Berwarna</strong><br>
+<b>B2-</b><strong>Gambar Tangan Berwarna</strong><br>
 <a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="Video figur stik gambar tangan berwarna: kamar tenang dan pikiran yang mengalir bersama sungai" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Gua Prasejarah</strong><br>
+<b>A3-</b><strong>Gua Prasejarah</strong><br>
 <a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="Cerita stickman di gua prasejarah dengan kejutan komedi" width="90%"></a>
 </td>
 <!-- b3:hero:start -->
 <td width="50%" align="center">
-<strong>Gaya TV Retro</strong><br>
+<b>B3-</b><strong>Gaya TV Retro</strong><br>
 <a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="Misteri fiksi TV pukul 3 pagi dengan karakter putih membulat" width="90%"></a>
 </td>
 <!-- b3:hero:end -->
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Cerita Hangat</strong><br>
+<b>A4-</b><strong>Cerita Hangat</strong><br>
 <a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Karakter stickman ekspresif di latar keseharian penuh warna" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Thriller Bertahan Hidup</strong><br>
+<b>B4-</b><strong>Thriller Bertahan Hidup</strong><br>
 <a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · Thriller Bertahan Hidup" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Kartun Sejarah</strong><br>
+<b>A5-</b><strong>Kartun Sejarah</strong><br>
 <a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Animasi stickman sejarah di Jepang zaman Edo" width="90%"></a>
 </td>
 <!-- b5:hero:start -->
 <td width="50%" align="center">
-<strong>Penjelasan dengan Karakter</strong><br>
+<b>B5-</b><strong>Penjelasan dengan Karakter</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 tentang meminta bantuan, dengan pembawa acara animasi dan manusia lidi ekspresif" width="90%"></a>
 </td>
 <!-- b5:hero:end -->
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Amber Noir</strong><br>
+<b>A6-</b><strong>Amber Noir</strong><br>
 <a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Animasi stickman Amber Noir: karakter berhoodie oranye di kota bercahaya hangat dengan bayangan pekat" width="90%"></a>
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Meme Story Animation</strong><br>
+<b>B6-</b><strong>Meme Story Animation</strong><br>
 <a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
@@ -92,16 +92,25 @@ Naskah, voiceover, subtitle & suara · 14 gaya teruji · Untuk Claude Code, Code
 <tr>
 <!-- a7:hero:start -->
 <td width="50%" align="center">
-<strong>Rubber Hose Animation</strong><br>
+<b>A7-</b><strong>Rubber Hose Animation</strong><br>
 <a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation" width="90%"></a>
 </td>
 <!-- a7:hero:end -->
 <!-- b7:hero:start -->
 <td width="50%" align="center">
-<strong>Teater Piksel</strong><br>
+<b>B7-</b><strong>Teater Piksel</strong><br>
 <a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Teater Piksel" width="90%"></a>
 </td>
 <!-- b7:hero:end -->
+</tr>
+<tr>
+<!-- a8:hero:start -->
+<td width="50%" align="center">
+<b>A8-</b><strong>Terinspirasi Ghibli</strong><br>
+<a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Terinspirasi Ghibli" width="90%"></a>
+</td>
+<!-- a8:hero:end -->
+<td width="50%" align="center"></td>
 </tr>
 </table>
 
@@ -218,7 +227,7 @@ Berikan struktur cerita, arah desain suara, dan storyboard terlebih dahulu;
 setelah saya menyetujuinya, berikan prompt pembuatan video per adegan yang dapat digunakan secara mandiri.
 ```
 
-- **Alur produksi:** Setelah storyboard disetujui, Anda dapat membuat video secara manual atau meminta agen mengoperasikan browser bawaan. Uji dahulu dengan resolusi rendah; jika hasilnya sesuai, lanjutkan produksi dan penyuntingan hingga menjadi video utuh.
+- **Alur produksi:** Setelah storyboard disetujui, Anda dapat membuat video secara manual atau meminta agen mengoperasikan browser bawaan. Uji dahulu dengan resolusi rendah; jika hasilnya sesuai, lanjutkan produksi dan penyuntingan hingga menjadi video utuh. Klip yang dihasilkan adalah bahan untuk penyuntingan, bukan berarti satu klip harus menjadi satu shot utuh dalam video akhir. Tentukan durasinya sesuai cerita dan kemampuan model, lalu pangkas, bagi, dan gabungkan klip saat menyunting.
 - **Platform yang disarankan:** Gunakan Google Flow agar hasilnya lebih mendekati contoh. Untuk produksi pertama, lihat [tutorial lengkap di X](https://x.com/CrazyKaomei/status/2102311241046008268).
 
 <a id="autopilot-start"></a>
@@ -375,7 +384,23 @@ Figur stik bergaris tipis tampil di latar retro yang digambar dengan rinci. Gera
 
 <a id="a8"></a>
 
-### A8: Segera hadir…
+### A8: Terinspirasi Ghibli
+
+Langit dan laut yang biru pekat, awan kumulus yang menjulang, serta dinding batu yang dihangatkan matahari membentuk dunia cerah yang dilukis dengan tangan. Angin laut mengibaskan jemuran dan mengangkat kanopi di sepanjang jalan, lalu menerbangkan sepucuk surat dari tas selempang si kurir. Petualangan kecil pun berawal dari detail sehari-hari seperti ini.
+
+- **Ciri visual**: Latar yang dilukis dengan cat guas, bidang warna yang kaya, dan bayangan matahari yang tegas menonjolkan karakter dengan pewarnaan datar khas animasi sel. Tokoh stickman tetap sederhana dengan wajah bulat, mata berupa titik, serta lengan dan kaki dari garis tipis.
+- **Cocok untuk**: Kisah perjalanan, petualangan sehari-hari, cerita tentang pekerjaan, dan dongeng dengan sentuhan fantasi.
+
+| Contoh 1: Bengkel Pegunungan | Contoh 2: Kurir Pesisir |
+|:---:|:---:|
+| <a href="assets/readme/style-8-graphic-novel-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel-2.gif" alt="A8 · Terinspirasi Ghibli · Contoh 1: Bengkel Pegunungan" width="360"></a> | <a href="assets/readme/style-8-graphic-novel.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Terinspirasi Ghibli · Contoh 2: Kurir Pesisir" width="360"></a> |
+| Pemandangan pegunungan · Angin dan tarikan tali | Jalan pesisir yang dilukis · Bersepeda dan menangkap surat |
+
+---
+
+<a id="a9"></a>
+
+### A9: Segera hadir…
 
 Gaya Model Engine yang baru sedang disiapkan. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk mengikuti pembaruan selanjutnya!
 

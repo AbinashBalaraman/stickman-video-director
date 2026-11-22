@@ -10,7 +10,7 @@
 ![MIT Lisansı](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
 **Yapay zekâ ajanınıza tek bir mesaj gönderin, bitmiş çöp adam videonuzu alın.**<br>
-Senaryo, seslendirme, altyazı ve ses · Kanıtlanmış 14 stil · Claude Code, Codex ve dahası
+Senaryo, seslendirme, altyazı ve ses · Kanıtlanmış 15 stil · Claude Code, Codex ve dahası
 
 💬 Tek mesaj → ✅ Senaryoyu ve önizlemeyi onaylayın → 🎬 Hazır video
 
@@ -25,66 +25,66 @@ Senaryo, seslendirme, altyazı ve ses · Kanıtlanmış 14 stil · Claude Code, 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>Klasik Siyah Beyaz</strong><br>
+<b>A1-</b><strong>Klasik Siyah Beyaz</strong><br>
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Klasik siyah beyaz çöp adam animasyonu: siyah fonda beyaz çizgilerle bilgi anlatımı" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Minimal Çizgi Sanatı</strong><br>
+<b>B1-</b><strong>Minimal Çizgi Sanatı</strong><br>
 <a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Minimalist el çizimi çöp adam videosu: canlı ifadeler, vurgulu metinler ve mikro animasyonlar" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Modern ve Renkli</strong><br>
+<b>A2-</b><strong>Modern ve Renkli</strong><br>
 <a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Modern çöp adam animasyonu: kırmızı bereli karakter ve teknolojik ışık efektleri" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Renkli El Çizimi</strong><br>
+<b>B2-</b><strong>Renkli El Çizimi</strong><br>
 <a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="Renkli el çizimi çöp adam videosu: sessiz bir yatak odası ve nehirde süzülen bir düşünce" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Tarih Öncesi Mağara</strong><br>
+<b>A3-</b><strong>Tarih Öncesi Mağara</strong><br>
 <a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="Tarih öncesi çöp adam animasyonu: mağara hikâyesi ve beklenmedik bir son" width="90%"></a>
 </td>
 <!-- b3:hero:start -->
 <td width="50%" align="center">
-<strong>Retro TV Stili</strong><br>
+<b>B3-</b><strong>Retro TV Stili</strong><br>
 <a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="Yuvarlak beyaz karakterlerle gece 3’te açılan TV hakkında kurgu gizem" width="90%"></a>
 </td>
 <!-- b3:hero:end -->
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>İç Isıtan Hikâyeler</strong><br>
+<b>A4-</b><strong>İç Isıtan Hikâyeler</strong><br>
 <a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="İç ısıtan çöp adam animasyonu: renkli mekânlar ve gündelik duygular" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Hayatta Kalma Gerilimi</strong><br>
+<b>B4-</b><strong>Hayatta Kalma Gerilimi</strong><br>
 <a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · Hayatta Kalma Gerilimi" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Tarihi Çizgi Film</strong><br>
+<b>A5-</b><strong>Tarihi Çizgi Film</strong><br>
 <a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Tarihi çöp adam animasyonu: Edo dönemi Japonya’sında bir samurayın hikâyesi" width="90%"></a>
 </td>
 <!-- b5:hero:start -->
 <td width="50%" align="center">
-<strong>Karakterli Anlatım</strong><br>
+<b>B5-</b><strong>Karakterli Anlatım</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5: yardım isteme üzerine, animasyon sunucu ve ifadeli çöp adamlarla anlatım" width="90%"></a>
 </td>
 <!-- b5:hero:end -->
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Amber Noir</strong><br>
+<b>A6-</b><strong>Amber Noir</strong><br>
 <a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Amber Noir çöp adam animasyonu: sıcak ışıklı ve derin gölgeli bir şehirde turuncu kapüşonlu karakter" width="90%"></a>
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Meme Story Animation</strong><br>
+<b>B6-</b><strong>Meme Story Animation</strong><br>
 <a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
@@ -92,16 +92,25 @@ Senaryo, seslendirme, altyazı ve ses · Kanıtlanmış 14 stil · Claude Code, 
 <tr>
 <!-- a7:hero:start -->
 <td width="50%" align="center">
-<strong>Rubber Hose Animation</strong><br>
+<b>A7-</b><strong>Rubber Hose Animation</strong><br>
 <a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation" width="90%"></a>
 </td>
 <!-- a7:hero:end -->
 <!-- b7:hero:start -->
 <td width="50%" align="center">
-<strong>Piksel Tiyatrosu</strong><br>
+<b>B7-</b><strong>Piksel Tiyatrosu</strong><br>
 <a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Piksel Tiyatrosu" width="90%"></a>
 </td>
 <!-- b7:hero:end -->
+</tr>
+<tr>
+<!-- a8:hero:start -->
+<td width="50%" align="center">
+<b>A8-</b><strong>Ghibli Esintili</strong><br>
+<a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Ghibli Esintili" width="90%"></a>
+</td>
+<!-- a8:hero:end -->
+<td width="50%" align="center"></td>
 </tr>
 </table>
 
@@ -218,7 +227,7 @@ Gereksinimler: Yatay 16:9, A3 “Tarih Öncesi Mağara” stili; önce 30 saniye
 onayımdan sonra her sahne için bağımsız kullanılabilen video üretim istemlerini ver.
 ```
 
-- **Üretim akışı:** Çekim planını onayladıktan sonra videoları kendiniz üretebilir veya ajanın yerleşik tarayıcıyı kullanmasını isteyebilirsiniz. Önce düşük çözünürlükte bir deneme yapılır; sonuçtan memnun kaldığınızda üretim ve kurgu tamamlanır.
+- **Üretim akışı:** Çekim planını onayladıktan sonra videoları kendiniz üretebilir veya ajanın yerleşik tarayıcıyı kullanmasını isteyebilirsiniz. Önce düşük çözünürlükte bir deneme yapılır; sonuçtan memnun kaldığınızda üretim ve kurgu tamamlanır. Üretilen klip kurgu için kaynak görüntüdür; bitmiş videodaki tek bir planla bire bir eşleşmesi gerekmez. Süresini hikâyeye ve modelin olanaklarına göre belirleyin, ardından klipleri kurguda kırpın, bölün ve birleştirin.
 - **Önerilen platform:** Örneklere yaklaşmak için Google Flow önerilir. İlk üretiminizde [X'teki ayrıntılı rehbere](https://x.com/CrazyKaomei/status/2102311241046008268) bakabilirsiniz.
 
 <a id="autopilot-start"></a>
@@ -375,7 +384,23 @@ Uyandığınızda her şey on bin kat ucuzlamış olsa? Görsel ilham, YouTube�
 
 <a id="a8"></a>
 
-### A8: Yakında…
+### A8: Ghibli Esintili
+
+Masmavi gökyüzü ve deniz, yükselen kümülüs bulutları ve güneşin ısıttığı taş duvarlar, elle boyanmış aydınlık bir dünya kurar. Denizden esen rüzgâr çamaşırları dalgalandırır, sokaktaki tenteleri kaldırır ve kuryenin omuz çantasından bir mektubu uçurur. Küçük bir macera, gündelik hayatın bu ayrıntılarından doğar.
+
+- **Görsel özellikler**: İncelikle boyanmış guaj fonlar, doygun renk alanları ve güneşin düşürdüğü belirgin gölgeler, klasik selüloit animasyonundaki gibi düz renklerle boyanan karakterleri öne çıkarır. Çöp adamların yüzleri yuvarlaktır, gözleri noktayla, kolları ve bacakları ince çizgilerle gösterilir.
+- **Uygun içerikler**: Gezi hikâyeleri, gündelik maceralar, meslek öyküleri ve biraz hayal gücüyle anlatılan masallar.
+
+| Örnek 1: Dağ Atölyesi | Örnek 2: Sahil Kuryesi |
+|:---:|:---:|
+| <a href="assets/readme/style-8-graphic-novel-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel-2.gif" alt="A8 · Ghibli Esintili · Örnek 1: Dağ Atölyesi" width="360"></a> | <a href="assets/readme/style-8-graphic-novel.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Ghibli Esintili · Örnek 2: Sahil Kuryesi" width="360"></a> |
+| Geniş dağ manzarası · Rüzgâr ve ip çekme | Boyalı sahil sokakları · Bisiklet ve havada yakalanan mektup |
+
+---
+
+<a id="a9"></a>
+
+### A9: Yakında…
 
 Model Engine için yeni stiller hazırlanıyor. [Projeye yıldız verin](#road-to-10000-stars--creator-ecosystem) ve gelecek güncellemeleri takip edin!
 
