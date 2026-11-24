@@ -10,7 +10,7 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
 **Mande uma mensagem para seu agente de IA e receba um vídeo de boneco-palito pronto.**<br>
-Roteiro, locução, legendas e som · 15 estilos testados · Para Claude Code, Codex e mais
+Roteiro, locução, legendas e som · 16 estilos testados · Para Claude Code, Codex e mais
 
 💬 Uma mensagem → ✅ Aprove o roteiro e a prévia → 🎬 Vídeo pronto
 
@@ -110,7 +110,12 @@ Roteiro, locução, legendas e som · 15 estilos testados · Para Claude Code, C
 <a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Inspirado no Ghibli" width="90%"></a>
 </td>
 <!-- a8:hero:end -->
-<td width="50%" align="center"></td>
+<!-- b8:hero:start -->
+<td width="50%" align="center">
+<b>B8-</b><strong>Mitologia Grega</strong><br>
+<a href="#b8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@03c70a26eee910b44eff4c7dc95939a536ce6cf8/assets/readme/previews/b8-midas-approved-r3-v1.gif" alt="B8 · Mitologia Grega" width="90%"></a>
+</td>
+<!-- b8:hero:end -->
 </tr>
 </table>
 
@@ -228,7 +233,7 @@ após minha aprovação, forneça prompts de geração de vídeo que possam ser 
 ```
 
 - **Produção:** Após aprovar o storyboard, você pode gerar as cenas manualmente ou deixar um agente operar pelo navegador integrado (primeiro faça um teste em baixa resolução; com o resultado aprovado, ele continua a produção e a edição do vídeo final). Um clipe gerado é material para edição, não necessariamente um único plano do vídeo final. A duração depende da história e dos recursos do modelo; depois, os clipes podem ser aparados, divididos e combinados na edição.
-- **Plataforma recomendada:** Recomendamos o Google Flow para se aproximar do resultado dos exemplos; para o primeiro vídeo, consulte o [tutorial detalhado no X](https://x.com/CrazyKaomei/status/2102311241046008268).
+- **Plataforma recomendada:** Recomendamos o Google Flow para se aproximar do resultado dos exemplos; para o primeiro vídeo, consulte o [tutorial detalhado no X](https://x.com/AveryRunsAI/status/2124444676937621723?a=ONRkcoLggSVni_b78rQ&s=20).
 
 <a id="autopilot-start"></a>
 
@@ -611,9 +616,39 @@ Pequenos pixels, grandes consequências. Personagens brancos transformam escolha
 
 <!-- b7:section:end -->
 
+<!-- b8:section:start -->
 <a id="b8"></a>
 
-### B8: Em breve…
+### B8: Mitologia Grega
+
+Um galho vira ouro, e o jantar se transforma em uma crise. O estilo visual é inspirado no [@HeyHistorically](https://www.youtube.com/@HeyHistorically) do YouTube (**cerca de 1,65 milhão de inscritos**). Entre templos, pátios e palácios, o poder dos deuses, os desejos humanos e o preço do destino ganham vida em histórias que se desenrolam diante dos olhos.
+
+- **Identidade visual**: Rostos brancos expressivos, deuses com visuais distintos e iluminação em cel shading criam um mundo mitológico cheio de profundidade.
+- **História em movimento**: Personagens, objetos e cenários ganham camadas independentes, com movimentos pontuais, revelações de profundidade e câmera a serviço da narrativa.
+- **Ideal para**: Mitos gregos, lendas e histórias curtas sobre poder, destino e escolhas difíceis.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Exemplo 1: Midas e o toque de ouro</th>
+    <th width="50%" align="center">Exemplo 2: O reino sem amanhecer</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://github.com/kaomei/stickman-video-director/releases/download/v2026.11.24/b8-midas-approved-r3-v1.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@03c70a26eee910b44eff4c7dc95939a536ce6cf8/assets/readme/previews/b8-midas-approved-r3-v1.gif" alt="Exemplo 1: Midas e o toque de ouro" width="360"></a></td>
+    <td width="50%" align="center"><a href="https://github.com/kaomei/stickman-video-director/releases/download/v2026.11.24/b8-kingdom-without-dawn.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@03c70a26eee910b44eff4c7dc95939a536ce6cf8/assets/readme/previews/b8-greek-mythology.gif" alt="Exemplo 2: O reino sem amanhecer" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Narração de Myrrdin · Animação de personagens em estilo cartoon · Efeitos sonoros a serviço da história</td>
+    <td align="center">Vozes dos personagens · Uso de profundidade nas cenas · Efeitos sonoros a serviço da história</td>
+  </tr>
+</table>
+
+<!-- b8:section:end -->
+
+---
+
+<a id="b9"></a>
+
+### B9: Em breve…
 
 Novos estilos Code Engine e animações por código estão em preparação. [Dê uma estrela ao projeto](#road-to-10000-stars--creator-ecosystem) e acompanhe as próximas atualizações!
 
